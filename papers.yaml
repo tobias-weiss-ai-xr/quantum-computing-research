@@ -1,0 +1,105 @@
+# 📄 papers.yaml — Source of truth for the Quantum Computing research corpus
+#
+# Edit this file to curate your paper list. The README is AUTO-GENERATED
+# from this file (never edit README.md directly — run generate_readme.py).
+
+papers:
+  - title: "A Variational Eigenvalue Solver on a Quantum Processor"
+    date: "2014-05"
+    url: "https://arxiv.org/abs/1304.3061"
+    category: "quantum-algorithms"
+    subcategory: "method"
+    authors:
+      - "Alberto Peruzzo"
+      - "Jarrod McClean"
+      - "Peter Shadbolt"
+      - "Ling-Hong Peng"
+      - "Nikolas S. Johnson"
+      - "Yuan Li"
+      - "Xiao-Qi Zhou"
+      - "Peter J. Love"
+      - "Alán Aspuru-Guzik"
+      - "Jeremy L. O'Brien"
+    venue: "Nature Communications 5, 4213 (2014)"
+    code_url: ""
+    project_url: ""
+    abstract: "Quantum computers are promising for simulating quantum systems, but the resources required are high. We introduce a variational algorithm to find the ground state of a Hamiltonian using a quantum computer. The algorithm is tested on the ground state of molecular hydrogen and Heisenberg model."
+    tags: ["VQE", "variational", "NISQ", "quantum simulation"]
+
+  - title: "A Quantum Approximate Optimization Algorithm"
+    date: "2014-11"
+    url: "https://arxiv.org/abs/1411.4028"
+    category: "quantum-algorithms"
+    subcategory: "method"
+    authors:
+      - "Edward Farhi"
+      - "Jeffrey Goldstone"
+      - "Sam Gutmann"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "We present a quantum algorithm that produces approximate solutions to combinatorial optimization problems. The algorithm depends on an integer p and produces better approximations as p increases. We show that for p=1 the algorithm produces a solution that is at least as good as a random assignment."
+    tags: ["QAOA", "quantum optimization", "combinatorial", "NISQ"]
+
+  - title: "Quantum Supremacy Using a Programmable Superconducting Processor"
+    date: "2019-10"
+    url: "https://arxiv.org/abs/1910.11333"
+    category: "quantum-hardware"
+    subcategory: "evaluation"
+    authors:
+      - "F. Arute"
+      - "K. Arya"
+      - "R. Babbush"
+      - "et al."
+    venue: "Nature 574, 505-510 (2019)"
+    code_url: ""
+    project_url: ""
+    abstract: "The promise of quantum computers is that certain computational tasks might be executed exponentially faster on a quantum processor than on a classical processor. Here we report the use of a processor with programmable superconducting qubits to create quantum states on 53 qubits, corresponding to a computational state-space of dimension 2^53."
+    tags: ["quantum supremacy", "Sycamore", "superconducting qubit", "benchmark"]
+
+  - title: "Quantum Computing in the NISQ Era and Beyond"
+    date: "2018-01"
+    url: "https://arxiv.org/abs/1801.00862"
+    category: "survey"
+    subcategory: "review"
+    authors:
+      - "John Preskill"
+    venue: "Quantum 2, 79 (2018)"
+    code_url: ""
+    project_url: ""
+    abstract: "Quantum computers have the potential to solve certain problems much faster than classical computers. We are entering the NISQ (Noisy Intermediate-Scale Quantum) era, with quantum processors containing 50-100 qubits that are not error-corrected. This survey discusses the state of quantum computing and the path forward."
+    tags: ["NISQ", "survey", "quantum computing", "noise", "intermediate-scale"]
+
+  - title: "Surface Codes: Towards Practical Large-Scale Quantum Computation"
+    date: "2012-08"
+    url: "https://arxiv.org/abs/1208.0928"
+    category: "quantum-error-correction"
+    subcategory: "method"
+    authors:
+      - "Austin G. Fowler"
+      - "Matteo Mariantoni"
+      - "John M. Martinis"
+      - "Andrew N. Cleland"
+    venue: "Physical Review A 86, 032324 (2012)"
+    code_url: ""
+    project_url: ""
+    abstract: "Surface codes are a family of quantum error-correcting codes that can be implemented with nearest-neighbor interactions on a 2D lattice of qubits. We provide a detailed description of surface code quantum error correction and estimate the resources required for fault-tolerant quantum computation."
+    tags: ["surface code", "error correction", "fault-tolerant", "topological"]
+
+  - title: "Quantum Machine Learning"
+    date: "2017-01"
+    url: "https://arxiv.org/abs/1611.09347"
+    category: "quantum-machine-learning"
+    subcategory: "review"
+    authors:
+      - "Jacob Biamonte"
+      - "Peter Wittek"
+      - "Nicola Pancotti"
+      - "Patrick Rebentrost"
+      - "Nathan Wiebe"
+      - "Seth Lloyd"
+    venue: "Nature 549, 195-202 (2017)"
+    code_url: ""
+    project_url: ""
+    abstract: "Quantum computers promise to enhance machine learning, and machine learning can improve quantum computing. We review the state of quantum machine learning, covering quantum algorithms for classification, regression, and clustering, as well as quantum-enhanced learning."
+    tags: ["quantum machine learning", "survey", "quantum algorithm"]

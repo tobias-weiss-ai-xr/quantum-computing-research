@@ -1,0 +1,266 @@
+# ⚙️ Research Taxonomy & Discovery Config — Quantum Computing Research
+#
+# This is the ONLY file you need to adapt for your own research topic.
+# Edit categories/subcategories + discovery queries, then re-run the pipeline.
+#
+# Pipeline:  config/taxonomy.yaml → papers.yaml → validate → README → reports
+
+# ── Topic ────────────────────────────────────────────────────────────────────
+topic:
+  name: "Quantum Computing Research"
+  short: "quantum-computing"
+  description: "Quantum computing research corpus: algorithms, error correction, hardware, simulation, machine learning, cryptography, and information theory."
+  openalex_mailto: "research+quantum@tobias-weiss-ai-xr.de"
+
+# ── Taxonomy ─────────────────────────────────────────────────────────────────
+# Categories = the main axis (quantum computing subfields).
+# Subcategories = the secondary axis (research aspects).
+# Every paper in papers.yaml must carry one category + one subcategory.
+taxonomy:
+  categories:
+    - id: quantum-algorithms
+      display: "Quantum Algorithms & Complexity"
+    - id: quantum-error-correction
+      display: "Quantum Error Correction"
+    - id: quantum-hardware
+      display: "Quantum Hardware & Architecture"
+    - id: quantum-information
+      display: "Quantum Information Theory"
+    - id: quantum-simulation
+      display: "Quantum Simulation"
+    - id: quantum-machine-learning
+      display: "Quantum Machine Learning"
+    - id: quantum-cryptography
+      display: "Quantum Cryptography & Communication"
+    - id: quantum-software
+      display: "Quantum Software & Tools"
+    - id: survey
+      display: "Surveys & Taxonomies"
+  subcategories:
+    - id: theory
+      display: "Theory"
+    - id: method
+      display: "Method"
+    - id: application
+      display: "Application"
+    - id: development
+      display: "Development"
+    - id: systems
+      display: "Systems & Technology"
+    - id: evaluation
+      display: "Evaluation & Benchmarks"
+    - id: review
+      display: "Reviews & Surveys"
+
+# ── Discovery: arXiv queries (fetch_new_papers.py) ───────────────────────────
+arxiv_queries:
+  - query: 'cat:quant-ph AND (abs:"quantum algorithm" OR abs:"quantum circuit" OR abs:"quantum speedup")'
+    category: quantum-algorithms
+    subcategory_hint: method
+  - query: 'cat:quant-ph AND (abs:"quantum error correction" OR abs:"surface code" OR abs:"LDPC" OR abs:"stabilizer code")'
+    category: quantum-error-correction
+    subcategory_hint: method
+  - query: 'cat:quant-ph AND (abs:"quantum hardware" OR abs:"superconducting qubit" OR abs:"trapped ion" OR abs:"neutral atom" OR abs:"photonic qubit" OR abs:"silicon spin qubit")'
+    category: quantum-hardware
+    subcategory_hint: systems
+  - query: 'cat:quant-ph AND (abs:"quantum information" OR abs:"entanglement" OR abs:"quantum channel" OR abs:"quantum state tomography")'
+    category: quantum-information
+    subcategory_hint: theory
+  - query: 'cat:quant-ph AND (abs:"quantum simulation" OR abs:"analog quantum simulation" OR abs:"digital quantum simulation" OR abs:"Hamiltonian simulation")'
+    category: quantum-simulation
+    subcategory_hint: method
+  - query: 'cat:quant-ph AND (abs:"quantum machine learning" OR abs:"quantum neural network" OR abs:"variational quantum eigensolver" OR abs:"quantum kernel")'
+    category: quantum-machine-learning
+    subcategory_hint: method
+  - query: 'cat:quant-ph AND (abs:"quantum key distribution" OR abs:"quantum cryptography" OR abs:"quantum communication" OR abs:"quantum repeater")'
+    category: quantum-cryptography
+    subcategory_hint: application
+  - query: 'cat:quant-ph AND (abs:"quantum compiler" OR abs:"quantum transpiler" OR abs:"quantum software" OR abs:"Qiskit" OR abs:"Cirq" OR abs:"PennyLane")'
+    category: quantum-software
+    subcategory_hint: development
+  - query: 'cat:quant-ph AND (abs:"survey" OR abs:"review" OR abs:"taxonomy" OR abs:"NISQ")'
+    category: survey
+    subcategory_hint: review
+  - query: 'cat:cs.IT AND (abs:"quantum" OR abs:"QKD")'
+    category: quantum-cryptography
+    subcategory_hint: theory
+  - query: 'cat:cs.CC AND (abs:"quantum" OR abs:"BQP")'
+    category: quantum-algorithms
+    subcategory_hint: theory
+
+# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
+other_sources_queries:
+  - source: dblp
+    query: quantum algorithm circuit
+    category: quantum-algorithms
+    subcategory_hint: method
+  - source: dblp
+    query: quantum error correction surface code
+    category: quantum-error-correction
+    subcategory_hint: method
+  - source: dblp
+    query: quantum machine learning variational
+    category: quantum-machine-learning
+    subcategory_hint: method
+  - source: dblp
+    query: quantum cryptography key distribution
+    category: quantum-cryptography
+    subcategory_hint: application
+  - source: crossref
+    query: quantum computing survey review
+    category: survey
+    subcategory_hint: review
+  - source: crossref
+    query: superconducting qubit hardware
+    category: quantum-hardware
+    subcategory_hint: systems
+  - source: crossref
+    query: quantum simulation Hamiltonian
+    category: quantum-simulation
+    subcategory_hint: method
+  - source: europepmc
+    query: quantum error correction code
+    category: quantum-error-correction
+    subcategory_hint: method
+
+# ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
+openalex_queries:
+  - category: quantum-algorithms
+    query: "quantum algorithm circuit speedup"
+  - category: quantum-error-correction
+    query: "quantum error correction surface code LDPC"
+  - category: quantum-hardware
+    query: "superconducting qubit trapped ion neutral atom"
+  - category: quantum-information
+    query: "quantum information entanglement channel tomography"
+  - category: quantum-simulation
+    query: "quantum simulation Hamiltonian analog digital"
+  - category: quantum-machine-learning
+    query: "quantum machine learning neural network variational"
+  - category: quantum-cryptography
+    query: "quantum key distribution cryptography communication"
+  - category: quantum-software
+    query: "quantum software compiler transpiler Qiskit Cirq"
+  - category: survey
+    query: "quantum computing survey review NISQ"
+
+# ── Trend / burst keywords ───────────────────────────────────────────────────
+trend_keywords:
+  - "quantum algorithm"
+  - "quantum circuit"
+  - "quantum speedup"
+  - "quantum advantage"
+  - "quantum supremacy"
+  - "quantum error correction"
+  - "surface code"
+  - "LDPC"
+  - "stabilizer code"
+  - "superconducting qubit"
+  - "trapped ion"
+  - "neutral atom"
+  - "photonic qubit"
+  - "silicon spin"
+  - "topological qubit"
+  - "quantum information"
+  - "entanglement"
+  - "quantum channel"
+  - "tomography"
+  - "quantum simulation"
+  - "Hamiltonian simulation"
+  - "analog quantum"
+  - "digital quantum"
+  - "quantum machine learning"
+  - "quantum neural network"
+  - "variational quantum eigensolver"
+  - "VQE"
+  - "quantum approximate optimization"
+  - "QAOA"
+  - "quantum kernel"
+  - "quantum key distribution"
+  - "QKD"
+  - "quantum cryptography"
+  - "quantum repeater"
+  - "quantum compiler"
+  - "quantum transpiler"
+  - "Qiskit"
+  - "Cirq"
+  - "PennyLane"
+  - "NISQ"
+  - "fault-tolerant"
+  - "logical qubit"
+  - "magic state"
+  - "benchmark"
+  - "realization"
+  - "fidelity"
+
+# ── Subclassification keywords ───────────────────────────────────────────────
+subcategory_keywords:
+  - id: theory
+    keywords: ["theory", "theoretical", "formal", "proof", "convergence", "bound", "complexity", "lower bound", "upper bound"]
+  - id: method
+    keywords: ["method", "algorithm", "approach", "technique", "framework", "novel", "propose", "protocol"]
+  - id: application
+    keywords: ["application", "applied", "deploy", "real-world", "experiment", "demonstration", "case study"]
+  - id: development
+    keywords: ["implementation", "system", "platform", "toolkit", "library", "open-source", "software", "SDK", "API", "compiler", "transpiler"]
+  - id: systems
+    keywords: ["hardware", "architecture", "device", "qubit", "gate", "processor", "chip", "fidelity", "coherence", "calibration"]
+  - id: evaluation
+    keywords: ["benchmark", "evaluation", "comparison", "baseline", "state-of-the-art", "metric", "ablation", "volume", "fidelity"]
+  - id: review
+    keywords: ["survey", "review", "literature", "systematic review", "meta-analysis", "overview", "taxonomy", "NISQ"]
+
+# ── GitHub repository discovery (fetch_github_repos.py) ─────────────────────
+github_queries:
+  - query: "topic:quantum-computing+stars:>100"
+    category: quantum-software
+  - query: "quantum+circuit+simulator+stars:>200"
+    category: quantum-software
+    subcategory_hint: development
+  - query: "quantum+error+correction+stars:>50"
+    category: quantum-error-correction
+  - query: "quantum+machine+learning+stars:>100"
+    category: quantum-machine-learning
+  - query: "Qiskit+stars:>500"
+    category: quantum-software
+    subcategory_hint: development
+  - query: "quantum+algorithm+library+stars:>50"
+    category: quantum-algorithms
+  - query: "awesome+quantum+stars:>100"
+    category: survey
+    subcategory_hint: review
+
+# ── GitLab repository discovery (fetch_gitlab_repos.py) ──────────────────────
+gitlab_queries:
+  - query: "quantum computing"
+    category: quantum-software
+  - query: "quantum algorithm"
+    category: quantum-algorithms
+  - query: "quantum simulator"
+    category: quantum-software
+    subcategory_hint: development
+
+# ── Codeberg repository discovery (fetch_codeberg_repos.py) ──────────────────
+codeberg_queries:
+  - query: "quantum"
+    category: quantum-software
+  - query: "qiskit"
+    category: quantum-software
+    subcategory_hint: development
+
+# ── Relevance signals for repo fetchers ──────────────────────────────────────
+repo_signals:
+  - "quantum"
+  - "qubit"
+  - "quantum computing"
+  - "quantum algorithm"
+  - "quantum circuit"
+  - "quantum error correction"
+  - "Qiskit"
+  - "Cirq"
+  - "PennyLane"
+  - "quantum simulation"
+  - "quantum machine learning"
+  - "variational quantum"
+  - "QAOA"
+  - "VQE"

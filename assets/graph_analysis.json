@@ -1,0 +1,171 @@
+{
+ "categories": [
+  {
+   "id": "quantum-algorithms",
+   "name": "Quantum Algorithms & Complexity",
+   "count": 2,
+   "trajectory": {
+    "2014": 2
+   },
+   "momentum": {
+    "id": "quantum-algorithms",
+    "name": "Quantum Algorithms",
+    "total": 2,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "quantum-error-correction",
+   "name": "Quantum Error Correction",
+   "count": 1,
+   "trajectory": {
+    "2012": 1
+   },
+   "momentum": {
+    "id": "quantum-error-correction",
+    "name": "Quantum Error Correction",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "quantum-hardware",
+   "name": "Quantum Hardware & Architecture",
+   "count": 1,
+   "trajectory": {
+    "2019": 1
+   },
+   "momentum": {
+    "id": "quantum-hardware",
+    "name": "Quantum Hardware",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "quantum-machine-learning",
+   "name": "Quantum Machine Learning",
+   "count": 1,
+   "trajectory": {
+    "2017": 1
+   },
+   "momentum": {
+    "id": "quantum-machine-learning",
+    "name": "Quantum Machine Learning",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "survey",
+   "name": "Surveys & Taxonomies",
+   "count": 1,
+   "trajectory": {
+    "2018": 1
+   },
+   "momentum": {
+    "id": "survey",
+    "name": "Survey",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  }
+ ],
+ "subcategories": [
+  {
+   "id": "evaluation",
+   "name": "Evaluation & Benchmarks",
+   "count": 1
+  },
+  {
+   "id": "method",
+   "name": "Method",
+   "count": 3
+  },
+  {
+   "id": "review",
+   "name": "Reviews & Surveys",
+   "count": 2
+  }
+ ],
+ "timeline": [
+  [
+   "2012-08",
+   "quantum-error-correction",
+   "method"
+  ],
+  [
+   "2014-05",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2014-11",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2017-01",
+   "quantum-machine-learning",
+   "review"
+  ],
+  [
+   "2018-01",
+   "survey",
+   "review"
+  ],
+  [
+   "2019-10",
+   "quantum-hardware",
+   "evaluation"
+  ]
+ ],
+ "venues": [
+  {
+   "name": "Nature Communications 5, 4213 (2014)",
+   "papers": 1
+  },
+  {
+   "name": "Nature 574, 505-510 (2019)",
+   "papers": 1
+  },
+  {
+   "name": "Quantum 2, 79 (2018)",
+   "papers": 1
+  },
+  {
+   "name": "Physical Review A 86, 032324 (2012)",
+   "papers": 1
+  },
+  {
+   "name": "Nature 549, 195-202 (2017)",
+   "papers": 1
+  }
+ ],
+ "keyword_bursts": []
+}
