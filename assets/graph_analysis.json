@@ -3,21 +3,21 @@
   {
    "id": "quantum-algorithms",
    "name": "Quantum Algorithms & Complexity",
-   "count": 66,
+   "count": 68,
    "trajectory": {
     "2014": 2,
-    "2026": 64
+    "2026": 66
    },
    "momentum": {
     "id": "quantum-algorithms",
     "name": "Quantum Algorithms",
-    "total": 66,
-    "recent": 64,
+    "total": 68,
+    "recent": 66,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.97,
-    "papers_per_month": 5.3,
-    "score": 97.0
+    "recent_share": 0.971,
+    "papers_per_month": 5.5,
+    "score": 97.1
    }
   },
   {
@@ -192,7 +192,7 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 180
+   "count": 182
   }
  ],
  "timeline": [
@@ -1043,6 +1043,11 @@
   ],
   [
    "2026-05",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-05",
    "quantum-cryptography",
    "application"
   ],
@@ -1260,6 +1265,11 @@
    "2026-06",
    "quantum-algorithms",
    "method"
+  ],
+  [
+   "2026-06",
+   "quantum-algorithms",
+   "theory"
   ],
   [
    "2026-06",
@@ -1878,15 +1888,15 @@
    "papers": 4
   },
   {
+   "name": "Quantum Information Processing",
+   "papers": 4
+  },
+  {
    "name": "Open MIND",
    "papers": 4
   },
   {
    "name": "elib (German Aerospace Center)",
-   "papers": 3
-  },
-  {
-   "name": "Quantum Information Processing",
    "papers": 3
   },
   {
@@ -1900,105 +1910,105 @@
    "recent": 78,
    "total": 78,
    "burst_score": 1.02,
-   "recent_share": 0.243
+   "recent_share": 0.2415
   },
   {
    "keyword": "quantum circuit",
    "recent": 75,
    "total": 75,
    "burst_score": 1.02,
-   "recent_share": 0.2336
+   "recent_share": 0.2322
   },
   {
    "keyword": "entanglement",
    "recent": 66,
    "total": 66,
    "burst_score": 1.02,
-   "recent_share": 0.2056
+   "recent_share": 0.2043
   },
   {
    "keyword": "benchmark",
    "recent": 57,
    "total": 57,
    "burst_score": 1.02,
-   "recent_share": 0.1776
+   "recent_share": 0.1765
   },
   {
    "keyword": "quantum cryptography",
-   "recent": 49,
-   "total": 49,
+   "recent": 50,
+   "total": 50,
    "burst_score": 1.02,
-   "recent_share": 0.1526
+   "recent_share": 0.1548
   },
   {
    "keyword": "quantum neural network",
    "recent": 35,
    "total": 35,
    "burst_score": 1.02,
-   "recent_share": 0.109
+   "recent_share": 0.1084
   },
   {
    "keyword": "fidelity",
    "recent": 29,
    "total": 29,
    "burst_score": 1.02,
-   "recent_share": 0.0903
+   "recent_share": 0.0898
   },
   {
    "keyword": "trapped ion",
    "recent": 26,
    "total": 26,
    "burst_score": 1.02,
-   "recent_share": 0.081
+   "recent_share": 0.0805
   },
   {
    "keyword": "neutral atom",
    "recent": 26,
    "total": 26,
    "burst_score": 1.02,
-   "recent_share": 0.081
+   "recent_share": 0.0805
   },
   {
    "keyword": "logical qubit",
    "recent": 26,
    "total": 26,
    "burst_score": 1.02,
-   "recent_share": 0.081
+   "recent_share": 0.0805
   },
   {
    "keyword": "quantum advantage",
    "recent": 24,
    "total": 24,
    "burst_score": 1.02,
-   "recent_share": 0.0748
+   "recent_share": 0.0743
   },
   {
    "keyword": "tomography",
    "recent": 22,
    "total": 22,
    "burst_score": 1.02,
-   "recent_share": 0.0685
+   "recent_share": 0.0681
   },
   {
    "keyword": "quantum simulation",
    "recent": 22,
    "total": 22,
    "burst_score": 1.02,
-   "recent_share": 0.0685
+   "recent_share": 0.0681
   },
   {
    "keyword": "quantum information",
    "recent": 19,
    "total": 19,
    "burst_score": 1.02,
-   "recent_share": 0.0592
+   "recent_share": 0.0588
   },
   {
    "keyword": "quantum channel",
    "recent": 13,
    "total": 13,
    "burst_score": 1.02,
-   "recent_share": 0.0405
+   "recent_share": 0.0402
   }
  ]
 }

@@ -10118,3 +10118,43 @@ papers:
     descriptor intervention; source license; Omega closure; CΩ layer; measurement
     non backwrite principle'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Deterministic quantum search for arbitrary initial success probabilities
+  date: 2026-06
+  url: https://arxiv.org/abs/2505.15512
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Harishankar Mishra
+  - Asvija Balasubramanyam
+  - Gudapati Naresh Raghava
+  abstract: ''
+  venue: Quantum Information Processing
+- title: Quantum Walks for Collision-Based Information Set Decoding
+  date: 2026-05
+  url: https://doi.org/10.1145/3801487.3801826
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Simone Perriello
+  - Alessandro Barenghi
+  - Gerardo Pelosi
+  abstract: Code-based cryptography is central for post-quantum cryptography, with
+    security grounded in the hardness of the Syndrome Decoding Problem (SDP). The
+    most effective attacks are variants of Information Set Decoding (ISD), which remain
+    exponential-time even in the quantum setting, where known techniques provide at
+    most quadratic speedups via quantum amplitude amplification (QAA). In this work,
+    we present the first gate-level realization of quantum walks (QW) for Stern-like
+    collision-based ISD, and present a novel circuit for the update operator of the
+    QW, correcting issues in prior proposals, while avoiding the use of exponential
+    quantum random-access memory. Our construction enables a circuit-level complexity
+    analysis under realistic cost models and allows a direct comparison between QW-based
+    and QAA-based ISD. We evaluate our approach on the cryptographic schemes that
+    reached the final stages of international standardization. Despite the richer
+    algorithmic structure of QW, we show that they do not outperform plain QAA-based
+    ISD for practical instances of the SDP, as the Gauss–Jordan elimination subroutine
+    dominates the overall cost. More generally, we provide circuit-level evidence
+    that QW offer an advantage over QAA only when the oracle cost is asymptotically
+    smaller than the cost of the QW operations themselves. These results clarify the
+    practical algorithmic limits of QW techniques and contribute to a more accurate
+    assessment of quantum speedups for structured search problems in cryptanalysis.
+  venue: ''
