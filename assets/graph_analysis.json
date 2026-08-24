@@ -5,19 +5,22 @@
    "name": "Quantum Algorithms & Complexity",
    "count": 305,
    "trajectory": {
-    "2014": 2,
-    "2026": 303
+    "2013": 1,
+    "2014": 1,
+    "2024": 3,
+    "2025": 15,
+    "2026": 285
    },
    "momentum": {
     "id": "quantum-algorithms",
     "name": "Quantum Algorithms",
     "total": 305,
-    "recent": 303,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 0.993,
-    "papers_per_month": 25.2,
-    "score": 99.3
+    "recent": 292,
+    "prior": 9,
+    "growth_pct": 3144.4,
+    "recent_share": 0.957,
+    "papers_per_month": 24.3,
+    "score": 3240.1
    }
   },
   {
@@ -25,18 +28,20 @@
    "name": "Quantum Cryptography & Communication",
    "count": 337,
    "trajectory": {
-    "2026": 337
+    "2024": 1,
+    "2025": 4,
+    "2026": 332
    },
    "momentum": {
     "id": "quantum-cryptography",
     "name": "Quantum Cryptography",
     "total": 337,
-    "recent": 337,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 28.1,
-    "score": 100.0
+    "recent": 335,
+    "prior": 2,
+    "growth_pct": 16650.0,
+    "recent_share": 0.994,
+    "papers_per_month": 27.9,
+    "score": 16749.4
    }
   },
   {
@@ -45,18 +50,20 @@
    "count": 120,
    "trajectory": {
     "2012": 1,
-    "2026": 119
+    "2024": 1,
+    "2025": 1,
+    "2026": 117
    },
    "momentum": {
     "id": "quantum-error-correction",
     "name": "Quantum Error Correction",
     "total": 120,
-    "recent": 119,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 0.992,
-    "papers_per_month": 9.9,
-    "score": 99.2
+    "recent": 118,
+    "prior": 1,
+    "growth_pct": 11700.0,
+    "recent_share": 0.983,
+    "papers_per_month": 9.8,
+    "score": 11798.3
    }
   },
   {
@@ -65,18 +72,19 @@
    "count": 122,
    "trajectory": {
     "2019": 1,
-    "2026": 121
+    "2024": 1,
+    "2026": 120
    },
    "momentum": {
     "id": "quantum-hardware",
     "name": "Quantum Hardware",
     "total": 122,
-    "recent": 121,
+    "recent": 120,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.992,
-    "papers_per_month": 10.1,
-    "score": 99.2
+    "recent_share": 0.984,
+    "papers_per_month": 10.0,
+    "score": 98.4
    }
   },
   {
@@ -84,7 +92,8 @@
    "name": "Quantum Information Theory",
    "count": 118,
    "trajectory": {
-    "2026": 118
+    "2025": 1,
+    "2026": 117
    },
    "momentum": {
     "id": "quantum-information",
@@ -101,21 +110,23 @@
   {
    "id": "quantum-machine-learning",
    "name": "Quantum Machine Learning",
-   "count": 232,
+   "count": 233,
    "trajectory": {
-    "2017": 1,
-    "2026": 231
+    "2016": 1,
+    "2024": 3,
+    "2025": 4,
+    "2026": 225
    },
    "momentum": {
     "id": "quantum-machine-learning",
     "name": "Quantum Machine Learning",
-    "total": 232,
-    "recent": 231,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 0.996,
-    "papers_per_month": 19.2,
-    "score": 99.6
+    "total": 233,
+    "recent": 227,
+    "prior": 4,
+    "growth_pct": 5575.0,
+    "recent_share": 0.974,
+    "papers_per_month": 18.9,
+    "score": 5672.4
    }
   },
   {
@@ -123,18 +134,19 @@
    "name": "Quantum Simulation",
    "count": 124,
    "trajectory": {
-    "2026": 124
+    "2025": 4,
+    "2026": 120
    },
    "momentum": {
     "id": "quantum-simulation",
     "name": "Quantum Simulation",
     "total": 124,
-    "recent": 124,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 10.3,
-    "score": 100.0
+    "recent": 123,
+    "prior": 1,
+    "growth_pct": 12200.0,
+    "recent_share": 0.992,
+    "papers_per_month": 10.2,
+    "score": 12299.2
    }
   },
   {
@@ -196,7 +208,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 607
+   "count": 608
   },
   {
    "id": "review",
@@ -221,7 +233,7 @@
    "method"
   ],
   [
-   "2014-05",
+   "2013-04",
    "quantum-algorithms",
    "method"
   ],
@@ -231,7 +243,7 @@
    "method"
   ],
   [
-   "2017-01",
+   "2016-11",
    "quantum-machine-learning",
    "review"
   ],
@@ -246,139 +258,319 @@
    "evaluation"
   ],
   [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-02",
+   "2024-01",
    "quantum-algorithms",
    "theory"
   ],
   [
-   "2026-02",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "application"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "application"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "application"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "application"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-error-correction",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-error-correction",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-error-correction",
-   "method"
-  ],
-  [
-   "2026-02",
-   "quantum-error-correction",
-   "method"
-  ],
-  [
-   "2026-02",
+   "2024-06",
    "quantum-hardware",
-   "systems"
+   "theory"
+  ],
+  [
+   "2024-07",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2024-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2024-09",
+   "quantum-error-correction",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2024-10",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2024-12",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2024-12",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2025-01",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-01",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2025-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-03",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-04",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-05",
+   "quantum-simulation",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-06",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-06",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-06",
+   "quantum-machine-learning",
+   "application"
+  ],
+  [
+   "2025-06",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2025-08",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2025-08",
+   "quantum-simulation",
+   "method"
+  ],
+  [
+   "2025-09",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-09",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-09",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-09",
+   "quantum-error-correction",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-10",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2025-11",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2025-11",
+   "quantum-information",
+   "theory"
+  ],
+  [
+   "2025-11",
+   "quantum-simulation",
+   "method"
+  ],
+  [
+   "2025-12",
+   "quantum-cryptography",
+   "theory"
+  ],
+  [
+   "2025-12",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2025-12",
+   "quantum-simulation",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-01",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "application"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "application"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "application"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "application"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-cryptography",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-error-correction",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-error-correction",
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-error-correction",
+   "method"
   ],
   [
    "2026-02",
@@ -453,7 +645,12 @@
   [
    "2026-02",
    "quantum-machine-learning",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-02",
+   "quantum-machine-learning",
+   "method"
   ],
   [
    "2026-02",
@@ -487,18 +684,8 @@
   ],
   [
    "2026-02",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-02",
    "quantum-simulation",
    "development"
-  ],
-  [
-   "2026-02",
-   "quantum-simulation",
-   "method"
   ],
   [
    "2026-02",
@@ -519,16 +706,6 @@
    "2026-02",
    "quantum-software",
    "development"
-  ],
-  [
-   "2026-02",
-   "survey",
-   "review"
-  ],
-  [
-   "2026-02",
-   "survey",
-   "review"
   ],
   [
    "2026-02",
@@ -653,31 +830,6 @@
   [
    "2026-03",
    "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-03",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-algorithms",
    "theory"
   ],
   [
@@ -884,11 +1036,6 @@
    "2026-03",
    "quantum-cryptography",
    "application"
-  ],
-  [
-   "2026-03",
-   "quantum-cryptography",
-   "method"
   ],
   [
    "2026-03",
@@ -1137,18 +1284,13 @@
   ],
   [
    "2026-03",
-   "quantum-cryptography",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-cryptography",
-   "theory"
+   "quantum-error-correction",
+   "application"
   ],
   [
    "2026-03",
    "quantum-error-correction",
-   "application"
+   "method"
   ],
   [
    "2026-03",
@@ -1224,6 +1366,11 @@
    "2026-03",
    "quantum-hardware",
    "application"
+  ],
+  [
+   "2026-03",
+   "quantum-hardware",
+   "systems"
   ],
   [
    "2026-03",
@@ -1558,62 +1705,62 @@
   [
    "2026-03",
    "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "quantum-simulation",
    "method"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "quantum-machine-learning",
-   "theory"
   ],
   [
    "2026-03",
@@ -1752,11 +1899,6 @@
   ],
   [
    "2026-03",
-   "quantum-software",
-   "development"
-  ],
-  [
-   "2026-03",
    "survey",
    "review"
   ],
@@ -1828,17 +1970,12 @@
   [
    "2026-03",
    "survey",
-   "theory"
+   "review"
   ],
   [
-   "2026-04",
-   "quantum-algorithms",
-   "application"
-  ],
-  [
-   "2026-04",
-   "quantum-algorithms",
-   "method"
+   "2026-03",
+   "survey",
+   "review"
   ],
   [
    "2026-04",
@@ -1949,26 +2086,6 @@
    "2026-04",
    "quantum-algorithms",
    "method"
-  ],
-  [
-   "2026-04",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-04",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-04",
-   "quantum-algorithms",
-   "theory"
   ],
   [
    "2026-04",
@@ -2268,16 +2385,6 @@
   [
    "2026-04",
    "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-cryptography",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-cryptography",
    "theory"
   ],
   [
@@ -2419,16 +2526,6 @@
    "2026-04",
    "quantum-cryptography",
    "theory"
-  ],
-  [
-   "2026-04",
-   "quantum-cryptography",
-   "theory"
-  ],
-  [
-   "2026-04",
-   "quantum-error-correction",
-   "method"
   ],
   [
    "2026-04",
@@ -2854,36 +2951,6 @@
    "2026-04",
    "quantum-machine-learning",
    "method"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-04",
-   "quantum-machine-learning",
-   "theory"
   ],
   [
    "2026-04",
@@ -3067,8 +3134,8 @@
   ],
   [
    "2026-04",
-   "survey",
-   "review"
+   "quantum-software",
+   "development"
   ],
   [
    "2026-04",
@@ -3158,7 +3225,7 @@
   [
    "2026-05",
    "quantum-algorithms",
-   "method"
+   "application"
   ],
   [
    "2026-05",
@@ -3279,21 +3346,6 @@
    "2026-05",
    "quantum-algorithms",
    "method"
-  ],
-  [
-   "2026-05",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-05",
-   "quantum-algorithms",
-   "theory"
   ],
   [
    "2026-05",
@@ -3449,6 +3501,11 @@
    "2026-05",
    "quantum-cryptography",
    "application"
+  ],
+  [
+   "2026-05",
+   "quantum-cryptography",
+   "method"
   ],
   [
    "2026-05",
@@ -3627,8 +3684,8 @@
   ],
   [
    "2026-05",
-   "quantum-cryptography",
-   "theory"
+   "quantum-error-correction",
+   "method"
   ],
   [
    "2026-05",
@@ -3844,16 +3901,6 @@
    "2026-05",
    "quantum-information",
    "method"
-  ],
-  [
-   "2026-05",
-   "quantum-information",
-   "theory"
-  ],
-  [
-   "2026-05",
-   "quantum-information",
-   "theory"
   ],
   [
    "2026-05",
@@ -4083,36 +4130,6 @@
   [
    "2026-05",
    "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-05",
-   "quantum-machine-learning",
    "theory"
   ],
   [
@@ -4214,21 +4231,6 @@
    "2026-05",
    "quantum-simulation",
    "method"
-  ],
-  [
-   "2026-05",
-   "quantum-simulation",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-simulation",
-   "method"
-  ],
-  [
-   "2026-05",
-   "quantum-simulation",
-   "theory"
   ],
   [
    "2026-05",
@@ -4528,7 +4530,7 @@
   [
    "2026-06",
    "quantum-algorithms",
-   "theory"
+   "method"
   ],
   [
    "2026-06",
@@ -4793,12 +4795,12 @@
   [
    "2026-06",
    "quantum-cryptography",
-   "method"
+   "theory"
   ],
   [
    "2026-06",
    "quantum-cryptography",
-   "method"
+   "theory"
   ],
   [
    "2026-06",
@@ -5079,21 +5081,6 @@
    "2026-06",
    "quantum-error-correction",
    "theory"
-  ],
-  [
-   "2026-06",
-   "quantum-error-correction",
-   "theory"
-  ],
-  [
-   "2026-06",
-   "quantum-error-correction",
-   "theory"
-  ],
-  [
-   "2026-06",
-   "quantum-hardware",
-   "method"
   ],
   [
    "2026-06",
@@ -5172,11 +5159,6 @@
   ],
   [
    "2026-06",
-   "quantum-hardware",
-   "theory"
-  ],
-  [
-   "2026-06",
    "quantum-information",
    "method"
   ],
@@ -5254,6 +5236,21 @@
    "2026-06",
    "quantum-information",
    "theory"
+  ],
+  [
+   "2026-06",
+   "quantum-information",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-06",
+   "quantum-machine-learning",
+   "method"
   ],
   [
    "2026-06",
@@ -5482,6 +5479,16 @@
   ],
   [
    "2026-06",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-06",
    "quantum-simulation",
    "application"
   ],
@@ -5584,11 +5591,6 @@
    "2026-06",
    "quantum-simulation",
    "method"
-  ],
-  [
-   "2026-06",
-   "quantum-simulation",
-   "theory"
   ],
   [
    "2026-06",
@@ -5678,7 +5680,7 @@
   [
    "2026-06",
    "survey",
-   "theory"
+   "review"
   ],
   [
    "2026-06",
@@ -5686,11 +5688,6 @@
    "theory"
   ],
   [
-   "2026-06",
-   "survey",
-   "theory"
-  ],
-  [
    "2026-07",
    "quantum-algorithms",
    "method"
@@ -5814,41 +5811,6 @@
    "2026-07",
    "quantum-algorithms",
    "method"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-algorithms",
-   "theory"
   ],
   [
    "2026-07",
@@ -6129,6 +6091,11 @@
    "2026-07",
    "quantum-cryptography",
    "method"
+  ],
+  [
+   "2026-07",
+   "quantum-cryptography",
+   "theory"
   ],
   [
    "2026-07",
@@ -6398,7 +6365,7 @@
   [
    "2026-07",
    "quantum-hardware",
-   "systems"
+   "method"
   ],
   [
    "2026-07",
@@ -6499,6 +6466,16 @@
    "2026-07",
    "quantum-hardware",
    "systems"
+  ],
+  [
+   "2026-07",
+   "quantum-hardware",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "quantum-hardware",
+   "theory"
   ],
   [
    "2026-07",
@@ -6608,200 +6585,195 @@
   [
    "2026-07",
    "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "quantum-simulation",
    "application"
   ],
   [
    "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-machine-learning",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-simulation",
-   "application"
-  ],
-  [
-   "2026-07",
    "quantum-simulation",
    "method"
   ],
@@ -6884,26 +6856,6 @@
    "2026-07",
    "quantum-simulation",
    "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-simulation",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-simulation",
-   "theory"
-  ],
-  [
-   "2026-07",
-   "quantum-software",
-   "development"
-  ],
-  [
-   "2026-07",
-   "quantum-software",
-   "development"
   ],
   [
    "2026-07",
@@ -7076,9 +7028,14 @@
    "theory"
   ],
   [
-   "2026-08",
-   "quantum-algorithms",
-   "method"
+   "2026-07",
+   "survey",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "survey",
+   "theory"
   ],
   [
    "2026-08",
@@ -7144,6 +7101,26 @@
    "2026-08",
    "quantum-algorithms",
    "method"
+  ],
+  [
+   "2026-08",
+   "quantum-algorithms",
+   "method"
+  ],
+  [
+   "2026-08",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-algorithms",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-algorithms",
+   "theory"
   ],
   [
    "2026-08",
@@ -7507,11 +7484,6 @@
   ],
   [
    "2026-08",
-   "quantum-hardware",
-   "theory"
-  ],
-  [
-   "2026-08",
    "quantum-information",
    "systems"
   ],
@@ -7663,7 +7635,17 @@
   [
    "2026-08",
    "quantum-machine-learning",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-08",
+   "quantum-machine-learning",
+   "method"
+  ],
+  [
+   "2026-08",
+   "quantum-machine-learning",
+   "method"
   ],
   [
    "2026-08",
@@ -7687,6 +7669,16 @@
   ],
   [
    "2026-08",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-machine-learning",
+   "theory"
+  ],
+  [
+   "2026-08",
    "quantum-simulation",
    "method"
   ],
@@ -7759,6 +7751,26 @@
    "2026-08",
    "quantum-simulation",
    "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-simulation",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-simulation",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "quantum-software",
+   "development"
+  ],
+  [
+   "2026-08",
+   "quantum-software",
+   "development"
   ],
   [
    "2026-08",
@@ -7834,6 +7846,11 @@
    "2026-08",
    "survey",
    "review"
+  ],
+  [
+   "2026-08",
+   "survey",
+   "theory"
   ],
   [
    "2026-08",
@@ -7905,109 +7922,109 @@
  ],
  "keyword_bursts": [
   {
-   "keyword": "quantum circuit",
-   "recent": 321,
-   "total": 321,
-   "burst_score": 1.0,
-   "recent_share": 0.2113
-  },
-  {
-   "keyword": "entanglement",
-   "recent": 271,
-   "total": 271,
-   "burst_score": 1.0,
-   "recent_share": 0.1784
-  },
-  {
-   "keyword": "quantum algorithm",
-   "recent": 265,
-   "total": 267,
-   "burst_score": 1.0,
-   "recent_share": 0.1745
-  },
-  {
-   "keyword": "benchmark",
-   "recent": 253,
-   "total": 253,
-   "burst_score": 1.0,
-   "recent_share": 0.1666
-  },
-  {
-   "keyword": "quantum key distribution",
-   "recent": 203,
-   "total": 203,
-   "burst_score": 1.0,
-   "recent_share": 0.1336
-  },
-  {
-   "keyword": "fidelity",
-   "recent": 173,
-   "total": 173,
-   "burst_score": 1.0,
-   "recent_share": 0.1139
-  },
-  {
-   "keyword": "quantum simulation",
-   "recent": 145,
-   "total": 145,
-   "burst_score": 1.0,
-   "recent_share": 0.0955
-  },
-  {
-   "keyword": "quantum machine learning",
-   "recent": 142,
-   "total": 143,
-   "burst_score": 1.0,
-   "recent_share": 0.0935
-  },
-  {
    "keyword": "quantum information",
    "recent": 135,
    "total": 135,
-   "burst_score": 1.0,
-   "recent_share": 0.0889
-  },
-  {
-   "keyword": "fault-tolerant",
-   "recent": 135,
-   "total": 136,
-   "burst_score": 1.0,
-   "recent_share": 0.0889
-  },
-  {
-   "keyword": "quantum error correction",
-   "recent": 131,
-   "total": 132,
-   "burst_score": 1.0,
-   "recent_share": 0.0862
-  },
-  {
-   "keyword": "quantum cryptography",
-   "recent": 101,
-   "total": 101,
-   "burst_score": 1.0,
-   "recent_share": 0.0665
-  },
-  {
-   "keyword": "quantum advantage",
-   "recent": 93,
-   "total": 93,
-   "burst_score": 1.0,
-   "recent_share": 0.0612
-  },
-  {
-   "keyword": "quantum neural network",
-   "recent": 89,
-   "total": 89,
-   "burst_score": 1.0,
-   "recent_share": 0.0586
+   "burst_score": 1.02,
+   "recent_share": 0.0901
   },
   {
    "keyword": "variational quantum eigensolver",
    "recent": 79,
    "total": 79,
-   "burst_score": 1.0,
+   "burst_score": 1.02,
+   "recent_share": 0.0527
+  },
+  {
+   "keyword": "quantum channel",
+   "recent": 78,
+   "total": 78,
+   "burst_score": 1.02,
    "recent_share": 0.052
+  },
+  {
+   "keyword": "stabilizer code",
+   "recent": 40,
+   "total": 40,
+   "burst_score": 1.02,
+   "recent_share": 0.0267
+  },
+  {
+   "keyword": "quantum repeater",
+   "recent": 36,
+   "total": 36,
+   "burst_score": 1.02,
+   "recent_share": 0.024
+  },
+  {
+   "keyword": "analog quantum",
+   "recent": 30,
+   "total": 30,
+   "burst_score": 1.02,
+   "recent_share": 0.02
+  },
+  {
+   "keyword": "quantum compiler",
+   "recent": 14,
+   "total": 14,
+   "burst_score": 1.02,
+   "recent_share": 0.0093
+  },
+  {
+   "keyword": "magic state",
+   "recent": 11,
+   "total": 11,
+   "burst_score": 1.02,
+   "recent_share": 0.0073
+  },
+  {
+   "keyword": "photonic qubit",
+   "recent": 8,
+   "total": 8,
+   "burst_score": 1.02,
+   "recent_share": 0.0053
+  },
+  {
+   "keyword": "silicon spin",
+   "recent": 8,
+   "total": 8,
+   "burst_score": 1.02,
+   "recent_share": 0.0053
+  },
+  {
+   "keyword": "topological qubit",
+   "recent": 7,
+   "total": 7,
+   "burst_score": 1.02,
+   "recent_share": 0.0047
+  },
+  {
+   "keyword": "benchmark",
+   "recent": 251,
+   "total": 253,
+   "burst_score": 1.01,
+   "recent_share": 0.1674
+  },
+  {
+   "keyword": "quantum key distribution",
+   "recent": 201,
+   "total": 203,
+   "burst_score": 1.01,
+   "recent_share": 0.1341
+  },
+  {
+   "keyword": "fidelity",
+   "recent": 172,
+   "total": 173,
+   "burst_score": 1.01,
+   "recent_share": 0.1147
+  },
+  {
+   "keyword": "quantum simulation",
+   "recent": 144,
+   "total": 145,
+   "burst_score": 1.01,
+   "recent_share": 0.0961
   }
  ]
 }
