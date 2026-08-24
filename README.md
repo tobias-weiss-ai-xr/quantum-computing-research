@@ -33,12 +33,15 @@
   - [Theory](#theory)
   - [Method](#method)
   - [Application](#application)
+  - [Development](#development)
+  - [Systems & Technology](#systems-&-technology)
 - [📚 Quantum Error Correction](#quantum-error-correction)
   - [Theory](#theory)
   - [Method](#method)
   - [Application](#application)
   - [Development](#development)
   - [Systems & Technology](#systems-&-technology)
+  - [Reviews & Surveys](#reviews-&-surveys)
 - [📚 Quantum Hardware & Architecture](#quantum-hardware-&-architecture)
   - [Theory](#theory)
   - [Method](#method)
@@ -49,6 +52,7 @@
 - [📚 Quantum Information Theory](#quantum-information-theory)
   - [Theory](#theory)
   - [Method](#method)
+  - [Application](#application)
   - [Development](#development)
   - [Systems & Technology](#systems-&-technology)
 - [📚 Quantum Simulation](#quantum-simulation)
@@ -56,10 +60,12 @@
   - [Method](#method)
   - [Application](#application)
   - [Development](#development)
+  - [Systems & Technology](#systems-&-technology)
 - [📚 Quantum Machine Learning](#quantum-machine-learning)
   - [Theory](#theory)
   - [Method](#method)
   - [Application](#application)
+  - [Development](#development)
   - [Systems & Technology](#systems-&-technology)
   - [Evaluation & Benchmarks](#evaluation-&-benchmarks)
   - [Reviews & Surveys](#reviews-&-surveys)
@@ -67,7 +73,9 @@
   - [Theory](#theory)
   - [Method](#method)
   - [Application](#application)
+  - [Development](#development)
   - [Systems & Technology](#systems-&-technology)
+  - [Reviews & Surveys](#reviews-&-surveys)
 - [📚 Quantum Software & Tools](#quantum-software-&-tools)
   - [Development](#development)
 - [📚 Surveys & Taxonomies](#surveys-&-taxonomies)
@@ -235,24 +243,102 @@
 - [2026] **Dequantization Barriers for Guided Stoquastic Hamiltonians** [[paper](https://arxiv.org/abs/2602.23183)]
 - [2026] **On the Need for (Quantum) Memory with Short Outputs** [[paper](https://arxiv.org/abs/2602.23763)]
 - [2026] **A 1-bit quantum filter for particle trajectory reconstruction** *Communications Physics* [[paper](https://arxiv.org/abs/2601.07766)]
+- [2026] **Neural-Network-Assisted Monte Carlo Sampling Trained by Quantum Approximate Optimization Algorithm** *PRX Quantum* [[paper](https://arxiv.org/abs/2506.01335)]
+- [2026] **Robust Quantum Walk Search on Complete Multipartite Graph With Multiple Marked Vertices** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2026.3679863)]
+- [2026] **Advancing Full-Stack Acceleration for SchröDinger-Style Quantum Simulation** [[paper](https://doi.org/10.1109/hpca68181.2026.11408466)]
+- [2026] **Grover Adaptive Search-Based Hybrid Benders Decomposition for Mixed-Integer Linear Programs** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2026.3681202)]
 
 ##### 2025
 
+- [2025] **Toward an Algorithmic Framework and Grover’s search speedup for Quantum Circuit Design—Leveraging the Minimum Connected Dominating Set Problem as an Example** *Quantum Information and Computation* [[paper](https://doi.org/10.2478/qic-2025-0037)]
 - [2025] **Multi-GPU quantum circuit simulation and the impact of network performance** *Computer Physics Communications* [[paper](https://arxiv.org/abs/2511.14664)]
+- [2025] **Solving free fermion problems on a quantum computer** *Physical Review Research* [[paper](https://doi.org/10.1103/zmwm-gdmw)]
 - [2025] **End-to-end quantum algorithm for topology optimization in structural mechanics** *Quantum Science and Technology* [[paper](https://arxiv.org/abs/2510.07280)]
 - [2025] **Quantum Matrix Arithmetics with Hamiltonian Evolution** *ACM Transactions on Quantum Computing* [[paper](https://arxiv.org/abs/2510.06316)]
+- [2025] **Quantum Machine Learning and Grover's Algorithm for Quantum Optimization of Robotic Manipulators** *IEEE Robotics and Automation Letters* [[paper](https://arxiv.org/abs/2509.07216)]
+- [2025] **A quantum genetic algorithm for a parallel machine scheduling problem** *Journal of Combinatorial Optimization* [[paper](https://doi.org/10.1007/s10878-025-01347-7)]
+- [2025] **A Hybrid Quantum–Classical Spectral Solver for Nonlinear Differential Equations** *Algorithms* [[paper](https://doi.org/10.3390/a18110678)]
+- [2025] **Solving the Subset Sum Problem via Quantum Walk Search** *IEEE Transactions on Computers* [[paper](https://doi.org/10.1109/tc.2025.3625044)]
+- [2025] **Q-Sylvan: A Parallel Decision Diagram Package for Quantum Computing** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-032-08707-2_12)]
 - [2025] **Continuous-time quantum-walk-based ansätze on neutral-atom hardware** *Physical Review A* [[paper](https://arxiv.org/abs/2509.00386)]
+- [2025] **Sublinear Classical-to-Quantum Data Encoding Using $n$-Toffoli Gates** [[paper](https://arxiv.org/abs/2505.06054)]
+- [2025] **On the quantum circuit model of a kind of quantum adiabatic evolution** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04850-2)]
+- [2025] **Simulating and Sampling from Quantum Circuits with 2D Tensor Networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.11424)]
+- [2025] **Simulating lossy and partially distinguishable quantum optical circuits: theory, algorithms and applications to experiment validation and state preparation** [[paper](https://doi.org/10.1117/12.3066117)]
+- [2025] **Quantum-Inspired Neural Radiative Transfer (QINRT): A Multi-Scale Computational Framework for Next-Generation Climate Intelligence** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202507.2513.v1)]
+- [2025] **Scaling Grover’s Search for Large Solution Spaces** [[paper](https://doi.org/10.1145/3731545.3744149)]
 - [2025] **Quantum circuits for the Metropolis–Hastings algorithm** *Journal of Physics A Mathematical and Theoretical* [[paper](https://arxiv.org/abs/2506.11576)]
+- [2025] **Accelerating Simulation of Quantum Circuits under Noise via Computational Reuse** [[paper](https://doi.org/10.1145/3695053.3730992)]
+- [2025] **A quantum speedup algorithm for TSP based on quantum dynamic programming with very few qubits** *Theoretical Computer Science* [[paper](https://doi.org/10.1016/j.tcs.2025.115423)]
+- [2025] **Optimal Control-Based Grover’s Algorithm for a Six-Jointed Articulated Robotic Arm** *Electronics* [[paper](https://doi.org/10.3390/electronics14132503)]
+- [2025] **Hybrid quantum and in-memory computing for accelerating solving Simon’s problem** *APL Machine Learning* [[paper](https://doi.org/10.1063/5.0268483)]
+- [2025] **Accelerating Face Biometric Verification Via Quantum PCA and Hybrid Processing** [[paper](https://doi.org/10.1109/icirca65293.2025.11089600)]
 - [2025] **Deterministic quantum search for arbitrary initial success probabilities** *Quantum Information Processing* [[paper](https://arxiv.org/abs/2505.15512)]
+- [2025] **Quantum smoothed particle hydrodynamics algorithm inspired by quantum walks** *Physics of Fluids* [[paper](https://arxiv.org/abs/2503.05393)]
 - [2025] **Quantum simulation-based optimization for cooling system design** *Journal of Physics A Mathematical and Theoretical* [[paper](https://arxiv.org/abs/2504.15460)]
+- [2025] **Optimal sampling of tensor networks targeting wave function's fast decaying tails** *Quantum* [[paper](https://doi.org/10.22331/q-2025-04-18-1714)]
 - [2025] **Advancing scientific discovery and complex optimization through distributed quantum neural networks** *npj Computational Materials* [[paper](https://arxiv.org/abs/2503.00221)]
+- [2025] **Approximate real-time evolution operator for potential with one ancillary qubit and application to first-quantized Hamiltonian simulation** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04697-7)]
 - [2025] **Real-Time Sign-Problem-Suppressed Quantum Monte Carlo Algorithm for Noisy Quantum Circuit Simulations** *Physical Review Letters* [[paper](https://arxiv.org/abs/2502.18929)]
+- [2025] **Two-Step Quantum Search Algorithm for Solving Traveling Salesman Problems** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2025.3548706)]
+- [2025] **Fast algorithms for classical specifications of stabiliser states and Clifford gates** *Quantum* [[paper](https://doi.org/10.22331/q-2025-01-08-1586)]
+- [2025] **A Quantum Differential Attack on ChaCha and Related Resources Estimation** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3593658)]
 
 ##### 2024
 
+- [2024] **Quantum Circuits for partial differential equations via Schrödingerisation** *Quantum* [[paper](https://doi.org/10.22331/q-2024-12-12-1563)]
+- [2024] **Efficient MPS representations and quantum circuits from the Fourier modes of classical image data** *Quantum* [[paper](https://doi.org/10.22331/q-2024-12-03-1544)]
+- [2024] **Conditions for a quadratic quantum speedup in nonlinear transforms with applications to energy contract pricing** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/ada08c)]
+- [2024] **Unconditional quantum magic advantage in shallow circuit computation** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-024-54864-0)]
+- [2024] **Synthetic Aperture Radar Imaging Using Computer Simulation of Quantum Algorithm and Circuits** *IEEE Geoscience and Remote Sensing Letters* [[paper](https://doi.org/10.1109/lgrs.2024.3517135)]
+- [2024] **Iterative quantum algorithms for maximum independent set** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.052435)]
+- [2024] **Opening the Black Box inside Grover’s Algorithm** *Physical Review X* [[paper](https://doi.org/10.1103/physrevx.14.041029)]
+- [2024] **Quantum subroutine for variance estimation: algorithmic design and applications** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-024-00213-9)]
+- [2024] **A quantum-search-based multi-classifier for image recognition** *Science China Physics Mechanics and Astronomy* [[paper](https://doi.org/10.1007/s11433-024-2488-5)]
+- [2024] **Towards Entropic Constraints on Quantum Speedups** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2411.03439)]
 - [2024] **On Estimating the Trace of Quantum State Powers** *IEEE Transactions on Information Theory* [[paper](https://arxiv.org/abs/2410.13559)]
+- [2024] **Discovery of Quantum Algorithms Using Genetic Algorithms: Exponential Speedup via Random Sampling** [[paper](https://doi.org/10.1109/qce60285.2024.10347)]
+- [2024] **Quantum power flows: from theory to practice** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-024-00182-z)]
+- [2024] **Quantum Algorithms for Compositional Text Processing** *Electronic Proceedings in Theoretical Computer Science* [[paper](https://arxiv.org/abs/2408.06061)]
+- [2024] **Quantum Algorithms for the Multiplication of Circulant Matrices and Vectors** *Information* [[paper](https://dx.doi.org/10.3390/info15080453)]
+- [2024] **Fast partitioning of Pauli strings into commuting families for optimal expectation value measurements of dense operators** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.022606)]
 - [2024] **Distributed quantum approximate optimization algorithm on a quantum-centric supercomputing architecture** *npj Quantum Information* [[paper](https://arxiv.org/abs/2407.20212)]
+- [2024] **Quantum rectangular MinRank attack on multi-layer UOV signature schemes** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-024-66841-0)]
+- [2024] **Complexity of Quantum Circuits via Sensitivity, Magic, and Coherence** *Communications in Mathematical Physics* [[paper](https://doi.org/10.1007/s00220-024-05030-6)]
+- [2024] **Boolean Matching Reversible Circuits: Algorithm and Complexity** [[paper](https://doi.org/10.1145/3649329.3657312)]
+- [2024] **Incompressible Navier-Stokes solve on noisy quantum hardware via a hybrid quantum-classical scheme** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2406.00280)]
+- [2024] **Optimizing Compiler for Quantum Computing Using Qiskit Terra** [[paper](https://doi.org/10.1109/icccnt61001.2024.10726185)]
+- [2024] **A Scalable Quantum Gate‐Based Implementation for Causal Hypothesis Testing** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202300326)]
+- [2024] **Quantum Circuit Simulation with Fast Tensor Decision Diagram** [[paper](https://doi.org/10.1109/isqed60706.2024.10528748)]
+- [2024] **A quantum moving target segmentation algorithm for grayscale video based on background difference method** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-024-00234-0)]
+- [2024] **Depth–measurement trade-off for quantum search on block ciphers** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-024-04359-0)]
+- [2024] **Analyzing Prospects for Quantum Advantage in Topological Data Analysis** *PRX Quantum* [[paper](https://doi.org/10.1103/prxquantum.5.010319)]
+- [2024] **PQCLP: Parameterized quantum circuit based link prediction in dynamic networks** *Computer Networks* [[paper](https://doi.org/10.1016/j.comnet.2024.110210)]
 - [2024] **Attribute fusion-based evidential classifier on quantum circuits** *Quantum Machine Intelligence* [[paper](https://arxiv.org/abs/2401.01392)]
+- [2024] **The complexity of quantum support vector machines** *Quantum* [[paper](https://doi.org/10.22331/q-2024-01-11-1225)]
+- [2024] **Quantum Speedup of the Dispersion and Codebook Design Problems** *IEEE Transactions on Quantum Engineering* [[paper](https://arxiv.org/abs/2406.07187)]
+- [2024] **Quantum 2-Player Games and Realizations with Circuits** *Research* [[paper](https://doi.org/10.34133/research.0480)]
+- [2024] **Quantum Speedup for Multiuser Detection With Optimized Parameters in Grover Adaptive Search** *IEEE Access* [[paper](https://doi.org/10.1109/access.2024.3413084)]
+- [2024] **Integer multiple quantum image scaling based on NEQR and bicubic interpolation** *Chinese Physics B* [[paper](https://doi.org/10.1088/1674-1056/ad1b40)]
+- [2024] **Foundations of Quantum Information Science for Transportation Networks** *SSRN Electronic Journal* [[paper](https://dx.doi.org/10.2139/ssrn.4976781)]
+- [2024] **CryptAttackTester: high-assurance attack analysis** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-68391-6_5)]
+
+##### 2023
+
+- [2023] **Exponential Quantum Speedup in Simulating Coupled Classical Oscillators** *Physical Review X* [[paper](https://doi.org/10.1103/physrevx.13.041041)]
+- [2023] **Quantum speedup and limitations on matroid property problems** *Frontiers of Computer Science* [[paper](https://doi.org/10.1007/s11704-023-3130-9)]
+- [2023] **QuanPath: achieving one-step communication for distributed quantum circuit simulation** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-023-04192-x)]
+- [2023] **Distributed Quantum Learning with co-Management in a Multi-tenant Quantum System** [[paper](https://doi.org/10.1109/bigdata59044.2023.10386676)]
+- [2023] **Quantum Computing Algorithms for Nonlinear Optimization Problems** *Communications on Applied Nonlinear Analysis* [[paper](https://dx.doi.org/10.52783/cana.v30.279)]
+- [2023] **Variational Quantum Search with Shallow Depth for Unstructured Database Search** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-3769828/v1)]
+- [2023] **Utilizing Novel Quantum Counters for Grover's Algorithm to Solve the Dominating Set Problem** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.09388)]
+- [2023] **Speed limits of two-qubit gates with qudits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.09218)]
+- [2023] **Exponential quantum speedup in simulating coupled classical oscillators*** [[paper](https://doi.org/10.1109/focs57990.2023.00030)]
+- [2023] **Simulating Quantum Circuits Using Efficient Tensor Network Contraction Algorithms with Subexponential Upper Bound** *Physical Review Letters* [[paper](https://doi.org/10.1103/physrevlett.131.180601)]
+- [2023] **A Quantum Moving Target Segmentation Algorithm for Grayscale Video** *Advanced Quantum Technologies* [[paper](https://arxiv.org/abs/2310.03038)]
+- [2023] **Variational Quantum Linear Solver-based Combination Rules in Dempster–Shafer Theory** *Information Fusion* [[paper](https://doi.org/10.1016/j.inffus.2023.102070)]
+- [2023] **Iterative Quantum Algorithms for Maximum Independent Set: A Tale of Low-Depth Quantum Algorithms** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.13110)]
+- [2023] **Non-Linear Transformations of Quantum Amplitudes: Exponential Improvement, Generalization, and Applications** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.09839)]
 
 [⬆ Back to top](#paper-list)
 
@@ -391,15 +477,97 @@
 - [2026] **Quantum circuit design from a retraction-based Riemannian optimization framework** [[paper](https://arxiv.org/abs/2602.20605)]
 - [2026] **Q-Tag: Watermarking Quantum Circuit Generative Models** [[paper](https://arxiv.org/abs/2602.23085)]
 - [2026] **MAFFT-inspired Quantum Shift-based Sequence Alignment and its Efficient Simulation on Decision Diagrams** [[paper](https://arxiv.org/abs/2602.23848)]
+- [2026] **On the Practicality of Quantum Sieving Algorithms for the Shortest Vector Problem** *Lecture notes in computer science* [[paper](https://arxiv.org/abs/2410.13759)]
+- [2026] **Quantum-Inspired Algorithms beyond Unitary Circuits: the Laplace Transform** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2601.17724)]
+- [2026] **Novel Algorithm for Adaptive Circuit Construction for Quantum Kernel Methods** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-032-22221-3_42)]
 
 ##### 2025
 
+- [2025] **Trotter Simulation of Vibrational Hamiltonians on a Quantum Computer** *Journal of Chemical Theory and Computation* [[paper](https://arxiv.org/abs/2508.11865)]
 - [2025] **Cobble: Compiling Block Encodings for Quantum Computational Linear Algebra** *Proceedings of the ACM on Programming Languages* [[paper](https://arxiv.org/abs/2511.01736)]
+- [2025] **Toward Efficient Quantum Circuit Simulation with Memory and I/O Reduction through Gate Block Search Algorithm** [[paper](https://doi.org/10.1145/3769002.3769982)]
 - [2025] **Combinatorial optimization enhanced by shallow quantum circuits with 104 superconducting qubits** *National Science Review* [[paper](https://arxiv.org/abs/2509.11535)]
 - [2025] **A modular, adaptive, and scalable quantum factoring algorithm** *The European Physical Journal Plus* [[paper](https://arxiv.org/abs/2509.05010)]
+- [2025] **LS-SVM generation using an optimized HHL quantum algorithm** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-7466525/v1)]
+- [2025] **An optimized exact multi-target search algorithm** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04932-1)]
+- [2025] **A Lazy Resynthesis Approach for Simultaneous T Gate and Two-Qubit Gate Optimization of Quantum Circuits** [[paper](https://doi.org/10.1109/qce65121.2025.00060)]
+- [2025] **Programming Optical-Lattice Fermi-Hubbard Quantum Simulators** *PRX Quantum* [[paper](https://doi.org/10.1103/3nx4-bnyy)]
+- [2025] **Gate construction of block-encoding for Hamiltonians needed for simulating partial differential equations** *Physical Review Research* [[paper](https://doi.org/10.1103/xlpd-fb1g)]
 - [2025] **Quantum-classical auxiliary field quantum Monte Carlo with matchgate shadows on trapped ion quantum computers** *Physical Review Research* [[paper](https://arxiv.org/abs/2506.22408)]
 - [2025] **Iterative Quantum Feature Maps** *Advanced Quantum Technologies* [[paper](https://arxiv.org/abs/2506.19461)]
+- [2025] **Demonstration of Algorithmic Quantum Speedup for an Abelian Hidden Subgroup Problem** *Physical Review X* [[paper](https://doi.org/10.1103/physrevx.15.021082)]
+- [2025] **Quantum Circuit Design for Finding k-Cliques via Quantum Amplitude Amplification Strategies** [[paper](https://doi.org/10.1145/3719276.3725200)]
+- [2025] **Multidimensional Electrical Networks and their Application to Exponential Speedups for Graph Problems** *Quantum* [[paper](https://doi.org/10.22331/q-2025-05-06-1733)]
+- [2025] **Enhancing the Harrow-Hassidim-Lloyd (HHL) algorithm in systems with large condition numbers** *Physical Review Research* [[paper](https://doi.org/10.1103/msvx-1drx)]
+- [2025] **Unification of finite symmetries in the simulation of many-body systems on quantum computers** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.111.052433)]
+- [2025] **Quantum Graph Drawing** *Journal of Graph Algorithms and Applications* [[paper](https://doi.org/10.7155/jgaa.v29i2.3039)]
+- [2025] **QAOA-GPT: Efficient Generation of Adaptive and Regular Quantum Approximate Optimization Algorithm Circuits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.16350)]
+- [2025] **Quantum simulations of chemistry in first quantization with any basis set** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-00987-1)]
+- [2025] **Impact of hardware connectivity on Grover’s algorithm in NISQ era** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04733-6)]
+- [2025] **Quantum Hamiltonian embedding of images for data reuploading classifiers** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00247-7)]
+- [2025] **QOPS: a compiler framework for quantum circuit simulation acceleration with profile-guided optimizations** *The Journal of Supercomputing* [[paper](https://doi.org/10.1007/s11227-025-07157-2)]
+- [2025] **A quantum random access memory (QRAM) using a polynomial encoding of binary strings** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-025-95283-5)]
+- [2025] **Quantum Artificial Intelligence (QAI) Paradigm for Voice‐Controlled Devices** [[paper](https://doi.org/10.1002/9781394242399.ch18)]
+- [2025] **Fast Expectation Value Calculation Speedup of Quantum Approximate Optimization Algorithm: HoLCUs QAOA** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2503.01748)]
+- [2025] **Quantum walk based Monte Carlo simulation for photon interaction cross sections** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2502.14374)]
 - [2025] **Efficient Compilation for Shuttling Trapped-Ion Machines via the Position Graph Architectural Abstraction** *ACM Transactions on Quantum Computing* [[paper](https://arxiv.org/abs/2501.12470)]
+- [2025] **Adaptive circuit learning of born machine: towards realization of amplitude embedding and quantum data loading** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/adaede)]
+- [2025] **Faster and Better Quantum Software Testing through Specification Reduction and Projective Measurements** *ACM Transactions on Software Engineering and Methodology* [[paper](https://doi.org/10.1145/3714468)]
+- [2025] **Time Series Forecasting Using Quantum Machine Learning Algorithms** *Algorithms for intelligent systems* [[paper](https://doi.org/10.1007/978-981-97-6957-5_16)]
+- [2025] **Quantum Feasibility Labeling for NP-Complete Vertex Coloring Problem** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3545262)]
+- [2025] **Impact of Noise and Hardware Connectivity on Grover’s Quantum Search Algorithm in NISQ Devices** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-88881-6_4)]
+- [2025] **Quantum–Classical Hybrid Architecture for Solving the Muskat–Leverett Model** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.70022)]
+
+##### 2024
+
+- [2024] **Using a Simplified Quantum Counter to Implement Quantum Circuits Based on Grover’s Algorithm to Tackle the Exact Cover Problem** *Mathematics* [[paper](https://doi.org/10.3390/math13010090)]
+- [2024] **Grover's Oracle for the Shortest Vector Problem and Its Application in Hybrid Classical–Quantum Solvers** *IEEE Transactions on Quantum Engineering* [[paper](https://arxiv.org/abs/2402.13895)]
+- [2024] **Parameter Setting Heuristics Make the Quantum Approximate Optimization Algorithm Suitable for the Early Fault-Tolerant Era** [[paper](https://doi.org/10.1145/3676536.3697128)]
+- [2024] **Quantum Computing Circuit Design: A Tutorial** [[paper](https://doi.org/10.1109/icasc63229.2024.10785069)]
+- [2024] **Exploration of Timing and Higher-Energy Attacks on Quantum Random Access Memory** [[paper](https://doi.org/10.1145/3676536.3689916)]
+- [2024] **LCOC: A Low-cost Optimizing Compiler for Large Scale Quantum Programs Towards Realistic Hardware** [[paper](https://doi.org/10.1109/ispa63168.2024.00073)]
+- [2024] **Hamiltonian simulation for hyperbolic partial differential equations by scalable quantum circuits** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.6.033246)]
+- [2024] **Route-Forcing: Scalable Quantum Circuit Mapping for Scalable Quantum Computing Architectures** [[paper](https://arxiv.org/abs/2407.17306)]
+- [2024] **Deep-learning-based quantum algorithms for solving nonlinear partial differential equations** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.022612)]
+- [2024] **Enhanced QSimon Algorithm for Attacking the Offset Two‐Round Scheme** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202300384)]
+- [2024] **On the practical usefulness of the Hardware Efficient Ansatz** *Quantum* [[paper](https://doi.org/10.22331/q-2024-07-03-1395)]
+- [2024] **Deterministic discrete-time quantum walk search on complete bipartite graphs** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.6.033042)]
+- [2024] **Visual Analytics of Performance of Quantum Computing Systems and Circuit Optimization** [[paper](https://doi.org/10.1109/isvlsi61997.2024.00116)]
+- [2024] **Polylogarithmic-depth controlled-NOT gates without ancilla qubits** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-024-50065-x)]
+- [2024] **Early Exploration of a Flexible Framework for Efficient Quantum Linear Solvers in Power Systems** [[paper](https://doi.org/10.1109/pesgm51994.2024.10688916)]
+- [2024] **Quantum Neural Networks: Paving the Way for Next-Generation Machine Learning** *International Journal of Artificial Intelligence and Machine Learning* [[paper](https://doi.org/10.51483/ijaiml.4.2.2024.92-105)]
+- [2024] **Quantum Architecture Search: A Survey** [[paper](https://arxiv.org/abs/2406.06210)]
+- [2024] **Comparing Natural Language Processing and Quantum Natural Processing approaches in text classification tasks** *Expert Systems with Applications* [[paper](https://doi.org/10.1016/j.eswa.2024.124427)]
+- [2024] **Implementation of Grover's Algorithm based on Quantum Reservoir Computing** [[paper](https://dx.doi.org/10.1109/incet61516.2024.10593410)]
+- [2024] **A Delay-Efficient Implementation of Quantum Carry Select Adders** [[paper](https://dx.doi.org/10.1109/ipdpsw63119.2024.00181)]
+- [2024] **Efficient explicit gate construction of block-encoding for Hamiltonians needed for simulating partial differential equations** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.12855)]
+- [2024] **Explicit Quantum Circuits for Block Encodings of Certain Sparse Matrices** *SIAM Journal on Matrix Analysis and Applications* [[paper](https://doi.org/10.1137/22m1484298)]
+- [2024] **SMT-Based Layout Synthesis Approaches for Quantum Circuits** [[paper](https://doi.org/10.1145/3626184.3633316)]
+- [2024] **Approximation Algorithm for Noisy Quantum Circuit Simulation** [[paper](https://dx.doi.org/10.23919/date58400.2024.10546657)]
+- [2024] **Topological obstructions to quantum computation with unitary oracles** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.109.032625)]
+- [2024] **An efficient quantum circuit implementation of Shor’s algorithm for GPU accelerated simulation** *AIP Advances* [[paper](https://doi.org/10.1063/5.0186385)]
+- [2024] **Quantum radio astronomy: Data encodings and quantum image processing** *Astronomy and Computing* [[paper](https://doi.org/10.1016/j.ascom.2024.100796)]
+- [2024] **Compact Instruction Set Extensions for Dilithium** *ACM Transactions on Embedded Computing Systems* [[paper](https://doi.org/10.1145/3643826)]
+- [2024] **Preparation of Matrix Product States with Log-Depth Quantum Circuits** *Physical Review Letters* [[paper](https://doi.org/10.1103/physrevlett.132.040404)]
+- [2024] **Drastic Circuit Depth Reductions with Preserved Adversarial Robustness by Approximate Encoding for Quantum Machine Learning** *Intelligent Computing* [[paper](https://doi.org/10.34133/icomputing.0100)]
+- [2024] **A Fast Quantum Algorithm for Searching the Quasi-Optimal Solutions of Unit Commitment** *IEEE Transactions on Power Systems* [[paper](https://doi.org/10.1109/tpwrs.2024.3350382)]
+- [2024] **Élivágar: Efficient Quantum Circuit Search for Classification** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2401.09393)]
+
+##### 2023
+
+- [2023] **Maximising Quantum-Computing Expressive Power through Randomised Circuits** [[paper](https://arxiv.org/abs/2312.01947)]
+- [2023] **Quantum phase processing and its applications in estimating phase and entropies** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.108.062413)]
+- [2023] **Practical Quantum Search by Variational Quantum Eigensolver on Noisy Intermediate-Scale Quantum Hardware** [[paper](https://doi.org/10.1109/csci62032.2023.00071)]
+- [2023] **Challenges and Opportunities in Quantum Optimization** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.02279)]
+- [2023] **Improvement in Variational Quantum Algorithms by Measurement Simplification** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.06176)]
+- [2023] **QuantumEyes: Towards Better Interpretability of Quantum Circuits** *IEEE Transactions on Visualization and Computer Graphics* [[paper](https://doi.org/10.1109/tvcg.2023.3332999)]
+- [2023] **QASMTrans: A QASM Quantum Transpiler Framework for NISQ Devices** [[paper](https://doi.org/10.1145/3624062.3624222)]
+- [2023] **Novel Quantum Circuit Designs for the Oracle of Grover’s Algorithm to Solve the Vertex Cover Problem** [[paper](https://doi.org/10.1109/ecice59523.2023.10383108)]
+- [2023] **QPulseLib: Accelerating the Pulse Generation of Quantum Circuit with Reusable Patterns** [[paper](https://doi.org/10.1109/iccad57390.2023.10323711)]
+- [2023] **Improving Quantum Circuit Synthesis with Machine Learning** [[paper](https://doi.org/10.1109/qce57702.2023.00093)]
+- [2023] **Efficient parallelization of quantum basis state shift** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/acfab7)]
+- [2023] **Quantum minds: Merging quantum computing with next-gen AI** *World Journal of Advanced Research and Reviews* [[paper](https://doi.org/10.30574/wjarr.2023.19.3.1819)]
+- [2023] **Approximative Lookup-Tables and Arbitrary Function Rotations for Facilitating NISQ-Implementations of the HHL and Beyond** [[paper](https://arxiv.org/abs/2306.05024)]
 
 ##### 2014
 
@@ -416,6 +584,22 @@
 ##### 2026
 
 - [2026] **Application and optimization of quantum-powered generative models for job shop scheduling in semiconductor manufacturing** *Journal of Industrial Information Integration* [[paper](https://doi.org/10.1016/j.jii.2026.101115)]
+
+[⬆ Back to top](#paper-list)
+
+#### Development
+
+##### 2024
+
+- [2024] **Fast scalable and low-power quantum circuit simulation on the cluster of GPUs platforms** *Optical and Quantum Electronics* [[paper](https://doi.org/10.1007/s11082-024-07492-3)]
+
+[⬆ Back to top](#paper-list)
+
+#### Systems & Technology
+
+##### 2024
+
+- [2024] **Incompressible Navier–Stokes solve on noisy quantum hardware via a hybrid quantum–classical scheme** *Computers & Fluids* [[paper](https://doi.org/10.1016/j.compfluid.2024.106507)]
 
 [⬆ Back to top](#paper-list)
 
@@ -436,11 +620,25 @@
 
 ##### 2025
 
+- [2025] **Quantum Topological Error Correction Codes: The Classical‐to‐quantum Isomorphism Perspective** [[paper](https://doi.org/10.1002/9781394331963.ch07)]
+- [2025] **QuantumSavory/QuantumClifford.jl: v0.10.1** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17932783)]
 - [2025] **A simple universal routing strategy for reducing the connectivity requirements of quantum LDPC codes** *Research Square* [[paper](https://arxiv.org/abs/2509.00850)]
+- [2025] **Quantum Error Correction and Fault-Tolerant Computing: Recent Progress in Codes, Decoders, and Architectures** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202509.2149.v2)]
+- [2025] **The Decade of Fault-Tolerant Quantum Computing: From Threshold Crossing to Scalable Logical Qubits** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202509.2238.v1)]
+- [2025] **Small Quantum Low Density Parity Check Codes for Near-Term Experiments** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.09690)]
+- [2025] **Quantum Error Correction** *Advances in computational intelligence and robotics book series* [[paper](https://doi.org/10.4018/979-8-3693-6225-9.ch005)]
+- [2025] **High-rate quantum LDPC codes for long-range-connected neutral atom registers** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-025-56255-5)]
 
 ##### 2024
 
+- [2024] **SymBreak: Mitigating Quantum Degeneracy Issues in QLDPC Code Decoders by Breaking Symmetry** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2412.02885)]
 - [2024] **An almost-linear time decoding algorithm for quantum LDPC codes under circuit-level noise** *npj Quantum Information* [[paper](https://arxiv.org/abs/2409.01440)]
+- [2024] **Toward a 2D Local Implementation of Quantum LDPC Codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2404.17676)]
+
+##### 2023
+
+- [2023] **qSIEVE: Efficient qLDPC Memory via Systolic Movement in Atom Arrays** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2311.16980)]
+- [2023] **Splitting decoders for correcting hypergraph faults** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.15354)]
 
 [⬆ Back to top](#paper-list)
 
@@ -458,6 +656,7 @@
 - [2026] **The Magic Scroll: Leveraging biased noise to improve magic state cultivation in register-based architectures** [[paper](https://arxiv.org/abs/2608.09018)]
 - [2026] **Provably Efficient Self-Calibrating Quantum Fault Tolerance** [[paper](https://arxiv.org/abs/2608.05686)]
 - [2026] **Exponential logical-error reduction in quantum memories via optimal syndrome-measurement timing** [[paper](https://arxiv.org/abs/2608.06242)]
+- [2026] **Machine Learning Approaches to Decoding Topological Quantum Codes** [[paper](https://arxiv.org/abs/2608.15760)]
 - [2026] **Fast logical operations in quantum LDPC codes using simple resource states** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2607.16166)]
 - [2026] **A harmonized corpus of quantum error correction publications and patents (1995–2025)** *Mendeley Data* [[paper](https://doi.org/10.17632/cxrrmvy56p.1)]
 - [2026] **Fault-tolerant quantum computation with static atomic buses** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2607.02804)]
@@ -553,6 +752,24 @@
 - [2026] **Qudit stabiliser codes for $\mathbb{Z}_N$ lattice gauge theories with matter** [[paper](https://arxiv.org/abs/2602.20661)]
 - [2026] **CQM: Cyclic Qubit Mappings** [[paper](https://arxiv.org/abs/2602.20123)]
 - [2026] **Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?** [[paper](https://arxiv.org/abs/2602.19042)]
+- [2026] **Reinforcement Learning for Quantum Technology** [[paper](https://arxiv.org/abs/2601.18953)]
+- [2026] **Designing and Simulating Quantum LDPC Codes for Superconducting Qubits** *KTH Publication Database DiVA (KTH Royal Institute of Technology)* [[paper](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-590258)]
+
+##### 2025
+
+- [2025] **Fundamental Thresholds for Computational and Erasure Errors via the Coherent Information** *PRX Quantum* [[paper](https://doi.org/10.1103/d8rx-srpn)]
+- [2025] **Assessing Finite Scalability in Early Fault-Tolerant Quantum Computing for Homogeneous Catalysts** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2511.10388)]
+- [2025] **Batched high-rate logical operations for quantum LDPC codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2510.06159)]
+- [2025] **A Comprehensive Review of Recent Progress in Quantum Error Correction: Codes, Decoders, and Fault-Tolerant Architectures** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202509.1037.v1)]
+- [2025] **Compressing Syndrome Measurement Sequences** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.07288)]
+- [2025] **Collective Bit Flipping-Based Decoding of Quantum LDPC Codes** *IEEE Transactions on Communications* [[paper](https://doi.org/10.1109/tcomm.2025.3535897)]
+
+##### 2024
+
+- [2024] **Flag-Proxy Networks: Overcoming the Architectural, Scheduling and Decoding Obstacles of Quantum LDPC Codes** [[paper](https://doi.org/10.1109/micro61859.2024.00059)]
+- [2024] **Non-local resources for error correction in quantum LDPC codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2409.05818)]
+- [2024] **Flag Proxy Networks: Tackling the Architectural, Scheduling, and Decoding Obstacles of Quantum LDPC codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2409.14283)]
+- [2024] **GNarsil: Splitting Stabilizers into Gauges** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2404.18302)]
 
 ##### 2012
 
@@ -566,6 +783,14 @@
 
 - [2026] **Hardware-in-the-Loop Syndrome-to-Decoder Validation for Repetition, Surface, CSS-LDPC, and Digitized-GKP Codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2607.19447)]
 - [2026] **Accelerating Computation in Quantum LDPC Code** [[paper](https://doi.org/10.1145/3779212.3790122)]
+
+##### 2025
+
+- [2025] **Quantum low-density parity-check codes for erasure-biased atomic quantum processors** *Physical Review A* [[paper](https://arxiv.org/abs/2502.20189)]
+
+##### 2024
+
+- [2024] **Small Quantum Codes from Algebraic Extensions of Generalized Bicycle Codes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2401.07583)]
 
 [⬆ Back to top](#paper-list)
 
@@ -582,6 +807,14 @@
 ##### 2026
 
 - [2026] **Hybrid Quantum Error Correction Architecture: 98-Qubit Block + Iceberg + LDPC + Surface Code** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.19437498)]
+
+[⬆ Back to top](#paper-list)
+
+#### Reviews & Surveys
+
+##### 2025
+
+- [2025] **Performance Analysis of Quantum Error Correction Codes in Noisy Intermediate-Scale Quantum (NISQ) Cryptography Authors** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5246913)]
 
 [⬆ Back to top](#paper-list)
 
@@ -615,10 +848,36 @@
 - [2026] **Quantum in the Cloud: Hype vs. Hardware** *Open MIND* [[paper](https://myweirdprompts.com/episode/quantum-cloud-service-reality-2026)]
 - [2026] **Quantum Computing and Industry Transformation** *Auerbach Publications eBooks* [[paper](https://doi.org/10.1201/9781003587835-12)]
 - [2026] **How to Build a Quantum Supercomputer: Enabling Utility-Scale Quantum Computing with HPC-QC Integration** *Underline Science Inc.* [[paper](https://doi.org/10.48448/1n8w-sw25)]
+- [2026] **The Falsification of Standard Quantum Mechanics** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18330899)]
+
+##### 2025
+
+- [2025] **Exploiting Movable Logical Qubits for Lattice Surgery Compilation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.04169)]
+- [2025] **Digital-Analog-Digital Quantum Supremacy** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.07127)]
+- [2025] **Photonic variational quantum eigensolver for NISQ-compatible quantum technology** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.18952)]
+- [2025] **Hamiltonian engineering and quantum compilation** *Univ. Duesseldorf: Duesseldorfer Dokumenten- und Publikationsserver* [[paper](https://docserv.uni-duesseldorf.de/servlets/DocumentServlet?id=71484)]
+- [2025] **A Comprehensive Exploration of the Convergence That Will Define the Next Century of Technology** [[paper](https://doi.org/10.22541/au.176463858.80867931/v1)]
+- [2025] **The Distinction–Duality Experimental Verification Suite: Cross-Platform Tests Using Trapped Ions, Transmon Qubits, and Neutral Atom Optical Lattices** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17659732)]
+- [2025] **Near-term quantum computation with neutral atoms:From electronic states, to gates and algorithms** *TU/e Research Portal* [[paper](https://research.tue.nl/en/publications/25863729-8565-4d4a-81b8-28a57f4ae14f)]
+- [2025] **Hybrid Oscillator-Qubit Quantum Processors: Instruction Set Architectures, Abstract Machine Models, and Applications** *PRX Quantum* [[paper](https://doi.org/10.1103/4rf7-9tfx)]
+- [2025] **Discriminating Transport vs Local Reflection in Quantum Superposition: AModel-Selection Framework with Cross-Platform Protocols** *Figshare* [[paper](https://doi.org/10.6084/m9.figshare.30189760.v5)]
+- [2025] **Awesome Quantum Computing Experiments: Benchmarking Experimental Progress Towards Fault-Tolerant Quantum Computation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.03678)]
+- [2025] **Quantum adventures from analog to digital: gauge, scars and laughlin** [[paper](https://doi.org/10.5821/dissertation-2117-433073)]
+- [2025] **Tailoring the Physicochemical Properties of Nb Thin Films via Surface Engineering Methods** *ACS Applied Materials & Interfaces* [[paper](https://doi.org/10.1021/acsami.4c20490)]
+- [2025] **Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures** [[paper](https://doi.org/10.1145/3696443.3708965)]
+- [2025] **Feasibility Study of a Hybrid Quantum-Classical Setup for Multiple GPUs and Two Photonic Quantum Computers** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-85700-3_25)]
+- [2025] **Quantum computing: An introduction** *Advances in computers* [[paper](https://doi.org/10.1016/bs.adcom.2025.02.008)]
 
 ##### 2024
 
+- [2024] **Guest Editorial: Quantum Computing: A Beacon of Transformation for the Oil and Gas Industry** *Journal of Petroleum Technology* [[paper](https://doi.org/10.2118/1124-0016-jpt)]
+- [2024] **Hybrid Oscillator-Qubit Quantum Processors: Simulating Fermions, Bosons, and Gauge Fields** *Research Portal (King's College London)* [[paper](https://arxiv.org/abs/2409.03747)]
 - [2024] **Promise of Graph Sparsification and Decomposition for Noise Reduction in QAOA: Analysis for Trapped-Ion Compilations** *Quantum* [[paper](https://arxiv.org/abs/2406.14330)]
+- [2024] **Neutral Atom-Based Quantum Computing** [[paper](https://doi.org/10.1007/978-3-031-66477-9_11)]
+
+##### 2023
+
+- [2023] **Qudits for decomposing multiqubit gates and realizing quantum algorithms** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2311.12003)]
 
 [⬆ Back to top](#paper-list)
 
@@ -632,6 +891,37 @@
 - [2026] **Energy efficiency of quantum computers** *HAL (Le Centre pour la Communication Scientifique Directe)* [[paper](https://arxiv.org/abs/2605.15090)]
 - [2026] **Towards automatic evaluation of circuit fault-tolerance** *Aaltodoc (Aalto University)* [[paper](https://aaltodoc.aalto.fi/handle/123456789/144709)]
 - [2026] **QuMod: Parallel Quantum Job Scheduling on Modular QPUs Using Circuit Cutting** [[paper](https://doi.org/10.1109/qcnc69040.2026.00020)]
+- [2026] **Comparative Analysis of Contemporary Quantum Computer Processors: Architectures, Performance, and Perspectives** *IEEE Access* [[paper](https://doi.org/10.1109/access.2026.3670749)]
+- [2026] **A System-Level Survey of Architectures, Noise, and Network Co-Design in QISAC** *IEEE Open Journal of the Communications Society* [[paper](https://doi.org/10.1109/ojcoms.2026.3690761)]
+- [2026] **Toward Scalable Quantum Computing with Superconducting Circuits** *Repository for Publications and Research Data (ETH Zurich)* [[paper](https://hdl.handle.net/20.500.11850/798236)]
+
+##### 2025
+
+- [2025] **Toward Scalable Quantum Computing: A Comparative Review of Qubit Platforms** [[paper](https://doi.org/10.1109/icctit68197.2025.11406484)]
+- [2025] **Microgravity and Near-Absolute Zero: A New Frontier in Quantum Computing Hardware** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.11091)]
+- [2025] **Fault-Tolerant Stabilizer Measurements in Surface Codes with Three-Qubit Gates** *Physical Review Letters* [[paper](https://arxiv.org/abs/2506.09029)]
+- [2025] **Quantum Computing Error Mitigation via the Scalar Temporal Field Ontology: Temporal Dressing, Coherence Stabilization, and τ-Noise Control** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17576870)]
+- [2025] **Investment Risk Assessment: Quantum Computing and Communications - 2029 Fault-Tolerant Milestone Dependency, PQC Market Elimination, and Helium Supply Analysis** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17635288)]
+- [2025] **Beyond Qubits: Multilevel Quantum Sensing for Dark Matter** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2510.19918)]
+- [2025] **Pre-Distillation of Magic States via Composite Schemes** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2510.00804)]
+- [2025] **Efficient fault-tolerant code switching via one-way transversal CNOT gates** *Quantum* [[paper](https://doi.org/10.22331/q-2025-09-03-1846)]
+- [2025] **Application-Driven Benchmarking of the Traveling Salesperson Problem: a Quantum Hardware Deep-Dive** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.16471)]
+- [2025] **A critical analysis of the status of fundamental quantum operations in emerging computing platforms** *Digital Commons at Illinois Wesleyan University (Illinois Wesleyan University)* [[paper](https://digitalcommons.iwu.edu/jwprc/2025/schedule/90)]
+- [2025] **Heisenberg-limited calibration of entangling gates with robust phase estimation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2502.06698)]
+- [2025] **DasAtom: A Divide-and-Shuttle Atom Approach to Quantum Circuit Transformation** *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems* [[paper](https://doi.org/10.1109/tcad.2025.3532818)]
+- [2025] **Toward Scalable Heterogeneous Controller System for Various Quantum Computer by Using Multiple FPGAs** [[paper](https://doi.org/10.1109/icce63647.2025.10930074)]
+- [2025] **Exploration of Design Alternatives for Reducing Idle Time in Shor's Algorithm: A Study on Monolithic and Distributed Quantum Systems** *IEEE Transactions on Quantum Engineering* [[paper](https://arxiv.org/abs/2503.22564)]
+- [2025] **Information Geodynamics: Evidence for a Universal Quantum Decoherence Constant** *Open Science Framework* [[paper](https://doi.org/10.17605/osf.io/aqnxv)]
+- [2025] **A Comparative Review of Quantum Computing: From Foundational Algorithms to Strategic Global Dominance and Real World Applications.** *INTERNATIONAL JOURNAL OF CURRENT SCIENCE* [[paper](https://doi.org/10.56975/ijcsp.v15i4.303502)]
+
+##### 2024
+
+- [2024] **Integration of Quantum Accelerators into HPC: Toward a Unified Quantum Platform** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2407.18527)]
+- [2024] **Scalable Circuit Cutting and Scheduling in a Resource-constrained and Distributed Quantum System** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.04514)]
+
+##### 2023
+
+- [2023] **Superstaq: Deep Optimization of Quantum Programs** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.05157)]
 
 [⬆ Back to top](#paper-list)
 
@@ -641,6 +931,12 @@
 
 - [2026] **XCOM: Full Mesh Network Synchronization and Low-Latency Communication for QICK (Quantum Instrumentation Control Kit)** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2603.18977)]
 
+##### 2025
+
+- [2025] **Quantum Computing in the EuroHPC JU Ecosystem, A Practical Guide for European SMEs** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17832149)]
+- [2025] **Mapping quantum industry demands to education: a critical analysis of skills, qualifications, and modalities** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00406-6)]
+- [2025] **An Overview of Josephson Junctions Based QPUs** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.02500)]
+
 [⬆ Back to top](#paper-list)
 
 #### Development
@@ -648,6 +944,15 @@
 ##### 2026
 
 - [2026] **Quantum Technologies: System-Level Performance and Engineering Priorities** *JPL Data* [[paper](https://doi.org/10.48577/jpl.kfhmwq)]
+- [2026] **Hardware-Aware Compilation for Different Quantum Computing Platforms** [[paper](https://doi.org/10.1007/978-3-032-09303-5_5)]
+
+##### 2025
+
+- [2025] **Power Consumption and Energy Efficiency of Quantum Computing Platforms in High Performance Computing Integration** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-85700-3_24)]
+
+##### 2023
+
+- [2023] **Research Trends in Quantum Computers by Focusing on Qubits as Their Building Blocks** *Quantum Reports* [[paper](https://doi.org/10.3390/quantum5030039)]
 
 [⬆ Back to top](#paper-list)
 
@@ -688,6 +993,7 @@
 - [2026] **Structure-Preserving Quantum Simulation of Wave Equations on a Trapped-Ion Processor** [[paper](https://arxiv.org/abs/2607.28499)]
 - [2026] **An End-to-End Multi-Stage Kill-Chain Attack on Quantum Neural Networks: Demonstration on Trapped-Ion Hardware** [[paper](https://arxiv.org/abs/2607.03337)]
 - [2026] **Substrate-metal interface engineering enhances TaN/Ta thin film superconducting resonator performance** [[paper](https://arxiv.org/abs/2607.22294)]
+- [2026] **Quantum Reservoir Computing: Recent Advances and Future Directions** [[paper](https://arxiv.org/abs/2607.18552)]
 - [2026] **The SQU, TriQ, and SevenQ: Standard Hardware for the Origami ISA** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.20581486)]
 - [2026] **Simulating Condensed Matter Physics on Quantum Hardware** [[paper](https://arxiv.org/abs/2606.02721)]
 - [2026] **Quantum Cinema: An Interactive Cinematic Exploration of Quantum Computing Hardware via Generative World Models** [[paper](https://arxiv.org/abs/2606.17102)]
@@ -744,6 +1050,20 @@
 - [2026] **A frequency-agile microwave-optical interface for superconducting qubits** [[paper](https://arxiv.org/abs/2602.24098)]
 - [2026] **Computing with many encoded logical qubits beyond break-even** [[paper](https://arxiv.org/abs/2602.22211)]
 
+##### 2025
+
+- [2025] **Quantum Deep Learning Still Needs a Quantum Leap** [[paper](https://arxiv.org/abs/2511.01253)]
+- [2025] **Simulation and Benchmarking of Real Quantum Hardware** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-7805606/v1)]
+
+##### 2024
+
+- [2024] **Erasure Decoding for Quantum LDPC Codes via Belief Propagation with Guided Decimation** [[paper](https://arxiv.org/abs/2411.08177)]
+
+##### 2023
+
+- [2023] **Quantum Machine Learning on Near-Term Quantum Devices: Current State of Supervised and Unsupervised Techniques for Real-World Applications** [[paper](https://arxiv.org/abs/2307.00908)]
+- [2023] **Quantum Circuit Components for Cognitive Decision-Making** [[paper](https://arxiv.org/abs/2302.03012)]
+
 [⬆ Back to top](#paper-list)
 
 #### Evaluation & Benchmarks
@@ -791,6 +1111,7 @@
 - [2026] **Single-acquisition tomography of photonic qubits with structured media** [[paper](https://arxiv.org/abs/2607.03052)]
 - [2026] **Demonstration of tripartite cat states in two distinct classes of entanglement** [[paper](https://arxiv.org/abs/2607.12317)]
 - [2026] **Deleterious effect of photon-phonon coupling on microcavities in their application as quantum sources** [[paper](https://arxiv.org/abs/2607.21743)]
+- [2026] **Multi-agent Autoformalization of Tensor Network Theory** [[paper](https://arxiv.org/abs/2607.07857)]
 - [2026] **Entanglement and Wavefunction Collapse as Boundary-Persistence Phenomena: A Falsification Test Programme for Open Quantum Systems** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.20560850)]
 - [2026] **Hyperon-pair spin tomography beyond scalar spin correlations** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2606.24811)]
 - [2026] **$Λ\bar Λ$ spin correlations in high-energy collisions from quantum channels: an open quantum system view of hadronization** [[paper](https://arxiv.org/abs/2606.30737)]
@@ -870,10 +1191,21 @@
 - [2026] **A note on entanglement detection via the generalized realignment moments** [[paper](https://arxiv.org/abs/2602.20763)]
 - [2026] **Teleportation transition of surface codes on a superconducting quantum processor** [[paper](https://arxiv.org/abs/2602.21293)]
 - [2026] **Quantum correlation and coherence in a mononuclear nickel-based molecular Magnet** [[paper](https://arxiv.org/abs/2602.20013)]
+- [2026] **Artificial Entanglement in the Fine-Tuning of Large Language Models** [[paper](https://arxiv.org/abs/2601.06788)]
+- [2026] **ENKI-420/aeterna-porta-v2: # Quantum Zeno Stabilization of Traversable Wormhole Geometries** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18236101)]
 
 ##### 2025
 
+- [2025] **Characterizing Quantum Teleportation as a Noisy Channel via Quantum Process Tomography on IBM Hardware** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17981069)]
 - [2025] **Measurement Strategies and Estimation Precision in Quantum Network Tomography** [[paper](https://arxiv.org/abs/2511.01657)]
+- [2025] **OSI Stack Redesign for Quantum Networks: Requirements, Technologies, Challenges, and Future Directions** [[paper](https://arxiv.org/abs/2506.12195)]
+- [2025] **Topics in Pauli Channel Learning: Quantum Advantages, Quantum Noise Characterization, and Quantum Error Mitigation** *University of Chicago* [[paper](https://doi.org/10.6082/cy53c-q5z57)]
+
+##### 2024
+
+- [2024] **Entanglement-controlled Vectorial Quantum Meta-Holography** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-5307517/v1)]
+- [2024] **Nonlocality Enhanced Precision in Quantum Polarimetry via Entangled Photons** *Advanced Quantum Technologies* [[paper](https://arxiv.org/abs/2402.11932)]
+- [2024] **Lecture notes on quantum entanglement: From stabilizer states to stabilizer channels** *Frontiers of Physics* [[paper](https://doi.org/10.1007/s11467-024-1397-4)]
 
 [⬆ Back to top](#paper-list)
 
@@ -885,6 +1217,38 @@
 - [2026] **Discrete and Continuous Wigner Functions in Open Quantum Systems: Non-Markovian and Thermodynamic Effects** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2605.29717)]
 - [2026] **Quantum-enhanced Network Tomography** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2604.25194)]
 - [2026] **Modulator-free frequency-bin entanglement certification over multimode channels** [[paper](https://doi.org/10.1117/12.3079739)]
+- [2026] **Preparing a Quantum Hybrid Channel Based on the Coupled Multifluxonium System for Optimal Quantum Teleportation** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202500768)]
+- [2026] **Detection of nonabsolute separability in quantum states and channels through moments** *Physical Review A* [[paper](https://arxiv.org/abs/2508.15700)]
+- [2026] **The Extended Spider Test (2026): A Multi-Criterion Geometric Protocol to Operationalize Minimal Consciousness as Emergent Relational Stability within the Universal Relational Dynamics (URD) Framework – Hysteresis, Internal Temporality, Constrained Decoherence, Irreducibility, and Seven Additional Discriminators to Separate Experiential Regimes from Computational Chaos on the QIQB Quantum Cloud** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18364052)]
+
+##### 2025
+
+- [2025] **Resource-efficient quantum correlation measurements via multicopy neural network methods** *Scientific Reports* [[paper](https://arxiv.org/abs/2411.05745)]
+- [2025] **Entanglement-controlled vectorial meta-holography** *Light Science & Applications* [[paper](https://doi.org/10.1038/s41377-025-01818-w)]
+- [2025] **Higher-dimensional entanglement detection and quantum channel characterization using moments of generalized positive maps** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2502.14062)]
+- [2025] **Efficient Measurement of Orbital Angular Momentum Entanglement Using Convolutional Neural Network** *Laser & Photonics Review* [[paper](https://doi.org/10.1002/lpor.202400720)]
+
+##### 2024
+
+- [2024] **Multi-hop quantum teleportation based on HSES via GHZ-like states** *Chinese Physics B* [[paper](https://doi.org/10.1088/1674-1056/ad8db0)]
+- [2024] **Disentanglement in dephasing channel with machine learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2410.21504)]
+
+##### 2023
+
+- [2023] **Entanglement-enabled decoherence-free transmission of two-color photons through a single mode fiber** *Optics Express* [[paper](https://doi.org/10.1364/oe.496570)]
+- [2023] **Efficient Device-Independent Quantum Key Distribution** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2311.09871)]
+
+[⬆ Back to top](#paper-list)
+
+#### Application
+
+##### 2026
+
+- [2026] **Quantum Tomography of Fermion Pairs in $e^+e^-$ Collisions: Longitudinal Beam Polarization Effects** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2602.02719)]
+
+##### 2023
+
+- [2023] **Quantum Routing for Emerging Quantum Networks** *IEEE Network* [[paper](https://doi.org/10.1109/mnet.2023.3317821)]
 
 [⬆ Back to top](#paper-list)
 
@@ -929,7 +1293,23 @@
 ##### 2025
 
 - [2025] **Tight bound for the total time in digital-analog quantum computation** *Physical Review Research* [[paper](https://arxiv.org/abs/2512.11619)]
+- [2025] **In Situ Quantum Analog Pulse Characterization via Structured Signal Processing** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.03193)]
+- [2025] **Ansatz-Free Hamiltonian Learning with Heisenberg-Limited Scaling** *PRX Quantum* [[paper](https://doi.org/10.1103/j7b8-pb77)]
 - [2025] **Exploring Variational Entanglement Hamiltonians** *Quantum* [[paper](https://arxiv.org/abs/2505.10530)]
+- [2025] **Qubits on programmable geometries with a trapped-ion quantum processor** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.111.042607)]
+- [2025] **The Quantum Way of Doing Computations, Simulations and Measurements** *CERN Document Server (European Organization for Nuclear Research)* [[paper](https://cds.cern.ch/record/2947712)]
+- [2025] **Quantum Information for Fusion Energy Sciences (Final Technical Report)** [[paper](https://doi.org/10.2172/2497384)]
+- [2025] **Integration and reliable operation of liquid-gated two-dimensional field-effect transistors based on molybdenum disulfide for biohybrid computation** *RWTH Publications (RWTH Aachen)* [[paper](https://publications.rwth-aachen.de/record/1022619)]
+
+##### 2024
+
+- [2024] **Universal quantum processors in spin systems via robust local pulse sequences** *Quantum* [[paper](https://doi.org/10.22331/q-2024-10-29-1513)]
+- [2024] **Benchmarking bosonic and fermionic dynamics** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2408.11105)]
+- [2024] **Ancillary entangling Floquet kicks for accelerating quantum algorithms** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2408.13345)]
+- [2024] **Zero and Finite Temperature Quantum Simulations Powered by Quantum Magic** *Quantum* [[paper](https://doi.org/10.22331/q-2024-07-23-1422)]
+- [2024] **Fast-forwarding molecular ground state preparation with optimal control on analog quantum simulators** *The Journal of Chemical Physics* [[paper](https://doi.org/10.1063/5.0204618)]
+- [2024] **Seeking a quantum advantage with trapped-ion quantum simulations of condensed-phase chemical dynamics** *Nature Reviews Chemistry* [[paper](https://doi.org/10.1038/s41570-024-00595-1)]
+- [2024] **Quantum many-body approaches to non-conventional topological phases of matter** [[paper](https://doi.org/10.5821/dissertation-2117-421224)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1040,11 +1420,41 @@
 - [2026] **Quantum simulation in the Heisenberg picture via vectorization** [[paper](https://arxiv.org/abs/2602.20154)]
 - [2026] **Entanglement-Induced Resilience of Quantum Dynamics** [[paper](https://arxiv.org/abs/2602.20987)]
 - [2026] **Identifying quantum coherence in quantum annealers** [[paper](https://arxiv.org/abs/2602.21355)]
+- [2026] **Constant Depth Digital-Analog Counterdiabatic Quantum Computing** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2601.01154)]
 
 ##### 2025
 
+- [2025] **Digital-Analog Quantum Computing with Qudits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.17697)]
+- [2025] **Quantum algorithms for viscosity solutions to nonlinear Hamilton-Jacobi equations based on an entropy penalisation method** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.07919)]
 - [2025] **Hamiltonian simulation with explicit formulas for digital-analog quantum computing** *Physical Review A* [[paper](https://arxiv.org/abs/2511.11404)]
+- [2025] **Unifying framework for quantum simulation algorithms for time-dependent Hamiltonian dynamics** *Physical Review Research* [[paper](https://doi.org/10.1103/fkh5-b669)]
+- [2025] **A Framework for Hybrid Analog-Digital Quantum Processors: A Pathway to Mid-Scale Fault Tolerance** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-7915886/v1)]
+- [2025] **Kibble-Zurek dynamical scaling hypothesis in the Google analog-digital quantum simulator of the X X model** *Physical review. B./Physical review. B* [[paper](https://doi.org/10.1103/s2fc-3d18)]
+- [2025] **Quantum Simulation Programming via Typing** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.17343)]
 - [2025] **Simulating electron transfer on noisy quantum computers** *Nature Communications* [[paper](https://arxiv.org/abs/2508.18141)]
+- [2025] **Microwave engineering of tunable spin interactions with superconducting qubits** *Applied Physics Letters* [[paper](https://arxiv.org/abs/2505.16286)]
+- [2025] **Kibble-Zurek dynamical scaling hypothesis in the Google analog-digital quantum simulator of the $XX$ model** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2506.10771)]
+- [2025] **Benchmarking digital–analog quantum computation for the inhomogeneous two-body Ising model** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/add8b6)]
+- [2025] **Single photon coherent Ising machines for constrained optimization problems** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/addde5)]
+- [2025] **Simulating open quantum systems with giant atoms** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/adb2bd)]
+- [2025] **Analog classical simulation of closed quantum systems** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2502.06311)]
+- [2025] **Digital-analog variational neural-simulation hybrid eigensolver with classical shadow** *Japanese Journal of Applied Physics* [[paper](https://doi.org/10.35848/1347-4065/adb438)]
+- [2025] **Mitigating errors in analog quantum simulation by Hamiltonian reshaping or Hamiltonian rescaling** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-00969-3)]
+
+##### 2024
+
+- [2024] **One-Step Combinatorial Optimization Solver with Fully Integrated Analog Memristors and Annealing Module** [[paper](https://doi.org/10.1109/iedm50854.2024.10873331)]
+- [2024] **Uncovering Emergent Spacetime Supersymmetry with Rydberg Atom Arrays** *Physical Review Letters* [[paper](https://doi.org/10.1103/physrevlett.133.223401)]
+- [2024] **Quantum dynamical Hamiltonian Monte Carlo** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.6.033142)]
+- [2024] **Analog quantum simulation of partial differential equations** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/ad49cf)]
+- [2024] **Digital-analog quantum computation with arbitrary two-body Hamiltonians** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.6.013280)]
+- [2024] **SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation** *Proceedings of the ACM on Programming Languages* [[paper](https://arxiv.org/abs/2303.02775)]
+- [2024] **Limitations of probabilistic error cancellation for open dynamics beyond sampling overhead** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.109.012431)]
+- [2024] **Digital-Analog Quantum Computing and Algorithms** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2401.10622)]
+
+##### 2023
+
+- [2023] **Programmable Simulations of Molecules and Materials with Reconfigurable Quantum Processors** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.02265)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1055,6 +1465,10 @@
 - [2026] **Precision quantum simulation of magnon spectra and interactions** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2607.13301)]
 - [2026] **Realization of fermionic Laughlin state on a quantum processor** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-026-72769-y)]
 
+##### 2025
+
+- [2025] **Para-particle oscillator simulations on a trapped-ion quantum computer** *Journal of Applied Physics* [[paper](https://doi.org/10.1063/5.0276426)]
+
 [⬆ Back to top](#paper-list)
 
 #### Development
@@ -1062,6 +1476,14 @@
 ##### 2026
 
 - [2026] **First- and Second-Order Digital Quantum Simulation of Three-Level Jaynes-Cummings Dynamics on Superconducting Quantum Processors** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2602.20614)]
+
+[⬆ Back to top](#paper-list)
+
+#### Systems & Technology
+
+##### 2025
+
+- [2025] **Hybrid Analog-Digital Quantum Processor Architecture for Mid-Scale Fault Tolerance** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8089366/v1)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1124,15 +1546,174 @@
 - [2026] **Latest Developments in Quantum Optimization for Machine Learning** *Auerbach Publications eBooks* [[paper](https://doi.org/10.1201/9781003674566-12)]
 - [2026] **Quantum recurrent neural network for sequential labeling** *Knowledge and Information Systems* [[paper](https://doi.org/10.1007/s10115-026-02685-6)]
 - [2026] **Quantum Machine Learning for Numerical Regression: A Hybrid Quantum-Classical Approach to Predictive Modeling** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18754924)]
+- [2026] **A Survey on Quantum Machine Learning Applications in Medicine and Healthcare** *Applied Sciences* [[paper](https://doi.org/10.3390/app16031630)]
+- [2026] **AI driven quantum machine learning for predictive healthcare analytics** *Biomedical Signal Processing and Control* [[paper](https://doi.org/10.1016/j.bspc.2026.109937)]
+- [2026] **Quantum Machine Learning Performance Analysis: Performance Comparison Between Classical Neural Networks and Quantum Neural Networks** [[paper](https://doi.org/10.1145/3803833.3803843)]
+- [2026] **Entanglement-driven learning-based angle-encoded variational quantum neural network for image classification** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-026-00350-3)]
+- [2026] **Exploring Quantum Machine Learning in Solving Complex Optimization Problems: Algorithms and Insights** *Scientific Journal of Computer Science* [[paper](https://doi.org/10.64539/sjcs.v2i1.2026.396)]
+- [2026] **Quantum machine learning for intelligent health monitoring and prediction in wearable systems** *Open MIND* [[paper](https://hdl.handle.net/20.500.14783/15739)]
+- [2026] **HCF-QNet: A GWO-Optimized Hybrid Contrastive Quantum Neural Network for Chronic Kidney Disease Prediction** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8855764/v1)]
+- [2026] **Quantum Machine Learning in Medical Image Analysis: From Diagnostics to Surgery Planning** *IEEE Access* [[paper](https://doi.org/10.1109/access.2026.3663498)]
+- [2026] **Quantum Intelligence: Accelerating Big Data Analysis with Quantum Computing** *Studies in big data* [[paper](https://doi.org/10.1007/978-3-032-00586-1_5)]
+- [2026] **Comparing Emerging and Hybrid Quantum–Kolmogorov Architectures for Image Classification** *Computers* [[paper](https://doi.org/10.3390/computers15010065)]
+- [2026] **Quantum-Enhanced Artificial Intelligence: The Next Frontier in Computing and Decision-Making** *Studies in big data* [[paper](https://doi.org/10.1007/978-3-032-00586-1_4)]
+- [2026] **Quantum Machine Learning: Merging Quantum and AI** [[paper](https://doi.org/10.1007/978-3-032-10775-6_8)]
+- [2026] **Enhancing Neural Network with Quantum Computing** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-981-96-8350-5_11)]
+- [2026] **Exploring Quantum Machine Learning for PCOS Diagnosis: A Comparative Analysis** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-3-032-06250-5_21)]
+- [2026] **Quantum Artificial Intelligence: From Quantum Neural Networks to Self-Programming Architectures [Feature]** *IEEE Circuits and Systems Magazine* [[paper](https://doi.org/10.1109/mcas.2026.3660997)]
+- [2026] **IQNN-CS: Interpretable Quantum Neural Network for Credit Scoring** *Communications in computer and information science* [[paper](https://arxiv.org/abs/2510.15044)]
+- [2026] **Quantum-Enhanced Security for Edge-IIoT: Robust Intrusion Detection with a Novel Quantum-Classical Neural Network** *Computers, materials & continua/Computers, materials & continua (Print)* [[paper](https://doi.org/10.32604/cmc.2026.083381)]
+- [2026] **A Hybrid Quantum-Classical Machine Learning Framework for Accelerated Drug Discovery** *Procedia Computer Science* [[paper](https://doi.org/10.1016/j.procs.2026.05.089)]
+- [2026] **Hybrid Quantum-Classical Computing for Privacy-Preserving Machine Learning on Edge Devices** [[paper](https://doi.org/10.1109/icoecit68303.2026.11498023)]
+- [2026] **Quantum Computers and Hybrid Machine Learning Models for the Discovery of Lightweight Structural Alloys** *The minerals, metals & materials series* [[paper](https://doi.org/10.1007/978-3-032-13828-6_53)]
+- [2026] **Principles of Quantum Machine Learning: Algorithms, Computational Complexity, and Resource Scaling** [[paper](https://doi.org/10.70593/978-93-7185-361-3)]
+- [2026] **Neural Quantum States in Mixed Precision** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2601.20782)]
 
 ##### 2025
 
+- [2025] **Quantum Topological Graph Neural Networks for Detecting Complex Fraud Patterns** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.03696)]
+- [2025] **Quantum-enhanced hybrid deep reinforcement learning for real-time volleyball tactical decision making** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-025-32780-7)]
+- [2025] **QUANTUM MACHINE LEARNING OVERVIEW** [[paper](https://doi.org/10.58532/nbennurgodpsw6n1)]
+- [2025] **Machine Unlearning in the Era of Quantum Machine Learning: An Empirical Study** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.19253)]
+- [2025] **A Unified Differential Algebraic Closure Framework for Hilbert's 23th problem: From Classical Variational Problems to Stochastic Quantum Machine Learning** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18367799)]
+- [2025] **PVLS: A Learning-based Parameter Prediction Technique for Variational Quantum Linear Solvers** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.04909)]
+- [2025] **Training-efficient density quantum machine learning** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-01099-6)]
+- [2025] **A Quantum Machine Learning Algorithm for Hazelnut Variety Recognition** [[paper](https://doi.org/10.1109/qai63978.2025.00018)]
+- [2025] **Accelerating Many-Body Quantum Chemistry via Generative Transformer-Enhanced Configuration Interaction** *Journal of Chemical Theory and Computation* [[paper](https://doi.org/10.1021/acs.jctc.5c01429)]
+- [2025] **Iterative optimization in quantum metrology and entanglement theory using semidefinite programming** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/ae24a6)]
+- [2025] **Quantum Tensor Network Neural Architecture: Exploiting Partially Symmetric Tensors in Quantum-Limited Neural Networks** [[paper](https://doi.org/10.1109/iceca66444.2025.11383110)]
+- [2025] **Quantum-Enhanced Machine Learning: Algorithms and Challenges in the Noisy Intermediate-Scale Quantum Era** *Computational Mathematics Today* [[paper](https://doi.org/10.64229/jvy76115)]
+- [2025] **Neural Architecture Search for Quantum Autoencoders** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2511.19246)]
+- [2025] **Variational Machine Learning Model for Electronic Structure Optimization via the Density Matrix** *Physical Review Letters* [[paper](https://doi.org/10.1103/wl9w-8g8r)]
+- [2025] **Fourier series guided design of quantum convolutional neural networks for enhanced time series forecasting** *Physica Scripta* [[paper](https://doi.org/10.1088/1402-4896/ae1335)]
+- [2025] **QBrainNet: harnessing enhanced quantum intelligence for advanced brain stroke prediction from medical imaging** *Frontiers in Medicine* [[paper](https://doi.org/10.3389/fmed.2025.1677234)]
+- [2025] **Classical Machine Learning vs Quantum Machine Learning in Computational Chemistry: Hype, Hope, and Horizons** *ChemRxiv* [[paper](https://doi.org/10.26434/chemrxiv-2025-71814)]
+- [2025] **SQFE: A Scalable Quantum Feature Extraction Model for Deep Neural Networks** [[paper](https://doi.org/10.1109/smc58881.2025.11342766)]
+- [2025] **Learning-based approaches for channel estimation in 6G RIS-NOMA systems: from classical to quantum machine learning** *Open MIND* [[paper](https://hdl.handle.net/20.500.14783/15591)]
+- [2025] **Quantum Neural Network Architectures for Multivariate Time-Series Forecasting** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2510.21168)]
+- [2025] **Deep learning optimal molecular scintillators for dark matter direct detection** *Physical review. D/Physical review. D.* [[paper](https://doi.org/10.1103/89gh-lwcd)]
+- [2025] **Knowledge Distillation for Variational Quantum Convolutional Neural Networks on Heterogeneous Data** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.16699)]
+- [2025] **Hybrid Quantum-Classical Machine Learning For Scalable AI Applications** *International Journal of Advances in Signal and Image Sciences* [[paper](https://doi.org/10.29284/9yngyq55)]
 - [2025] **TensorHyper-VQC: a tensor-train-guided hypernetwork for robust and scalable variational quantum computing** *npj Quantum Information* [[paper](https://arxiv.org/abs/2508.01116)]
+- [2025] **SentiQNF: A Novel Approach to Sentiment Analysis Using Quantum Algorithms and Neuro-Fuzzy Systems** *IEEE Transactions on Computational Social Systems* [[paper](https://doi.org/10.1109/tcss.2025.3588779)]
+- [2025] **Machine learning models for predicting the hydrogenic impurity nonlinear optical rectification in GaAs/AlGaAs Tetrapod core/shell quantum dots under the effect of temperature** *Materials Today Physics* [[paper](https://doi.org/10.1016/j.mtphys.2025.101833)]
+- [2025] **Revolutionizing pharmacology: AI-powered approaches in molecular modeling and ADMET prediction** *Medicine in Drug Discovery* [[paper](https://doi.org/10.1016/j.medidd.2025.100223)]
+- [2025] **Variational Quantum Algorithms: From Theory to NISQ-Era Applications Challenges and Opportunities** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202508.1482.v1)]
+- [2025] **Synergizing Edge AI and Quantum Machine Learning for Real-Time Cyber Threat Mitigation** [[paper](https://doi.org/10.4018/979-8-3373-3551-3.ch006)]
+- [2025] **BLS-QLSTM: a novel hybrid quantum neural network for stock index forecasting** *Humanities and Social Sciences Communications* [[paper](https://doi.org/10.1057/s41599-025-05348-z)]
+- [2025] **Formal Verification of Variational Quantum Circuits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.10635)]
+- [2025] **Deep quantum Monte Carlo approach for polaritonic chemistry** *The Journal of Chemical Physics* [[paper](https://arxiv.org/abs/2503.15644)]
+- [2025] **Multi-VQC: A Novel QML Approach for Enhancing Healthcare Classification** [[paper](https://arxiv.org/abs/2505.20797)]
+- [2025] **Hypernuclei with Neural Network Quantum States** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.16994)]
+- [2025] **Editorial: Mind-body medicine and its impacts on psychological networks, quality of life, and health, Volume II** *Frontiers in Integrative Neuroscience* [[paper](https://doi.org/10.3389/fnint.2025.1658381)]
 - [2025] **Learning to maximize quantum neural network expressivity via effective rank** *Quantum Science and Technology* [[paper](https://arxiv.org/abs/2506.15375)]
+- [2025] **Quantum Machine Learning in Drug Discovery: Applications in Academia and Pharmaceutical Industries** *Chemical Reviews* [[paper](https://doi.org/10.1021/acs.chemrev.4c00678)]
+- [2025] **QFDNN: A Resource-Efficient Variational Quantum Feature Deep Neural Networks for Fraud Detection and Loan Prediction** *IEEE Transactions on Computational Social Systems* [[paper](https://doi.org/10.1109/tcss.2025.3568618)]
+- [2025] **Synergizing Quantum Computing and Machine Learning: A Pathway Toward Quantum-Enhanced Intelligence** *Journal of Multiscale Materials Informatics* [[paper](https://doi.org/10.62411/jimat.v2i1.12947)]
+- [2025] **Variational Quantum Convolutional Neural Network Based on Particle Swarm Optimization** [[paper](https://doi.org/10.1109/ngdn66208.2025.11182265)]
+- [2025] **Advancing AI with Quantum Computing: Theoretical Foundations and Future Challenges** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202506.1155.v1)]
+- [2025] **Quantum Neural Networks for Prostate Cancer Detection: A Feasibility and Design Study** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-6957277/v1)]
+- [2025] **AutoML-driven optimization of variational quantum circuit** *Information Sciences* [[paper](https://doi.org/10.1016/j.ins.2025.122272)]
+- [2025] **Qracle: A Graph-Neural-Network-based Parameter Initializer for Variational Quantum Eigensolvers** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2505.01236)]
+- [2025] **Modeling Deep Unfolded Quantum Machine Learning Framework** *IEEE Transactions on Artificial Intelligence* [[paper](https://doi.org/10.1109/tai.2025.3573303)]
+- [2025] **Frontalis Only Contracts in One Direction: AI–Quantum Elasticity and Resistance Gradient Reveals True Nature of Forehead Muscle Movement** *Aesthetic Plastic Surgery* [[paper](https://doi.org/10.1007/s00266-025-04924-7)]
+- [2025] **A short review on qudit quantum machine learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2505.05158)]
+- [2025] **Differentiable Quantum Architecture Search in Quantum-Enhanced Neural Network Parameter Generation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2505.09653)]
+- [2025] **Variational quantum neural networks based on dynamic layerwise strategy** *The Journal of Supercomputing* [[paper](https://doi.org/10.1007/s11227-025-07394-5)]
+- [2025] **Prediction of newly synthesized heparin mimic’s effects as heparanase inhibitor in cancer treatments via variational quantum neural networks** *Computational Biology and Chemistry* [[paper](https://doi.org/10.1016/j.compbiolchem.2025.108476)]
+- [2025] **Lean Classical‐Quantum Hybrid Neural Network Model for Image Classification** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202400703)]
+- [2025] **Finding Key Nodes in Complex Networks Through Quantum Deep Reinforcement Learning** *Entropy* [[paper](https://doi.org/10.3390/e27040382)]
+- [2025] **Input-output optics as a causal time series mapping: A generative machine learning solution** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.7.023015)]
+- [2025] **1Chapter 1 Geometric quantum machine learning (GQML): concepts, challenges, and applications** [[paper](https://doi.org/10.1515/9783111264349-001)]
+- [2025] **Variational Quantum Circuits for Molecular Classification Using Graph Neural Network** [[paper](https://doi.org/10.1109/qcnc64685.2025.00074)]
+- [2025] **Quantum Neural Networks: Bridging Topological Structures and Variational Quantum Circuits** [[paper](https://doi.org/10.1109/smartindustrycon65166.2025.10986184)]
+- [2025] **Integration of parameterized quantum circuits within classical neural network for financial time-series prediction** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00265-5)]
+- [2025] **Hamiltonian Dynamics Learning: A Scalable Approach to Quantum Process Characterization** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2503.24171)]
+- [2025] **Symmetry-invariant quantum machine learning force fields** *New Journal of Physics* [[paper](https://doi.org/10.1088/1367-2630/adad0c)]
+- [2025] **Quantum Graph Neural Network for Resource Management in Wireless Communication** [[paper](https://doi.org/10.1109/icaiic64266.2025.10920694)]
+- [2025] **On hybrid quanvolutional neural networks optimization** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00241-z)]
+- [2025] **QRLaXAI: quantum representation learning and explainable AI** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00253-9)]
+- [2025] **A quantum residual attention neural network for high-precision material property prediction** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04670-4)]
+- [2025] **The Role of Quantum Neural Networks in Fraud Detection: Opportunities and Challenges** *International Journal For Multidisciplinary Research* [[paper](https://doi.org/10.36948/ijfmr.2025.v07i01.37949)]
+- [2025] **A Comparative Analysis of Hybrid-Quantum Classical Neural Networks** *Communications in computer and information science* [[paper](https://doi.org/10.1007/978-3-031-85884-0_9)]
+- [2025] **Studying the Impact of Quantum-Specific Hyperparameters on Hybrid Quantum-Classical Neural Networks** *Communications in computer and information science* [[paper](https://doi.org/10.1007/978-3-031-85884-0_11)]
+- [2025] **Quantum machine learning models in healthcare: future trends and challenges in healthcare** *Elsevier eBooks* [[paper](https://doi.org/10.1016/b978-0-443-29297-2.00003-4)]
+- [2025] **Hybrid quantum neural networks for computer-aided sex diagnosis in forensic and physical anthropology** *Informatics in Medicine Unlocked* [[paper](https://doi.org/10.1016/j.imu.2025.101682)]
+- [2025] **Automated quantum system modeling with machine learning** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/ada79a)]
+- [2025] **Quantum resources of quantum and classical variational methods** *Machine Learning Science and Technology* [[paper](https://doi.org/10.1088/2632-2153/adaca2)]
+- [2025] **Comparing artificial neural networks with variational quantum circuits for biomedical data classification** *MATEC Web of Conferences* [[paper](https://doi.org/10.1051/matecconf/202541702001)]
+- [2025] **Equivalence between exponential concentration in quantum machine learning kernels and barren plateaus in variational algorithms** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2501.07433)]
+- [2025] **Self-consistent electron density with shell structure using neural network-based Pauli potential** *The Journal of Chemical Physics* [[paper](https://doi.org/10.1063/5.0239416)]
+- [2025] **Quantum Machine Learning (QML)** [[paper](https://doi.org/10.1007/978-981-96-5051-4_5)]
+- [2025] **Machine learning meets quantum** *Elsevier eBooks* [[paper](https://doi.org/10.1016/b978-0-443-24834-4.00014-x)]
+- [2025] **Quantum Neural Networks: From Concept to Simulation** *Information systems engineering and management* [[paper](https://doi.org/10.1007/978-3-031-99786-0_16)]
+- [2025] **Research on Several Problems of Quantum Machine Learning** *The Sydney eScholarship Repository (The University of Sydney)* [[paper](https://hdl.handle.net/2123/34924)]
+- [2025] **The neural-network quantum states for solid-state materials** *Digital Repository (National Repository of Grey Literature)* [[paper](https://www.nusl.cz/ntk/nusl-686790)]
+- [2025] **Evaluating Parameter-Based Training Performance of Neural Networks and Variational Quantum Circuits** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-97635-3_33)]
+- [2025] **Interpreting convolutional neural networks' low-dimensional approximation to quantum spin systems** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.7.013094)]
 
 ##### 2024
 
+- [2024] **Leveraging Pre-Trained Neural Networks to Enhance Machine Learning with Variational Quantum Circuits** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-5442273/v1)]
+- [2024] **Optimizing Feature Selection for Predictive Analytics With Quantum Algorithms** *Advances in marketing, customer relationship management, and e-services book series* [[paper](https://doi.org/10.4018/979-8-3693-7673-7.ch009)]
+- [2024] **Quantum Machine Learning Techniques for Network Defense: Comparative Study of Quantum vs. Classical Approaches** *International Research Journal on Advanced Engineering and Management (IRJAEM)* [[paper](https://doi.org/10.47392/irjaem.2024.0564)]
+- [2024] **The Stabilizer Bootstrap of Quantum Machine Learning with up to 10000 qubits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2412.11356)]
+- [2024] **Lean classical-quantum hybrid neural network model for image classification** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2412.02059)]
+- [2024] **Trainability enhancement of parameterized quantum circuits via reduced-domain parameter initialization** *Physical Review Applied* [[paper](https://doi.org/10.1103/physrevapplied.22.054005)]
+- [2024] **Automated detection of brain disease using quantum machine learning** *Brain-Computer Interfaces* [[paper](https://doi.org/10.1016/b978-0-323-95439-6.00022-3)]
+- [2024] **Unsupervised representation learning of Kohn–Sham states and consequences for downstream predictions of many-body effects** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-024-53748-7)]
+- [2024] **Hybrid Quantum-Classical Neural Networks and its Hyperparameter Optimization-A Study** [[paper](https://doi.org/10.1109/cosmic63293.2024.10871871)]
 - [2024] **Resource-efficient equivariant quantum convolutional neural networks** *Quantum Machine Intelligence* [[paper](https://arxiv.org/abs/2410.01252)]
+- [2024] **Hands-On Introduction to Quantum Machine Learning** [[paper](https://doi.org/10.1145/3627673.3679103)]
+- [2024] **Expressibility-induced concentration of quantum neural tangent kernels** *Reports on Progress in Physics* [[paper](https://doi.org/10.1088/1361-6633/ad82cf)]
+- [2024] **Deep learning route to quantum materials: A domain agnostic analytic continuation mapping** *Materials Science in Semiconductor Processing* [[paper](https://doi.org/10.1016/j.mssp.2024.109002)]
+- [2024] **Parallel proportional fusion of a spiking quantum neural network for optimizing image classification** *Applied Intelligence* [[paper](https://doi.org/10.1007/s10489-024-05786-3)]
+- [2024] **Quantum Neural Networks the Next Leap in Artificial Intelligence** *Journal of Science Technology and Engineering Research* [[paper](https://doi.org/10.64206/ae446m02)]
+- [2024] **Quantum AI in Speech Emotion Recognition** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-4894795/v1)]
+- [2024] **Neural-network quantum states for many-body physics** *The European Physical Journal Plus* [[paper](https://arxiv.org/abs/2402.11014)]
+- [2024] **Higher-order equivariant neural networks for charge density prediction in materials** *npj Computational Materials* [[paper](https://doi.org/10.1038/s41524-024-01343-1)]
+- [2024] **Hybrid Quantum Neural Network Approaches to Protein–Ligand Binding Affinity Prediction** *Mathematics* [[paper](https://doi.org/10.3390/math12152372)]
+- [2024] **Solving deep-learning density functional theory via variational autoencoders** *Machine Learning Science and Technology* [[paper](https://doi.org/10.1088/2632-2153/ad611f)]
+- [2024] **Comparative Analysis of Heart Failure Detection Using Quantum Enhanced Machine Learning** [[paper](https://doi.org/10.1201/9781003534112-46)]
+- [2024] **Improved optimization for the neural-network quantum states and tests on the chromium dimer** *The Journal of Chemical Physics* [[paper](https://doi.org/10.1063/5.0214150)]
+- [2024] **Second-order optimization strategies for neural network quantum states** *Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences* [[paper](https://doi.org/10.1098/rsta.2024.0057)]
+- [2024] **Real-time dynamics of the Schwinger model as an open quantum system with Neural Density Operators** *Journal of High Energy Physics* [[paper](https://arxiv.org/abs/2402.06607)]
+- [2024] **Quantum Machine Learning: Algorithms, Applications, and Limitations** *Journal of Science Technology and Engineering Research* [[paper](https://doi.org/10.64206/6mennf14)]
+- [2024] **Predicting quantum learnability from landscape fluctuation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2406.11805)]
+- [2024] **Hybrid Quantum-Classical Neural Network for Multimodal Multitask Sarcasm, Emotion, and Sentiment Analysis** *IEEE Transactions on Computational Social Systems* [[paper](https://doi.org/10.1109/tcss.2024.3388016)]
+- [2024] **Model-Based Practically Precise Fabrication of HgSe Quantum Dots toward Their Application in a Long-Wave Infrared Micro Spectrometer** *ACS Applied Materials & Interfaces* [[paper](https://doi.org/10.1021/acsami.4c03967)]
+- [2024] **Art makes quantum intuitive** *Frontiers in Quantum Science and Technology* [[paper](https://dx.doi.org/10.3389/frqst.2024.1397130)]
+- [2024] **Facial Emotion Recognition Through Quantum Machine learning** [[paper](https://doi.org/10.1109/ickecs61492.2024.10616819)]
+- [2024] **Muon/pion identification at BESIII based on variational quantum classifier** *The European Physical Journal Plus* [[paper](https://doi.org/10.1140/epjp/s13360-024-05144-9)]
+- [2024] **Quantum-Enhanced Neural Exchange-Correlation Functionals** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2404.14258)]
+- [2024] **Unsupervised Learning of Individual Kohn-Sham States: Interpretable Representations and Consequences for Downstream Predictions of Many-Body Effects** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2404.14601)]
+- [2024] **Hybrid classical-quantum transfer learning for text classification** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-024-00147-2)]
+- [2024] **Laziness, barren plateau, and noises in machine learning** *Machine Learning Science and Technology* [[paper](https://doi.org/10.1088/2632-2153/ad35a3)]
+- [2024] **Network intrusion detection based on variational quantum convolution neural network** *The Journal of Supercomputing* [[paper](https://doi.org/10.1007/s11227-024-05919-y)]
+- [2024] **Variational Quantum Circuits Enhanced Generative Adversarial Network** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2402.01791)]
+- [2024] **A light-weight quantum self-attention model for classical data classification** *Applied Intelligence* [[paper](https://doi.org/10.1007/s10489-024-05337-w)]
+- [2024] **Optimizing Multidimensional Pooling for Variational Quantum Algorithms** *Algorithms* [[paper](https://doi.org/10.3390/a17020082)]
+- [2024] **On scalable quantum-inspired distributed machine learning** *HAL (Le Centre pour la Communication Scientifique Directe)* [[paper](https://hal.science/hal-04447195)]
+- [2024] **HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2024.3481280)]
+- [2024] **Radio Signal Classification by Adversarially Robust Quantum Machine Learning** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-3842432/v1)]
+- [2024] **Quantum Graph Neural Networks Based Protein-Ligand Classification** *Communications in computer and information science* [[paper](https://doi.org/10.1007/978-3-031-68617-7_11)]
+- [2024] **Hybrid Quanvolutional Regression Neural Network: Quantum Advantage for Near-term Autonomous Machine** [[paper](https://doi.org/10.36227/techrxiv.170250776.61395845/v3)]
+- [2024] **A Machine Learning Model for Predicting Enantioselectivity in Hypervalent Iodine(III) Catalyzed Asymmetric Phenolic Dearomatizations** *CCS Chemistry* [[paper](https://doi.org/10.31635/ccschem.024.202303774)]
+- [2024] **Predicting Cardiovascular Disease with Classical and Quantum Machine Learning** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.4972236)]
+- [2024] **"Quantum Machine Learning Algorithms for Complex Optimization Problems"** *International Journal of Intelligent Systems and Applications in Engineering* [[paper](https://doi.org/10.17762/ijisae.v12i4.6663)]
+- [2024] **Second-order optimisation strategies for neural network quantum states** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2401.17550)]
+- [2024] **Analog Quantum Machine Learning Models on Neat-Term Devices** *Digital Access to Scholarship at Harvard (DASH) (Harvard University)* [[paper](https://nrs.harvard.edu/URN-3:HUL.INSTREPOS:37379764)]
+
+##### 2023
+
+- [2023] **A Brief Survey on Efficient Models for Qubits Encoding Using Quantum Machine Learning With Multi Level Time Series Data Classification** [[paper](https://doi.org/10.1109/i-pact58649.2023.10434762)]
+- [2023] **Quantum data learning for quantum simulations in high-energy physics** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.5.043250)]
+- [2023] **Machine learning quantum mechanical ground states based on stochastic mechanics** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.108.062412)]
+- [2023] **Uso de computación cuántica en la mejora de algoritmos de aprendizaje automático** *Revista Científica Ciencia y Método* [[paper](https://doi.org/10.55813/gaea/rcym/v1/n4/25)]
+- [2023] **Quantum convolutional neural network based on variational quantum circuits** *Optics Communications* [[paper](https://doi.org/10.1016/j.optcom.2023.129993)]
+- [2023] **Advanced fractional calculus, differential equations and neural networks: analysis, modeling and numerical computations** *Physica Scripta* [[paper](https://doi.org/10.1088/1402-4896/acfe73)]
+- [2023] **Expressive variational quantum circuits provide inherent privacy in federated learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.13002)]
+- [2023] **Provable learning of quantum states with graphical models** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.09235)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1306,15 +1887,224 @@
 - [2026] **Reinforcement Learning for Path Integrals in Quantum Statistical Physics** [[paper](https://arxiv.org/abs/2602.16176)]
 - [2026] **Comparing Classical and Quantum Variational Classifiers on the XOR Problem** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2602.24220)]
 - [2026] **Stochastic Neural Networks for Quantum Devices** [[paper](https://arxiv.org/abs/2602.22241)]
+- [2026] **Scalable Quantum Machine Learning via Multi-layer Fully-Connected Variational Quantum Circuits** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2602.16623)]
+- [2026] **Quantum Chebyshev transform-based graph neural networks for financial fraud detection** *Singapore Management University Institutional Knowledge (InK) (Singapore Management University)* [[paper](https://ink.library.smu.edu.sg/sis_research/11041)]
+- [2026] **Hybrid Quantum–Classical Machine Learning for Robust Satellite Image Classification on EuroSAT** [[paper](https://doi.org/10.55056/ceur-ws.org/vol-4164/short1.pdf)]
+- [2026] **Quantum Machine Learning: A Review of Hybrid Classical-Quantum Approaches** *Quanta* [[paper](https://doi.org/10.12743/quanta.94)]
+- [2026] **A Hybrid Quantum-Enhanced Sandwich Convolutional Neural Network for Medical Image Classification** *Current Bioinformatics* [[paper](https://doi.org/10.2174/0115748936418250251104114256)]
+- [2026] **Quantum variational graph-driven neural framework for genomic-clinical integration in precision diagnosis** *Health Information Science and Systems* [[paper](https://doi.org/10.1007/s13755-025-00424-9)]
+- [2026] **Evaluation of Quantum Machine Learning Models for Network Anomaly Detection** *Deakin Research Online (Deakin University)* [[paper](https://doi.org/10.26187/deakin.32869601)]
+- [2026] **From quantum-enhanced machine learning to machine learning-enhanced quantum calculations** *cIRcle (University of British Columbia)* [[paper](https://hdl.handle.net/2429/93767)]
+- [2026] **Quantum Neural Network Realization of XOR on a Desktop Quantum Computer** *Sensors* [[paper](https://doi.org/10.3390/s26030854)]
+- [2026] **Neural network approach for correlated quantum materials** *DR-NTU (Nanyang Technological University)* [[paper](https://hdl.handle.net/10356/214610)]
+- [2026] **Machine Learning and Quantum Machine Learning: A Comprehensive Review of Algorithms, Applications, and Future Directions** *International Journal of Advanced Engineering Research and Science* [[paper](https://doi.org/10.22161/ijaers.131.5)]
+- [2026] **HEART DISEASE RISK PREDICITION USING QUANTUM MACHINE LEARNING** *Technix International Journal for Engineering Research* [[paper](https://doi.org/10.56975/tijer.v13i4.161926)]
+- [2026] **Exploring the Synergy of Quantum-Classical Integration in Machine Learning Algorithms** [[paper](https://doi.org/10.1109/icsft66733.2026.11508098)]
+- [2026] **Generalized Lanczos method for systematic optimization of neural-network quantum states** *Physical review. B./Physical review. B* [[paper](https://arxiv.org/abs/2502.01264)]
+- [2026] **Hybrid Quantum - Classical Neural Networks for Enhanced Network Anomaly Detection** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.20719429)]
+- [2026] **Quantum-Enhanced Learning: A Versatile Python Framework** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-3-032-18846-5_30)]
+- [2026] **A Hybrid Quantum-Classical Machine Learning Framework for Early and Accurate Diagnosis of Chronic Diseases** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202601.0376.v1)]
+- [2026] **Enhancing credit scoring with hybrid quantum machine learning architectures** *eNTUKhPIIR Repository (Kharkiv Polytechnic Institute)* [[paper](https://repository.kpi.kharkov.ua/handle/KhPI-Press/103810)]
+- [2026] **Exploring Applications of Deep Learning for Quantum Architecture Search** *Research Repository UCD (University College Dublin)* [[paper](https://hdl.handle.net/10197/32271)]
 
 ##### 2025
 
 - [2025] **Parallel Multi-Circuit Quantum Feature Fusion in Hybrid Quantum-Classical Convolutional Neural Networks for Breast Tumor Classification** [[paper](https://arxiv.org/abs/2512.02066)]
+- [2025] **A Review of Quantum Machine Learning and Quantum-inspired Applied Methods to Computational Fluid Dynamics** *Brazilian Journal of Physics* [[paper](https://doi.org/10.1007/s13538-025-01959-8)]
+- [2025] **Novel Quantum Machine Learning Framework for Brain Tumor Classification from MRI Images** [[paper](https://doi.org/10.1109/cict67193.2025.11399051)]
+- [2025] **Lalasa Quantum Computing Method: A Unique Quantum Convolutional Neural Network Architecture** [[paper](https://doi.org/10.1109/elexcom67950.2025.11451378)]
+- [2025] **A quantum-classical hybrid neural network for hate speech detection in Spanish** *Expert Systems with Applications* [[paper](https://doi.org/10.1016/j.eswa.2025.130859)]
+- [2025] **Quantum Machine Learning in Cybersecurity: A Review of Quantum-Safe and Quantum-Enhanced Approaches** [[paper](https://doi.org/10.1109/icspc68261.2025.11326546)]
+- [2025] **Face Gender Recognition Using Hybrid Quantum Machine Learning** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17817585)]
+- [2025] **Quantum Machine Learning for Cybersecurity: A Taxonomy and Future Directions** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2512.15286)]
+- [2025] **Training Quantum Recurrent Neural Networks on a Josephson Integrated Circuit** *Journal of Experimental and Theoretical Physics Letters* [[paper](https://doi.org/10.1134/s0021364025609649)]
+- [2025] **Layerwise Noise Sensitivity in Quantum Neural Networks for NISQ Devices** [[paper](https://doi.org/10.1109/indicon68490.2025.11393039)]
+- [2025] **Quantum–inspired Methods for Training Machine Learning Models** *International Journal of Information Technology and Computer Science* [[paper](https://doi.org/10.5815/ijitcs.2025.06.08)]
+- [2025] **How does Quantum Machine Learning (QML) improve optimization in complex systems compared to classical machine learning algorithms?** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8394559/v1)]
+- [2025] **Hybrid Quantum Neural Network for Predicting Corrosion Inhibition Efficiency of Organic Molecules** *Journal of Multiscale Materials Informatics* [[paper](https://doi.org/10.62411/jimat.v2i2.15132)]
+- [2025] **Q-ForecasterNet: A Hybrid Quantum Neural Network for Sales Forecasting** [[paper](https://doi.org/10.1109/cicn67655.2025.11367825)]
+- [2025] **Post-Variational Quantum Neural Networks on a Hybrid HPC-QC System** [[paper](https://doi.org/10.1145/3731599.3767540)]
+- [2025] **Representation learning with parameterised quantum circuits for advancing speech emotion recognition** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-025-27871-4)]
+- [2025] **Unveiling the nature of graphs through quantum graphon learning** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-01141-7)]
+- [2025] **Pitfalls when tackling the exponential concentration of parameterized quantum models** *Quantum Science and Technology* [[paper](https://arxiv.org/abs/2507.22054)]
+- [2025] **Towards Symmetry-Aware Efficient Simulation of Quantum Systems and Beyond** [[paper](https://arxiv.org/abs/2303.11409)]
+- [2025] **A Comprehensive Review of Hybrid Quantum–Classical Approaches for Image Classification** [[paper](https://doi.org/10.1109/gcwcn66157.2025.11448343)]
+- [2025] **Recent Developments in Quantum Machine Learning** [[paper](https://doi.org/10.1109/iipem65914.2025.11547992)]
+- [2025] **Comparison of deep neural networks and variational quantum circuits for quark-gluon jet classification** *Journal of Physics G Nuclear and Particle Physics* [[paper](https://doi.org/10.1088/1361-6471/ae20b0)]
+- [2025] **Toward Automated Quantum Machine Learning: A Review of Principles, Status, Advances, and A Pathway to AutoQML** [[paper](https://doi.org/10.1109/automation66991.2025.11390016)]
+- [2025] **Quantum Machine Learning for Disease Prediction: A Comparative and Multimodal Study on Early-Stage and Chronic Conditions** [[paper](https://doi.org/10.1109/etcom66606.2025.11436834)]
+- [2025] **Quantum Deep Learning for Massive MIMO User Scheduling** [[paper](https://doi.org/10.1109/vtc2025-fall65116.2025.11310669)]
+- [2025] **Evaluate Hybrid Classical-Quantum Architecture in Deep Image Processing** [[paper](https://doi.org/10.1109/icset65917.2025.11284197)]
+- [2025] **Adapting Quantum Machine Learning for Energy Dissociation of Bonds** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2510.06563)]
+- [2025] **Quantum Machine Learning Models for Enhanced Weather Prediction** [[paper](https://doi.org/10.1109/aimlsystems67835.2025.11330613)]
+- [2025] **Quantum Machine Learning with Enhanced Autoencoders for Intrusion Detection** [[paper](https://doi.org/10.5753/sscad.2025.16683)]
+- [2025] **Quantum Machine Learning for Drug Discovery: From Molecular Descriptors to Explainable Quantum Pharmacology** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202510.0790.v1)]
+- [2025] **Quantum Machine Learning for Anomaly Detection in Brain Imaging Related to Mental Health** [[paper](https://doi.org/10.1109/sita67914.2025.11273773)]
+- [2025] **Quantum Machine Learning for UAV Swarm Intrusion Detection** [[paper](https://arxiv.org/abs/2509.01812)]
+- [2025] **A comparative analysis and noise robustness evaluation in quantum neural networks** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-025-17769-6)]
+- [2025] **Grapevine disease detection using (q,τ)-nabla calculus quantum deformation with deep learning features** *MethodsX* [[paper](https://doi.org/10.1016/j.mex.2025.103619)]
+- [2025] **Quantum Machine Learning-Based Intrusion Detection: A Comparative Study on Real Quantum Hardware** [[paper](https://doi.org/10.1109/sisy67000.2025.11205415)]
+- [2025] **Leveraging recurrence in neural network wavefunctions for large-scale simulations of Heisenberg antiferromagnets on the square lattice** *Physical review. B./Physical review. B* [[paper](https://doi.org/10.1103/6ccd-wzhz)]
+- [2025] **Quantum Machine Learning for EV Mobile Charging Prediction** [[paper](https://doi.org/10.1109/upec65436.2025.11279729)]
+- [2025] **The Future of Breast Cancer Diagnosis: Benchmarking Quantum Machine Learning Models against Classical Techniques** *International Journal on Science and Technology* [[paper](https://doi.org/10.71097/ijsat.v16.i3.8236)]
+- [2025] **Mutual information maximizing quantum generative adversarial networks** *Scientific Reports* [[paper](https://arxiv.org/abs/2309.01363)]
+- [2025] **Neural network based nodal structure optimization for interacting fermionic systems** *Physical review. B./Physical review. B* [[paper](https://doi.org/10.1103/x6cj-b6lj)]
+- [2025] **A Hybrid Framework Integrating QML, AI, and Quantum-Safe Cryptography for Cybersecurity** *Journal of Computational and Cognitive Engineering* [[paper](https://doi.org/10.47852/bonviewjcce52025121)]
+- [2025] **Quantum-Enhanced Reflection Equivariant Neural Networks for Predicting Rutting in Pet Bituminous Layers Under Load and Temperature Variations** [[paper](https://doi.org/10.1109/icicnct66124.2025.11233151)]
+- [2025] **Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.03495)]
+- [2025] **Towards Blind Quantum Machine Learning in Entanglement Networks** [[paper](https://doi.org/10.1145/3749096.3750027)]
+- [2025] **Quantum-Enhanced Battery Anomaly Detection in Smart Transportation Systems** *Applied Sciences* [[paper](https://doi.org/10.3390/app15179452)]
+- [2025] **Data for Physics-informed Hamiltonian learning for large-scale optoelectronic property prediction** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2508.20536)]
+- [2025] **Quantum machine learning for sleep staging of EEG signals** [[paper](https://doi.org/10.1117/12.3074685)]
+- [2025] **Predicting SoH in Lithium-ion Batteries using a Variational Quantum Neural Network** [[paper](https://doi.org/10.1109/cits65975.2025.11099466)]
+- [2025] **Quantum Machine Learning for Energy-Efficient 5G-Enabled IoMT Healthcare Systems: Enhancing Data Security and Processing** *IEEE Internet of Things Journal* [[paper](https://doi.org/10.1109/jiot.2025.3586090)]
+- [2025] **Federated Quantum Generative Adversarial Network for Intrusion Detection** [[paper](https://doi.org/10.1109/icdcsw63273.2025.00018)]
+- [2025] **Revolutionizing smart farming: Quantum computing applications in plant disease detection: A hybrid quantum-classical approach for sustainable agriculture** *International Journal of Computing Programming and Database Management* [[paper](https://doi.org/10.33545/27076636.2025.v6.i2b.127)]
+- [2025] **Meta-learning of Gibbs states for many-body Hamiltonians with applications to Quantum Boltzmann Machines** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2507.16373)]
+- [2025] **Enhancing mpMRI-Based Prostate Cancer Detection by Ensemble Quantum Machine Learning Models** *Nigerian Journal of Physics* [[paper](https://doi.org/10.62292/10.62292/njp.v34i2.2025.404)]
+- [2025] **Hybrid quantum neural networks with variational quantum regressor for enhancing QSPR modeling of CO2-capturing amine** *EPJ Quantum Technology* [[paper](https://arxiv.org/abs/2503.00388)]
+- [2025] **A quantum neural network-based approach to power quality disturbances detection and recognition** *Physica Scripta* [[paper](https://doi.org/10.1088/1402-4896/adda9e)]
+- [2025] **Variational Quantum Regression Application in Modeling Monthly River Discharge** *Water* [[paper](https://doi.org/10.3390/w17121836)]
+- [2025] **QFEVAL: Quantum Federated Ensembled Variational Adaptive Learning for Dynamic Security Assessment in Cyber-Physical Systems** *IEEE Journal on Selected Areas in Communications* [[paper](https://doi.org/10.1109/jsac.2025.3574588)]
+- [2025] **Quantum analysis of protein–ligand binding by integrating structural resolution, sequence homology, and ligand properties** *bioRxiv (Cold Spring Harbor Laboratory)* [[paper](https://doi.org/10.1101/2025.06.27.661905)]
+- [2025] **The effect of Quantum Time Crystal Computing to Quantum Machine Learning methods** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2506.12788)]
+- [2025] **Devanagari Digit Recognition using Quantum Machine Learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2506.09069)]
+- [2025] **Comparative Analysis of Neural Network and Quantum Neural Network for Enhanced Air Quality Forecasting** [[paper](https://doi.org/10.1109/icmisi65108.2025.11115298)]
+- [2025] **Revolutionizing Financial Services with Quantum Machine Learning Techniques** *Semarak International Journal of Machine Learning* [[paper](https://doi.org/10.37934/sijml.3.1.110a)]
+- [2025] **Learning Fourier series with parametrized quantum circuits** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.7.023151)]
+- [2025] **Quantum Machine Learning and Data Re-Uploading: Evaluation on Benchmark and Laboratory Medicine Datasets** *medRxiv* [[paper](https://doi.org/10.1101/2025.05.14.25327605)]
+- [2025] **Quantum-Enhanced Deep Learning for Predictive Diagnostics and Personalized Treatment in Smart Healthcare Systems** [[paper](https://doi.org/10.1109/icpcsn65854.2025.11035338)]
+- [2025] **Error-Corrected Quantum CNN for Gender-Based Micro-Expression Analysis in Affective Computing** [[paper](https://doi.org/10.1109/ichora65333.2025.11017004)]
+- [2025] **Learning to Program Quantum Measurements for Machine Learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2505.13525)]
+- [2025] **Implementing Quantum Machine Learning in Credit Card Fraud Detection** [[paper](https://doi.org/10.1109/netcrypt65877.2025.11102604)]
+- [2025] **Effect of Atomic Charges on C2H2/CO2/CH4 Separation Performances of Covalent‐Organic Framework Adsorbents** *Advanced Theory and Simulations* [[paper](https://doi.org/10.1002/adts.202500060)]
+- [2025] **Learning to Measure Quantum Neural Networks** [[paper](https://doi.org/10.1109/icasspw65056.2025.11011001)]
+- [2025] **Quantum Neural Network Integrating with Gradient Descent Techniques for Enhanced Learning** [[paper](https://doi.org/10.23919/indiacom66777.2025.11115552)]
+- [2025] **Tensor ring optimized quantum-enhanced tensor neural networks** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00281-5)]
+- [2025] **Qsco: A Quantum Scoring Module for Open-Set Supervised Anomaly Detection** *Proceedings of the AAAI Conference on Artificial Intelligence* [[paper](https://doi.org/10.1609/aaai.v39i19.34190)]
+- [2025] **Learning density functionals from noisy quantum data** *Machine Learning Science and Technology* [[paper](https://doi.org/10.1088/2632-2153/adcb89)]
+- [2025] **Predictive control of blast furnace temperature in steelmaking with hybrid depth-infused quantum neural networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.12389)]
+- [2025] **Deep Learning with Quantum Computing Leveraging risk assessment financial optimization and detection of frauds** [[paper](https://doi.org/10.1109/iccies63851.2025.11033124)]
+- [2025] **Domain Adaptation Method Inspired by Quantum Convolutional Neural Network** *Chinese Physics B* [[paper](https://doi.org/10.1088/1674-1056/adc7ed)]
+- [2025] **Quantum neural network quantum state** [[paper](https://doi.org/10.1117/12.3059735)]
+- [2025] **Quantum-Enhanced Machine Learning: Harnessing Quantum Computing for Next-Generation AI Systems** [[paper](https://doi.org/10.62311/nesx/rrv125)]
+- [2025] **Quantum Machine Learning: Bridging Quantum Computing and AI for Exponential Gains** *International Journal of Scientific Research in Computer Science Engineering and Information Technology* [[paper](https://doi.org/10.32628/cseit251112393)]
+- [2025] **Quantum-Assisted Machine Learning Models for Enhanced Weather Prediction** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2503.23408)]
+- [2025] **HWDQT: A hybrid quantum machine learning method for ultra-short-term distributed photovoltaic power prediction** *Computers & Electrical Engineering* [[paper](https://doi.org/10.1016/j.compeleceng.2025.110122)]
+- [2025] **A Hybrid Quantum-Classical Machine Learning Approach for Self-Interference Cancellation in Full-Duplex Transceivers** *IEEE Communications Letters* [[paper](https://doi.org/10.1109/lcomm.2025.3543318)]
+- [2025] **Recurrent Neural Network/Machine Learning Predictions of Reactive Channels in H+ + C2H4 at E Lab = 30 eV : A Prototype of Ion Cancer Therapy Reactions** *Journal of Computational Chemistry* [[paper](https://doi.org/10.1002/jcc.70033)]
+- [2025] **A Novel Framework for Quantum-Enhanced Federated Learning with Edge Computing for Advanced Pain Assessment Using ECG Signals via Continuous Wavelet Transform Images** *Sensors* [[paper](https://doi.org/10.3390/s25051436)]
+- [2025] **Neural network based deep learning analysis of semiconductor quantum dot qubits for automated control** *Physical review. B./Physical review. B* [[paper](https://doi.org/10.1103/physrevb.111.035301)]
+- [2025] **Quantum Optimization, Machine Learning, Annealing, and Neural Networks** [[paper](https://doi.org/10.1201/9781003537243-5)]
+- [2025] **Jet discrimination with a quantum complete graph neural network** *Physical review. D/Physical review. D.* [[paper](https://doi.org/10.1103/physrevd.111.016020)]
+- [2025] **Variational Shadow Quantum Circuits Assisted Quantum Convolutional Neural Network** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202400510)]
+- [2025] **DAQFL: Dynamic Aggregation Quantum Federated Learning Algorithm for Intelligent Diagnosis in Internet of Medical Things** *IEEE Internet of Things Journal* [[paper](https://doi.org/10.1109/jiot.2025.3537614)]
+- [2025] **Quantum neural compressive sensing for ghost imaging** *Physical Review Applied* [[paper](https://arxiv.org/abs/2502.17790)]
+- [2025] **Quantum Neural Networks: A Comparative Analysis and Noise Robustness Evaluation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2501.14412)]
+- [2025] **Exoplanet discovery with variational quantum circuits** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-024-00229-1)]
+- [2025] **Implementing Hybrid Quantum Neural Networks for Accurate Wildfire Detection** [[paper](https://doi.org/10.1109/comsnets63942.2025.10885552)]
+- [2025] **A Topical Review of Quantum and Classical Machine Learning Approaches to Disaster Escape Routing Problems** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3567667)]
+- [2025] **A Quantum Circuit Learning-based Investigation: A Case Study in Iris Benchmark Dataset Binary Classification** *Journal of Computing Theories and Applications* [[paper](https://doi.org/10.62411/jcta.11779)]
+- [2025] **Enhancing Catalyst Performance Prediction with Hybrid Quantum Neural Networks: A Comparative Study on Data Consistency Variation** *ACS Sustainable Chemistry & Engineering* [[paper](https://doi.org/10.1021/acssuschemeng.4c08534)]
+- [2025] **Hybrid Quantum-Based Machine Learning Algorithm for Amyotrophic Lateral Sclerosis Detection Using EMG Signals** *Lecture notes in electrical engineering* [[paper](https://doi.org/10.1007/978-981-97-9112-5_32)]
+- [2025] **A Hybrid Quantum-Classical Approach for Multi-Class Skin Disease Classification Using a 4-Qubit Model** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3581030)]
+- [2025] **Adiabatic Training for Variational Quantum Algorithms** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-90200-0_8)]
+- [2025] **Accelerated Prediction of Terahertz Performance Metrics in GaN IMPATT Sources via Artificial Neural Networks** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3567410)]
+- [2025] **A Hybrid Quantum–Classical LSTM Approach for Predicting the Stock Market** *Information systems engineering and management* [[paper](https://doi.org/10.1007/978-3-031-99786-0_4)]
+- [2025] **Quantum Machine Learning for AGI: Redefining Intelligence Through Quantum Algorithms** [[paper](https://doi.org/10.1007/978-3-031-87931-9_13)]
+- [2025] **Investigation of Frustrated Quantum Spin Systems Using Tensor Network and Machine Learning Approaches** *Digital Repository (National Repository of Grey Literature)* [[paper](https://www.nusl.cz/ntk/nusl-690219)]
+- [2025] **Optimal control and machine learning of quantum device dynamics** *JuSER Publikationsportal* [[paper](https://doi.org/10.34734/fzj-2025-04205)]
+- [2025] **Study of nanostructures coupled with a superconducting lead via the neural-network quantum states methods** *Metal ...* [[paper](https://doi.org/10.37904/metal.2025.5156)]
+- [2025] **Review of Optimization Techniques and Barren Plateaus in Training of Quantum Machine Learning Problems** *Lecture notes in electrical engineering* [[paper](https://doi.org/10.1007/978-981-97-4711-5_1)]
+- [2025] **Study of nanostructures coupled with a superconducting lead via the neural-network quantum states methods.\n** *Digital Repository (National Repository of Grey Literature)* [[paper](https://www.nusl.cz/ntk/nusl-692764)]
 
 ##### 2024
 
 - [2024] **Polynomially efficient quantum enabled variational Monte Carlo for training neural-network quantum states for physico-chemical applications** *npj Quantum Information* [[paper](https://arxiv.org/abs/2412.12398)]
+- [2024] **Coherent feed-forward quantum neural network** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-024-00222-8)]
+- [2024] **Quantum Machine Learning for Rotating Machinery Prognostics and Health Management** [[paper](https://doi.org/10.1109/icscna63714.2024.10864129)]
+- [2024] **Stock price prediction: a comparative analysis of classical and quantum neural networks** *East African Journal of Science Technology and Innovation* [[paper](https://doi.org/10.37425/2hj0r024)]
+- [2024] **EQNN: Enhanced Quantum Neural Network — A Case Study of Mobile Data Usage Prediction** [[paper](https://arxiv.org/abs/2411.17726)]
+- [2024] **Classification Analysis of Transition Metal Compounds Using Quantum Machine Learning** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202400081)]
+- [2024] **Quantum machine learning enhanced laser speckle analysis for precise speed prediction** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-024-78884-4)]
+- [2024] **NN-AE-VQE: Neural network parameter prediction on autoencoded variational quantum eigensolvers** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2411.15667)]
+- [2024] **Discrete real-time learning of quantum-state subspace evolution of many-body systems in the presence of time-dependent control fields** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.052412)]
+- [2024] **Utilizing Quantum Variational Circuits to Perform Quantum Convolutions in Hybrid "Quanvolutional" Neural Networks for Skin Cancer Detection** [[paper](https://doi.org/10.1109/icicml63543.2024.10957945)]
+- [2024] **Q-SCALE: Quantum computing-based Sensor Calibration for Advanced Learning and Efficiency** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2410.02998)]
+- [2024] **Learning Hard Quantum Distributions with Generative Neural Networks** [[paper](https://dx.doi.org/10.1109/icds62089.2024.10756372)]
+- [2024] **Specialising neural-network quantum states for the Bose Hubbard model** *Journal of Physics B Atomic Molecular and Optical Physics* [[paper](https://doi.org/10.1088/1361-6455/ad7e87)]
+- [2024] **A machine learning framework for quantum cascade laser design** *APL Machine Learning* [[paper](https://doi.org/10.1063/5.0222812)]
+- [2024] **Quantum Computational Intelligence Techniques: A Scientometric Mapping** *Archives of Computational Methods in Engineering* [[paper](https://doi.org/10.1007/s11831-024-10183-7)]
+- [2024] **Hybrid Quantum-Classical Computing in Federated Learning With Data Heterogeneity** [[paper](https://doi.org/10.1109/pimrc59610.2024.10817181)]
+- [2024] **Merging Artificial Intelligence (AI) and Machine Learning (ML) With Quantum Technology** [[paper](https://doi.org/10.1201/9781032642079-5)]
 - [2024] **A brief review of quantum machine learning techniques for financial services** *Machine Learning Science and Technology* [[paper](https://arxiv.org/abs/2407.12618)]
+- [2024] **Quantum-Classical-Quantum Workflow in Quantum-HPC Middleware with GPU Acceleration** [[paper](https://doi.org/10.1109/qcnc62729.2024.00017)]
+- [2024] **Quantum Artificial Intelligence: Enhancing Machine Learning with Quantum Computing** *Journal of Quantum Science and Technology.* [[paper](https://doi.org/10.36676/jqst.v1.i2.9)]
+- [2024] **VQCNN: variational quantum convolutional neural networks based on quantum filters and fully connected layers** *The Computer Journal* [[paper](https://doi.org/10.1093/comjnl/bxae062)]
+- [2024] **13 Quantum-enhanced neural networks: bridging the quantum algorithm and machine learning** [[paper](https://doi.org/10.1515/9783111342276-013)]
+- [2024] **Machine Learning Accelerates Precise Excited-State Potential Energy Surface Calculations on a Quantum Computer** *The Journal of Physical Chemistry Letters* [[paper](https://doi.org/10.1021/acs.jpclett.4c01445)]
+- [2024] **HQC-MCDCNN: a novel hybrid quantum–classical multi-path denoising convolutional neural network** *Physica Scripta* [[paper](https://doi.org/10.1088/1402-4896/ad619c)]
+- [2024] **Predicting Grapevine Physiological Parameters Using Hyperspectral Remote Sensing Integrated with Hybrid Convolutional Neural Network and Ensemble Stacked Regression** *Remote Sensing* [[paper](https://doi.org/10.3390/rs16142626)]
+- [2024] **Enhanced power system fault detection using quantum‐AI and herd immunity quantum‐AI fault detection with herd immunity optimisation in power systems** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.12106)]
+- [2024] **Quantum Face Recognition With Multigate Quantum Convolutional Neural Network** *IEEE Transactions on Artificial Intelligence* [[paper](https://doi.org/10.1109/tai.2024.3419077)]
+- [2024] **Learning to Program Variational Quantum Circuits with Fast Weights** [[paper](https://doi.org/10.1109/ijcnn60899.2024.10650743)]
+- [2024] **Enhanced cardiovascular disease prediction through self-improved Aquila optimized feature selection in quantum neural network & LSTM model** *Frontiers in Medicine* [[paper](https://doi.org/10.3389/fmed.2024.1414637)]
+- [2024] **Towards interpretable quantum machine learning via single-photon quantum walks** *Quantum Science and Technology* [[paper](https://doi.org/10.1088/2058-9565/ad5907)]
+- [2024] **Evaluating Efficacy of Model Stealing Attacks and Defenses on Quantum Neural Networks** [[paper](https://doi.org/10.1145/3649476.3658806)]
+- [2024] **Analytical Challenges of Quantum and Classical Computing in Thailand: A Comparative Exploration of Machine Learning Through Classification** [[paper](https://doi.org/10.1109/times-icon61890.2024.10630768)]
+- [2024] **On the relation between trainability and dequantization of variational quantum learning models** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2406.07072)]
+- [2024] **Exploring Hybrid Quantum-Classical Machine Learning for Respiratory Sound Analysis** [[paper](https://dx.doi.org/10.1109/melecon56669.2024.10608509)]
+- [2024] **A Web Application for Training Quantum Classifiers via Evolutionary Algorithms** [[paper](https://doi.org/10.1109/fuzz-ieee60900.2024.10611855)]
+- [2024] **Optimizing Variational Quantum Neural Networks Based on Collective Intelligence** *Mathematics* [[paper](https://doi.org/10.3390/math12111627)]
+- [2024] **Variational denoising for variational quantum eigensolver** *Physical Review Research* [[paper](https://doi.org/10.1103/physrevresearch.6.023181)]
+- [2024] **Quantum Convolutional Neural Network based on Variational Quantum Fuzzy Inference** [[paper](https://dx.doi.org/10.1109/ispds62779.2024.10667586)]
+- [2024] **Diabetic Retinopathy Detection Using Quantum Transfer Learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.01734)]
+- [2024] **Graph Neural Networks for Parameterized Quantum Circuits Expressibility Estimation (Rev.1)** [[paper](https://doi.org/10.2172/2350603)]
+- [2024] **Improving 2–5 Qubit Quantum Phase Estimation Circuits Using Machine Learning** *Algorithms* [[paper](https://doi.org/10.3390/a17050214)]
+- [2024] **Leveraging Data Locality in Quantum Convolutional Classifiers** *Entropy* [[paper](https://doi.org/10.3390/e26060461)]
+- [2024] **An Independent Implementation of Quantum Machine Learning Algorithms in Qiskit for Genomic Data** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.09781)]
+- [2024] **Graph Neural Networks for Parameterized Quantum Circuits Expressibility Estimation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.08100)]
+- [2024] **Understanding the effects of data encoding on quantum-classical convolutional neural networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.03027)]
+- [2024] **Classification analysis of transition-metal chalcogenides and oxides using quantum machine learning** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.18989)]
+- [2024] **Variational quantum circuit-based quantum machine learning approach for predicting corrosion inhibition efficiency of pyridine-quinoline compounds** *Materials Today Quantum* [[paper](https://doi.org/10.1016/j.mtquan.2024.100007)]
+- [2024] **Let quantum neural networks choose their own frequencies** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.109.042421)]
+- [2024] **VIOLET: Visual Analytics for Explainable Quantum Neural Networks** *IEEE Transactions on Visualization and Computer Graphics* [[paper](https://doi.org/10.1109/tvcg.2024.3388557)]
+- [2024] **Quantum Recurrent Neural Networks: Predicting the Dynamics of Oscillatory and Chaotic Systems** *Algorithms* [[paper](https://doi.org/10.3390/a17040163)]
+- [2024] **Device Simulation Based Machine Learning Technique for III V TFET** [[paper](https://dx.doi.org/10.1109/raeeucci61380.2024.10547980)]
+- [2024] **Variational shadow quantum neural network based on immune optimisation algorithm** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-024-04363-4)]
+- [2024] **Parallel Proportional Fusion of Spiking Quantum Neural Network for Optimizing Image Classification** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2404.01359)]
+- [2024] **Quantifying the thickness of WTe2 using atomic-resolution STEM simulations and supervised machine learning** *The Journal of Chemical Physics* [[paper](https://doi.org/10.1063/5.0188928)]
+- [2024] **Quantum Topic Model: Topic Modeling Using Variational Quantum Circuits** [[paper](https://doi.org/10.1109/icassp48485.2024.10447349)]
+- [2024] **QuantumLeak: Stealing Quantum Neural Networks from Cloud-based NISQ Machines** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2403.10790)]
+- [2024] **Jet Discrimination with Quantum Complete Graph Neural Network** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2403.04990)]
+- [2024] **A framework for demonstrating practical quantum advantage: comparing quantum against classical generative models** *Communications Physics* [[paper](https://doi.org/10.1038/s42005-024-01552-6)]
+- [2024] **Impact of conditional modelling for a universal autoregressive quantum state** *Quantum* [[paper](https://doi.org/10.22331/q-2024-02-08-1245)]
+- [2024] **Coherent Feed Forward Quantum Neural Network** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2402.00653)]
+- [2024] **Deep Q-learning with hybrid quantum neural network on solving maze problems** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-023-00137-w)]
+- [2024] **Evaluating the Computational Advantages of the Variational Quantum Circuit Model in Financial Fraud Detection** *IEEE Access* [[paper](https://doi.org/10.1109/access.2024.3432312)]
+- [2024] **Variational quantum neural network with optimized ansatz for predicting malignant ventricular arrhythmias** *Procedia Computer Science* [[paper](https://doi.org/10.1016/j.procs.2024.10.234)]
+- [2024] **Time-Series Forecasting Using Continuous Variables-Based Quantum Neural Networks** [[paper](https://doi.org/10.1109/comsnets59351.2024.10427192)]
+- [2024] **Weight Re-mapping for Variational Quantum Algorithms** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-031-55326-4_14)]
+- [2024] **HQMC-CPC: A Hybrid Quantum Multiclass Cardiac Pathologies Classification Integrating a Modified Hardware Efficient Ansatz** *IEEE Access* [[paper](https://doi.org/10.1109/access.2024.3360139)]
+- [2024] **A Comprehensive Survey on Quantum Machine Learning Algorithms for Fraud Detection in Financial Sectors** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.4792054)]
+- [2024] **Quantum Deep Equilibrium Models** [[paper](https://arxiv.org/abs/2410.23940)]
+- [2024] **Proposed Model for QCNN-Based Sentimental Short Sentences Classification** *Lecture notes on data engineering and communications technologies* [[paper](https://doi.org/10.1007/978-3-031-59707-7_19)]
+
+##### 2023
+
+- [2023] **Scalable imaginary time evolution with neural network quantum states** *SciPost Physics* [[paper](https://doi.org/10.21468/scipostphys.15.6.229)]
+- [2023] **Machine learning one-dimensional spinless trapped fermionic systems with neural-network quantum states** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.108.063320)]
+- [2023] **Variational Quantum Domain Adaptation** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.09563)]
+- [2023] **Financial fraud detection: A comparative study of quantum machine learning models** *International Journal of Quantum Information* [[paper](https://doi.org/10.1142/s0219749923500442)]
+- [2023] **Experimental Benchmarking of Quantum Machine Learning Classifiers** [[paper](https://doi.org/10.1109/icspis60075.2023.10343811)]
+- [2023] **Clustering neural quantum states via diffusion maps** *Physical review. B./Physical review. B* [[paper](https://doi.org/10.1103/physrevb.108.205152)]
+- [2023] **Towards Transfer Learning for Large-Scale Image Classification Using Annealing-based Quantum Boltzmann Machines** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2311.15966)]
+- [2023] **Pulse-efficient quantum machine learning** *Quantum* [[paper](https://doi.org/10.22331/q-2023-10-09-1130)]
+- [2023] **Hybrid framework for respiratory lung diseases detection based on classical CNN and quantum classifiers from chest X-rays** *Biomedical Signal Processing and Control* [[paper](https://doi.org/10.1016/j.bspc.2023.105567)]
+- [2023] **Hybrid Quantum-Classical Machine Learning for Dementia Detection** [[paper](https://doi.org/10.1109/urtc60662.2023.10535034)]
+- [2023] **Approximately Equivariant Quantum Neural Network for $p4m$ Group Symmetries in Images** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2310.02323)]
+- [2023] **Hybrid quantum-classical graph neural networks for tumor classification in digital pathology** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2310.11353)]
+- [2023] **Finding the Dynamics of an Integrable Quantum Many‐Body System via Machine Learning** *Advanced Physics Research* [[paper](https://dx.doi.org/10.1002/apxr.202300078)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1325,10 +2115,39 @@
 - [2026] **vmc_torch: Flexible Variational Monte Carlo for Quantum Many-Body Systems with PyTorch** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.21798762)]
 - [2026] **Dissipative Tensor Rotation Networks: A Classical Architecture for Parameter-Efficient Machine Learning and Strongly-Correlated Quantum Chemistry** *Open MIND* [[paper](https://github.com/dxg197/dtrn-structured-qc/tree/v1.00)]
 - [2026] **Generative quantum machine learning for particle physics** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18877708)]
+- [2026] **Quantum Convolutional Neural Networks: A Survey on Architectures, Applications, and Future Directions** *IEEE Transactions on Neural Networks and Learning Systems* [[paper](https://doi.org/10.1109/tnnls.2026.3677762)]
+- [2026] **On measurement-dependent variance in quantum neural networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2601.08029)]
+- [2026] **Multi-state Prepration through Optimized Quantum Implicit Neural Network with Application in Image Representation** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.6350465)]
 
 ##### 2025
 
+- [2025] **Impact of Single Rotations and Entanglement Topologies in Quantum Neural Networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.15722)]
 - [2025] **Application of quantum machine learning using variational quantum classifier in accelerator physics** *Nuclear Science and Techniques* [[paper](https://arxiv.org/abs/2506.06662)]
+- [2025] **Unlocking the high dimensional’ potential: Comparative analysis of qubits and qutrits in variational quantum neural networks** *Neurocomputing* [[paper](https://doi.org/10.1016/j.neucom.2025.129404)]
+- [2025] **Quantum machine learning: current trends and applications** *Elsevier eBooks* [[paper](https://doi.org/10.1016/b978-0-443-29096-1.00004-0)]
+
+##### 2024
+
+- [2024] **Kolmogorov-Arnold Networks: Key Developments and Uses** *Qeios* [[paper](https://doi.org/10.32388/7nncaa)]
+- [2024] **RETRACTED ARTICLE: E-healthcare application cyber security analysis using quantum machine learning in malicious user detection** *Optical and Quantum Electronics* [[paper](https://doi.org/10.1007/s11082-023-05854-x)]
+
+[⬆ Back to top](#paper-list)
+
+#### Development
+
+##### 2026
+
+- [2026] **On the importance of fundamental properties in quantum-classical machine learning models** *International Journal of Parallel Emergent and Distributed Systems* [[paper](https://arxiv.org/abs/2507.10161)]
+- [2026] **A Systematic Review of Quantum Machine Learning Models for Image Classification** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-3-032-31119-1_43)]
+
+##### 2025
+
+- [2025] **Comprehensive analysis of nonlinear effects in fiber optic communication systems: exploring SPM, XPM, SS, and FWM** *Journal of Optics* [[paper](https://doi.org/10.1007/s12596-025-02492-2)]
+- [2025] **Reinventing Smart Farming Using Adaptive Quantum Machine Learning Model** *Journal of Information Systems Engineering & Management* [[paper](https://doi.org/10.52783/jisem.v10i5s.665)]
+
+##### 2024
+
+- [2024] **Implementation of quantum machine learning in predicting corrosion inhibition efficiency of expired drugs** *Materials Today Communications* [[paper](https://doi.org/10.1016/j.mtcomm.2024.109830)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1337,6 +2156,16 @@
 ##### 2026
 
 - [2026] **Fault-tolerant quantum neural networks suppressing barren plateaus via localised cost functions and shallow parametrised architectures** *Pramana* [[paper](https://doi.org/10.1007/s12043-025-03097-x)]
+- [2026] **Comparative performance analysis of quantum machine learning architectures for credit card fraud detection** *Applied Intelligence* [[paper](https://arxiv.org/abs/2412.19441)]
+
+##### 2025
+
+- [2025] **Calibration-Aware Graph Neural Networks for Robust and Scalable Quantum Error Mitigation** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8236164/v1)]
+
+##### 2024
+
+- [2024] **Utilizing a Hybrid Matrix Product State and Variational Quantum Circuit Architecture for the Detection of Kidney Diseases** [[paper](https://doi.org/10.1109/icmla61862.2024.00281)]
+- [2024] **Restricting to the chip architecture maintains the quantum neural network accuracy** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-024-04336-7)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1347,9 +2176,22 @@
 - [2026] **Stock Prediction and Trading from OHLCV Data: A Quantum- Enhanced Learning-Based Comparison** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-9653068/v1)]
 - [2026] **Comparing quantum and classical machine learning for radar-based drone classification: a like-for-like benchmark on noisy data** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8437365/v1)]
 
+##### 2025
+
+- [2025] **Design and evaluation of a quantum variational graph auto-encoder using quantum graph neural networks** *Quantum Machine Intelligence* [[paper](https://doi.org/10.1007/s42484-025-00325-w)]
+
 [⬆ Back to top](#paper-list)
 
 #### Reviews & Surveys
+
+##### 2026
+
+- [2026] **Reliability assessment of variational quantum neural networks under noise models and error-mitigation strategies in the NISQ regime** *Journal of the Korean Physical Society* [[paper](https://doi.org/10.1007/s40042-026-01581-0)]
+- [2026] **Adversarial Threats in Quantum Machine Learning: A Survey of Attacks and Defenses** *Quantum science and technology* [[paper](https://arxiv.org/abs/2506.21842)]
+
+##### 2025
+
+- [2025] **Machine Learning-Driven Materials Discovery: Unlocking Next-Generation Functional Materials – a Minireview** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5219988)]
 
 ##### 2016
 
@@ -1526,10 +2368,224 @@
 - [2026] **Efficient Soft-Output Guessing for Enhanced Quantum Tanner Code Decoding** [[paper](https://arxiv.org/abs/2603.18318)]
 - [2026] **Quantum Entanglement Assistance Improves the Capacity and Activates the Zero-Error Capacity of Classical Channels with Causal CSIT** [[paper](https://arxiv.org/abs/2603.20416)]
 - [2026] **Improved Decoding of Quantum Tanner Codes Using Generalized Check Nodes** [[paper](https://arxiv.org/abs/2603.05486)]
+- [2026] **High-speed phase-encoded quantum key distribution over a 1.4-km free-space channel** *Optica Quantum* [[paper](https://doi.org/10.1364/opticaq.577031)]
+- [2026] **A Systematic Literature Review: Quantum Key Distribution Networks: Challenges and Future Research Issues in Security** *Science Discovery Physics* [[paper](https://doi.org/10.11648/j.sdp.20260101.12)]
+- [2026] **Hybrid quantum–chaotic key expansion enhances QKD rates using the Lorenz system** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-026-37470-6)]
+- [2026] **A Post-Quantum Secure RFID Authentication Protocol Based on NTRU Encryption Algorithm** *Sensors* [[paper](https://doi.org/10.3390/s26031038)]
+- [2026] **Integrated quantum photonics on thin-film lithium niobate** *Progress in Quantum Electronics* [[paper](https://doi.org/10.1016/j.pquantelec.2026.100614)]
+- [2026] **Enhancing Cryptographic Key Distribution Using Hybrid Quantum Classical Paradigms** [[paper](https://doi.org/10.1109/esic68176.2026.11496128)]
+- [2026] **A Framework for Quantum-Secured Nextgeneration Communication Networks Using Quantum Cryptography** [[paper](https://doi.org/10.1109/idciot67589.2026.11455849)]
+- [2026] **Resisting Quantum Key Distribution Attacks Using Quantum Machine Learning** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.70028)]
+- [2026] **Quantum-Inspired Machine Learning Models for Secure Cryptographic Communication** [[paper](https://doi.org/10.1109/sceecs68810.2026.11430007)]
+- [2026] **Quantum Computing in Security and Cryptography: Challenges and Future Directions** *Studies in big data* [[paper](https://doi.org/10.1007/978-3-032-00586-1_10)]
+- [2026] **Quantum cryptography assessing the security and practicality of quantum key distribution in modern communication networks** *Journal of Discrete Mathematical Sciences and Cryptography* [[paper](https://doi.org/10.47974/jdmsc-2549)]
+- [2026] **Bit Security of Quantum Key Search** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-032-10536-3_10)]
+- [2026] **A Post-Quantum Resistant Lightweight Key Authentication and Exchange Protocol for Smart Home Environments** *IEEE Access* [[paper](https://doi.org/10.1109/access.2026.3684316)]
+- [2026] **A Low-Latency Post-Quantum Group Authentication Framework for VANETs** *IEEE Networking Letters* [[paper](https://doi.org/10.1109/lnet.2026.3666683)]
+- [2026] **Integer factorization via tensor-network Schnorr's sieving** *Physical Review A* [[paper](https://arxiv.org/abs/2410.16355)]
+- [2026] **Integrated BB84 Quantum Key Distribution for Hybrid Cryptographic Systems** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18667197)]
+- [2026] **Quantum Paradox: Redefining Secure Communication With Quantum and Post-Quantum Cryptographic Breakthroughs** *IEEE Access* [[paper](https://doi.org/10.1109/access.2026.3716526)]
+- [2026] **Quantum Security—Cryptography and Threat Landscape** [[paper](https://doi.org/10.1007/978-3-032-10775-6_9)]
+- [2026] **Novel Quantum Cryptography Protocol for Secure Satellite Communication** [[paper](https://doi.org/10.1109/iitcee67948.2026.11394447)]
+- [2026] **Research on Wireless Communication Based on Quantum Cryptography Technology** [[paper](https://doi.org/10.1109/cnml68938.2026.11452548)]
+- [2026] **Advancing Secure Communication in the Quantum Era through the Integration of Artificial Intelligence and Quantum Cryptographic Techniques: Author's Country: India** *DOAJ (DOAJ: Directory of Open Access Journals)* [[paper](https://doaj.org/article/cc739d1629de429ca8a774189feb6963)]
+- [2026] **Kerberos-Authenticated Classical Channel for Quantum Key Distribution: A Symmetric-Key Approach to Quantum-Safe Authentication** [[paper](https://doi.org/10.1109/ccnc65079.2026.11366285)]
+- [2026] **Building Future-Proof IoT Networks with Quantum Cryptography and Quantum Machine Learning** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-3-032-28310-8_11)]
 
 ##### 2025
 
 - [2025] **Combined Quantum and Post-Quantum Security Performance Under Finite Keys** [[paper](https://arxiv.org/abs/2512.04429)]
+- [2025] **Secure Quantum Key Distribution Protocol for Hybrid Classical-Quantum Networks** [[paper](https://doi.org/10.1109/ictbig68706.2025.11323882)]
+- [2025] **An AI-Enhanced Quantum Key Management for Cloud-Based Aviation Communication Systems** *Engineering Technology & Applied Science Research* [[paper](https://doi.org/10.48084/etasr.14245)]
+- [2025] **Scalable, Fault-Tolerant Quantum Algorithms for Cryptanalysis-Resistant Communications** [[paper](https://doi.org/10.1109/ised67359.2025.11405294)]
+- [2025] **Cryptography Meets Worst-case Complexity: Optimal Security and More From iO and Worst-case Assumptions** [[paper](https://doi.org/10.1109/focs63196.2025.00032)]
+- [2025] **Quantum Authentication for Data Security: A Review of Data Leakage Protection Strategies** *International Journal of Research and Innovation in Social Science* [[paper](https://doi.org/10.47772/ijriss.2025.914mg00243)]
+- [2025] **Quantum Cryptography Simulation** [[paper](https://doi.org/10.1109/icaft66710.2025.11453266)]
+- [2025] **Three party quantum key distribution using bilocality** *Optical and Quantum Electronics* [[paper](https://doi.org/10.1007/s11082-025-08612-3)]
+- [2025] **Quantum‐Key‐Distribution‐Based Quantum Private Query with Phase Encoding** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202500471)]
+- [2025] **Integrating quantum computing with federated learning for enhanced security and privacy in IoT networks** *Results in Engineering* [[paper](https://doi.org/10.1016/j.rineng.2025.108500)]
+- [2025] **Quantum Blockchain: A Theoretical Framework and Applications in Cryptocurrency** *International Journal of Financial Studies* [[paper](https://doi.org/10.3390/ijfs13040220)]
+- [2025] **Leveraging Quantum Key Distribution for Secure Communication in Next-Gen IoT Ecosystems** [[paper](https://doi.org/10.1109/iccca66364.2025.11325551)]
+- [2025] **Quantum Unbreakable Blockchain-Enhanced Security & Cryptography** [[paper](https://doi.org/10.1109/aisummit66170.2025.11411027)]
+- [2025] **Research on the Commercial Cryptography Protection Framework for the Power Sector: A Roadmap from Legacy Cryptography to Post-Quantum Migration** [[paper](https://doi.org/10.1109/cei66465.2025.11398533)]
+- [2025] **Journey into Quantum Computing—Cryptographic Security and Learning Algorithms** [[paper](https://doi.org/10.1201/9781003538950-12)]
+- [2025] **Quantum Cryptography and Key Distribution for Secure Communication in the Post Quantum World** [[paper](https://doi.org/10.1109/icscn67106.2025.11308316)]
+- [2025] **Quantum Computing for Big Data Optimization in Decentralized Smart Grids: A Comprehensive Review of Computation, Security, and P2P Energy Transactions** [[paper](https://doi.org/10.36227/techrxiv.175393426.64156699/v2)]
+- [2025] **Quantum Cryptography for Secure FANET** [[paper](https://doi.org/10.1002/9781394231089.ch4)]
+- [2025] **Quantum Cryptography for Secure Tourism Transactions** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17906296)]
+- [2025] **Blockchain-Enabled Secure Signature Scheme With Quantum Key Distribution for IoMT-Based Healthcare Systems** *IEEE Journal of Biomedical and Health Informatics* [[paper](https://doi.org/10.1109/jbhi.2025.3614874)]
+- [2025] **Hybrid Quantum Cryptography from Communication Complexity** *Quantum* [[paper](https://doi.org/10.22331/q-2025-09-24-1862)]
+- [2025] **Integrating Post-Quantum Cryptography, Quantum Key Distribution, and AI for Next-Generation Secure Communication** [[paper](https://doi.org/10.36227/techrxiv.175756493.32852931/v2)]
+- [2025] **DEVELOPMENT OF QUANTUM KEY EXCHANGE MECHANISMS FOR SECURING MEDICAL CYBER-PHYSICAL SYSTEMS** *International Journal of Apllied Mathematics* [[paper](https://doi.org/10.12732/ijam.v38i1s.27)]
+- [2025] **A Verifiable Dynamic (t,n) Threshold Quantum Secret Sharing Protocol with Authentication** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202500449)]
+- [2025] **Security challenges from physical to network layers in satellite free-space optical communication** *Journal of Optical Communications* [[paper](https://doi.org/10.1515/joc-2025-0350)]
+- [2025] **Quantum-Resistant Safety Message Authentication for NextG C-V2X: A Cross-Layer Approach** [[paper](https://doi.org/10.36227/techrxiv.175751197.77663474/v1)]
+- [2025] **Quantum-Enhanced Wireless Security Framework using SARG04-based QKD and Q-MIC Integration for IEEE 802.11 Networks** [[paper](https://doi.org/10.1109/icimia67127.2025.11200925)]
+- [2025] **Cryptography and the Quantum Computing Threat** [[paper](https://doi.org/10.4018/979-8-3373-3166-9.ch005)]
+- [2025] **Simulations and Theoretical Background: Quantum Entanglement in Photonic Quantum Computing and Cryptography** [[paper](https://doi.org/10.1109/nusod64393.2025.11199727)]
+- [2025] **Implementation of carrier-grade quantum communication networks over 10000 km** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-01089-8)]
+- [2025] **A Direct Product Theorem for Quantum Communication Complexity with Applications to Device-Independent Cryptography** *SIAM Journal on Computing* [[paper](https://doi.org/10.1137/23m1549353)]
+- [2025] **Entangled Quantum Walkers for Secure Quantum Key Distribution** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2508.05593)]
+- [2025] **A Comprehensive Study on Advancements and Challenges in Quantum Cryptography** [[paper](https://doi.org/10.1109/icsit65336.2025.11295474)]
+- [2025] **Design of a QKD protocol resistant to insider attacks in fully connected decentralized networks** *Eastern-European Journal of Enterprise Technologies* [[paper](https://doi.org/10.15587/1729-4061.2025.337992)]
+- [2025] **QUANTUM-ENHANCED EMAIL SECURITY: LEVERAGING QUANTUM KEY DISTRIBUTION FOR NEXT-GENERATION DATA PROTECTION** *Journal of Science Engineering Technology and Management Sciences* [[paper](https://doi.org/10.64771/jsetms.2025.v02.i08.pp567-577)]
+- [2025] **Experimental composable key distribution using discrete-modulated continuous variable quantum cryptography** *Light Science & Applications* [[paper](https://doi.org/10.1038/s41377-025-01924-9)]
+- [2025] **Entropy Accumulation Under Post-Quantum Cryptographic Assumptions** *Entropy* [[paper](https://doi.org/10.3390/e27080772)]
+- [2025] **Quantum Key Distribution in Next-Generation Networks: Protocols, Performance, and Challenges** *International Journal of Advanced Research in Science Communication and Technology* [[paper](https://doi.org/10.48175/ijarsct-28396)]
+- [2025] **Qryptic: A Quantum Secure Messaging Platform** [[paper](https://doi.org/10.1109/eites66543.2025.00021)]
+- [2025] **Quantum Key Distribution in Optical Communication Networks** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17637901)]
+- [2025] **High-speed coherent optical encryption/decryption system based on cross-phase encoding** *Optics Express* [[paper](https://doi.org/10.1364/oe.567505)]
+- [2025] **INTEGRATING QUANTUM KEY DISTRIBUTION INTO EMAIL SYSTEMS FOR NEXT-GENERATION COMMUNICATION SECURITY** *International Journal of Engineering Research and Science & Technology* [[paper](https://doi.org/10.62643/ijerst.v21.n3(1).pp557-564)]
+- [2025] **Modern Quantum Technologies of Cryptographic Protection of Information** *Cybernetics and Systems Analysis* [[paper](https://doi.org/10.1007/s10559-025-00801-y)]
+- [2025] **Optimizing quantum dot single-photon sources for quantum cryptography** [[paper](https://doi.org/10.1117/12.3066071)]
+- [2025] **Quantum-driven security evolution in IoT: AI-powered cryptography and anomaly detection** *The Journal of Supercomputing* [[paper](https://doi.org/10.1007/s11227-025-07582-3)]
+- [2025] **A comprehensive study on lattice, code, and hash-based cryptographic algorithms in post-quantum security with practical applications** *IET conference proceedings.* [[paper](https://doi.org/10.1049/icp.2025.1568)]
+- [2025] **Improving Throughput Efficiency of Cyber Physical Systems Communications using Quantum Cryptography** [[paper](https://doi.org/10.1109/rfcon62306.2025.11085331)]
+- [2025] **Design of an integrated model using deep reinforcement learning and Variational Autoencoders for enhanced quantum security** *MethodsX* [[paper](https://doi.org/10.1016/j.mex.2025.103445)]
+- [2025] **High-rate self-referenced continuous-variable quantum key distribution over a high-loss free-space channel** *Photonics Research* [[paper](https://doi.org/10.1364/prj.563239)]
+- [2025] **Quantum machine learning for predictive analytics in consumer electronics** [[paper](https://doi.org/10.1201/9781003498292-4)]
+- [2025] **Evaluating the Potential of Quantum Key Distribution in Securing Communication Systems Against Classical and Post-Quantum Threats** *International Journal For Multidisciplinary Research* [[paper](https://doi.org/10.36948/ijfmr.2025.v07i03.46442)]
+- [2025] **Modelling of Satellite-Based Quantum Key Distribution** *elib (German Aerospace Center)* [[paper](https://elib.dlr.de/222804/1/master_thesis_pedro_munoz.pdf)]
+- [2025] **Decentralized Quantum Networks: Blockchain Protocols for Quantum Communication Infrastructure** [[paper](https://doi.org/10.62311/nesx/rb64)]
+- [2025] **A critical analysis of deployed use cases for quantum key distribution and comparison with post-quantum cryptography** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00350-5)]
+- [2025] **Post-Quantum Cryptography-Based Multimedia Encryption Communication Scheme in IoT Consumer Electronics** *IEEE Transactions on Consumer Electronics* [[paper](https://doi.org/10.1109/tce.2025.3572949)]
+- [2025] **Secure Quantum Machine Learning via Quantum Cryptography: Theoretical Framework and Implementation Insights** *Journal of Information Systems Engineering & Management* [[paper](https://doi.org/10.52783/jisem.v10i49s.10122)]
+- [2025] **Quantum Communication and Quantum Cryptography : A New Era of Secure Information Transfer** *International Journal of Scientific Research in Science and Technology* [[paper](https://doi.org/10.32628/ijsrst25121419)]
+- [2025] **Quantum Code and Connectivity: Next-Generation Algorithms, Cryptography, and Secure Quantum Networks** *International Journal of Academic and Industrial Research Innovations(IJAIRI)* [[paper](https://doi.org/10.62311/nesx/rp05119)]
+- [2025] **Quantum Key Distribution Networks - Key Management: A Survey** *ACM Computing Surveys* [[paper](https://doi.org/10.1145/3730575)]
+- [2025] **Quantum Computing in the Spotlight: Redefining Cybersecurity and Cryptography** [[paper](https://doi.org/10.22541/au.174483096.65933269/v1)]
+- [2025] **Securing Data Privacy and Integrity in Cloud Computing Using Blockchain and Quantum Cryptography** *Metallurgical and Materials Engineering* [[paper](https://doi.org/10.63278/1415)]
+- [2025] **QSMS: A Quantum-Secured Mail System for Post-Quantum Resilient Email Communication** [[paper](https://doi.org/10.1109/aimla63829.2025.11041259)]
+- [2025] **Enhanced Analysis for the Decoy‐State Method** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202400687)]
+- [2025] **251Chapter 10 Quantum cryptography and its advances** [[paper](https://doi.org/10.1515/9783111264349-010)]
+- [2025] **From Theory to Implementation: Quantum Superalgebras as the Backbone of AI-Driven Quantum Cryptography** *International Journal of Academic and Industrial Research Innovations(IJAIRI)* [[paper](https://doi.org/10.62311/nesx/rp0125)]
+- [2025] **Rethinking Security: Cryptography in the Age of Quantum Computing** [[paper](https://doi.org/10.22541/au.174492500.06660684/v1)]
+- [2025] **Quantum Key Distribution (QKD) and the Future of Secure Communications** [[paper](https://doi.org/10.22541/au.174431281.12939966/v1)]
+- [2025] **Synergizing Quantum Cryptography and Post-Quantum Cryptography: A New Era of Ultra-Secure Data Transmission** [[paper](https://doi.org/10.1109/icdsaai65575.2025.11011628)]
+- [2025] **The quantum age begins: now, 5, 50, or 500 years? An operator perspective on quantum (secure) communication evolution in the next years** [[paper](https://doi.org/10.1117/12.3041132)]
+- [2025] **On the Key Search Complexity in Quantum Cryptography with Strong Information-Theoretic Authentication** *Journal of Experimental and Theoretical Physics Letters* [[paper](https://doi.org/10.1134/s002136402460544x)]
+- [2025] **QUANTUM CRYPTOGRAPHY WITH ESPRESSO CIPHERS AND GRAIN FOR ENHANCED SECURITY IN OPTICAL COMMUNICATION NETWORKS** *ICTACT Journal on Communication Technology* [[paper](https://doi.org/10.21917/ijct.2025.0509)]
+- [2025] **Exploring Quantum Cryptography for Next-Generation Cybersecurity Protocols** *AVE Trends in Intelligent Computer Letters* [[paper](https://doi.org/10.64091/aticl.2025.000093)]
+- [2025] **Quantum Cryptography and Post-Quantum Security: Safeguarding Cryptographic Protocols Against Quantum Threats** [[paper](https://doi.org/10.1109/icaisc64594.2025.10959635)]
+- [2025] **Assessment of Practical Satellite Quantum Key Distribution Architectures for Current and Near‐Future Missions** *International Journal of Satellite Communications and Networking* [[paper](https://doi.org/10.1002/sat.1544)]
+- [2025] **QUANTUM CRYPTOGRAPHY: SECURING DATA IN THE POST-QUANTUM COMPUTING ERA – A COMPREHENSIVE EXPLORATION OF THE FUTURE OF CYBERSECURITY** *Kashf Journal of Multidisciplinary Research* [[paper](https://doi.org/10.71146/kjmr259)]
+- [2025] **Security evaluation method of quantum key distribution in conjunction with non-quantum cryptography based on wireless communication** [[paper](https://doi.org/10.1117/12.3055331)]
+- [2025] **Enhancing Network Security with Quantum Cryptography:A Study on Future-Proofing Computer Networks AgainstQuantum Attacks** *Journal of Computer Science and Technology Application* [[paper](https://doi.org/10.33050/corisinta.v2i1.58)]
+- [2025] **Mathematical Approaches to Quantum Cryptography** *Austra & Lian Journal of Basic Sciences* [[paper](https://doi.org/10.71465/aljb3342)]
+- [2025] **Comprehensive Survey of QML: From Data Analysis to Algorithmic Advancements** [[paper](https://arxiv.org/abs/2501.09528)]
+- [2025] **Quantum Technologies for Beyond 5G and 6G Networks: Applications, Opportunities, and Challenges** *IEEE Open Journal of the Communications Society* [[paper](https://doi.org/10.1109/ojcoms.2025.3591842)]
+- [2025] **Quantum Cryptography Protocols Ensuring Secure Communication in the Era of Quantum Computing** *ITM Web of Conferences* [[paper](https://doi.org/10.1051/itmconf/20257605009)]
+- [2025] **Quantum Communication and Quantum Cryptography** *Undergraduate texts in physics* [[paper](https://doi.org/10.1007/978-3-031-81315-3_18)]
+- [2025] **Secure Quantum Communication With Multi-Users in Quantum Networks** *IEEE Open Journal of the Communications Society* [[paper](https://doi.org/10.1109/ojcoms.2025.3556903)]
+- [2025] **The Impact of Quantum Computing on Present Cryptography** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5017957)]
+- [2025] **Enhanced Communication Security: Leveraging Quantum Cryptography** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-981-97-9529-1_7)]
+- [2025] **Discrete-Modulated Coherent-State Quantum Key Distribution with Basis-Encoding** *Research* [[paper](https://doi.org/10.34133/research.0691)]
+- [2025] **Quantum Communication and Cybersecurity: Advancements in Cryptography and Secure Satellite Networks** [[paper](https://doi.org/10.62311/nesx/77548)]
+- [2025] **Quantum Key Distribution (QKD) Integration with Classical Cryptography for Enhanced End-to-End Security Authors** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5268388)]
+- [2025] **Enhancing Internet of Things (IOT) Security Through Quantum Cryptography** [[paper](https://doi.org/10.1007/978-981-96-4948-8_13)]
+- [2025] **Quantum Key Distribution Network and Quantum Secure Cloud Technologies for Genome Medicine Use Cases** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2025.3611335)]
+- [2025] **Continuous variable-based quantum communication in the ocean** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04664-2)]
+- [2025] **QCS-6G: A Standards-Aligned Quantum-Resilient Cryptographic Stack for Next-Generation Wireless Networks** *IEEE Communications Standards Magazine* [[paper](https://doi.org/10.1109/mcomstd.2025.3608765)]
+- [2025] **Revolutionizing Internet of Vehicles with Quantum Key Distribution on Blockchain for Unprecedented Security** *Journal of Machine and Computing* [[paper](https://doi.org/10.53759/7669/jmc202505039)]
+- [2025] **Quantum Computing: A New Frontier in Cybersecurity Resilience** [[paper](https://doi.org/10.1007/978-981-96-4948-8_4)]
+- [2025] **A Practical Transition to Post-Quantum Security in 5G-AKA** *IEEE Transactions on Information Forensics and Security* [[paper](https://doi.org/10.1109/tifs.2025.3632234)]
+- [2025] **Enabling Technologies for 6G ‐Based Advanced Applications** [[paper](https://doi.org/10.1002/9781394258369.ch4)]
+- [2025] **Quantitative Evaluation of Simulation Models in Realistic QKD Networks** *Transportation research procedia* [[paper](https://doi.org/10.1016/j.trpro.2025.10.037)]
+- [2025] **Quantum-Enhanced Secure Communication via One-Time Pad and Key Distribution** *Journal of Emerging Technologies and Innovative Research* [[paper](https://doi.org/10.56975/jetir.v12i5.560758)]
+- [2025] **AI-Driven Quantum Cryptography** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5348579)]
+- [2025] **Cyber Shield: Advances in Detection, Isolation, and Containment Mechanisms** [[paper](https://doi.org/10.2514/6.2025-2724)]
+- [2025] **Security Models and Cryptographic Protocols in a Quantum World** *Foundations and Trends® in Theoretical Computer Science* [[paper](https://doi.org/10.1561/0400000122)]
+- [2025] **Enhancing Quantum Key Distribution Efficiency and Security** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-5794508/v1)]
+
+##### 2024
+
+- [2024] **Quantum Information Processing, Sensing and Communications: Their Myths, Realities and Futures** [[paper](https://arxiv.org/abs/2412.00987)]
+- [2024] **Exploring the significance of quantum cryptography in future network security protocols** *World Journal of Advanced Research and Reviews* [[paper](https://doi.org/10.30574/wjarr.2024.24.3.3733)]
+- [2024] **A hybrid encryption framework leveraging quantum and classical cryptography for secure transmission of medical images in IoT-based telemedicine networks** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-024-82256-3)]
+- [2024] **A Blockchain-Assisted Fair Exchange Signature Protocol Using Quantum Key Distribution for Metaverse Environment** *IEEE Open Journal of the Communications Society* [[paper](https://doi.org/10.1109/ojcoms.2024.3522000)]
+- [2024] **A secure authenticated semi-quantum key distribution scheme for semi-quantum environments** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-024-04618-0)]
+- [2024] **Quantum cryptography** [[paper](https://doi.org/10.1201/9781003508632-5)]
+- [2024] **Exploring advancements, applications, and challenges in the realm of quantum cryptography** [[paper](https://doi.org/10.1201/9781003508632-9)]
+- [2024] **Post-Quantum Cryptography: Securing Critical Infrastructure Against Emerging Quantum Threats** [[paper](https://doi.org/10.1109/ictbig64922.2024.10911612)]
+- [2024] **Post-Quantum Cryptography: Securing AI Systems against Quantum Threats** *Journal of Science Technology and Engineering Research* [[paper](https://doi.org/10.64206/snz0jq38)]
+- [2024] **Quantum Key Distribution Principles and Protocols** [[paper](https://doi.org/10.1201/9781003475286-6)]
+- [2024] **Quantum Communication and Cybersecurity** [[paper](https://doi.org/10.62311/nesx/rb978-81-983775-4-8)]
+- [2024] **Quantum Communications** *Auerbach Publications eBooks* [[paper](https://doi.org/10.1201/9781003499480-25)]
+- [2024] **Experimental test of generalized multipartite entropic uncertainty relations** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.062220)]
+- [2024] **Efficient Routing for QKD Network using Novel Quantum Optimization Approach** [[paper](https://doi.org/10.1109/tencon61640.2024.10902667)]
+- [2024] **Quantum Cryptography in Secure Communication: Opportunities and Challenges** *Computer Fraud & Security* [[paper](https://doi.org/10.52710/cfs.49)]
+- [2024] **Aplicación de Ciberseguridad cuántica en la seguridad de puertos de comunicación de la IoT** *Revista Tecnológica - ESPOL* [[paper](https://doi.org/10.37815/rte.v36n2.1188)]
+- [2024] **Understanding Unconditional Mistrustful Quantum Cryptography Protocols In Nx-ICT Scenarios In Noisy Quantum Channels** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202412.0654.v1)]
+- [2024] **Quantum cryptography beyond key distribution: theory and experiment** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2411.08877)]
+- [2024] **Cooperative terahertz quantum key distribution: Secret key rate analysis and optimization** *Physical Communication* [[paper](https://doi.org/10.1016/j.phycom.2024.102551)]
+- [2024] **A Review on Quantum Key Distribution for Wireless Networks: Current Status and Future Prospects** *Communications on Applied Nonlinear Analysis* [[paper](https://doi.org/10.52783/cana.v32.2516)]
+- [2024] **Quantum Networks and Secure Communication** [[paper](https://doi.org/10.62311/nesx/rb978-81-980485-0-9)]
+- [2024] **Enhanced Analysis for the Decoy-State Method** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2411.00391)]
+- [2024] **Advancing quantum communication security: Metamaterial based quantum key distribution with enhanced protocols** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.12116)]
+- [2024] **Journeying Through Securing Digital Communication: A Comparative Analysis from Classical to Post-Quantum Cryptography** [[paper](https://doi.org/10.1109/icbds61829.2024.10837282)]
+- [2024] **DT-Block: Adaptive vertical federated reinforcement learning scheme for secure and efficient communication in 6G** *Computer Networks* [[paper](https://doi.org/10.1016/j.comnet.2024.110841)]
+- [2024] **CountCrypt: Quantum Cryptography between QCMA and PP** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2410.14792)]
+- [2024] **Advanced Blockchain-Enabled Deep Quantum Computing Model for Secured Machine-to-Machine Communication** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-5165842/v1)]
+- [2024] **Distributed Symmetric Key Establishment: a Scalable Quantum-Safe Key Distribution Protocol** [[paper](https://dx.doi.org/10.1109/lcn60385.2024.10639637)]
+- [2024] **Quantum Cryptography:Combining quantum computing with machine learning algorithms** [[paper](https://doi.org/10.62311/nesx/rb978-81-978755-9-5)]
+- [2024] **Enhancing Quantum Resistance: Entanglement Swapping in Quantum key distribution and blockchain infrastructure** [[paper](https://doi.org/10.1109/acoit62457.2024.10939951)]
+- [2024] **Experimental quantum Byzantine agreement on a three-user quantum network with integrated photonics** *Science Advances* [[paper](https://arxiv.org/abs/2403.11441)]
+- [2024] **Quantum Secure Key Management & Delivery Protocol in the QKD framework** [[paper](https://doi.org/10.1109/indiscon62179.2024.10744333)]
+- [2024] **Quantum Key Distribution Networks -- Key Management: A Survey** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2408.04580)]
+- [2024] **Enhancing Performance of Continuous-Variable Quantum Key Distribution (CV-QKD) and Gaussian Modulation of Coherent States (GMCS) in Free-Space Channels under Individual Attacks with Phase-Sensitive Amplifier (PSA) and Homodyne Detection (HD)** *Sensors* [[paper](https://doi.org/10.3390/s24165201)]
+- [2024] **Quantum key distribution: a survey on current vulnerability trends and potential implementation risks** *Optics Continuum* [[paper](https://doi.org/10.1364/optcon.530352)]
+- [2024] **Exploring the fusion of lattice‐based quantum key distribution for secure Internet of Things communications** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.12105)]
+- [2024] **Simulation of an entanglement-based quantum key distribution protocol** *The European Physical Journal Plus* [[paper](https://doi.org/10.1140/epjp/s13360-024-05337-2)]
+- [2024] **A Quantum-Resistant Key Management Scheme Using Blockchain in C-V2X** *IEEE Transactions on Intelligent Transportation Systems* [[paper](https://doi.org/10.1109/tits.2024.3421381)]
+- [2024] **A Quantum Safe Mutual Authentication Protocol for Smart Meter Communications With Experimental Evaluation** *IEEE Transactions on Network Science and Engineering* [[paper](https://doi.org/10.1109/tnse.2024.3427110)]
+- [2024] **A New Gap-based Approach for Analysing All-Optical Random Bit Sequences** [[paper](https://doi.org/10.23919/mikon60251.2024.10633991)]
+- [2024] **Analysing All-Optical Random Bit Sequences Using Gap-Based Approaches** *Sensors* [[paper](https://doi.org/10.3390/s24144474)]
+- [2024] **One-time-pad encryption model for nonlocal correlations** *Physical Review A* [[paper](https://doi.org/10.1103/physreva.110.012229)]
+- [2024] **Harnessing Quantum Entanglement: Comprehensive Strategies for Enhanced Communication and Beyond in Quantum Networks** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2406.08833)]
+- [2024] **Multimode Quantum Communications and Hybrid Cryptography** *theses.fr (ABES)* [[paper](https://www.theses.fr/2024IPPAT018/document)]
+- [2024] **Adaptive optics for free-space quantum communication: ongoing studies in Padova** [[paper](https://dx.doi.org/10.1117/12.3019050)]
+- [2024] **Quantum Computing and Quantum Information Science** [[paper](https://doi.org/10.62311/nesx/rb978-81-973329-2-0)]
+- [2024] **Quantum-Secure Data Transmission Protocols** *International Journal of Research Publication and Reviews* [[paper](https://doi.org/10.55248/gengpi.5.0624.1524)]
+- [2024] **UNAUTHORIZED ACCESS TO QUANTUM KEY DISTRIBUTION SYSTEM** *Известия Южного федерального университета. Технические науки* [[paper](https://dx.doi.org/10.18522/2311-3103-2024-3-176-186)]
+- [2024] **Robust biometric identity authentication scheme using quantum voice encryption and quantum secure direct communications for cybersecurity** *Journal of King Saud University - Computer and Information Sciences* [[paper](https://doi.org/10.1016/j.jksuci.2024.102062)]
+- [2024] **Optical Ground Station Proposal for Croatian Quantum Communication Infrastructure** [[paper](https://doi.org/10.1109/mipro60963.2024.10569494)]
+- [2024] **Quantum Key Distribution (QKD) for Symmetric Key Transfer** *International Journal of Scientific Research in Computer Science Engineering and Information Technology* [[paper](https://doi.org/10.32628/cseit24103105)]
+- [2024] **Lossy-and-Constrained Extended Non-Local Games with Applications to Quantum Cryptography** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2405.13717)]
+- [2024] **Toward heralded distribution of polarization entanglement** *Optica Quantum* [[paper](https://doi.org/10.1364/opticaq.515316)]
+- [2024] **Application of Swarm Intelligence Techniques for Optimization in Speech-to-Text Translation Systems** [[paper](https://doi.org/10.1109/ic3se62002.2024.10593175)]
+- [2024] **Assessment of practical satellite quantum key distribution architectures for current and near-future missions** *elib (German Aerospace Center)* [[paper](https://arxiv.org/abs/2404.05668)]
+- [2024] **Quantum-based privacy-preserving techniques for secure and trustworthy internet of medical things an extensive analysis** *Quantum Information and Computation* [[paper](https://doi.org/10.26421/qic24.3-4-3)]
+- [2024] **Quantum Cryptography: Secure Communication Beyond Classical Limits** *Journal of Quantum Science and Technology.* [[paper](https://doi.org/10.36676/jqst.v1.i1.01)]
+- [2024] **QAKA: A novel quantum authentication and key agreement (QAKA) protocol using quantum entanglement for secure communication among IoT devices** *Transactions on Emerging Telecommunications Technologies* [[paper](https://doi.org/10.1002/ett.4957)]
+- [2024] **Quantum Key Distribution Protocols: Advancements and Challenges in Secure Communication** *Journal of Quantum Science and Technology.* [[paper](https://doi.org/10.36676/jqst.v1.i1.03)]
+- [2024] **Physical layer security based on scrambling of the telecommunication system parameters driven by a quantum key distribution system** [[paper](https://doi.org/10.1117/12.3003248)]
+- [2024] **Practical high-dimensional quantum key distribution protocol over deployed multicore fiber** *Nature Communications* [[paper](https://doi.org/10.1038/s41467-024-45876-x)]
+- [2024] **Quantum Cryptography for Secure Autonomous Vehicle Networks: A Review** [[paper](https://doi.org/10.1109/sceecs61402.2024.10482142)]
+- [2024] **Enhancing Blockchain Security through quantum key distribution and evaluating QKD network in QKDNetSim environment** [[paper](https://doi.org/10.1109/parc59193.2024.10486256)]
+- [2024] **Continuous Variable Based Quantum Communication in the Ocean** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-3928944/v1)]
+- [2024] **Quantum Cryptography for Future Networks Security: A Systematic Review** *IEEE Access* [[paper](https://doi.org/10.1109/access.2024.3504815)]
+- [2024] **Quantum Computing in Cryptographic Systems** [[paper](https://doi.org/10.69942/1920184/20240101/03)]
+- [2024] **Q-Secure-P²-SMA: Quantum-Secure Privacy- Preserving Smart Meter Authentication for Unbreakable Security in Smart Grid** *IEEE Transactions on Network and Service Management* [[paper](https://doi.org/10.1109/tnsm.2024.3357103)]
+- [2024] **Strengthening Security Mechanisms of Satellites and UAVs Against Possible Attacks from Quantum Computers** *Advanced sciences and technologies for security applications* [[paper](https://doi.org/10.1007/978-3-031-47594-8_1)]
+- [2024] **Quantum Cryptology in the Big Data Security Era** *International Journal of Advanced Computer Science and Applications* [[paper](https://dx.doi.org/10.14569/ijacsa.2024.0150761)]
+- [2024] **A Survey of Physical Layer Secret Key Generation Enhanced by Intelligent Reflecting Surface** *Electronics* [[paper](https://doi.org/10.3390/electronics13020258)]
+- [2024] **Quantum network communication resource optimization scheme based on multi-scale entanglement renormalization ansatz** *Acta Physica Sinica* [[paper](https://doi.org/10.7498/aps.73.20241382)]
+- [2024] **Blockchain-based Device Authentication in Edge Computing using Quantum Approach** *Jordanian Journal of Computers and Information Technology* [[paper](https://doi.org/10.5455/jjcit.71-1724681080)]
+- [2024] **Design and Modeling of Hardware Kit for QKD Education of Engineering Students and Communication Engineers** *Preprints.org* [[paper](https://dx.doi.org/10.20944/preprints202401.1754.v1)]
+- [2024] **Quantum Cryptography in the Post-Quantum Era: Threats, Algorithms, and Implementation Challenges** *International Journal of AI BigData Computational and Management Studies* [[paper](https://doi.org/10.63282/3050-9416.ijaibdcms-v5i2p102)]
+
+##### 2023
+
+- [2023] **Eavesdropper localization for quantum and classical channels via nonlinear scattering** *Optica Quantum* [[paper](https://doi.org/10.1364/opticaq.502944)]
+- [2023] **Bases selection with pseudo-random functions in BB84 scheme** *Heliyon* [[paper](https://doi.org/10.1016/j.heliyon.2023.e23578)]
+- [2023] **High-Speed Free-Space Quantum Key Distribution** *Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)* [[paper](https://hdl.handle.net/10400.26/54494)]
+- [2023] **Towards Quantum-Native Communication Systems: State-of-the-Art, Trends, and Challenges** [[paper](https://arxiv.org/abs/2311.05239)]
+- [2023] **Quantum-resistant Transport Layer Security** *Computer Communications* [[paper](https://doi.org/10.1016/j.comcom.2023.11.010)]
+- [2023] **A Study on Factors Affecting the Intention to Accept Quantum Cryptography Communication** *Korea Business Review* [[paper](https://dx.doi.org/10.17287/kbr.2023.27.4.71)]
+- [2023] **On the Security of Quantum Key Distribution Networks** *Cryptography* [[paper](https://doi.org/10.3390/cryptography7040053)]
+- [2023] **A roadmap from classical cryptography to post-quantum resistant cryptography for 5G-enabled IoT: Challenges, opportunities and solutions** *Internet of Things* [[paper](https://doi.org/10.1016/j.iot.2023.100950)]
+- [2023] **Optimization of Hierarchical Routing and Resource Allocation for Power Communication Networks With QKD** *Journal of Lightwave Technology* [[paper](https://doi.org/10.1109/jlt.2023.3318651)]
+- [2023] **Towards practical quantum position verification** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2309.10070)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1542,6 +2598,7 @@
 - [2026] **Europe's Post-Quantum Readiness 2026 An Empirical Assessment of the EU-27** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.21782640)]
 - [2026] **SARA: An LLM-Based Approach for Systematic Literature Review with a Use Case on Classical–Quantum Integration for Secure Communication** *Journal of Bioengineering, Technologies and Health* [[paper](https://doi.org/10.34178/jbth.v9i7.667)]
 - [2026] **Modeling of blockchain technology-based hybrid secure communication system using autonomous artificial intelligence agents** [[paper](https://doi.org/10.1117/12.3121054)]
+- [2026] **Unified Architecture for Continuous-Variable Quantum Cryptography Communication over a Free-Space Channel** *Chinese Physics Letters* [[paper](https://doi.org/10.1088/0256-307x/43/9/090602)]
 - [2026] **Comprehensive survey of global research trends, challenges, and comparative advances in quantum cryptography and post-quantum cryptographic algorithms** *Discover Artificial Intelligence* [[paper](https://doi.org/10.1007/s44163-026-01841-9)]
 - [2026] **QuantumShield-IoT: A Quantum-Resilient Hybrid Framework for Secure Data Transmission Using Quantum Key Distribution, Lightweight Cryptography and Blockchain Technology** *International Journal of Innovative Science and Research Technology (IJISRT)* [[paper](https://doi.org/10.38124/ijisrt/26jul281)]
 - [2026] **Quantum Key Distribution for Secure IoT Communication: Recent Advances, Challenges, and Future Perspectives** *IJARCCE* [[paper](https://doi.org/10.17148/ijarcce.2026.15724)]
@@ -1609,17 +2666,264 @@
 - [2026] **Quantum Safe Cryptographic Frameworks for Securing National Digital Currencies and Economic Infrastructure** *Journal of Internet Services and Information Security* [[paper](https://doi.org/10.58346/jisis.2026.i1.014)]
 - [2026] **A Practical Framework for Simulating the Integration of QKD in TLS Protocol Towards Quantum Secure Communication** [[paper](https://doi.org/10.1109/ncc68160.2026.11478911)]
 - [2026] **Quantum-Secured Hybrid Communication System for Tactical Military Networks: Implementation and Performance Analysis of BB84 Protocol Based on Penny Lane** *한국통신학회논문지* [[paper](https://doi.org/10.7840/kics.2026.51.2.449)]
+- [2026] **Emulation of the six-state quantum key distribution protocol with pulsed lasers** *The European Physical Journal Special Topics* [[paper](https://doi.org/10.1140/epjs/s11734-026-02139-8)]
+- [2026] **Quantum-secured routing in drone communication for 6G-enabled smart mobility** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-026-36297-5)]
+- [2026] **Introduction to quantum cryptography** [[paper](https://doi.org/10.1201/9781003581673-10)]
+- [2026] **Quantum-Enhanced Cryptographic Key Exchange for Secure IoT Networks** [[paper](https://doi.org/10.1109/iccsc67078.2026.11468719)]
+- [2026] **Cryptography for long term secret storage and protocols over quantum key distribution** *theses.fr (ABES)* [[paper](https://www.theses.fr/2026COAZ4004/document)]
+- [2026] **A Comprehensive Review of Quantum Threats and Post-Quantum Cryptography Migration Strategies** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18482457)]
 - [2026] **Increasing the secret key rates and point-to-multipoint extension for experimental coherent-one-way quantum key distribution protocol** *The European Physical Journal D* [[paper](https://arxiv.org/abs/2601.04543)]
+- [2026] **Quantum Key Distribution Networks Design: Overview and Challenges** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.70029)]
+- [2026] **Integrating blockchain with lattice-based cryptography for privacy-preserving and quantum-secure smart grid communications** *Frontiers in Physics* [[paper](https://doi.org/10.3389/fphy.2025.1727394)]
+- [2026] **Quantum-Resilient Federated Learning for Real-Time Digital Twin Synchronization in Smart City 6G Networks** *IEEE Communications Standards Magazine* [[paper](https://doi.org/10.1109/mcomstd.2026.3656277)]
+- [2026] **State transfer in latent-symmetric networks** *eLight* [[paper](https://doi.org/10.1186/s43593-025-00114-9)]
+- [2026] **Quantum cryptography: Advancements and challenges in secure communication** *ARPN Journal of Engineering and Applied Sciences* [[paper](https://doi.org/10.59018/1025206)]
+- [2026] **Comparative study of Post-Quantum Cryptography (PQC) vs Quantum Key Distribution (QKD) in IOT ‘Smart Home’.** *INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT* [[paper](https://doi.org/10.55041/ijsrem.ibfe006)]
+- [2026] **Quantum Cryptography in dark-net** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.18271374)]
+- [2026] **Quantum Cryptography and Machine Learning Integration for Secure Communication in Distributed Healthcare Systems** *International Journal of Artificial Intelligence and Machine Learning* [[paper](https://doi.org/10.51483/ijaiml.6.2s.2026.181-193)]
+- [2026] **Schemes of IPsec integrated with quantum key distribution** *Chinese Physics B* [[paper](https://doi.org/10.1088/1674-1056/ae3301)]
+- [2026] **A Quantum Cryptography Framework for Enhancing the Security in Wireless IoT Networks** [[paper](https://doi.org/10.65677/iilr.34.s1.21)]
 
 ##### 2025
 
+- [2025] **Secure and scalable smart grid IoT communication through quantum key distribution, homomorphic encryption, and federated learning** *Discover Applied Sciences* [[paper](https://doi.org/10.1007/s42452-025-08107-6)]
+- [2025] **A comprehensive review on the hybrid BB84 E91 QKD protocol for enhanced security efficiency and practical hardware implementation in quantum cryptography** *Discover Computing* [[paper](https://doi.org/10.1007/s10791-025-09807-8)]
+- [2025] **Trends in Quantum Key Distribution (QKD)** [[paper](https://doi.org/10.1007/978-3-031-90727-2_12)]
+- [2025] **Development of an Interactive Simulation Platform for BB84 and E91 Quantum Cryptography Protocols with Integrated Security Analysis** [[paper](https://doi.org/10.1109/icicnis66685.2025.11315568)]
+- [2025] **Quantum Cryptography in the Dark-Net: Enhancing Secure and Ethical Communication through Quantum Key Distribution** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17983334)]
+- [2025] **Post-Quantum Cryptography for Resilient and Secure Communication Systems** *TU/e Research Portal* [[paper](https://research.tue.nl/en/publications/557cef89-9e3f-4767-a949-4fed84ade2dc)]
+- [2025] **Exploring Quantum Key Distribution for Secure Communication in 6G and Beyond Networks** [[paper](https://doi.org/10.1145/3789692.3789796)]
+- [2025] **Synergetic Architectures for AI-Driven Quantum Cryptographic Protocols and Secure Communication** [[paper](https://doi.org/10.1109/icsss66939.2025.11346273)]
+- [2025] **Revolutionizing Quantum Key Distribution: NLPBased Generation and Verification of Quantum Keys** *BENTHAM SCIENCE PUBLISHERS eBooks* [[paper](https://doi.org/10.2174/9798898813277125010028)]
+- [2025] **The Future Of Quantum Cryptography In Secure Data Transmission** *Multidisciplinary Research in Computing Information Systems* [[paper](https://doi.org/10.71465/mrcis180)]
+- [2025] **A Simulation of Quantum Key Distribution Using BB84 Protocol** [[paper](https://doi.org/10.1109/imtic68267.2025.11520516)]
 - [2025] **Overview of Routing Approaches in Quantum Key Distribution Networks** *Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering* [[paper](https://arxiv.org/abs/2511.15465)]
+- [2025] **Secure Quantum Key Distribution Over VLC Networks for Next-Generation Smart Cities** *The International journal of networked and distributed computing* [[paper](https://doi.org/10.1007/s44227-025-00077-w)]
+- [2025] **Hybrid Cryptography: A Framework for Post-Quantum Agility and Resilience** [[paper](https://doi.org/10.1109/wpmc67460.2025.11351237)]
+- [2025] **Cyber-Physical System Based Secure Communication for E-Governance Using Quantum Key Distribution** [[paper](https://doi.org/10.1109/sisimpact67725.2025.11439702)]
+- [2025] **Advanced quantum key distribution protocol for mitigating quantum-based vulnerabilities in blockchain applications** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00442-2)]
+- [2025] **Quantum Key Distribution for SCADA in Power Grids: Security Architectures and Practical Applications** [[paper](https://doi.org/10.1109/icetce66848.2025.11388178)]
+- [2025] **Performance Evaluation of Hybrid TLS with ML-KEM-768 for Post-Quantum Secure MQTT in Mobile IIoT Systems** [[paper](https://doi.org/10.1109/icced68324.2025.11324853)]
+- [2025] **Quantum-Resistant Networks using Post-Quantum Cryptography** [[paper](https://arxiv.org/abs/2510.24534)]
+- [2025] **Feasibility of Quantum Cryptography with AES for Secure Communication** [[paper](https://doi.org/10.1109/ict4m68001.2025.11363503)]
+- [2025] **Quantum Communication and Secure Channels** [[paper](https://doi.org/10.1201/9781003538950-14)]
+- [2025] **A Hybrid Encryption Framework Combining Classical, Post-Quantum, and QKD Methods** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-032-01823-6_14)]
+- [2025] **Secure Communication Simulation in Autonomous Drone Networks with Quantum Key Distribution and Hybrid Cryptography** *OSF Preprints (OSF Preprints)* [[paper](https://osf.io/b8nge)]
+- [2025] **Security Analysis and Designing Advanced Two-Party Lattice-Based Authenticated Key Establishment and Key Transport Protocols for Mobile Communication** *Future Internet* [[paper](https://doi.org/10.3390/fi17100472)]
+- [2025] **Implementation of quantum key distribution in an energy control system environment** *IET conference proceedings.* [[paper](https://doi.org/10.1049/icp.2025.1786)]
+- [2025] **Joint Routing and Relay Key Allocation in Quantum Key Distribution Networks for Communication Security** *IEEE Transactions on Networking* [[paper](https://doi.org/10.1109/ton.2025.3607438)]
+- [2025] **Quantum cryptography integrating an optical quantum memory** *Science Advances* [[paper](https://arxiv.org/abs/2504.00094)]
+- [2025] **Man-In-The-Middle Attacks Targeting Quantum Cryptography** [[paper](https://arxiv.org/abs/2503.13457)]
+- [2025] **Enhanced SIFT operations in mediated semi-quantum key distribution: Protocol design and simulation** *Chinese Journal of Physics* [[paper](https://doi.org/10.1016/j.cjph.2025.09.013)]
+- [2025] **Post-quantum AES encryption using ECC points derived from BB84 sifted keys** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00411-9)]
+- [2025] **Quantum Secure Biometric Authentication in Decentralised Systems** [[paper](https://doi.org/10.1109/ijcb65343.2025.11410790)]
+- [2025] **A hybrid multi-node QKD-ECC architecture for securing IoT networks** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-025-17184-x)]
+- [2025] **Introducing Quantum Key Distribution for Post-Quantum Secure Aircraft Maintenance and Communication Interfaces** [[paper](https://doi.org/10.1109/dasc66011.2025.11257367)]
+- [2025] **The Quantum Key Distribution Protocol E91- A Premier Method to Secure Communication** *International Journal of Environmental Sciences* [[paper](https://doi.org/10.64252/p7zb1b61)]
+- [2025] **Understanding Classical and Post‐Quantum Cryptography and Solutions** [[paper](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/9781394406784.ch3)]
+- [2025] **Secure Simulation of BB84 and E91 Quantum Cryptography Protocols** [[paper](https://doi.org/10.1109/icoici65217.2025.11254310)]
+- [2025] **Secure Messaging & E-Voting System Using Quantum Cryptography** [[paper](https://doi.org/10.1109/icerect65215.2025.11375873)]
 - [2025] **Obfuscated Quantum and Post-Quantum Cryptography** [[paper](https://arxiv.org/abs/2508.07635)]
+- [2025] **Integration of quantum key distribution and high-throughput classical communications in field-deployed multi-core fibers** *Light Science & Applications* [[paper](https://doi.org/10.1038/s41377-025-01982-z)]
+- [2025] **Secure Communication in Drone Networks: A Comprehensive Survey of Lightweight Encryption and Key Management Techniques** *Drones* [[paper](https://doi.org/10.3390/drones9080583)]
+- [2025] **All-day free-space quantum key distribution with thermal source towards quantum secure communications for unmanned vehicles** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-025-01085-y)]
+- [2025] **PPFLQB: A Privacy-Preserving Federated Learning enhanced Quantum-secure Blockchain layered framework** *Internet of Things* [[paper](https://doi.org/10.1016/j.iot.2025.101719)]
+- [2025] **A Security- Centric Evaluation of Classical and Quantum Key Exchange Protocols for Securing the Next Generation of Communication** [[paper](https://doi.org/10.1109/icscsa66339.2025.11170802)]
+- [2025] **Adaptive and Quantum-Resilient Intrusion Detection for Wireless Sensor Networks and IoT Environments** *Engineering Technology & Applied Science Research* [[paper](https://doi.org/10.48084/etasr.10464)]
+- [2025] **Demystifying Security Analysis of Intercept-and-Resend Attack Over Quantum Key Distribution (QKD) Protocols** [[paper](https://doi.org/10.1109/icscds65426.2025.11167114)]
+- [2025] **Monolithic 850 nm VCSEL array for quantum key distribution applications via the polarization-based BB84 and decoy-state protocol** *Optics Letters* [[paper](https://doi.org/10.1364/ol.573598)]
+- [2025] **Quantum cryptography and cybersecurity in healthcare data** [[paper](https://doi.org/10.1201/9781003597414-2)]
+- [2025] **Post-Quantum Cryptography for Securing Next-Generation Communication Networks** [[paper](https://doi.org/10.1109/cises66934.2025.11264945)]
+- [2025] **Quantum Resilient Cryptographic Protocols in Modern Networks** *Journal of Internet Services and Information Security* [[paper](https://doi.org/10.58346/jisis.2025.i3.028)]
+- [2025] **Analysis of the Impact of Quantum Measurement Reliability on Performance and Security in Quantum Cryptography Protocols: An Experimental Study Using Quantum Gates** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-7375310/v1)]
+- [2025] **Versatile quantum-safe hybrid key exchange and its application to MACsec** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00382-x)]
+- [2025] **A Quantum-Cryptography-Enhanced Framework for Secure Cloud Computing Using Quantum Key Distribution (Qkd)** [[paper](https://doi.org/10.1109/icctdc64446.2025.11158091)]
+- [2025] **Secure and Scalable File Encryption for Cloud Systems via Distributed Integration of Quantum and Classical Cryptography** *Applied Sciences* [[paper](https://doi.org/10.3390/app15147782)]
+- [2025] **Advanced 6G Network Protection Using Quantum Key Distribution: A Systematic Review** *Babylonian Journal of Networking* [[paper](https://doi.org/10.58496/bjn/2025/007)]
+- [2025] **Post-Quantum Weighted Anonymous Authentication for Hybrid VANET MAC Protocol** *IEEE Transactions on Intelligent Transportation Systems* [[paper](https://doi.org/10.1109/tits.2025.3582080)]
+- [2025] **Onion Routing Key Distribution for QKDN** [[paper](https://doi.org/10.1109/iscc65549.2025.11325762)]
+- [2025] **Multi-nodes quantum network in metropolitan area of Naples** [[paper](https://doi.org/10.1109/icton67126.2025.11125038)]
+- [2025] **Quantum-Assisted SNN-Based XAI Framework for Secure Space-Based Industrial IoT Applications** [[paper](https://doi.org/10.1109/tensymp63728.2025.11145001)]
+- [2025] **Analysis of various Quantum Key Distribution Protocol in Wireless Networks** [[paper](https://doi.org/10.1109/eaic66483.2025.11101399)]
+- [2025] **Quantum Key Distribution Protocols: Security Analysis and Real-World Implementations** *International Journal of Academic and Industrial Research Innovations(IJAIRI)* [[paper](https://doi.org/10.62311/nesx/rphcrcscrqc2)]
+- [2025] **Concept of Hardware-Software Complex for Secure Data Transmission Using Quantum Key Distribution** [[paper](https://doi.org/10.1109/synchroinfo65403.2025.11079320)]
+- [2025] **Length–Weight Distribution of Non-Zero Elements in Randomized Bit Sequences** *Sensors* [[paper](https://doi.org/10.3390/s25123825)]
+- [2025] **Full-Stack Entanglement-Based Quantum Oblivious Transfer for Secure Multi Party Computation Applications** [[paper](https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111510)]
+- [2025] **Adaptive Quantum-Classical Hybrid Authentication: Dynamic Protocol Switching for Real-Time Threat Mitigation** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202506.1815.v1)]
+- [2025] **An Empirical Analysis of Quantum Key Distribution in Realistic Networks** [[paper](https://doi.org/10.1109/rndm66856.2025.11073799)]
+- [2025] **Enhanced Network Security Protocols for the Quantum Era: Combining Classical and Post-Quantum Cryptography, and Quantum Key Distribution** *IEEE Journal on Selected Areas in Communications* [[paper](https://doi.org/10.1109/jsac.2025.3568011)]
+- [2025] **Quantum key distribution through quantum machine learning: a research review** *Frontiers in Quantum Science and Technology* [[paper](https://doi.org/10.3389/frqst.2025.1575498)]
+- [2025] **Influence of Atmospheric Turbulence on Optical Line of Communication System with Quantum Cryptographic Equipment** [[paper](https://doi.org/10.1109/weconf65186.2025.11016845)]
+- [2025] **Next-Gen IoT Security using Polar Codes-based Cryptography for malware defence through quantum self-attention neural network** *Knowledge-Based Systems* [[paper](https://doi.org/10.1016/j.knosys.2025.113716)]
+- [2025] **Secure Message Embedding With AES-GCM, LSB Steganography, and Quantum Key Distribution** [[paper](https://doi.org/10.1109/icdsis65355.2025.11070727)]
+- [2025] **Post-Quantum UAV Communications Encryption Tester (P-QUAVCET)*** [[paper](https://doi.org/10.1109/icuas65942.2025.11007821)]
+- [2025] **Enhancing Database Security Through Quantum Cryptography: A Research Perspective** *International Research Journal on Advanced Engineering and Management (IRJAEM)* [[paper](https://doi.org/10.47392/irjaem.2025.0307)]
+- [2025] **Study of a Quantum Key Distribution Protocol with Phase-Time Coding Using Simulation Modeling** *Problems of Information Transmission* [[paper](https://doi.org/10.1134/s0032946025010028)]
+- [2025] **Integration of Quantum Key Distribution in 6G Passive WDM Optical Fronthaul Architecture** *Applied and Computational Engineering* [[paper](https://doi.org/10.54254/2755-2721/2025.21874)]
+- [2025] **Building Scalable and Quantum Attack Resistant Authenticated Message Delivery System for Internet of Vehicles With Blockchain Consensus Mechanism** *Concurrency and Computation Practice and Experience* [[paper](https://doi.org/10.1002/cpe.70071)]
+- [2025] **Quantum Key Distribution with Efficient Post-Quantum Cryptography-Secured Trusted Node on a Quantum Network** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2504.01454)]
+- [2025] **1196 Quantum Cryptography in UAV Communications** [[paper](https://doi.org/10.1515/9783111619323-006)]
+- [2025] **Quantum Computing Frontiers: Algorithms, Cryptography, and Secure Quantum Networks** [[paper](https://doi.org/10.62311/nesx/rb9)]
+- [2025] **Advancements in secure quantum communication and robust key distribution techniques for cybersecurity applications** *Cyber Security and Applications* [[paper](https://doi.org/10.1016/j.csa.2025.100089)]
+- [2025] **Quantum Cryptography in Telecommunication Systems: Securing Data Transmission Against Emerging Cyber Threats** *International Journal of Computer Applications Technology and Research* [[paper](https://doi.org/10.7753/ijcatr1402.1011)]
+- [2025] **Secret Key Rate of Quantum Key Distribution Assuming Worst-Case Attacks** [[paper](https://doi.org/10.1109/ieeeconf62907.2025.10949087)]
+- [2025] **Enhancing Data Security in Transmission Through Quantum Key Distribution in Cryptography** [[paper](https://doi.org/10.1109/esci63694.2025.10987916)]
+- [2025] **QuSIM-Enhanced GSM Security: A Quantum Prover Authentication Protocol (QuPAP) for Mobile Communication** *IEEE Internet of Things Journal* [[paper](https://doi.org/10.1109/jiot.2025.3551679)]
+- [2025] **Securing Patient Data in Healthcare with Quantum Cryptography in the Quantum Era** *Auerbach Publications eBooks* [[paper](https://doi.org/10.1201/9781003499459-16)]
+- [2025] **Scalable Quantum Networks: Entanglement-Driven Secure Communication** [[paper](https://doi.org/10.62311/nesx/rrvi525)]
+- [2025] **Secure Image Steganography with AES Encryption and BB84 Quantum Key Exchange** [[paper](https://doi.org/10.1109/icsses64899.2025.11009387)]
+- [2025] **In-Field Quantum-Protected Control-Based Key Distribution with a Lossy Urban Fiber Link** *Quantum Reports* [[paper](https://doi.org/10.3390/quantum7020016)]
+- [2025] **An efficient poly-quantum integrity key generation based multi-user access control encryption and decryption framework for homogeneous and heterogeneous cloud EHR databases** *Information Security Journal A Global Perspective* [[paper](https://doi.org/10.1080/19393555.2025.2479029)]
+- [2025] **5G Wireless Network Security: Investigating Next-Generation Mobile Communication Data Encryption Methods and Authentication Protocols** [[paper](https://doi.org/10.1109/dicct64131.2025.10986591)]
+- [2025] **Pre-flight verification of the CubeSat attitude control system for the QUBE mission** [[paper](https://doi.org/10.1117/12.3062785)]
+- [2025] **THE CONCEPT OF QUANTUM CRYPTOGRAPHY TO ENSURE SECURE DATA TRANSMISSION** *Infokommunikacionnye tehnologii* [[paper](https://doi.org/10.18469/ikt.2024.22.2.07)]
+- [2025] **Key reconciliation protocol for quantum key distribution** *EPJ Quantum Technology* [[paper](https://doi.org/10.1140/epjqt/s40507-025-00319-4)]
+- [2025] **Next-Generation Secure Communication Networks: Leveraging Quantum Cryptography and AI** *Cuestiones de Fisioterapia* [[paper](https://doi.org/10.48047/mxxmyf44)]
+- [2025] **A Hybrid Framework for Secure Group Communication Using Quantum-Classical Cryptography and Reinforcement Learning** [[paper](https://doi.org/10.1109/isacc65211.2025.10969302)]
+- [2025] **Quantum Task Allocation and Scheduling with Security Enhancements via Quantum Key Distribution** [[paper](https://doi.org/10.1109/esic64052.2025.10962673)]
+- [2025] **Public-key cryptography** *Cryptography* [[paper](https://doi.org/10.1093/actrade/9780192882233.003.0006)]
+- [2025] **Role of Quantum Cryptography in Securing Communication Channels in Industry 4.0** [[paper](https://doi.org/10.1109/ce2ct64011.2025.10939917)]
+- [2025] **A Load Balancing Routing Algorithm for Quantum Key Distribution Networks** [[paper](https://doi.org/10.1145/3732945.3732985)]
+- [2025] **Multi-protocol quantum key distribution decoding chip** *Chinese Physics B* [[paper](https://doi.org/10.1088/1674-1056/adb686)]
+- [2025] **Simultaneous Distribution of Two Quantum Keys When Transmitting Single Photons with Wavelengths of 780 and 850 nm via a Single Free-Space Quantum Channel** *Optoelectronics Instrumentation and Data Processing* [[paper](https://doi.org/10.3103/s8756699025700074)]
+- [2025] **Quantum-Integrated Steganography for Secure Communication using QKD and LSB Techniques** [[paper](https://doi.org/10.1109/icears64219.2025.10940779)]
+- [2025] **Converging Horizons: Synergies of 6G Wireless Communication, Machine Learning, and Embedded Systems for Intelligent Connectivity** [[paper](https://doi.org/10.1201/9781003540212-4)]
+- [2025] **Quantum Computing and Cybersecurity: Navigating the Next Frontier of Digital Security** *International Journal of Scientific Research in Computer Science Engineering and Information Technology* [[paper](https://doi.org/10.32628/cseit251112155)]
+- [2025] **Securing Wireless and Optical Networks: Advanced Strategies for Network and Information Security in Modern Communication Systems** [[paper](https://doi.org/10.1109/icccit62592.2025.10927906)]
 - [2025] **Secure multi-party biometric verification using QKD assisted quantum oblivious transfer** *Scientific Reports* [[paper](https://arxiv.org/abs/2501.05327)]
+- [2025] **Quantum Key Distribution Applicability to Smart Grid Cybersecurity Systems** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3533942)]
+- [2025] **Quantum-Resilient Cryptography: A Survey on Classical and Quantum Algorithms** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3612982)]
+- [2025] **Effect of atmospheric discharges on the cryptographic key generation rate in quantum communication systems** *Journal of Optical Technology* [[paper](https://doi.org/10.1364/jot.92.000007)]
+- [2025] **Performance Analysis of Different Quantum Key Distribution Protocols for Optimised Security and Efficiency** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.70015)]
+- [2025] **Entanglement-based intercity quantum key distribution: Metrology and implementation** *Measurement Sensors* [[paper](https://doi.org/10.1016/j.measen.2024.101777)]
+- [2025] **Quantum Secure Image Transmission: A Chaos‐Assisted Quantum Key Distribution Approach Using Entanglement** *IET Quantum Communication* [[paper](https://doi.org/10.1049/qtc2.70016)]
+- [2025] **Post-Quantum Cryptography and Quantum Key Distribution: An In-Depth Survey of Techniques, Comparative Study, and Future Trends** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.5029361)]
+- [2025] **Quantum Cipher Exchange with BB84 Protocol and Cryptography Using the One-Time Pad Algorithm** [[paper](https://doi.org/10.1109/iitcee64140.2025.10915391)]
+- [2025] **An Overview of Quantum Cryptography Evolution From Classical Cryptography** [[paper](https://doi.org/10.1109/ic3ecsbhi63591.2025.10990566)]
+- [2025] **Quantum cryptographic algorithms for secure IoT and blockchain ledgers** *Advances in computers* [[paper](https://doi.org/10.1016/bs.adcom.2025.03.003)]
+- [2025] **A Secure IoT Network for Healthcare Systems Based on Quantum Key Distribution Protocol and AES Encryption** *Lecture notes in electrical engineering* [[paper](https://doi.org/10.1007/978-981-96-1531-5_1)]
+- [2025] **Comprehensive Review and Analysis of Image Encryption Techniques** *IEEE Access* [[paper](https://doi.org/10.1109/access.2025.3578158)]
+- [2025] **Quantum Entanglement and Measurement Noise: A Novel Approach to Satellite Node Authentication** [[paper](https://arxiv.org/abs/2501.06319)]
+- [2025] **Modern quantum technologies of cryptographic information protection** *Kibernetyka ta Systemnyi Analiz* [[paper](https://doi.org/10.34229/kca2522-9664.25.4.13)]
+- [2025] **Quantum Key Distribution: Securing Networks Against Post-Quantum Threats** *International Journal of Advanced Research in Science Communication and Technology* [[paper](https://doi.org/10.48175/ijarsct-22931)]
+- [2025] **Enhancing the security of IoT edge computing using quantum cryptographic and cellular automata** *Journal of Information and Optimization Sciences* [[paper](https://doi.org/10.47974/jios-1824)]
 
 ##### 2024
 
 - [2024] **Single-photon advantage in quantum cryptography beyond QKD** *Nature Communications* [[paper](https://arxiv.org/abs/2412.14993)]
+- [2024] **Quantum Key Distribution Routing Protocol in Quantum Networks: Overview and Challenges** [[paper](https://doi.org/10.36227/techrxiv.173532206.69862449/v1)]
+- [2024] **Adaptive Covert Communication Framework for 6G Networks Integrating Quantum Cryptography and AI-Augmented Physical Layer Security** *International Journal of Computational and Electronic Aspects in Engineering* [[paper](https://doi.org/10.26706/ijceae.5.4.20241108)]
+- [2024] **Quantum-Secure Data Transmission in Smart Grid** [[paper](https://doi.org/10.1109/mcsoc64144.2024.00084)]
+- [2024] **Development of superposition-based quantum key distribution protocol in decentralized full mesh networks** *Eastern-European Journal of Enterprise Technologies* [[paper](https://doi.org/10.15587/1729-4061.2024.318588)]
+- [2024] **A Quantum Encryption Algorithm based on the Rail Fence Mechanism to Provide Data Integrity** *Engineering Technology & Applied Science Research* [[paper](https://doi.org/10.48084/etasr.8993)]
+- [2024] **Quantum Cryptography: Enhancing Security in Quantum Computing Environments** *Computer Fraud & Security* [[paper](https://doi.org/10.52710/cfs.68)]
+- [2024] **Quantum Key Distribution Protocols: A Review of Security Enhancements** *Computer Fraud & Security* [[paper](https://doi.org/10.52710/cfs.72)]
+- [2024] **Secure and Scalable Quantum Key Distribution Protocol for Next-Generation Networks** [[paper](https://doi.org/10.1109/icicat62666.2024.10923380)]
+- [2024] **Research on Quantum Key, Distribution Key and Post-quantum Cryptography Key Applied Protocols for Data Science and Web Security** *Journal of Web Engineering* [[paper](https://doi.org/10.13052/jwe1540-9589.2365)]
+- [2024] **Exploring Quantum Key Distribution** [[paper](https://doi.org/10.1109/idicaiei61867.2024.10842847)]
+- [2024] **Public Key Security for Quantum Key Distribution** [[paper](https://doi.org/10.1109/csitss64042.2024.10817048)]
+- [2024] **Twin-field-based multi-party quantum key agreement** *Journal of the Optical Society of America B* [[paper](https://doi.org/10.1364/josab.541759)]
+- [2024] **Post-Quantum Cryptography: Securing Future Communication Networks Against Quantum Attacks** *Nanotechnology Perceptions* [[paper](https://doi.org/10.62441/nano-ntp.v20is14.16)]
+- [2024] **Quantum Cryptography for Secure Data Transmission in IoT Networks** *Computer Fraud & Security* [[paper](https://doi.org/10.52710/cfs.27)]
+- [2024] **Enhanced Security Framework For MQTT Protocol Based IoT Network Using Quantum Key Distribution** [[paper](https://doi.org/10.1109/wpmc63271.2024.10863467)]
+- [2024] **Quantum Key Distribution-Based Security Framework for Wireless Sensor Networks: Enhancing Resilience Against Classical and Quantum Cyber Threats** [[paper](https://doi.org/10.1109/icstsdg61998.2024.11026338)]
+- [2024] **Generalized quantum-assisted digital signature service in an SDN-controlled quantum-integrated optical network** *Journal of Optical Communications and Networking* [[paper](https://doi.org/10.1364/jocn.534089)]
+- [2024] **Practical hybrid PQC-QKD protocols with enhanced security and performance** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2411.01086)]
+- [2024] **Innovative Design and Intelligent Manufacturing** *Frontiers in artificial intelligence and applications* [[paper](https://dx.doi.org/10.3233/faia391)]
+- [2024] **Quantum key distribution protocols- A recent survey** *International Journal of Research Publication and Reviews* [[paper](https://doi.org/10.55248/gengpi.5.1124.3334)]
+- [2024] **TOWARDS EFFICIENT QUANTUM CRYPTOGRAPHY: ENHANCING QOTP WITH ENTANGLEMENT-BASED TECHNIQUES** [[paper](https://doi.org/10.71058/jodac.v8i11017)]
+- [2024] **Towards efficient and secure quantum-classical communication networks** [[paper](https://doi.org/10.1109/tps-isa62245.2024.00070)]
+- [2024] **Optimized Lattice-Based Homomorphic Encryption for Secure Multiparty Computation in Group Communication** [[paper](https://doi.org/10.1109/aiqc64330.2024.00030)]
+- [2024] **Enhancing ATM Security Management in the Post-Quantum Era with Quantum Key Distribution** [[paper](https://doi.org/10.1109/csr61664.2024.10679471)]
+- [2024] **Simulations of distributed-phase-reference quantum key distribution protocols** *Physica Scripta* [[paper](https://doi.org/10.1088/1402-4896/ad7ade)]
+- [2024] **A Practical Multiprotocol Collaborative Quantum Key Distribution Networking Scheme for Consumer Electronics Devices** *IEEE Transactions on Consumer Electronics* [[paper](https://doi.org/10.1109/tce.2024.3467010)]
+- [2024] **Implementation of a Mixed Triple Logistic Map and the BB84 Quantum Key Distribution for Secure Image Communication** [[paper](https://doi.org/10.1109/isemantic63362.2024.10761981)]
+- [2024] **Leveraging quantum uncertainty: Quantum randomness through the lens of classical communication networks** *Computer Networks* [[paper](https://doi.org/10.1016/j.comnet.2024.110781)]
+- [2024] **Towards Scalable Quantum Key Distribution: A Machine Learning-Based Cascade Protocol Approach** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2409.08038)]
+- [2024] **Guided and unguided approaches for quantum key distribution for secure quantum communication** *Security and Privacy* [[paper](https://doi.org/10.1002/spy2.453)]
+- [2024] **Challenges and Solutions for Secure Key Management and Monitoring: Review of the Cerberis3 Quantum Key Distribution System** *Quantum Reports* [[paper](https://doi.org/10.3390/quantum6030027)]
+- [2024] **Beyond Current Cryptography** *Advances in information security, privacy, and ethics book series* [[paper](https://doi.org/10.4018/979-8-3693-5330-1.ch001)]
+- [2024] **Enhancing Healthcare Security with Quantum Blockchain: Electronic Medical Records Protection** [[paper](https://doi.org/10.1109/nmitcon62075.2024.10699120)]
+- [2024] **A Hybrid Improved Unequal Secure Cluster Based Distributed Routing Protocol with Quantum Key Distribution to Improve the Performance Measures in Wireless Body Sensor Network** *International Journal of Computer Networks And Applications* [[paper](https://doi.org/10.22247/ijcna/2024/26)]
+- [2024] **Realizing Sustainable Energy Quantum Computing Applications in Power Grids** *Advances in computational intelligence and robotics book series* [[paper](https://dx.doi.org/10.4018/979-8-3693-4001-1.ch021)]
+- [2024] **Security Analysis of the BB84 Protocol in IoT Networks** *International Journal of Advanced Trends in Computer Science and Engineering* [[paper](https://doi.org/10.30534/ijatcse/2024/021342024)]
+- [2024] **Quantum Cryptography in Modern Cybersecurity** *INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT* [[paper](https://doi.org/10.55041/ijsrem37219)]
+- [2024] **Quantum computing: Cryptographic perspective** [[paper](https://doi.org/10.1109/iccccm61016.2024.11039983)]
+- [2024] **Enhanced Secure Communication in Wireless Sensor Networks: Quantum Key Distribution with KIRSAN Gate** [[paper](https://doi.org/10.1109/icesc60852.2024.10689791)]
+- [2024] **A Survey on Quantum Cryptography, its Protocols, Applications, and Challenges** *Preprints.org* [[paper](https://dx.doi.org/10.20944/preprints202408.0333.v1)]
+- [2024] **Unconditionally secure key distribution without quantum channel** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2408.13602)]
+- [2024] **Quantum secure communication using hybrid post-quantum cryptography and quantum key distribution** [[paper](https://doi.org/10.1109/icton62926.2024.10648124)]
+- [2024] **Enhancing the Security of Classical Communication with Post-Quantum Authenticated-Encryption Schemes for the Quantum Key Distribution** *Computers* [[paper](https://doi.org/10.3390/computers13070163)]
+- [2024] **Securing Asymmetric Key Cryptography in 6G Wireless and Mobile Environments: A Comprehensive Review and Proposed Hybrid Cryptosystem** [[paper](https://doi.org/10.1109/aic61668.2024.10730910)]
+- [2024] **Prospects for Legal Regulation of Quantum Communication** *BRICS Law Journal* [[paper](https://doi.org/10.21684/2412-2343-2024-11-2-11-54)]
+- [2024] **Implementation of space-division multiplexed entanglement-based quantum cryptography over multicore fiber** *Optica Quantum* [[paper](https://doi.org/10.1364/opticaq.527903)]
+- [2024] **An efficient quantum oblivious transfer protocol** *Cluster Computing* [[paper](https://doi.org/10.1007/s10586-024-04642-w)]
+- [2024] **Authentication of Smart Grid by Integrating QKD and Blockchain in SCADA Systems** *IEEE Transactions on Network and Service Management* [[paper](https://doi.org/10.1109/tnsm.2024.3423762)]
+- [2024] **SCiphered Clouds and Quantum Secrets** [[paper](https://doi.org/10.1201/9781003455448-12)]
+- [2024] **European Quantum ecOsystems — Preparing the Industry for the Quantum Security and Communications Revolution** [[paper](https://arxiv.org/abs/2408.15027)]
+- [2024] **Advancing Network Security with Quantum-Safe System Integration** [[paper](https://dx.doi.org/10.1109/icccn61486.2024.10637630)]
+- [2024] **Centerless Quantum Key Distribution Protocol based on Superposition** [[paper](https://doi.org/10.1109/opcs63516.2024.10720385)]
+- [2024] **The Protocol of Quantum Key Distribution on Beams with Space Structured Polariztion** [[paper](https://dx.doi.org/10.1109/iclo59702.2024.10624509)]
+- [2024] **Securing SDN Communication through Quantum Key Distribution** [[paper](https://doi.org/10.1109/itec60657.2024.10598919)]
+- [2024] **Quantum Key Distribution Protocol Using Axially Symmetric Polarization Beams in an Atmospheric Channel** *Radiophysics and Quantum Electronics* [[paper](https://doi.org/10.1007/s11141-025-10352-z)]
+- [2024] **LDQKDPB: Unbreakable Network Security via Long-Distance Quantum Key Distribution Enhanced by Post-Quantum Techniques and Blockchain** *Communications on Applied Nonlinear Analysis* [[paper](https://doi.org/10.52783/cana.v31.667)]
+- [2024] **Quantum Cryptography: Mathematical Foundations and Practical Applications for Secure Communication Protocols** *Communications on Applied Nonlinear Analysis* [[paper](https://doi.org/10.52783/cana.v31.801)]
+- [2024] **From Unilateral Adaptive to Bilateral Synergistic Routing and Wavelength Assignment: Enabling End-to-End Quantum Key Distribution over Classical Optical Networks** [[paper](https://dx.doi.org/10.1109/icc51166.2024.10622746)]
+- [2024] **Quantum Key Distribution In Quantum Communication** *INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT* [[paper](https://doi.org/10.55041/ijsrem36069)]
+- [2024] **Quantum Cryptography: A Novel Approach to Secure Communications** *American Journal Of Cryptography And Network Security* [[paper](https://doi.org/10.71465/ajcnss1086)]
+- [2024] **From Existing Quantum Key Distribution Systems Towards Future Quantum Networks** [[paper](https://doi.org/10.1109/icccas62034.2024.10652815)]
+- [2024] **Loss Control-Based Key Distribution under Quantum Protection** *Entropy* [[paper](https://doi.org/10.3390/e26060437)]
+- [2024] **Cost-Optimized Quantum Communication Networks: The Crucial Role of Trusted Node Placement in Multi-Band and Multi-Fiber Realms** [[paper](https://dx.doi.org/10.1109/iwcit62550.2024.10553007)]
+- [2024] **Gbps key rate passive-state-preparation continuous-variable quantum key distribution within an access-network area** *Photonics Research* [[paper](https://doi.org/10.1364/prj.519909)]
+- [2024] **Study on Implementation of Shor’s Factorization Algorithm on Quantum Computer** *SN Computer Science* [[paper](https://doi.org/10.1007/s42979-024-02771-y)]
+- [2024] **Computationally Secure Semi‐Quantum All‐Or‐Nothing Oblivious Transfer from Dihedral Coset States** *Advanced Quantum Technologies* [[paper](https://doi.org/10.1002/qute.202300269)]
+- [2024] **Quantum Cryptography: Advancements, Challenges, and Applications in Modern Communication** *International Journal of Advanced Research in Science Communication and Technology* [[paper](https://doi.org/10.48175/ijarsct-17591)]
+- [2024] **Quantum Key Distribution: Harnessing the Power of BB84 for Secure Communications in the Post-Quantum Era** [[paper](https://doi.org/10.1109/tqcebt59414.2024.10545173)]
+- [2024] **Multi-Phase Quantum Resistant Framework for Secure Communication in SCADA Systems** *IEEE Transactions on Dependable and Secure Computing* [[paper](https://doi.org/10.1109/tdsc.2024.3378474)]
+- [2024] **Quantum-Secure Signalling Model for L1/L2 Next-Gen Interconnect and Roaming Networks Over IPX for NB-IoT Traffic: A Review** *International Conference on Cyber Warfare and Security* [[paper](https://doi.org/10.34190/iccws.19.1.2248)]
+- [2024] **Analyzing the Impact of Quantum Cryptography on Network Security** [[paper](https://doi.org/10.1109/icicacs60521.2024.10498417)]
+- [2024] **Exploring and reviewing the potential of quantum computing in enhancing cybersecurity encryption methods** *Magna Scientia Advanced Research and Reviews* [[paper](https://doi.org/10.30574/msarr.2024.10.1.0038)]
+- [2024] **Quantum computing and its potential impact on U.S. cybersecurity: A review: Scrutinizing the challenges and opportunities presented by quantum technologies in safeguarding digital assets** *Global Journal of Engineering and Technology Advances* [[paper](https://doi.org/10.30574/gjeta.2024.18.2.0026)]
+- [2024] **Explore the Impact of Quantum Computing to Enhance Cryptographic Protocols and Network Security Measures** [[paper](https://doi.org/10.1109/ic2pct60090.2024.10486607)]
+- [2024] **Quantum Key Distribution Shared Protocol Using Teleportation and Delayed Measurement** *Journal of Physics Conference Series* [[paper](https://doi.org/10.1088/1742-6596/2701/1/012111)]
+- [2024] **On the (relation between) efficiency and secret key rate of QKD** *Scientific Reports* [[paper](https://doi.org/10.1038/s41598-024-54246-y)]
+- [2024] **Unveiling the Quantum Internet: Potentials, Challenges, and Security through Simulation** *Research Square* [[paper](https://dx.doi.org/10.21203/rs.3.rs-3911822/v1)]
+- [2024] **Effect on a QKD Chain Going Through a Generic Pauli Channel Together with a Correction Based on the 3-qubit Code** *Journal of Physics Conference Series* [[paper](https://doi.org/10.1088/1742-6596/2701/1/012112)]
+- [2024] **A Secure Method of Communication Through BB84 Protocol in Quantum Key Distribution** *Scalable Computing Practice and Experience* [[paper](https://doi.org/10.12694/scpe.v25i1.2152)]
+- [2024] **Controlling the photon number coherence of solid-state quantum light sources for quantum cryptography** *npj Quantum Information* [[paper](https://doi.org/10.1038/s41534-024-00811-2)]
+- [2024] **Secure method of communication using Quantum Key Distribution** *Applied and Computational Engineering* [[paper](https://doi.org/10.54254/2755-2721/30/20230065)]
+- [2024] **Routing With Minimum Activated Trusted Nodes in Quantum Key Distribution Networks for Secure Communications** *IEEE Internet of Things Journal* [[paper](https://doi.org/10.1109/jiot.2024.3349476)]
+- [2024] **Software defined network implementation of multi-node adaptive novel quantum key distribution protocol** *AIMS Electronics and Electrical Engineering* [[paper](https://doi.org/10.3934/electreng.2024020)]
+- [2024] **A Review on Quantum Key Distribution Protocols, Challenges, and Its Applications** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-981-99-9811-1_43)]
+- [2024] **The Quantum Cryptography Approach: Unleashing the Potential of Quantum Key Reconciliation Protocol for Secure Communication** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2401.08987)]
+- [2024] **Hybrid QKD-based framework for secure enterprise communication system** *Procedia Computer Science* [[paper](https://doi.org/10.1016/j.procs.2024.06.189)]
+- [2024] **Development of a Hybrid Quantum Key Distribution Concept for Multi-User Networks** *International Journal of Advanced Computer Science and Applications* [[paper](https://doi.org/10.14569/ijacsa.2024.0150940)]
+- [2024] **Integrating Quantum Key Distribution into TLS 1.3: A Transport Layer Approach to Quantum-Resistant Communications in Optical Networks** [[paper](https://doi.org/10.1364/ofc.2024.th3b.3)]
+- [2024] **Quantum Cryptography – The Future of Secure Communication Using Quantum Key Distribution (QKD) Protocols** *Communications in computer and information science* [[paper](https://doi.org/10.1007/978-3-031-68908-6_7)]
+- [2024] **A Quantum Physics Approach for Enabling Information-Theoretic Secure Communication Channels** *Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering* [[paper](https://doi.org/10.1007/978-3-031-56583-0_1)]
+- [2024] **High Performance Superconducting Nanowire Single Photon Detectors for QKD Applications** *IEEE Transactions on Applied Superconductivity* [[paper](https://doi.org/10.1109/tasc.2024.3355878)]
+- [2024] **Simulation and Comparison of BB84 and SSP99 QKD Protocols** *Communications in computer and information science* [[paper](https://doi.org/10.1007/978-3-031-64076-6_10)]
+- [2024] **A blockchain architecture with quantum key distribution (QKD)** *International Journal of Blockchains and Cryptocurrencies* [[paper](https://www.inderscienceonline.com/doi/full/10.1504/IJBC.2024.143407)]
+
+##### 2023
+
+- [2023] **An Effective Data Security Mechanism for Secured Data Communications Using Hybrid Cryptographic Technique and Quantum Key Distribution** *Wireless Personal Communications* [[paper](https://doi.org/10.1007/s11277-023-10813-6)]
+- [2023] **Quantum Key Distribution for Critical Infrastructures: Towards Cyber-Physical Security for Hydropower and Dams** *Sensors* [[paper](https://doi.org/10.3390/s23249818)]
+- [2023] **Quantum Computing's Double-Edged Sword Unravelling the Vulnerabilities in Quantum Key Distribution for Enhanced Network Security** [[paper](https://doi.org/10.1109/nelex59773.2023.10420896)]
+- [2023] **Exploring Quantum Key Distribution for Secure Communication: A Comprehensive Survey** [[paper](https://doi.org/10.1109/icemce57940.2023.10434018)]
+- [2023] **Quantum walks-based simple authenticated quantum cryptography protocols for secure wireless sensor networks** *New Journal of Physics* [[paper](https://doi.org/10.1088/1367-2630/ad11b7)]
+- [2023] **A Practical Multi-Protocol Collaborative QKD Networking Scheme** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2312.07201)]
+- [2023] **Quantum Cryptography: State-of-the-Art Techniques and Future Directions** *International Journal Of Recent Advances in Engineering & Technology* [[paper](https://doi.org/10.65521/intjournalrecadvengtech.v12i2.123)]
+- [2023] **Quantum-Resistant TLS 1.3: A Hybrid Solution Combining Classical, Quantum and Post-Quantum Cryptography** [[paper](https://doi.org/10.1109/camad59638.2023.10478407)]
+- [2023] **A Novel Multi-Qubit Quantum Key Distribution Ciphertext-Policy Attribute-Based Encryption Model to Improve Cloud Security for Consumers** *IEEE Transactions on Consumer Electronics* [[paper](https://doi.org/10.1109/tce.2023.3331306)]
+- [2023] **QKD Entity Source Authentication: Defense-in-Depth for Post Quantum Cryptography** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2311.10636)]
+- [2023] **One-time universal hashing quantum digital signatures without perfect keys** *Physical Review Applied* [[paper](https://doi.org/10.1103/physrevapplied.20.044011)]
+- [2023] **Machine Learning-Enhanced Advancements in Quantum Cryptography: A Comprehensive Review and Future Prospects** *International Journal on Recent and Innovation Trends in Computing and Communication* [[paper](https://doi.org/10.17762/ijritcc.v11i11s.8300)]
+- [2023] **Security Aspects of Quantum Cryptography** [[paper](https://doi.org/10.1002/9781394167401.ch11)]
+- [2023] **Hybrid QKD & PQC Protocols implemented in the Berlin OpenQKD testbed** [[paper](https://doi.org/10.1109/icfsp59764.2023.10372894)]
+- [2023] **Estudo e Simulação de uma Rede de Distribuição de Chaves Quânticas de Alto Desempenho para o Campus da UFPA** [[paper](https://dx.doi.org/10.5753/erad-no2.2023.236288)]
+- [2023] **Quantum Key Distribution-based Techniques in IoT** *THE SCIENTIFIC TEMPER* [[paper](https://doi.org/10.58414/scientifictemper.2023.14.3.69)]
+- [2023] **Quantum-Assisted Spectrum Sharing in Cognitive Self-Organizing Networks** [[paper](https://dx.doi.org/10.1109/icosec58147.2023.10275948)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1721,6 +3025,43 @@
 - [2026] **Continuous variable quantum key distribution channel emulator for the SPOQC mission** [[paper](https://arxiv.org/abs/2602.23510)]
 - [2026] **Self-stabilized high-dimensional quantum key distribution on a metropolitan free-space link** [[paper](https://arxiv.org/abs/2602.22102)]
 - [2026] **Entanglement recovery by reversing the effect of noise in quantum repeater** [[paper](https://arxiv.org/abs/2602.21563)]
+- [2026] **The Optical Architecture of a Heterogeneous Quantum Network Deployed in Production Facilities** *IEEE Network* [[paper](https://arxiv.org/abs/2409.01069)]
+
+##### 2025
+
+- [2025] **Quantum Federated Learning: Architectural Elements and Future Directions** [[paper](https://arxiv.org/abs/2510.17642)]
+- [2025] **DISCRETION: First Field Demonstration of a Quantum Enabled SDN in the Context of a Military Exercise** [[paper](https://doi.org/10.1109/icmcis64378.2025.11047713)]
+- [2025] **Quantum Security Mechanisms for Defense Applications** *Lecture notes in computer science* [[paper](https://doi.org/10.1007/978-3-032-00633-2_7)]
+
+##### 2024
+
+- [2024] **Research on the Application of Power System Cryptography Based on Quantum Key** *Frontiers in artificial intelligence and applications* [[paper](https://dx.doi.org/10.3233/faia241095)]
+- [2024] **Experimental demonstration of continuous-variable quantum key distribution with a silicon photonics integrated receiver** *Optica Quantum* [[paper](https://doi.org/10.1364/opticaq.534699)]
+- [2024] **Embracing the quantum frontier: Investigating quantum communication, cryptography, applications and future directions** *Journal of Industrial Information Integration* [[paper](https://doi.org/10.1016/j.jii.2024.100594)]
+- [2024] **A Study of Blockchain Technology, Quantum Cryptography and its Applications.** *SSRN Electronic Journal* [[paper](https://doi.org/10.2139/ssrn.4493495)]
+- [2024] **Quantum key distribution and its applications** *Elsevier eBooks* [[paper](https://www.sciencedirect.com/science/article/pii/B9780323983785000015/pdf)]
+
+##### 2023
+
+- [2023] **Exploring Quantum Computing Use Cases for Critical National Infrastructures** [[paper](https://doi.org/10.1145/3644713.3644718)]
+
+[⬆ Back to top](#paper-list)
+
+#### Development
+
+##### 2026
+
+- [2026] **Towards quantum-enabled security for IoT-driven smart healthcare systems** *Cluster Computing* [[paper](https://doi.org/10.1007/s10586-026-05945-w)]
+- [2026] **Implementation of Quantum Key Distribution with Elliptic Curve Cryptography** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-981-95-3163-9_26)]
+
+##### 2025
+
+- [2025] **Analysing Cryptography and Early-Stage of Quantum Cryptographic Systems for Secure Communication in the Next Generation** *Lecture notes in networks and systems* [[paper](https://doi.org/10.1007/978-3-032-03527-1_14)]
+- [2025] **Deep Reinforcement Learning-Driven Optimization of End-to-End Key Provision in QKD Systems** *Journal of Network and Systems Management* [[paper](https://doi.org/10.1007/s10922-025-09902-7)]
+
+##### 2024
+
+- [2024] **How many sessions of quantum key distribution are allowed from the first launch to the next restart of the system?** *Laser Physics* [[paper](https://doi.org/10.1088/1555-6611/ad2928)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1730,6 +3071,26 @@
 
 - [2026] **A Hybrid Secure Communication Architecture Using Quantum Key Distribution and Post Quantum Cryptography** [[paper](https://doi.org/10.1109/ic2pct68894.2026.11584428)]
 - [2026] **Spurious Pulse Detection in Fibre-Optic Channels Using Measurement-Device-Independent Quantum Key Distribution with Single-Photon Avalanche Photodiodes** *Research Square* [[paper](https://doi.org/10.21203/rs.3.rs-8711394/v1)]
+
+##### 2025
+
+- [2025] **Realization of an untrusted intermediate relay architecture using a quantum dot single-photon source** *Nature Physics* [[paper](https://arxiv.org/abs/2508.21479)]
+- [2025] **An efficient and resilient IoT architecture for smart grids via quantum key distribution and multi-homocryption encryption** *Quantum Information Processing* [[paper](https://doi.org/10.1007/s11128-025-04906-3)]
+- [2025] **Polarization states preparation based on TFLN integrated chip and SOI 2D grating coupler** *Optics & Laser Technology* [[paper](https://doi.org/10.1016/j.optlastec.2025.112935)]
+- [2025] **Polarization encoding chips based on 2-D grating and PBRS** *Optics & Laser Technology* [[paper](https://doi.org/10.1016/j.optlastec.2025.112778)]
+
+##### 2024
+
+- [2024] **High extinction ratio multi-polarization states preparation based on SOI integrated chips** *Optics Communications* [[paper](https://doi.org/10.1016/j.optcom.2024.131177)]
+- [2024] **Enhancing Healthcare Data Security Using Quantum Cryptography for Efficient and Robust Encryption** *Journal of Electrical Systems* [[paper](https://doi.org/10.52783/jes.2544)]
+
+[⬆ Back to top](#paper-list)
+
+#### Reviews & Surveys
+
+##### 2024
+
+- [2024] **Quantum Cryptography: An Overview of Quantum Key Distribution** *Encyclopedia of Mathematical Physics* [[paper](https://doi.org/10.1016/b978-0-323-95703-8.00103-8)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1821,6 +3182,10 @@
 - [2026] **Coefficient-Decoupled Matrix Product Operators as an Interface to Linear-Combination-of-Unitaries Circuits** [[paper](https://arxiv.org/abs/2603.24822)]
 - [2026] **Optimized Compilation for Distributed Quantum Computing** [[paper](https://arxiv.org/abs/2602.24062)]
 
+##### 2024
+
+- [2024] **Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects** [[paper](https://arxiv.org/abs/2407.00736)]
+
 [⬆ Back to top](#paper-list)
 
 ### Surveys & Taxonomies
@@ -1838,6 +3203,19 @@
 - [2026] **QUANTUM MACHINE LEARNING IN HEALTHCARE: ACOMPREHENSIVE SURVEY OF RECENT ADVANCES** [[paper](https://doi.org/10.58532/nbennurambh4)]
 - [2026] **Backdoor Threats in Variational Quantum Circuits: Taxonomy, Attacks, and Defenses** [[paper](https://arxiv.org/abs/2605.13796)]
 - [2026] **Quantum Image Processing for Medical Image Analysis: A Comprehensive Literature Survey** [[paper](https://doi.org/10.1109/aimla67915.2026.11522292)]
+- [2026] **A Survey of Quantum Computing Algorithms for Mathematical Optimization: State-Of-The-Art in Research & Exploration of Further Possibilities** [[paper](https://doi.org/10.36227/techrxiv.177083708.82317353/v1)]
+- [2026] **A Survey of Microwave-Implemented Superconducting Qubit Control and Readout Circuits** *IEEE Transactions on Quantum Engineering* [[paper](https://doi.org/10.1109/tqe.2026.3659400)]
+- [2026] **The Convergence of Quantum Computing and AI: Accelerating Next-Generation Therapeutic Discovery** [[paper](https://doi.org/10.1007/978-3-032-19536-4_3)]
+- [2026] **Pulse-based variational quantum algorithms** *Quantum Review Letters* [[paper](https://doi.org/10.1016/j.qrl.2026.06.002)]
+
+##### 2025
+
+- [2025] **A Brief Review on Quantum-Based Control Strategies for Robotic Systems** [[paper](https://doi.org/10.1109/icaaid68975.2025.11358227)]
+- [2025] **Structured PREreview of "The Art of Quantum Computing for Finance: Brief Overview and Prospects"** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.17636532)]
+- [2025] **Quantum Communication and Information Technologies: A Survey on Foundation, Error Correction, NISQ, and Networks** [[paper](https://doi.org/10.36227/techrxiv.175735780.05700466/v1)]
+- [2025] **Literature Reviews in Advanced Physics: A Collection of 35 Reviews (LR-01–LR-35)** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.21601459)]
+- [2025] **A Survey of Quantum Computing Security Protocols: Frameworks and Vulnerabilities** *Zenodo (CERN European Organization for Nuclear Research)* [[paper](https://doi.org/10.5281/zenodo.21282419)]
+- [2025] **Coalition of explainable artificial intelligence and quantum computing in precision medicine** *Computational and Structural Biotechnology Journal* [[paper](https://doi.org/10.1016/j.csbj.2025.11.031)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1847,6 +3225,22 @@
 
 - [2026] **Hybrid Classical-Quantum Systems: The Unsung Heroes of the NISQ Era** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202608.1044.v1)]
 - [2026] **Quantum Computing Disruption in the Banking Sector: Empirical Analysis of Risks and Opportunities** *International Journal of Creative and Open Research in Engineering and Management* [[paper](https://doi.org/10.55041/ijcope.v2i5.834)]
+- [2026] **High-Performance And Quantum Computing In Cancer Modeling: A Review And Hybrid Hpc-Quantum Approach** *International Journal of Advances in Signal and Image Sciences* [[paper](https://doi.org/10.29284/bfq8ev64)]
+- [2026] **Quantum Computing Meets Large Language Models: Insights, Challenges, and Future Directions** [[paper](https://doi.org/10.36227/techrxiv.177004376.69666864/v1)]
+
+##### 2025
+
+- [2025] **A Review of Quantum Scientific Computing Algorithms Relevant to Computational Mechanics** *Archives of Computational Methods in Engineering* [[paper](https://doi.org/10.1007/s11831-025-10321-9)]
+- [2025] **A Review on Quantum Circuit Optimization using ZX-Calculus** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2509.20663)]
+- [2025] **Towards fault-tolerant distributed quantum computation (FT-DQC): Taxonomy, recent progress, and challenges** *ICT Express* [[paper](https://doi.org/10.1016/j.icte.2025.03.007)]
+
+##### 2024
+
+- [2024] **Artificial Intelligence for Quantum Error Correction: A Comprehensive Review** *arXiv (Cornell University)* [[paper](https://arxiv.org/abs/2412.20380)]
+
+##### 2023
+
+- [2023] **A Systematic Literature Review of Classical and Quantum Machine Learning Approaches for Mutual Fund Portfolio Optimization** [[paper](https://dx.doi.org/10.1109/punecon58714.2023.10450063)]
 
 [⬆ Back to top](#paper-list)
 
@@ -1875,6 +3269,8 @@
 - [2026] **Many-Body Physics with Rydberg Atoms: Quantum Simulation and Non-equilibrium Dynamics** [[paper](https://arxiv.org/abs/2607.11038)]
 - [2026] **Turbulence in Quantum Gases: Vortices, Waves, and Cascades** [[paper](https://arxiv.org/abs/2607.22244)]
 - [2026] **When AI meets quantum information: A comprehensive review** [[paper](https://arxiv.org/abs/2607.00365)]
+- [2026] **Auditing Question-Order Effects in Large Language Models with the QQ Equality: Mechanism Characterization and a Saturation Caveat** [[paper](https://arxiv.org/abs/2607.17219)]
+- [2026] **QuantumNovelty: A Skill-Orchestrating Language Agent for Referee-Style Review and Patentability Screening of Quantum Papers and Patents** [[paper](https://arxiv.org/abs/2608.16900)]
 - [2026] **A NISQ-Aware Hybrid Quantum-Classical Framework for Scalable Combinatorial Optimization** [[paper](https://arxiv.org/abs/2606.00541)]
 - [2026] **A Modular Benchmark of Variational Quantum Attack Algorithms for S-DES** [[paper](https://arxiv.org/abs/2606.30143)]
 - [2026] **Benchmarking Quantum Algorithmic Resilience for CVaR Portfolio Optimization: The Expressibility-Coherence Trade-off** [[paper](https://arxiv.org/abs/2606.07727)]
@@ -1935,6 +3331,26 @@
 - [2026] **HAMMR-L: Noise Reduction in Quantum Outcomes Using a Richardson-Lucy Deconvolution Algorithm for Quantum State Graphs** [[paper](https://arxiv.org/abs/2603.28821)]
 - [2026] **Robust Parametric Quantum Gate Against Stochastic Time-Varying Noise** [[paper](https://arxiv.org/abs/2603.24345)]
 - [2026] **Efficient time-series prediction on NISQ devices via time-delayed quantum extreme learning machine** [[paper](https://arxiv.org/abs/2602.21544)]
+- [2026] **Artificial Intelligence in Materials Science and Engineering: Current Landscape, Key Challenges, and Future Trajectorie** [[paper](https://arxiv.org/abs/2601.12554)]
+
+##### 2024
+
+- [2024] **Generalization Error Bound for Quantum Machine Learning in NISQ Era -- A Survey** [[paper](https://arxiv.org/abs/2409.07626)]
+- [2024] **Investigating and Mitigating Barren Plateaus in Variational Quantum Circuits: A Survey** [[paper](https://arxiv.org/abs/2407.17706)]
+- [2024] **Classical and Quantum Physical Reservoir Computing for Onboard Artificial Intelligence Systems: A Perspective** [[paper](https://arxiv.org/abs/2407.04717)]
+- [2024] **Quantum Natural Language Processing** [[paper](https://arxiv.org/abs/2403.19758)]
+
+##### 2023
+
+- [2023] **A Survey on Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead** [[paper](https://arxiv.org/abs/2310.10315)]
+- [2023] **Advances in Quantum Machine Learning and Deep Learning for Image Classification: A Survey** *Neurocomputing* [[paper](https://doi.org/10.1016/j.neucom.2023.126843)]
+- [2023] **Quantum-Inspired Machine Learning: a Survey** [[paper](https://arxiv.org/abs/2308.11269)]
+- [2023] **Reliable AI: Does the Next Generation Require Quantum Computing?** [[paper](https://arxiv.org/abs/2307.01301)]
+- [2023] **Towards Quantum Federated Learning** [[paper](https://arxiv.org/abs/2306.09912)]
+
+##### 2022
+
+- [2022] **A Survey on Quantum Reinforcement Learning** [[paper](https://arxiv.org/abs/2211.03464)]
 
 ##### 2018
 

@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-24  
-**Corpus:** 1,526 papers across 9 categories
+**Corpus:** 2,710 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Quantum Cryptography & Communication | 337 |
-| 2 | Quantum Algorithms & Complexity | 305 |
-| 3 | Quantum Machine Learning | 233 |
-| 4 | Quantum Simulation | 124 |
-| 5 | Quantum Hardware & Architecture | 122 |
-| 6 | Quantum Error Correction | 120 |
-| 7 | Quantum Information Theory | 118 |
-| 8 | Surveys & Taxonomies | 86 |
+| 1 | Quantum Cryptography & Communication | 812 |
+| 2 | Quantum Machine Learning | 616 |
+| 3 | Quantum Algorithms & Complexity | 458 |
+| 4 | Quantum Hardware & Architecture | 176 |
+| 5 | Quantum Simulation | 163 |
+| 6 | Quantum Error Correction | 147 |
+| 7 | Quantum Information Theory | 140 |
+| 8 | Surveys & Taxonomies | 116 |
 
-**Time span:** 2012–2026 (median year 2018)
-**Dominant aspects:** Method (608), Theory (556), Application (105)
+**Time span:** 2012–2026 (median year 2019)
+**Dominant aspects:** Method (1212), Theory (1058), Application (131)
 
 ---
 
@@ -29,15 +29,15 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Quantum Cryptography | 337 | 335 | 2 | +16650% | 99% | 27.9 |
-| Quantum Simulation | 124 | 123 | 1 | +12200% | 99% | 10.2 |
-| Quantum Error Correction | 120 | 118 | 1 | +11700% | 98% | 9.8 |
-| Quantum Machine Learning | 233 | 227 | 4 | +5575% | 97% | 18.9 |
-| Quantum Algorithms | 305 | 292 | 9 | +3144% | 96% | 24.3 |
-| Quantum Information | 118 | 118 | 0 | — | 100% | 9.8 |
-| Quantum Software | 81 | 81 | 0 | — | 100% | 6.8 |
-| Survey | 86 | 85 | 0 | — | 99% | 7.1 |
-| Quantum Hardware | 122 | 120 | 0 | — | 98% | 10.0 |
+| Survey | 116 | 99 | 6 | +1550% | 85% | 8.2 |
+| Quantum Information | 140 | 127 | 9 | +1311% | 91% | 10.6 |
+| Quantum Error Correction | 147 | 131 | 10 | +1210% | 89% | 10.9 |
+| Quantum Hardware | 176 | 147 | 19 | +674% | 84% | 12.2 |
+| Quantum Simulation | 163 | 135 | 18 | +650% | 83% | 11.2 |
+| Quantum Algorithms | 458 | 312 | 75 | +316% | 68% | 26.0 |
+| Quantum Machine Learning | 616 | 353 | 152 | +132% | 57% | 29.4 |
+| Quantum Cryptography | 812 | 464 | 223 | +108% | 57% | 38.7 |
+| Quantum Software | 82 | 81 | 0 | — | 99% | 6.8 |
 
 ---
 
@@ -46,13 +46,13 @@
 | Cell | Papers |
 |------|--------:|
 | `quantum-hardware/evaluation` | 1 |
-| `quantum-machine-learning/review` | 1 |
 | `quantum-simulation/development` | 1 |
 | `survey/application` | 1 |
 | `quantum-error-correction/systems` | 1 |
 | `quantum-error-correction/development` | 1 |
-| `quantum-hardware/application` | 1 |
-| `quantum-hardware/development` | 1 |
+| `quantum-information/systems` | 1 |
+| `quantum-algorithms/application` | 1 |
+| `quantum-algorithms/systems` | 1 |
 
 ---
 
@@ -61,7 +61,7 @@
 
 ### Quantum Cryptography & Communication (`quantum-cryptography`)
 
-**Corpus size:** 337 papers
+**Corpus size:** 812 papers
 
 **Recent papers:**
 
@@ -71,21 +71,9 @@
 
 ---
 
-### Quantum Algorithms & Complexity (`quantum-algorithms`)
-
-**Corpus size:** 305 papers
-
-**Recent papers:**
-
-- [2026-08] Iterative Interpolation Schedules for Quantum Approximate Optimization Algorithm — https://doi.org/10.1145/3815778
-- [2026-08] Aicir: A Full-Stack Quantum Circuit Simulator with AscendNPU Support — https://arxiv.org/abs/2608.09733
-- [2026-08] Quantum Key Search Algorithms under Side-channel Attack — https://doi.org/10.21203/rs.3.rs-10245840/v1
-
----
-
 ### Quantum Machine Learning (`quantum-machine-learning`)
 
-**Corpus size:** 233 papers
+**Corpus size:** 616 papers
 
 **Recent papers:**
 
@@ -95,21 +83,21 @@
 
 ---
 
-### Quantum Simulation (`quantum-simulation`)
+### Quantum Algorithms & Complexity (`quantum-algorithms`)
 
-**Corpus size:** 124 papers
+**Corpus size:** 458 papers
 
 **Recent papers:**
 
-- [2026-08] Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning — https://doi.org/10.1103/s96t-n8tx
-- [2026-08] Dynamic Induction of Lattice Gauge Theories on a Quantum Computer — https://arxiv.org/abs/2608.02756
-- [2026-08] Imaginary Time Evolution and Ground State Preparation Using Unitary Multi-Copy Protocols — https://doi.org/10.1103/1tf6-bc55
+- [2026-08] Iterative Interpolation Schedules for Quantum Approximate Optimization Algorithm — https://doi.org/10.1145/3815778
+- [2026-08] Aicir: A Full-Stack Quantum Circuit Simulator with AscendNPU Support — https://arxiv.org/abs/2608.09733
+- [2026-08] Quantum Key Search Algorithms under Side-channel Attack — https://doi.org/10.21203/rs.3.rs-10245840/v1
 
 ---
 
 ### Quantum Hardware & Architecture (`quantum-hardware`)
 
-**Corpus size:** 122 papers
+**Corpus size:** 176 papers
 
 **Recent papers:**
 
@@ -119,9 +107,21 @@
 
 ---
 
+### Quantum Simulation (`quantum-simulation`)
+
+**Corpus size:** 163 papers
+
+**Recent papers:**
+
+- [2026-08] Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning — https://doi.org/10.1103/s96t-n8tx
+- [2026-08] Dynamic Induction of Lattice Gauge Theories on a Quantum Computer — https://arxiv.org/abs/2608.02756
+- [2026-08] Imaginary Time Evolution and Ground State Preparation Using Unitary Multi-Copy Protocols — https://doi.org/10.1103/1tf6-bc55
+
+---
+
 ### Quantum Error Correction (`quantum-error-correction`)
 
-**Corpus size:** 120 papers
+**Corpus size:** 147 papers
 
 **Recent papers:**
 
@@ -133,7 +133,7 @@
 
 ### Quantum Information Theory (`quantum-information`)
 
-**Corpus size:** 118 papers
+**Corpus size:** 140 papers
 
 **Recent papers:**
 
@@ -145,7 +145,7 @@
 
 ### Surveys & Taxonomies (`survey`)
 
-**Corpus size:** 86 papers
+**Corpus size:** 116 papers
 
 **Recent papers:**
 
@@ -157,7 +157,7 @@
 
 ### Quantum Software & Tools (`quantum-software`)
 
-**Corpus size:** 81 papers
+**Corpus size:** 82 papers
 
 **Recent papers:**
 
