@@ -78067,3 +78067,595 @@ papers:
     to primary literature. Series: Physics Series, Nos. LR-01–LR-35Author: Salman
     Saud Al Saud (B.Sc. Physics, Academic Mentor Programme)Year: 2025'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Variational Quantum Models for Knowledge Graph Embeddings on NISQ Devices
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.28723v1
+  category: quantum-algorithms
+  subcategory: method
+  authors:
+  - Guido Bellomo
+  - Martín Santesteban
+  - Patricio Bruno
+  - Santiago Cifuentes
+  - Gustavo Martín Bosyk
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Variational Quantum Algorithms (VQAs) combine quantum circuits with classical
+    optimization to tackle problems that may benefit from the capabilities of near-term
+    quantum hardware. In knowledge graph embedding, recent proposals based on this
+    approach follow a similar overall architecture but differ in the way they compute
+    the score function and in the number of qubits they require. One design uses $n+1$
+    qubits and obtains the score through a switch test on an ancillary qubit, while
+    another employs $2n+1$ qubits and applies a swap test between two registers. In
+    both cases, entities and relations are represented in a Hilbert space of dimension
+    $d = 2^n$, with comparable computational cost and the same mean squared error
+    loss. This work introduces a unified framework that captures the two schemes and
+    makes it possible to explore new variants. Within this setting, we propose an
+    alternative that keeps the intuitive meaning of the score function while dispensing
+    with ancillary qubits and entangled measurements. The result is a model better
+    suited to current NISQ devices, reducing hardware demands without sacrificing
+    interpretability.
+- title: Shuttling in Bidimensional Segmented Ion-Trap Quantum Processors with T-Junctions
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.21899v1
+  category: quantum-algorithms
+  subcategory: method
+  authors:
+  - J. Durandau
+  - C. A. Brunet
+  - F. Schmidt-Kaler
+  - U. Poschinger
+  - F. Mailhot
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Shuttle-based trapped ion quantum processors typically employ a one-dimensional
+    (1D) linear architecture to transport ion-qubits between one ore more laser interaction
+    zones where the quantum gates are implemented, along with several qubit register
+    storage segments. The two-dimensional (2D) quantum CCD architecture employs also
+    T- or X-junctions for an improved scaling and efficiency. Here, we explore the
+    shuttling layer in the compilation of quantum algorithm typical building blocks
+    in such architecture. To weight the effort of linear shuttle and junction shuttle,
+    we introduce individual cost functions for each operation. This allows comparing
+    the total cost for quantum circuit building blocks such as the QFT, Carry, Adder,
+    Shift, and Comparator circuits. We study their scaling properties with increased
+    qubit numbers. At equivalent transport cost for junction and linear shuttling,
+    we show that 2D architectures outperform the 1D linear trap with the ratio improving
+    as the number of ions increases. Finally, we discuss the use of cells, such that
+    the entire processor is constructed from a 2D array of such interconnected cells.
+    The work aims to optimize quantum processor architectures, implementing a co-design
+    that fits to the specific task and scaling up in a shuttle-efficient way.
+- title: 'Satisfying Quantum Codes: Physics-Informed and Hardware-Aware Code Design
+    with SAT Solvers'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23460v1
+  category: quantum-error-correction
+  subcategory: method
+  authors:
+  - Ben DalFavero
+  - William M. Watkins
+  - Margarite L. LaBorde
+  - Vincent Russo
+  - Ethan Egger
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Although quantum error correction is widely believed to be necessary for
+    impactful applications of quantum computers, the design of quantum error correction
+    codes is largely done by hand, without respect to problem or hardware constraints.
+    In this work, we present a highly general and flexible framework for the computational
+    design of both physics-inspired and hardware-aware quantum codes. To do so, we
+    formulate code design as a Boolean satisfiability (SAT) problem and show how to
+    incorporate all required error correction criteria. We prove that code design
+    is NP-complete, ruling out any efficient algorithm for designing codes in general.
+    Nonetheless, we show that state-of-the-art SAT solvers are able to effectively
+    find solutions for many practical problems. Notably, we are able to design physics-inspired
+    codes with up to 100 physical qubits in minutes, and we design new hardware-aware
+    codes for biased noise which have a lower logical error rate than state-of-the-art
+    surface codes.
+- title: A Cavity-Interfaced Register of Trapped-Ion Qubits with Multi-Second Coherence
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22030v1
+  category: quantum-hardware
+  subcategory: systems
+  authors:
+  - James Bate
+  - Johannes Helgert
+  - Marco Canteri
+  - Victor Krutyanskiy
+  - Benjamin Peter Lanyon
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Scalable quantum networks require generating remote entanglement faster
+    than decoherence erases it, calling for nodes that combine efficient light-matter
+    interfaces with long coherence times. Cavity-coupled trapped ions are a promising
+    platform for network nodes, offering high-efficiency extraction of photons. Here,
+    we report multi-second coherence for a qubit register in a cavity-integrated ion
+    trap. First, using dynamical decoupling on spin ground states, the coherence times
+    of five co-trapped ion qubits are extended into the multi-second regime. Second,
+    cavity-collected ion-photon entanglement is faithfully stored in these protected
+    ion-memory states for multiple seconds. Third, we show that ion-memory qubits
+    can be robust to the generation over a thousand cavity photons by a co-trapped
+    ion, with decoherence limited by laser crosstalk. Finally, we estimate that a
+    modestly improved and duplicated ion-cavity system could enable the simultaneous
+    establishment of multiple remote Bell pairs between two remote ion registers,
+    representing a step toward networking multi-qubit prototype trapped-ion quantum
+    processors.
+- title: Crosstalk in Multi-Qubit Fluxonium Architectures with Transmon Couplers
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.09870v1
+  category: quantum-hardware
+  subcategory: systems
+  authors:
+  - Martijn F. S. Zwanenburg
+  - Christian Kraglund Andersen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In recent years, several architectures have been proposed for implementing
+    two-qubit operations on fluxonium superconducting qubits. A particularly promising
+    approach, which was demonstrated experimentally by Refs. [1,2], employs a transmon
+    superconducting qubit as a tunable coupler between the fluxonium qubits. These
+    experiments have shown that the transmon coupler enables fast, high-fidelity two-qubit
+    operations while suppressing unwanted ZZ crosstalk between the fluxonium qubits.
+    In this work, we numerically study the scalability of this architecture. We find
+    that, when trivially scaling this architecture, crosstalk from spectator qubits
+    limits the gate fidelity to below 90%. We show that these spectator errors can
+    be reduced to below $10^{-4}$ by reducing the coupling strength and by dynamically
+    tuning transmons that are not used for a two-qubit operation to an off position.
+    We further investigate the resilience of the operation to direct capacitive coupling
+    between the transmon couplers and to microwave crosstalk.
+- title: Quantum Monte Carlo in the Age of Many-Body Quantum Information
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23231v1
+  category: quantum-information
+  subcategory: theory
+  authors:
+  - Yi-Ming Ding
+  - Bin-Bin Mao
+  - Zheng Yan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Quantum Monte Carlo (QMC) methods are among the central numerical tools
+    for studying strongly correlated quantum many-body systems, particularly in higher
+    dimensions. As quantum information has introduced new information-theoretic perspectives
+    and diagnostics into many-body physics, QMC methods have accordingly been extended
+    beyond the measurement of conventional linear observables. This review summarizes
+    recent progress in adapting QMC to many-body quantum-information, focusing on
+    qubit or spin-$1/2$ systems as a concrete setting while keeping the discussion
+    broadly applicable to qudit and bosonic systems. We present a unified perspective
+    on the extraction of nonlinear diagnostics, including entanglement entropies and
+    entanglement spectra, Rényi negativities for mixed-state entanglement, stabilizer
+    entropies for quantum magic, and decoherence-driven phenomena such as the interplay
+    between imaginary-time evolution and decoherence and strong-to-weak spontaneous
+    symmetry breaking.
+- title: Universal Spin-Position Coupled Rydberg Interactions
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23694v1
+  category: quantum-simulation
+  subcategory: method
+  authors:
+  - Chengshu Li
+  - Hui Zhai
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Strong interactions between $s$-orbital Rydberg atoms underpin atom-array-based
+    quantum computation and quantum simulation. Typically, the spin dependence of
+    these interactions is negligible and plays no practical role. In this Letter,
+    we uncover that a strong electron-spin-dependent Rydberg interaction can emerge
+    when the principal quantum numbers of the two $s$-orbital atoms differ by a sweet-spot
+    value. This interaction originates from the fine-structure splitting of nearby
+    $p$ orbitals, which endows it with distinct symmetry properties such that the
+    electron spins are coupled to the relative position of the two atoms, featuring
+    a spatially defined anisotropy. We further demonstrate that this interaction admits
+    a universal form, independent of the principal quantum numbers, and highlight
+    its fundamental distinction from conventional magnetic dipolar interactions, establishing
+    it as a new type of native magnetic interaction in nature. Our findings introduce
+    a new element to the Rydberg quantum simulation toolbox. As a concrete application,
+    we propose a native realization of the Kitaev-Heisenberg model, which hosts an
+    unusual stripe phase as a quantum many-body manifestation of spin-space locking.
+- title: QML for Quantum Sensing under Measurement-Induced Information Loss
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23934v1
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Sounak Bhowmik
+  - Himanshu Thapliyal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Nitrogen-vacancy (NV) centers in diamond can serve as highly sensitive
+    solid-state quantum sensors for high-sensitivity magnetometry. However, in the
+    noisy intermediate-scale quantum (NISQ) era, extracting reliable information from
+    noisy, finite-shot, and measurement-limited sensing data remains a considerable
+    challenge. Whereas, quantum machine learning (QML) offers a potential path to
+    improve parameter estimation by learning nonlinear relationships between quantum-sensing
+    data and the underlying physical signal. In this work, we investigate the role
+    of QML in magnetic-field estimation within an NV center-inspired magnetometry
+    setting. We formulated magnetic field sensing as a supervised regression task.
+    We compared the performance of several classical machine learning models trained
+    on measurement-based classical data with that of quantum kernel-based models trained
+    on pre-measurement coherent quantum states. Our objective is to isolate the impact
+    of measurement-induced information loss and therefore provide a theoretical upper
+    bound on the sensing performance. The upper bound is achievable only when coherent
+    quantum information is directly available to the learning model. Our results show
+    that QML-based sensing performance improves significantly with coherent quantum-state
+    information, and not much with changes in model complexity or learning paradigm.
+    This observation underscores the importance of learning pipelines that tightly
+    integrate quantum sensors and QML models to enhance magnetic field sensing under
+    realistic constraints.
+- title: Reconfigurable Optical Platform for One-way Quantum Communication Complexity
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.27181v1
+  category: quantum-cryptography
+  subcategory: application
+  authors:
+  - Francesco Mazzoncini
+  - Hugo Defienne
+  - Romain Alléaume
+  - Sylvain Gigan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Demonstrating a practical quantum advantage remains a central goal in
+    quantum information science. While quantum computational supremacy is still technologically
+    demanding, communication complexity offers a promising route to showcase quantum
+    advantage with current photonic platforms. Here we introduce a reconfigurable
+    optical platform for one-way quantum communication complexity based on multimode
+    fibers and wavefront shaping. We experimentally validate it by implementing a
+    genuine one-way quantum communication complexity problem for which an exponential
+    quantum--classical communication separation is known. Complementary numerical
+    simulations show that the same reconfigurable decoding architecture can support
+    more general one-way communication tasks with comparable performance, while also
+    offering a route to higher-dimensional implementations without increasing hardware
+    complexity. Together, these results establish multimode-fiber wavefront shaping
+    as a versatile hardware platform for one-way quantum communication complexity
+    and provide a concrete roadmap toward more demanding protocols, where stronger
+    quantum--classical separations could enable practical demonstrations of quantum
+    advantage.
+- title: Large Alphabet Set Time-bin Encoded Measurement-Device-Independent Quantum
+    Key Distribution
+  date: 2026-05
+  url: https://arxiv.org/abs/2606.01262v1
+  category: quantum-cryptography
+  subcategory: application
+  authors:
+  - Gokul Agasthilingam
+  - Harinee Natarajan
+  - Varun Raghunathan
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We report on the experimental demonstration of an expanded basis set (called
+    here as alphabet set) time-bin encoded measurement-device-independent quantum
+    key distribution (MDI-QKD). While MDI-QKD is known to prevent detector-side attacks,
+    it inherently suffers from reduced secret key rate (SKR) due to coincidence measurements
+    performed at the central measurement node. To address this limitation, we encode
+    states across multiple time-bins thereby increasing possible coincidence events
+    and mapping each successful alphabet exchange to multiple bits, thereby increasing
+    the information capacity per alphabet transmitted. Using a standard MDI-QKD set-up
+    with real fiber spools and single-photon avalanche photodetectors, we achieve
+    SKRs of 401 (133.6) bps and 28 (10.7) bps for 8 (2) encoded states for distances
+    of 2 and 50 km, respectively, resulting in 3- and 2.63-times improvement, respectively
+    when compared to the conventional two-state encoding. Furthemore, the large alphabet
+    set MDIQKD results are compared with a similar encoding scheme implemented for
+    coherent-one-way (COW) protocol. This comparison reveals a clear advantage of
+    using a larger alphabet set for MDI-QKD, where increased Z-basis coincidence events
+    yields increased SKR. These results provide important insights into the scalability
+    of MDI-QKD key-rates without requiring additional hardware modifications, paving
+    the way for next-generation, quantum key distribution networks.
+- title: Spatially Adaptive Detection for Satellite-based QKD under Atmospheric Turbulence
+    Channel
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.16678v1
+  category: quantum-cryptography
+  subcategory: application
+  authors:
+  - Yaoxuan Yang
+  - Ivi Afxenti
+  - Majid Safari
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Quantum key distribution (QKD) provides information-theoretic security
+    and satellite-based quantum key distribution (SatQKD) has demonstrated the potential
+    to extend this communication security to intercontinental scales. However, atmospheric
+    turbulence induces significant distortion in the spatial distribution of received
+    optical beams, while background noise remains approximately uniform across the
+    detector plane. As a result, single-element qubit (quantum bit) detection can
+    be frequently dominated by noise due to the random spatial pattern of the imaged
+    wavefront, thereby degrading the system performance. To address this limitation,
+    we propose to exploit the spatial degrees of freedom of single-photon detector
+    arrays to reject the excessive noise while adapting to channel variations induced
+    by turbulence. We develop a threshold-based selection method that only activates
+    detector elements that have higher probability of registering qubits. We evaluate
+    the performance of the proposed noise-rejection QKD schemes using Monte Carlo
+    simulations considering the impact of diffraction and atmospheric turbulence on
+    the transmitted optical beam in the presence of background and dark noise. The
+    results show that, compared to conventional schemes, the proposed noise-rejection
+    strategy effectively reduces the quantum bit error rate (QBER) and improves the
+    secret key rate (SKR) performance, while the performance gains depend on the turbulence
+    condition. These findings demonstrate the potential of adaptive array receiver
+    design to enhance the robustness of the SatQKD system under realistic atmospheric
+    conditions.
+- title: 1-Mbps Twin-Field Quantum Key Distribution over 200 km Using Independent
+    Dissipative Kerr Solitons
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.00431v1
+  category: quantum-cryptography
+  subcategory: application
+  authors:
+  - Hao Dong
+  - Tian-Jiao Zhang
+  - Yan-Wei Chen
+  - Wei Sun
+  - Cong Jiang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Twin-field quantum key distribution (TF-QKD) dramatically enhances the
+    secure key rate (SKR) over inter-city distances through its square-root scaling.
+    Further improvements in aggregate SKR can be achieved by wavelength-division multiplexing
+    (WDM) of parallel QKD channels. However, direct implementation in TF-QKD poses
+    significant challenges, as each wavelength channel requires an independent ultra-stable
+    seed laser, narrow-linewidth transmitters, and optical phase-locked loops (OPLLs),
+    which are not easily scalable. Here, we circumvent these limitations by employing
+    two independent, integrated dissipative Kerr soliton (DKS) microcombs at Alice
+    and Bob as multi-wavelength sources. High-visibility single-photon interference
+    across all wavelength channels is achieved by stabilizing the frequencies of every
+    comb line - requiring only the stabilization of the pump wavelength and repetition
+    rates of the two microcombs. Based on this architecture, we perform a full TF-QKD
+    experiment using the sending-or-not-sending protocol, achieving a total SKR of
+    1.57 Mbps over 201.1 km of fiber using 16 DWDM channels. This result represents
+    more than an order-of-magnitude enhancement compared with single-wavelength TF-QKD
+    at the same distance. Given that a single DKS comb can support over 100 coherent
+    lines across the C-band, this approach offers a scalable pathway toward high-rate
+    quantum key distribution over inter-city distances.
+- title: All-photonic quantum key distribution beyond the single-repeater bound
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.16174v1
+  category: quantum-cryptography
+  subcategory: application
+  authors:
+  - Matthew S. Winnel
+  - Sergio Juárez
+  - Chithrabhanu Perumangatt
+  - Taofiq Paraiso
+  - R. Mark Stevenson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Quantum protocols require classical signaling, and when classical signals
+    propagate faster than quantum ones, standard rate-loss limits can be surpassed.
+    We introduce an all-photonic measurement-device-independent quantum key distribution
+    protocol that exceeds the single-repeater bound without error correction. When
+    quantum signals travel at two-thirds the classical speed, the key rate scaling
+    approaches $η^{2/5}$. We propose a single-rail, temporally multiplexed architecture
+    that extends twin-field-type protocols to multiple nodes and surpasses their key
+    rate without ideal quantum memories.
+- title: 'QisMC: A Model Checker for QISKIT Program Debugging'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24320v1
+  category: quantum-software
+  subcategory: development
+  authors:
+  - Aochu Dai
+  - Mingsheng Ying
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We present QisMC, the first quantum model checker dedicated to debugging
+    Qiskit programs. On the theoretical side, we introduce the notion of quantum-classical
+    transition system and a quantum computation tree logic (qCTL) grounded in Birkhoff-von
+    Neumann logic for modeling the behaviors and specifying the properties of Qiskit
+    programs, respectively. On the implementation side, QisMC provides an end-to-end
+    framework encompassing transition system generation, logical formula representation,
+    and model checking algorithms, and it efficiently performs image computation based
+    on decision diagrams. These methods and design principles give QisMC advantages
+    over previous Qiskit program debuggers, including a unified property specification
+    language, a fully automated and exhaustive verification process, and the ability
+    to generate counterexamples. Extensive illustrative examples and benchmark evaluations
+    demonstrate the practicality, efficiency, and scalability of QisMC in verifying
+    realistic quantum programs.
+- title: 'qiskit-qudits: A Qiskit Extension for Simulating Qudit Circuits'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22032v1
+  category: quantum-software
+  subcategory: development
+  authors:
+  - Francesco Pudda
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'qiskit-qudits is a Qiskit extension that simulates d-level qudits by
+    encoding each one into m = ceil(log_2 d) qubits. Qudit gates are exposed as ordinary
+    Qiskit Gate and ControlledGate subclasses, and operations that are not unitary
+    gates (measurement, reset, barrier, state preparation) as dedicated Instruction
+    subclasses dispatched through a dedicated apply() hook; every gate carries both
+    a dense encoded unitary (via NumPy''s array protocol) and a qubit-level definition.
+    Because d need not be a power of two, the encoded Hilbert space is generally larger
+    than the logical one; the library resolves this by the identity-padding convention,
+    in which every gate acts as the identity on the unphysical part of the encoded
+    space. When every operand dimension is a power of two, gates decompose into a
+    fixed, transpiler-recognisable cascade of standard qubit gates; otherwise the
+    library falls back to exact dense unitary synthesis, so that dimensions 2 &lt;=
+    d &lt;= 16 are supported exactly, not only powers of two. This paper describes
+    the software''s circuit model, gate hierarchy, decomposition strategy, and measurement/decoding
+    machinery, states its limitations, and verifies the implementation numerically:
+    the qudit QFT against the discrete Fourier transform for both power-of-two and
+    non-power-of-two d, extending the check of the underlying theory paper, which
+    could only be run for d = 2^m, and every gate''s emitted decomposition against
+    its dense unitary across the whole gate set.'
+- title: Pauli Weight Hamiltonian Term Selection for Optimized Machine Learning Based
+    Quantum Error Mitigation
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.31195v1
+  category: survey
+  subcategory: review
+  authors:
+  - Fadhil Fatih Shiddiq
+  - Darell Timothy Tarigan
+  - Hadyan Luthfan Prihadi
+  - Jusak S. Kosasih
+  - Yanoar P. Sarwono
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Machine learning provides a scalable solution for quantum error mitigation.
+    However, the selection of appropriate Pauli strings for inclusion in training
+    data remains a challenge. Current methods rely on heuristic or uniform random
+    sampling, requiring data for every Pauli string in the Hamiltonian, a process
+    that scales linearly with measurements and grows with system size. To address
+    this, we introduce quantum error mitigation with prior knowledge of Pauli weights
+    (Pauli weight quantum error mitigation (Pi-QEM)), a systematic framework that
+    selects training observables based on Pauli weight. By leveraging the relationship
+    between variance and locality in parameterized quantum circuits, Pi-QEM trains
+    on a small subset of dominant, low-weight Pauli strings. In numerical simulations
+    of molecular systems on a noisy IBM quantum backend, Pi-QEM reduces ground-state
+    energy estimation error by up to 34.01% using just a single dominant local observable,
+    offering an efficient, scalable pathway for high-precision error mitigation on
+    NISQ devices.
+- title: The Rise of Quantum Computing -- Take a BITE for Built Environment and Urban
+    Microclimate Research
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.18407v2
+  category: survey
+  subcategory: review
+  authors:
+  - Liangzhu Leon Wang
+  - Huiheng Liu
+  - Honghao Fu
+  - Zhipeng Deng
+  - Bing Dong
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Quantum computing is a new approach to computation that utilizes superposition,
+    entanglement, interference, and tunneling to solve problems too complex for classical
+    computers. This paper discusses the basic concepts and development of quantum
+    computing, exploring its potential applications in the built environment and urban
+    microclimate research. In buildings, quantum computing may help optimize energy
+    management, control HVAC systems, and plan electric vehicle charging networks
+    more efficiently. For urban microclimates, it could accelerate renewable energy
+    planning and support multi-objective design, making it easier to balance urban
+    building performance with climate conditions. Since current quantum hardware is
+    still in the Noisy Intermediate-Scale Quantum (NISQ) stage, we propose the "BITE"
+    principle to guide researchers in choosing suitable problems for quantum acceleration:
+    B (Big search), I (Input-light), T (Tiny computation), and E (Evaluation polish).
+    Although quantum computing still faces challenges such as noise and hardware limits,
+    it offers great potential for developing more climate-resilient, sustainable,
+    and energy-efficient cities of the future.'
+- title: Quantum Viterbi Algorithm
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.18912v1
+  category: survey
+  subcategory: review
+  authors:
+  - Luigi Accardi
+  - Abdessatar Souissi
+  - El Gheteb Soueidi
+  - Farrukh Mukhamedov
+  - Mohamed Rhaima
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We introduce a quantum Viterbi decoding algorithm for hidden quantum
+    Markov models (HQMMs) motivated by quantum information processing and quantum
+    algorithms. Given a finite sequence of measurement outcomes, the algorithm identifies
+    hidden quantum trajectories that maximize a joint decoding functional, serving
+    as a genuine quantum analogue of the classical Viterbi score. Unlike classical
+    hidden Markov models, where decoding optimizes over a finite discrete state space,
+    our method performs optimization over a continuous manifold of pure quantum effects,
+    thereby exploiting coherent superpositions in the hidden memory. We prove a strict
+    quantum advantage: coherent hidden trajectories can achieve decoding scores that
+    strictly exceed any classical strategy constrained to diagonal (commuting) effects,
+    even when both models share the same observed statistics. These results position
+    quantum Viterbi decoding as a concrete quantum algorithmic primitive for sequential
+    decision-making, with direct applications to quantum memories, quantum communication
+    with memory, and near-term quantum machine learning on NISQ devices.'
+- title: Quantum Integrated Communication and Computing Over Multiple-Access Bosonic
+    Channel
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.08214v1
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Ioannis Krikidis
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We investigate a quantum integrated communication and computation (QICC)
+    scheme for a single-mode bosonic multiple-access channel (MAC) with coherent-state
+    signalling. By exploiting the natural superposition property of the quantum MAC,
+    a common receiver simultaneously performs over-the-air computation (OAC) on the
+    analogue symbols transmitted by one set of devices and decodes multiple-access
+    data from another. The joint design of the transmit power control and the receive
+    coefficient leads to a non-convex optimization problem that maximizes computation
+    accuracy under a prescribed sum-rate communication constraint. To address this
+    challenge, we develop a low-complexity alternating-optimization framework that
+    incorporates: (i) closed-form linear minimum-mean square error updates for the
+    receive coefficient, (ii) monotonicity properties of the quantum sum-rate constraint,
+    and (iii) projected-gradient refinements for the communication powers. The proposed
+    QICC scheme achieves an effective computation-communication trade-off with fast
+    convergence and low computational complexity.'
+- title: Optimal Quantum Algorithm for Ground-State Energy Estimation with a Guiding
+    State
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24494v1
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Stacey Jeffery
+  - Freek Witteveen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In the problem of ground-state energy estimation, one aims to estimate
+    the smallest eigenvalue of a Hamiltonian, often given a guiding state, with some
+    promised overlap $γ$ with the ground space. The main approach to this problem
+    is to simulate its evolution, and estimate the smallest (or equivalently, largest)
+    eigenphase of the resulting unitary $U$. We give a quantum algorithm that estimates
+    the largest eigenphase of a unitary $U$ in this guided setting using a factor
+    of $\log\frac{1}γ$ fewer queries to $U$ than the previous best approach. The result
+    matches an existing lower bound, and answers an open question from Mande and de
+    Wolf. The algorithm is based on transducers, which often allow composition of
+    quantum algorithms without overhead from error reduction.
+- title: Quantum Algorithms and Hardness for Point-Count Approximation over Finite
+    Fields
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23929v1
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Yota Maeda
+  - Hiroshi Yano
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We study the approximation of the number of solutions of Laurent polynomials
+    over finite fields. For a Laurent polynomial \[f(x)=\sum_{j=1}^{s}a_jx^{u_j}\in
+    \mathbb{F}_q[x_1^{\pm1},\ldots,x_n^{\pm1}], \] let $U$ be its augmented support
+    matrix whose columns are $(1,u_j)$ with rank $ρ$ and $N(f) := \# \{x\in (\mathbb{F}_q^\times)^n
+    \mid f(x)=0\}$ be its torus point count. Our first main result is a quantum algorithm
+    that outputs $\widehat{N}(f)$ satisfying \[ |\widehat{N}(f) - N(f)| \le \varepsilon
+    q^{n+s/2-ρ} \] with success probability $1-δ$. Provided that $ρ$ and $\|U\|_\infty$
+    are bounded, the algorithm runs in both classical bit and quantum gate complexity
+    $\mathrm{poly}(n, s, \log q, 1/\varepsilon, \log(1/δ))$. It provides finer resolution
+    than relative-error approximations in general settings. To the best of our knowledge,
+    in the explicit finite-field input model considered here, no previous algorithm
+    achieves this additive accuracy with running time polynomial in $\log q$. Van
+    Dam (arXiv:quant-ph/0405081) conjectured the existence of such an algorithm under
+    the assumption of an oracle reflecting the algebraic properties of the polynomial.
+    In contrast, by exploiting a point-counting formula derived from character sums
+    over finite fields, we develop an alternative approach that efficiently approximates
+    the number of points without assuming the existence of such an oracle. As a second
+    main result, we prove that the same approximation problem becomes $\#$P-hard under
+    randomized polynomial-time Turing reductions when the support matrix $U$ varies
+    freely as part of the input. Thus, taken together, our results clarify how the
+    effectiveness of the quantum approach depends on the tradeoff between the accuracy
+    scale and the support parameters of the input polynomial.
