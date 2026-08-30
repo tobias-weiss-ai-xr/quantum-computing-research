@@ -66792,7 +66792,6 @@ papers:
   venue: IET Quantum Communication
 - title: Quantum Computing in Cryptographic Systems
   date: 2024-01
-  url: https://doi.org/10.69942/1920184/20240101/03
   category: quantum-cryptography
   subcategory: theory
   authors:
@@ -68671,7 +68670,6 @@ papers:
 - title: 'Post-Quantum Cryptography: Securing Future Communication Networks Against
     Quantum Attacks'
   date: 2024-11
-  url: https://doi.org/10.62441/nano-ntp.v20is14.16
   category: quantum-cryptography
   subcategory: method
   authors:
@@ -95414,7 +95412,6 @@ papers:
   - Jungang Xu
   - Chenghua Duan
   venue: ''
-  code_url: https://github.com/mindspore-lab/models
   project_url: ''
   abstract: As a hybrid quantum-classical algorithm, the variational quantum eigensolver
     is widely applied in quantum chemistry simulations, especially in computing the
