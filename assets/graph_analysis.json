@@ -27,23 +27,23 @@
   {
    "id": "quantum-cryptography",
    "name": "Quantum Cryptography & Communication",
-   "count": 960,
+   "count": 959,
    "trajectory": {
     "2023": 48,
     "2024": 225,
-    "2025": 296,
+    "2025": 295,
     "2026": 391
    },
    "momentum": {
     "id": "quantum-cryptography",
     "name": "Quantum Cryptography",
-    "total": 960,
+    "total": 959,
     "recent": 515,
-    "prior": 269,
-    "growth_pct": 91.4,
-    "recent_share": 0.536,
+    "prior": 268,
+    "growth_pct": 92.2,
+    "recent_share": 0.537,
     "papers_per_month": 42.9,
-    "score": 145.0
+    "score": 145.9
    }
   },
   {
@@ -117,24 +117,24 @@
   {
    "id": "quantum-machine-learning",
    "name": "Quantum Machine Learning",
-   "count": 697,
+   "count": 694,
    "trajectory": {
     "2016": 1,
     "2023": 33,
-    "2024": 157,
-    "2025": 226,
-    "2026": 280
+    "2024": 156,
+    "2025": 225,
+    "2026": 279
    },
    "momentum": {
     "id": "quantum-machine-learning",
     "name": "Quantum Machine Learning",
-    "total": 697,
-    "recent": 368,
-    "prior": 184,
+    "total": 694,
+    "recent": 366,
+    "prior": 183,
     "growth_pct": 100.0,
-    "recent_share": 0.528,
-    "papers_per_month": 30.7,
-    "score": 152.8
+    "recent_share": 0.527,
+    "papers_per_month": 30.5,
+    "score": 152.7
    }
   },
   {
@@ -225,7 +225,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 1593
+   "count": 1589
   },
   {
    "id": "review",
@@ -3626,11 +3626,6 @@
   ],
   [
    "2024-08",
-   "quantum-machine-learning",
-   "method"
-  ],
-  [
-   "2024-08",
    "quantum-simulation",
    "method"
   ],
@@ -6188,11 +6183,6 @@
    "2025-03",
    "quantum-cryptography",
    "application"
-  ],
-  [
-   "2025-03",
-   "quantum-cryptography",
-   "method"
   ],
   [
    "2025-03",
@@ -9933,11 +9923,6 @@
    "2025-12",
    "quantum-information",
    "theory"
-  ],
-  [
-   "2025-12",
-   "quantum-machine-learning",
-   "method"
   ],
   [
    "2025-12",
@@ -15968,11 +15953,6 @@
    "2026-06",
    "quantum-information",
    "theory"
-  ],
-  [
-   "2026-06",
-   "quantum-machine-learning",
-   "method"
   ],
   [
    "2026-06",
@@ -18796,10 +18776,10 @@
   },
   {
    "keyword": "benchmark",
-   "recent": 326,
-   "total": 457,
+   "recent": 325,
+   "total": 456,
    "burst_score": 1.22,
-   "recent_share": 0.1511
+   "recent_share": 0.1508
   },
   {
    "keyword": "silicon spin",
@@ -18820,21 +18800,21 @@
    "recent": 223,
    "total": 332,
    "burst_score": 1.15,
-   "recent_share": 0.1034
+   "recent_share": 0.1035
   },
   {
    "keyword": "fault-tolerant",
    "recent": 178,
    "total": 264,
    "burst_score": 1.15,
-   "recent_share": 0.0825
+   "recent_share": 0.0826
   },
   {
    "keyword": "quantum error correction",
    "recent": 169,
    "total": 253,
    "burst_score": 1.14,
-   "recent_share": 0.0783
+   "recent_share": 0.0784
   },
   {
    "keyword": "variational quantum eigensolver",
@@ -18855,21 +18835,21 @@
    "recent": 82,
    "total": 125,
    "burst_score": 1.12,
-   "recent_share": 0.038
+   "recent_share": 0.0381
   },
   {
    "keyword": "quantum simulation",
    "recent": 189,
    "total": 291,
    "burst_score": 1.11,
-   "recent_share": 0.0876
+   "recent_share": 0.0877
   },
   {
    "keyword": "quantum advantage",
-   "recent": 148,
-   "total": 233,
-   "burst_score": 1.09,
-   "recent_share": 0.0686
+   "recent": 147,
+   "total": 232,
+   "burst_score": 1.08,
+   "recent_share": 0.0682
   },
   {
    "keyword": "quantum kernel",
