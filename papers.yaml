@@ -105280,3 +105280,48 @@ papers:
     emerging devices operating on a wide range of physical platforms. Finally, we
     show that these quantum advantages are robust to noise across all prime qudit
     dimensions with all-to-all connectivity, enhancing their practical appeal.
+- title: Neutral atom quantum computing
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.30783v1
+  category: quantum-hardware
+  subcategory: systems
+  authors:
+  - M. Saffman
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Neutral atom qubits are one of the leading approaches for implementation
+    of a large scale quantum computer. The original proposals for neutral atom qubits
+    were formulated more than 25 years ago, with first demonstrations of a universal
+    gate set following 10 years later. In the last few years the performance and scale
+    of neutral atom qubit arrays has developed at a rapid pace leading to demonstrations
+    of quantum algorithms, and logical qubits for fault tolerant error correction.
+    This contribution reviews the physics of the neutral atom approach, surveys current
+    capabilities, and provides an outlook for future progress.
+- title: 'Learning response functions of analog quantum computers: analysis of neutral-atom
+    and superconducting platforms'
+  date: 2025-03
+  url: https://arxiv.org/abs/2503.12520v1
+  category: quantum-simulation
+  subcategory: method
+  authors:
+  - Cenk Tüysüz
+  - Abhijith Jayakumar
+  - Carleton Coffrin
+  - Marc Vuffray
+  - Andrey Y. Lokhov
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Analog quantum computation is an attractive paradigm for the simulation
+    of time-dependent quantum systems. Programmable analog quantum computers have
+    been realized in hardware using a variety of physical principles, including neutral-atom
+    and superconducting technologies. The input parameters of the physical Hamiltonians
+    that are used to program the quantum simulator generally differ from the parameters
+    that characterize the output distribution of data produced under a specified quantum
+    dynamics. The relationship between the input and output parameters is known as
+    the response function of the analog device. Here, we introduce a streaming algorithm
+    for learning the response function of analog quantum computers from arbitrary
+    user inputs, thus not requiring special calibration runs. We use the method to
+    learn and compare the response functions of several generations of analog quantum
+    simulators based on superconducting and neutral-atom programmable arrays.
