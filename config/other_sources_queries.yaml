@@ -1,0 +1,36 @@
+# Multi-source discovery queries (fetch_other_sources.py) — Quantum Computing
+# Mirrors the `other_sources_queries` block in config/taxonomy.yaml.
+# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+
+- source: dblp
+  query: quantum algorithm circuit
+  category: quantum-algorithms
+  subcategory_hint: method
+- source: dblp
+  query: quantum error correction surface code
+  category: quantum-error-correction
+  subcategory_hint: method
+- source: dblp
+  query: quantum machine learning variational
+  category: quantum-machine-learning
+  subcategory_hint: method
+- source: dblp
+  query: quantum cryptography key distribution
+  category: quantum-cryptography
+  subcategory_hint: application
+- source: crossref
+  query: quantum computing survey review
+  category: survey
+  subcategory_hint: review
+- source: crossref
+  query: superconducting qubit hardware
+  category: quantum-hardware
+  subcategory_hint: systems
+- source: crossref
+  query: quantum simulation Hamiltonian
+  category: quantum-simulation
+  subcategory_hint: method
+- source: europepmc
+  query: quantum error correction code
+  category: quantum-error-correction
+  subcategory_hint: method

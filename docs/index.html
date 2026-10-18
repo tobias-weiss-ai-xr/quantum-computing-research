@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Corpus — Paper Browser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --radius: 8px;
+        }
+        [data-theme="dark"] {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 2rem 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            transition: background .2s, color .2s;
+        }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: .5rem; }
+        h1 { font-size: 1.6rem; }
+        .controls { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+        input[type="text"], select {
+            padding: .5rem .75rem; border: 1px solid var(--border-color); border-radius: var(--radius);
+            background: var(--bg-secondary); color: var(--text-primary); font-size: .9rem; flex: 1; min-width: 200px;
+        }
+        .stats { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; color: var(--text-secondary); font-size: .85rem; }
+        .paper {
+            border: 1px solid var(--border-color); border-radius: var(--radius); padding: .9rem 1rem;
+            margin-bottom: .75rem; background: var(--bg-secondary);
+        }
+        .paper h3 { font-size: 1rem; margin-bottom: .3rem; }
+        .paper .meta { font-size: .8rem; color: var(--text-secondary); margin-bottom: .4rem; }
+        .paper .abstract { font-size: .85rem; color: var(--text-secondary); }
+        .badge { display: inline-block; padding: .15rem .5rem; border-radius: 99px; font-size: .72rem;
+                 background: rgba(59,130,246,.12); color: var(--primary); margin-right: .35rem; }
+        a { color: var(--primary); text-decoration: none; }
+        .theme-btn { background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary);
+                     border-radius: var(--radius); padding: .4rem .75rem; cursor: pointer; font-size: .85rem; }
+        .empty { color: var(--text-secondary); font-style: italic; padding: 2rem 0; text-align: center; }
+    </style>
+</head>
+<body>
+<header>
+    <h1><i class="fas fa-graduation-cap" style="color:var(--primary)"></i> Quantum Computing Research Corpus</h1>
+    <button class="theme-btn" onclick="toggleTheme()"><i class="fas fa-moon"></i> Theme</button>
+</header>
+
+<p style="margin-bottom:1.5rem;color:var(--text-secondary)">An auto-curated literature review of <strong>quantum computing</strong> — algorithms, error-correction, hardware, simulation, machine learning, cryptography, information theory, software tools, and surveys.  Filter by category and subcategory, or search the full text to find what you need.</p>
+
+<div class="stats" id="stats">Loading…</div>
+
+<details class="field-guide" style="margin-bottom:1.5rem;border:1px solid var(--border-color);border-radius:var(--radius);padding:.75rem 1rem;color:var(--text-secondary);font-size:.85rem;">
+<summary style="cursor:pointer;color:var(--primary);font-size:.95rem;"><strong><i class="fas fa-lightbulb"></i> Field Guide – What Is This About?</strong></summary>
+<ul style="margin-top:.75rem;line-height:1.5;">
+<li><strong>Quantum Computing</strong> uses quantum bits (<em>qubits</em>) that can be 0, 1, or both at once, enabling <em>parallelism</em> that classical bits cannot match. Think factoring large numbers (Shor) or simulating molecules (VQE).</li>
+<li><strong>Quantum Error Correction</strong> is the art of protecting fragile qubits against noise and errors by spreading information across many physical qubits (<em>surface codes, LDPC codes, stabilizer circuits</em>).</li>
+<li><strong>Quantum Algorithms & Complexity</strong> answers "How much faster can a quantum computer solve problem X?" Studies <em>BQP vs NP</em>, Grover search, quantum walks, and more.</li>
+<li><strong>Quantum Hardware</strong> builds the machines — superconducting circuit, trapped ions, photonic qubits, neutral atoms, silicon spin qubits. Each platform trades off coherence time, gate fidelity, scalability.</li>
+<li><strong>Quantum Machine Learning</strong> mixes quantum and classical techniques: <em>quantum kernels, VQEs, variational circuits, quantum neural networks</em>. Often hybrid for near-term, noisy hardware.</li>
+<li><strong>Quantum Cryptography</strong> transmits <em>unhackable</em> secrets via laws of physics — QKD <em>(quantum key distribution)</em>, quantum repeaters, device-independent crypto, post-quantum security against quantum computers.</li>
+<li><strong>Quantum Information Theory</strong> is the mathematics: <em>entanglement, entropy, channels, tomography, causality, resource theories</em>.</li>
+<li><strong>Quantum Simulation</strong> assigns a quantum computer to simulate another quantum system <em>(Hamiltonians, many-body dynamics)</em> far beyond what any classical supercomputer can handle.</li>
+<li><strong>Quantum Software / Tools</strong> makes the stack usable: compilers (Qiskit, Cirq, PennyLane), transpilers, verification, fuzzing, optimisation.</li>
+<li><strong>Surveys & Taxonomies</strong> map the landscape, point you to further reading.</li>
+</ul>
+<p style="margin-top:.75rem;"><i class="fas fa-arrow-right" style="color:var(--primary)"></i> <strong>Start browsing</strong> below, or <a href="https://arxiv.org/list/quant-ph/recent" target="_blank">see what just dropped on arXiv</a>.</p>
+</details>
+
+<div class="controls">
+    <input type="text" id="search" placeholder="Search title, abstract, authors…" oninput="render()">
+    <select id="catFilter" onchange="render()"><option value="">All categories</option></select>
+    <select id="subFilter" onchange="render()"><option value="">All subcategories</option></select>
+</div>
+
+<div id="intel" style="margin-bottom:1.5rem;"></div>
+
+<div id="list"></div>
+
+<script>
+let papers = [];
+let theme = localStorage.getItem('theme') || 'light';
+if (theme === 'dark') document.documentElement.dataset.theme = 'dark';
+
+function toggleTheme() {
+    theme = theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem('theme', theme);
+}
+
+async function load() {
+    try {
+        const resp = await fetch('papers.json');
+        const data = await resp.json();
+        papers = data.papers || [];
+        fillFilters();
+        render();
+    } catch (e) {
+        document.getElementById('list').innerHTML =
+            '<div class="empty">Could not load papers.json. Run <code>scripts/generate_readme.py</code> first.</div>';
+    }
+}
+
+function fillFilters() {
+    const cats = [...new Set(papers.map(p => p.category))].sort();
+    const subs = [...new Set(papers.map(p => p.subcategory))].sort();
+    const catSel = document.getElementById('catFilter');
+    const subSel = document.getElementById('subFilter');
+    cats.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; catSel.appendChild(o); });
+    subs.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; subSel.appendChild(o); });
+    const total = papers.length;
+    const years = papers.map(p => (p.date || '').slice(0,4)).filter(Boolean);
+    const range = years.length ? Math.min(...years) + '–' + Math.max(...years) : '—';
+    document.getElementById('stats').innerHTML =
+        `<span><i class="fas fa-file-alt"></i> ${total} papers</span>` +
+        `<span><i class="fas fa-calendar"></i> ${range}</span>` +
+        `<span><i class="fas fa-tags"></i> ${cats.length} categories · ${subs.length} subcategories</span>`;
+    renderIntel();
+}
+
+function esc(s) { return (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+function renderIntel() {
+    const now = new Date();
+    const monthAgo = new Date(now.getFullYear(), now.getMonth() - 12, now.getDate());
+    const recent = papers.filter(p => {
+        const d = p.date || '';
+        return d && new Date(d) >= monthAgo;
+    });
+    const recentCount = recent.length;
+    const recentByCat = {};
+    recent.forEach(p => { recentByCat[p.category] = (recentByCat[p.category] || 0) + 1; });
+    const recentSorted = Object.entries(recentByCat).sort((a, b) => b[1] - a[1]).slice(0, 5);
+    const keywords = ['entanglement', 'fidelity', 'surface code', 'error correction', 'quantum simulation', 'logical qubit', 'Benchmark\\b', 'tomography'];
+    const keywordHits = keywords.map(k => {
+        const re = new RegExp(k, 'i');
+        return { k, n: papers.filter(p => re.test((p.title + ' ' + (p.abstract || '')).toLowerCase())).length };
+    }).sort((a, b) => b.n - a.n).slice(0, 6);
+    const html = `
+        <div style="border:1px solid var(--border-color);border-radius:var(--radius);padding:.75rem 1rem;margin-bottom:1rem;background:var(--bg-secondary);">
+            <p style="color:var(--text-secondary);font-size:.85rem;line-height:1.5;">
+                <b><i class="fas fa-chart-line" style="color:var(--primary)"></i> Last 12 months:</b> ${recentCount} new papers.
+                ${recentSorted.length ? `Top categories: ${recentSorted.map(e => `<b>${e[1]}</b> ${e[0]}`).join(', ')}.` : ''}
+                ${keywordHits.length ? `<br><b><i class="fas fa-fire" style="color:var(--primary)"></i> Hot keywords:</b> ${keywordHits.map(k => `${k.k} (${k.n})`).join(', ')}.` : ''}
+            </p>
+        </div>`;
+    document.getElementById('intel').innerHTML = html;
+}
+
+function render() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const cat = document.getElementById('catFilter').value;
+    const sub = document.getElementById('subFilter').value;
+    const list = document.getElementById('list');
+    const filtered = papers.filter(p => {
+        if (cat && p.category !== cat) return false;
+        if (sub && p.subcategory !== sub) return false;
+        if (q) {
+            const hay = [p.title, p.abstract, (p.authors || []).join(' '), p.venue].join(' ').toLowerCase();
+            if (!hay.includes(q)) return false;
+        }
+        return true;
+    }).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+    if (!filtered.length) { list.innerHTML = '<div class="empty">No papers match your filters.</div>'; return; }
+
+    list.innerHTML = filtered.map(p => `
+        <div class="paper">
+            <h3>${esc(p.title)} ${p.url ? `<a href="${esc(p.url)}" target="_blank"><i class="fas fa-external-link-alt"></i></a>` : ''}</h3>
+            <div class="meta">
+                <span class="badge">${esc(p.category || '?')}</span>
+                <span class="badge">${esc(p.subcategory || '?')}</span>
+                ${esc(p.date || '')}
+                ${p.venue ? ' · ' + esc(p.venue) : ''}
+                ${(p.authors && p.authors.length) ? ' · ' + esc(p.authors.slice(0,4).join(', ')) : ''}
+            </div>
+            ${p.abstract ? `<div class="abstract">${esc(p.abstract.slice(0, 400))}${p.abstract.length > 400 ? '…' : ''}</div>` : ''}
+        </div>`).join('');
+}
+
+load();
+</script>
+</body>
+</html>
