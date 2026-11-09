@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-10-18  
-**Corpus:** 4,496 papers across 9 categories
+**Generated:** 2026-11-09  
+**Corpus:** 4,565 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Quantum Cryptography & Communication | 1229 |
-| 2 | Quantum Algorithms & Complexity | 864 |
-| 3 | Quantum Machine Learning | 812 |
-| 4 | Quantum Simulation | 331 |
-| 5 | Quantum Hardware & Architecture | 327 |
-| 6 | Quantum Error Correction | 304 |
-| 7 | Quantum Information Theory | 272 |
-| 8 | Surveys & Taxonomies | 223 |
+| 1 | Quantum Cryptography & Communication | 1233 |
+| 2 | Quantum Algorithms & Complexity | 878 |
+| 3 | Quantum Machine Learning | 814 |
+| 4 | Quantum Simulation | 342 |
+| 5 | Quantum Hardware & Architecture | 333 |
+| 6 | Quantum Error Correction | 307 |
+| 7 | Quantum Information Theory | 282 |
+| 8 | Surveys & Taxonomies | 231 |
 
-**Time span:** 2007–2026 (median year 2019)
-**Dominant aspects:** Method (1963), Theory (1619), Application (295)
+**Time span:** 2007–2026 (median year 2020)
+**Dominant aspects:** Method (1986), Theory (1638), Application (296)
 
 ---
 
@@ -29,15 +29,16 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Quantum Information | 272 | 259 | 8 | +3138% | 95% | 21.6 |
-| Quantum Error Correction | 304 | 282 | 12 | +2250% | 93% | 23.5 |
-| Survey | 223 | 199 | 9 | +2111% | 89% | 16.6 |
-| Quantum Simulation | 331 | 289 | 21 | +1276% | 87% | 24.1 |
-| Quantum Hardware | 327 | 288 | 25 | +1052% | 88% | 24.0 |
-| Quantum Algorithms | 864 | 628 | 133 | +372% | 73% | 52.3 |
-| Quantum Cryptography | 1229 | 834 | 243 | +243% | 68% | 69.5 |
-| Quantum Machine Learning | 812 | 521 | 171 | +205% | 64% | 43.4 |
-| Quantum Software | 134 | 133 | 0 | — | 99% | 11.1 |
+| Quantum Information | 282 | 269 | 7 | +3743% | 95% | 22.4 |
+| Quantum Error Correction | 307 | 284 | 13 | +2085% | 92% | 23.7 |
+| Survey | 231 | 197 | 11 | +1691% | 85% | 16.4 |
+| Quantum Simulation | 342 | 298 | 22 | +1254% | 87% | 24.8 |
+| Quantum Hardware | 333 | 290 | 29 | +900% | 87% | 24.2 |
+| Quantum Algorithms | 878 | 630 | 134 | +370% | 72% | 52.5 |
+| Quantum Cryptography | 1233 | 826 | 247 | +234% | 67% | 68.8 |
+| Quantum Machine Learning | 814 | 508 | 179 | +184% | 62% | 42.3 |
+| Application | 10 | 10 | 0 | — | 100% | 0.8 |
+| Quantum Software | 135 | 134 | 0 | — | 99% | 11.2 |
 
 ---
 
@@ -45,14 +46,14 @@
 
 | Cell | Papers |
 |------|--------:|
-| `quantum-hardware/evaluation` | 1 |
-| `quantum-simulation/development` | 1 |
-| `survey/application` | 1 |
-| `quantum-error-correction/systems` | 1 |
-| `quantum-information/systems` | 1 |
 | `quantum-algorithms/application` | 1 |
 | `quantum-algorithms/development` | 1 |
+| `quantum-simulation/development` | 1 |
+| `quantum-information/systems` | 1 |
+| `quantum-simulation/systems` | 1 |
+| `quantum-error-correction/systems` | 1 |
 | `quantum-error-correction/review` | 1 |
+| `quantum-error-correction/evaluation` | 1 |
 
 ---
 
@@ -61,109 +62,121 @@
 
 ### Quantum Cryptography & Communication (`quantum-cryptography`)
 
-**Corpus size:** 1229 papers
+**Corpus size:** 1233 papers
 
 **Recent papers:**
 
-- [2026-10] Electromagnetic Side-Channel Vulnerability in QKD Equipment — https://arxiv.org/abs/2610.01609
-- [2026-10] Time-space lower bounds for breaking quantum cryptography — https://arxiv.org/abs/2610.02101
-- [2026-10] An exponential separation between entanglement-assisted and unassisted one-way quantum communic — https://arxiv.org/abs/2610.02099
+- [2026-10] \mathsf{EFI}\Leftrightarrow\mathsf{1PRS} — https://arxiv.org/abs/2610.18799
+- [2026-10] A robust digital receiver architecture for continuous-variable quantum key distribution — https://arxiv.org/abs/2610.13090
+- [2026-10] A Spectrum-Based Converse for Quantum State Discrimination and Its Applications to Classical-Qu — https://arxiv.org/abs/2610.06840
 
 ---
 
 ### Quantum Algorithms & Complexity (`quantum-algorithms`)
 
-**Corpus size:** 864 papers
+**Corpus size:** 878 papers
 
 **Recent papers:**
 
-- [2026-10] Quantum state preparation for weighted d-DNNF — https://arxiv.org/abs/2610.02094
-- [2026-10] Linear-Time Encodable Quantum Codes near the CSS GV Bound — https://arxiv.org/abs/2610.01277
-- [2026-10] TATVA: A Reinforcement Learning Framework for Quantum Circuit Synthesis — https://arxiv.org/abs/2610.00945
+- [2026-10] A provable quantum advantage for approximate optimization via decoded quantum interferometry — https://arxiv.org/abs/2610.02145
+- [2026-10] Accessing electronic entanglement via photo-assisted two-electron tomography — https://arxiv.org/abs/2610.12286
+- [2026-10] Beyond IP = PSPACE and QIP = PSPACE: Interactive Proofs in Arbitrary Physical Theories — https://arxiv.org/abs/2610.00847
 
 ---
 
 ### Quantum Machine Learning (`quantum-machine-learning`)
 
-**Corpus size:** 812 papers
+**Corpus size:** 814 papers
 
 **Recent papers:**
 
+- [2026-10] A Controlled Null Result for Per-Gate Riemannian Optimization in VQE — https://arxiv.org/abs/2610.17395
 - [2026-10] A Gate-Based Quantum Computing Framework for Codon Optimization — https://arxiv.org/abs/2610.00887
-- [2026-10] Constant-Per-Layer-Depth MPS-Pretrained Ansatz for Noisy Distributed Quantum Processors — https://arxiv.org/abs/2610.01099
-- [2026-10] Molecular Dynamics with Nuclear Effects on Quantum Computers — https://arxiv.org/abs/2610.01549
+- [2026-10] Adversarial Robustness in Fake Quantum Simulators — https://arxiv.org/abs/2610.01574
 
 ---
 
 ### Quantum Simulation (`quantum-simulation`)
 
-**Corpus size:** 331 papers
+**Corpus size:** 342 papers
 
 **Recent papers:**
 
-- [2026-10] Dissipation-Enabled Operator-Norm Locality Bounds for Bose-Hubbard Hamiltonians — https://arxiv.org/abs/2610.01669
-- [2026-10] Exact first-detection probability in a locally monitored solvable quantum circuit — https://arxiv.org/abs/2610.01703
-- [2026-10] Floquet-Universal Hamiltonian Simulation — https://arxiv.org/abs/2610.01878
+- [2026-10] A Practical Introduction to VQE: Methods, Challenges, and Applications in Physics and Chemistry — https://arxiv.org/abs/2610.06448
+- [2026-10] A Rydberg atom array coupled to a high-cooperativity optical cavity — https://arxiv.org/abs/2610.20889
+- [2026-10] An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group — https://arxiv.org/abs/2610.05752v1
 
 ---
 
 ### Quantum Hardware & Architecture (`quantum-hardware`)
 
-**Corpus size:** 327 papers
+**Corpus size:** 333 papers
 
 **Recent papers:**
 
-- [2026-10] Predicting electric-field noise in ion traps using fluctuation electrodynamics — https://arxiv.org/abs/2610.01693
-- [2026-10] Lifting Multiplicity in Randomized Benchmarking — https://arxiv.org/abs/2610.03586
-- [2026-10] Sidewall spacer passivated epitaxial NbN/AlN/NbN Josephson junctions for superconducting qubit  — https://arxiv.org/abs/2610.04820
+- [2026-10] Below-threshold execution of fault-tolerant ripple-carry addition on a trapped-ion quantum comp — https://arxiv.org/abs/2610.14202
+- [2026-10] Coherent consensus for the estimation and classification of phases — https://arxiv.org/abs/2610.09865
+- [2026-10] Correlated Pair Creation with Positive- and Negative-Frequency Oscillators in a Trapped-Ion Qua — https://arxiv.org/abs/2610.12579
 
 ---
 
 ### Quantum Error Correction (`quantum-error-correction`)
 
-**Corpus size:** 304 papers
+**Corpus size:** 307 papers
 
 **Recent papers:**
 
 - [2026-10] A Code-Agnostic Graph Neural Network Decoder from the Detection Error Model — https://arxiv.org/abs/2610.01683
 - [2026-10] Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements — https://arxiv.org/abs/2610.02031
-- [2026-10] One-Shot any Code — https://arxiv.org/abs/2610.02137
+- [2026-10] Classification of bipartite observables III: simplicity, mixtures and quantum error correction — https://arxiv.org/abs/2610.22205
 
 ---
 
 ### Quantum Information Theory (`quantum-information`)
 
-**Corpus size:** 272 papers
+**Corpus size:** 282 papers
 
 **Recent papers:**
 
-- [2026-10] Efficient certification of time-reversal symmetry requires entanglement — https://arxiv.org/abs/2610.01555
-- [2026-10] Opportunistic full reconstruction of 100-dimensional frequency-bin quantum states — https://arxiv.org/abs/2610.03496
-- [2026-10] Geometric Aspects of Entanglement — https://arxiv.org/abs/2610.03446
+- [2026-10] BKT–96 Conditional relational tomography of a nucleus — https://doi.org/10.5281/zenodo.23424750
+- [2026-10] Broadband Telecom Entanglement from an All-Fiber Type-0 Sagnac Source — https://arxiv.org/abs/2610.08025v1
+- [2026-10] Causal confusion in quantum systems: distinguishing direct cause and common cause — https://arxiv.org/abs/2610.10004
 
 ---
 
 ### Surveys & Taxonomies (`survey`)
 
-**Corpus size:** 223 papers
+**Corpus size:** 231 papers
 
 **Recent papers:**
 
-- [2026-10] Context-Aware Error Mitigation Orchestration for Hybrid Quantum Reinforcement Learning on NISQ  — https://arxiv.org/abs/2610.01253
-- [2026-10] One-Way Quantum Symmetric Private Information Retrieval Protocol From A Single Database Server  — https://arxiv.org/abs/2610.02093
+- [2026-10] Advances in quantum optomechanical control based on cavity cold-atom systems — https://arxiv.org/abs/2610.20040
+- [2026-10] Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization — https://arxiv.org/abs/2610.11759
 - [2026-10] Breaking the chain: geometry-native state preparation with ASPIRE — https://arxiv.org/abs/2610.03528
 
 ---
 
 ### Quantum Software & Tools (`quantum-software`)
 
-**Corpus size:** 134 papers
+**Corpus size:** 135 papers
 
 **Recent papers:**
 
 - [2026-10] A Quantum Phase Neural Network with Multi-Inputs/Single-Output — https://arxiv.org/abs/2610.00868
+- [2026-10] Autonomous Code Migration for Quantum Programming Languages: A Case Study with QED-C Benchmarks — https://arxiv.org/abs/2610.12187
 - [2026-10] Breaking the cubic barrier for the inverse-free Solovay-Kitaev algorithm — https://arxiv.org/abs/2610.03655
-- [2026-10] When Equivalent Quantum Circuits Lose Synthesis Choices — https://arxiv.org/abs/2610.06142
+
+---
+
+### Application (`application`)
+
+**Corpus size:** 10 papers
+
+**Recent papers:**
+
+- [2026-01] A local sequence alignment approach to recognizing fixed poetic forms across languages. — https://doi.org/10.1371/journal.pone.0340514
+- [2026-01] Assessment of the consistency between YouTube videos and scientific evidence on paediatric myop — https://doi.org/10.1371/journal.pone.0357587
+- [2026-01] First person – Fabienne Dreier — https://europepmc.org/article/pmc/PMC13602369
 
 ---
 
