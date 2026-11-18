@@ -149302,3 +149302,2380 @@ papers:
     collision constructions, and our upper bounds follow from randomized sampling
     together with cycle-specific conditional-moment estimates. Our results provide
     a systematic understanding of its query advantages over classical computation.'
+- title: Quantum algorithms
+  date: 2026-11
+  url: https://doi.org/10.1201/9781003536390-4
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Pawan Kumar Verma
+  - Mohit Kumar
+  - Saurabh Singhal
+  abstract: 'This chapter highlights quantum algorithms as a gate-based computational
+    framework that exploits superposition, entanglement, and phase-coherent interference
+    to realize demonstrable complexity reductions on selected problems. It begins
+    by formally distinguishing quantum algorithms from classical deterministic and
+    randomized computation through reversible unitary evolution, oracle-based problem
+    access, and the measurement constraint that collapses quantum state information,
+    thereby motivating amplitude-engineering strategies that amplify correct outcomes
+    while suppressing incorrect ones. This chapter then surveys quantum speedup as
+    a nuanced concept, clarifying that advantage is problem-dependent, often derived
+    under idealized fault-tolerant assumptions, and practically bounded in noisy intermediate-scale
+    quantum devices by decoherence, gate infidelity, circuit-depth overhead, and benchmarking/verification
+    limitations. Two canonical algorithmic families are developed in depth: Shor’s
+    algorithm, framed as reduction of integer factorization to order/period finding
+    via coherent modular exponentiation and the quantum Fourier transform with explicit
+    resource and cryptographic implications; and Grover’s algorithm, formulated as
+    optimal unstructured search through oracle phase marking, diffusion (inversion
+    about the mean), and its generalization to amplitude amplification as a reusable
+    primitive. Building on these exemplars, this chapter distills design principles
+    for constructing effective quantum algorithms, including superposition management,
+    oracle synthesis and state manipulation, and systematic minimization of gate count,
+    depth, and expensive non-Clifford resources under hardware constraints. It concludes
+    by mapping these foundations to active research directions—quantum approximation
+    methods such as quantum approximate optimization algorithm, hybrid quantum–classical
+    variational workflows, and quantum machine learning—highlighting how practical
+    progress depends on hardware-aware compilation, resource optimization, and interference-driven
+    algorithm design.'
+  venue: CRC Press eBooks
+- title: Quantum Algorithms for Scientific Computation
+  date: 2026-10
+  url: https://doi.org/10.13016/grlu-bhca
+  category: quantum-algorithms
+  subcategory: method
+  authors:
+  - Muhammad Junaid Aftab
+  abstract: 'This thesis presents a mathematical analysis of several quantum algorithms
+    and their applications in scientific computation. It is organized into two parts.
+    The first part investigates quantum algorithms for the quantum simulation problem,
+    with particular emphasis on methods based on Lie–Trotter–Suzuki formulas, commonly
+    known as product formulas. It develops a rigorous analysis of a digital quantum
+    simulation algorithm: the multiproduct formula, a high-order method constructed
+    from low-order product formulas. First, it provides a detailed characterization
+    of the error scaling of the time-independent multiproduct formula for simulating
+    quantum dynamics in finite-dimensional quantum systems. This analysis establishes
+    both commutator scaling and a near-optimal dependence on the simulation time and
+    target precision. The results show that the multiproduct formula achieves a polynomial
+    speedup with respect to system size and evolution time, together with an exponential
+    improvement in the dependence on precision. The thesis then extends the multiproduct
+    formula to the simulation of non-unitary dynamics by combining it with a recently
+    proposed quantum algorithm for dissipative linear differential equations. The
+    resulting algorithm is shown to exhibit commutator scaling, a property that is
+    particularly important for the quantum simulation of differential equations. The
+    performance of both algorithms is also examined in various application cases.
+    The second part proposes Chebyshev polynomial expansions as a unifying principle
+    for a range of quantum algorithms and applications. The approach exploits the
+    direct correspondence between Chebyshev polynomials and the parameters of quantum
+    signal processing, thereby enabling the straightforward implementation of Chebyshev
+    polynomials on a quantum computer. This observation is used to design fixed-parameter
+    quantum circuits for function approximation. The method is applied to the approximation
+    of functions in two classes of function spaces: high-dimensional functions in
+    the Korobov function space, a structured subspace of Sobolev spaces well suited
+    to high-dimensional approximation and integration; and countably parametric holomorphic
+    maps, which arise naturally in applications such as uncertainty quantification
+    and parametric partial differential equations. Finally, the thesis introduces
+    a quantum algorithm for the non-uniform quantum Fourier transform based on a low-rank
+    factorization technique derived from Chebyshev expansions. This method overcomes
+    limitations of algorithms that rely on uniform grids and enables efficient quantum
+    spectral transforms on non-uniform grids. These results demonstrate the versatility
+    of Chebyshev polynomials across a broad range of quantum computational tasks.'
+  venue: Digital Repository at the University of Maryland (University of Maryland
+    College Park)
+- title: Machine learning strategies for near-term quantum algorithms
+  date: 2026-11
+  url: https://scholarlypublications.universiteitleiden.nl/handle/1887/5006960
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Y.J. Patel
+  abstract: 'The central claim of this thesis is simple but underappreciated: the
+    primary bottleneck in near-term quantum computing is not a shortage of algorithms;
+    it is a lack of systematic decision-making. Which problem instances should we
+    test? Which circuit architectures are worth training? Which hyperparameters actually
+    drive performance, and which are distractions? Today’s quantum hardware sits in
+    an uncomfortable middle ground. It is expressive enough to explore nontrivial
+    quantum dynamics, yet it is too noisy and shallow for the theoretical speedups
+    that motivate the field. This thesis argues that applying machine learning to
+    classical control decisions in hybrid quantum classical methods is one of the
+    most tractable ways to make these methods genuinely useful in this regime. This
+    argument is developed through four research questions, each addressing a distinct
+    decision-making layer and illustrating the thesis. The first asks whether the
+    decisions inside a hybrid heuristic can be learned rather than hand-coded. Chapter
+    4 analyzes Recursive QAOA (RQAOA), a promising yet brittle approach to combinatorial
+    optimization, and identifies regimes in which its fixed-elimination strategy fails.
+    It then replaces that strategy with a reinforcement learning policy, RL-RQAOA,
+    that adapts to instance structure. The resulting method performs better on the
+    constructed failure cases while remaining competitive elsewhere. The broader point
+    is that learned classical control policies can materially improve hybrid quantum
+    heuristics without increasing quantum depth, which is a significant practical
+    advantage on constrained hardware. The second question evaluates whether the quantum
+    optimization algorithm benchmarking instances we use are principled. Chapter 5
+    observes that much benchmarking in this space is driven by convenience. Researchers
+    test on whatever graphs are readily available and then report aggregate performance.
+    Instead, the chapter proposes a generative pipeline that couples a permutation-invariant
+    graph autoencoder with evolutionary optimization to deliberately construct Max-Cut
+    instances that strongly discriminate between a quantum-inspired solver, RQAOA,
+    and a strong classical baseline, Goemans-Williamson, in both directions. By connecting
+    solver behavior to structural graph features, the chapter turns benchmarking from
+    a static choice into an interpretable experimental tool. The generated instances
+    also expose failure modes that random graphs often fail to reveal. The third question
+    asks what changes when realistic noise constraints are taken seriously during
+    circuit design, not only during execution. Chapter 6 develops RLQAS, a reinforcement
+    learning framework for quantum architecture search that incorporates noise assumptions
+    informed by real IBM device characteristics throughout training, rather than treating
+    noise as a post hoc correction. Paired with an efficient Pauli transfer matrix
+    simulation, the framework makes large-scale noisy circuit search computationally
+    feasible. The circuits it discovers are compact, trainable, and achieve competitive
+    accuracy on ground-state energy tasks. This suggests that hardware-aware circuit
+    design is tractable and can yield materially different choices than noise-agnostic
+    search. The fourth question asks: even when the circuit architecture is fixed,
+    how much of what we attribute to quantum model design is actually due to hyperparameter
+    sensitivity? Chapter 7 extends functional ANOVA to quantum neural networks to
+    quantify which hyperparameter choices drive performance variance. The finding
+    is clear. Learning rate, circuit depth, and data encoding/reuploading dominate,
+    while many architectural micro-choices contribute far less than the literature
+    often implies. Rather than stopping at diagnosis, the chapter turns these importance
+    rankings into data-driven priors that accelerate hyperparameter optimization.
+    It converts a critique into a practical improvement. Taken together, these contributions
+    form a coherent toolkit for developing and evaluating hybrid quantum–classical
+    methods in the NISQ regime. While the work does not eliminate the fundamental
+    constraints of shallow, noisy hardware, it clarifies what can be improved immediately
+    and how to do so in a reproducible manner. The broader goal is to help shift near-term
+    quantum research from isolated demonstrations toward an engineering discipline,
+    in which algorithms, benchmarks, and model-selection practices can be compared
+    fairly, stress-tested rigorously, and iterated systematically as hardware matures.'
+  venue: Leiden Repository (Leiden University)
+- title: Quantum surfacelet transform
+  date: 2026-11
+  url: https://doi.org/10.1016/j.dsp.2026.106605
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Angshul Majumdar
+  abstract: ''
+  venue: Digital Signal Processing
+- title: EL-RAKHAWI UNIFIED FRAMEWORK FOR QUANTUM-ALGORITHMIC CHEMICAL DISCOVERY AND
+    TOPOLOGICAL MOLECULAR SYNTHESIS (QACD-TMS) A Self-Correcting Algorithmic Architecture
+    for Zero-Hallucination Molecular Generation, Topological Reaction Pathway Navigation,
+    and Autonomous Robotic Synthesis
+  date: 2026-10
+  url: https://doi.org/10.5281/zenodo.23674934
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - mohamed kamal arafa el-rakhawi
+  abstract: 'The El-Rakhawi Unified Framework for Quantum-Algorithmic Chemical Discovery
+    and Topological Molecular Synthesis (QACD-TMS) revolutionizes molecular science
+    through four integrated pillars: (1) Quantum Generative Wavefunction Synthesis
+    using Quantum Circuit Born Machines generating molecular wavefunctions directly
+    in Hilbert space with P(x) = |⟨x|U(θ)|0⟩|^2, achieving 99% hallucination reduction;
+    (2) Topological Energy Landscape Navigation using persistent homology with differentiable
+    Wasserstein distance T_persistent = W_p(D_current, D_target) between persistence
+    diagrams, achieving 95-99% success in identifying globally optimal pathways; (3)
+    Symbolic-Quantum Algorithmic Verification with smooth differentiable penalty functions
+    V_thermo ensuring gradient-based optimization compatibility; (4) Quantum-Robotic
+    Closed-Loop Synthesis reducing discovery timelines from 10 years to 2-6 months.
+    Unified differentiable loss function L_Chem = ⟨ψ(θ)|H_molecule|ψ(θ)⟩ + λ·T_persistent
+    + γ·V_thermo proves quantum stability, topological optimality, and thermodynamic
+    correctness are simultaneously achieved through gradient-based optimization. Computational
+    complexity O(poly(N)) achieves provable exponential speedup over classical O(exp(N))
+    or O(4^N) methods. Projections: 0% hallucination rate vs 30-40% classical AI;
+    95-99% global pathway identification; discovery cost reduction 90% ($100-200M
+    vs $1-2B per drug). Protected by 6 PCT claims covering quantum-native generation,
+    topological navigation with Wasserstein loss, symbolic verification with differentiable
+    penalties, autonomous synthesis, unified loss function, and zero-hallucination
+    molecular design method. DOI: 10.5281/zenodo.23674935'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'QuBIN: quantum-accelerated discovery of conserved interactions in multi-omics
+    networks'
+  date: 2026-11
+  url: https://doi.org/10.1038/s41525-026-00630-8
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Abdul Mannan Kitab
+  - Yiming Zeng
+  - Qing Ye
+  abstract: Identifying conserved and condition-specific modules in multi-omics networks
+    is essential for biomarker discovery to advance precision medicine, yet the growing
+    scale of genome-wide data imposes significant computational challenges. Parallel
+    computing does not address intrinsic time complexity of exhaustive gene-gene condition
+    searches, particularly when bootstrapping is required for network stability. These
+    limitations motivate computational paradigm shifts. Here, we present a quantum
+    computing based pipeline (QuBIN) for large-scale multi-omics network analysis
+    using Grover’s search algorithm to reduce query complexity in gene regulatory
+    network (GRN) interrogation. We describe the algorithmic design, quantum circuit
+    implementation, and validation of accuracy and scalability in the noisy intermediate-scale
+    quantum (NISQ) era. The pipeline can potentially accelerate identification of
+    statistically significant and overlapping gene-gene interactions across patient
+    cohorts inferred using Prediction Logic Boolean Implication Networks (PLBINs),
+    leveraging the quadratic speedup of Grover’s algorithm. We applied this pipeline
+    to DNA copy number variation (CNV) mediated transcriptional networks in non-small
+    cell lung cancer, querying overlapping edges from networks comprising 28,390 and
+    7063 edges across both intra-cohort and inter-cohort datasets, simulated using
+    tensor network methods. Achieving 100% accuracy in identifying overlapping edges.
+    Both tensor network simulations and hardware tests establish a proof of concept
+    for quantum-accelerated multi-omics analysis.
+  venue: npj Genomic Medicine
+- title: Magic in Grover's Algorithm and the Role of Oracle Synthesis
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.37772
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Alessio Paviglianiti
+  - Vincenzo Savona
+  abstract: Grover's algorithm is a textbook example of quantum advantage, providing
+    a quadratic query speedup over classical methods for unstructured search. In this
+    Letter, we characterize the non-stabilizerness, or magic, developed throughout
+    Grover's protocol, quantifying quantum complexity with respect to the efficiently
+    simulable stabilizer states. First, we compute the compilation-independent magic
+    at the end of each Grover iteration, deriving an analytic prediction for the stabilizer
+    Rényi entropy and proving that it remains intensive as the system size grows.
+    We then investigate the magic overhead due to decomposing the circuit into elementary
+    gates. When the solution to the search problem is known, we show that an efficient
+    decomposition exists that keeps magic bounded despite using an extensive number
+    of Toffoli gates. In contrast, agnostic implementations are expected to generate
+    volume-law non-stabilizerness, as we confirm for the 3-SAT problem, which rules
+    out efficient simulation by stabilizer-based methods in practically relevant cases.
+    Our findings clarify the growth of magic in Grover's algorithm and the role of
+    solution-awareness in its circuit compilation.
+  venue: arXiv (Cornell University)
+- title: Deterministic Quantum Search for NP Problems Through Verifier-Based Oracle
+    Construction
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.09830
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Soumyajyoti Chatterjee
+  - Mishra Harishankar
+  - Asvija Balasubramanyam
+  abstract: Problems in the class NP are important in computational science, where
+    a given candidate solution can be verified in polynomial time, while finding a
+    solution may require evaluating the entire search space in the worst case. Classical
+    exhaustive approaches generally solve such problems by evaluating the verifier
+    function over all possible inputs, resulting in a worst-case query complexity
+    of O(N), where N = d^n represents the size of the search space, d is the number
+    of possible values for each variable, and n is the number of variables. Quantum
+    search algorithms can solve unstructured search problems more efficiently by reducing
+    the query complexity to O(sqrt (N)), providing a quadratic speedup over classical
+    exhaustive search. However, conventional quantum search formulations typically
+    assume access to an oracle that identifies valid solutions, while standard implementations
+    generally yield probabilistic success. In this work, we propose a generalised
+    quantum oracle construction method for NP problems, together with a deterministic
+    quantum search framework that identifies satisfying assignments using their corresponding
+    classical verifier functions. The proposed framework retains the quadratic query
+    speedup of quantum search over classical exhaustive search. We further establish
+    that constructed oracle can be implemented using a number of gates polynomial
+    in the size (L) of the binary encoding of verification function, consistent with
+    the polynomial-time evaluation of the corresponding classical verifier, while
+    the total qubit requirement remains O(poly(L)). The construction is demonstrated
+    on multiple N-SAT instances, with circuit-level simulations confirming deterministic
+    identification of satisfying assignments. These results establish the applicability
+    of deterministic quantum search to NP problems while retaining the quadratic query
+    advantage over classical exhaustive search.
+  venue: arXiv (Cornell University)
+- title: EL-RAKHAWI BIO-QUANTUM COMPUTING FRAMEWORK INTEGRATING CEREBRAL ORGANOIDS,
+    QUANTUM NEUROMORPHIC ARCHITECTURES, AND AUTONOMOUS AI SCIENTIST AGENTS A Unified
+    Paradigm for Next-Generation Computational Intelligence and Autonomous Discovery
+  date: 2026-10
+  url: https://doi.org/10.5281/zenodo.23527960
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - mohamed kamal arafa el-rakhawi
+  abstract: 'THE EL-RAKHAWI BIO-QUANTUM COMPUTING FRAMEWORK by Dr. M.K.A. El-Rakhawi
+    (DOI: 10.5281/zenodo.23527961) integrates three frontier technologies: Organoid
+    Intelligence (OI), Quantum Neuromorphic Computing, and Autonomous AI Scientist
+    Agents. Core innovations: (1) Cerebral organoids interfaced via 3D Multi-Electrode
+    Arrays in microfluidic bioreactors, performing adaptive control of simplified
+    robotic effectors with synaptic efficiency of 10-100 femtojoules per operation—strategically
+    offloading non-linear learning tasks to bypass the von Neumann bottleneck, without
+    claiming system-wide femtojoule efficiency; (2) Variational quantum circuits leveraging
+    exponential state-space representation to simulate neuromorphic networks, offering
+    potential polynomial or exponential speedup on fault-tolerant architectures for
+    QUBO problems; (3) Autonomous AI Scientist Agents generating hypotheses and directing
+    self-driving laboratories in closed-loop discovery cycles. The framework mandates
+    ethical boundaries: organoids maintained at early fetal developmental stages with
+    strict compute-time limits. IP protection excludes abstract biological phenomena
+    and pure algorithms per Alice/Myriad precedents, safeguarding only concrete hardware
+    architectures, specific microfluidic designs, quantum circuit topologies, and
+    hardware-implemented safety interlocks that physically prevent robotic actuators
+    from executing flagged protocols—satisfying the machine-or-transformation test.
+    This positions the framework as a patentable, physically rigorous, and legally
+    defensible blueprint for autonomous bio-quantum discovery.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Constant-Depth Quantum Barrier Option Pricing via a Static Bivariate Oracle
+    Framework
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.27929
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Ji-Hui Mo
+  - Yuan-Hong Tao
+  abstract: Quantum amplitude estimation offers a theoretical quadratic speedup over
+    classical Monte Carlo methods for financial derivative pricing. However, extending
+    gate-based algorithms to path-dependent barrier options has historically been
+    hampered by sequential path discretization, where tracking price paths across
+    $d$ monitoring dates incurs a linear escalation in qubit footprint and gate depth
+    ($\mathcal{O}(d)$), posing severe coherence challenges for near-term quantum processors.
+    In this work, we present a constant-depth quantum pricing framework that fundamentally
+    eliminates the temporal dependency of barrier monitoring. Leveraging the Brownian
+    reflection principle and Girsanov theorem, we project the continuous supremum
+    dynamics onto a static bivariate joint distribution of the terminal price $S_T$
+    and running supremum $M_T$. This allows decoupling dynamic boundary checks into
+    a static bivariate oracle comprising two parallel comparators and a dual-controlled
+    rotation gate. We prove this architecture reduces circuit depth and comparator
+    complexity from $\mathcal{O}(d)$ to an invariant $\mathcal{O}(1)$, while supporting
+    discrete monitoring via zero-quantum-cost boundary corrections. Transpilation
+    benchmarks for daily monitoring ($d = 252$) show our framework slashes physical
+    CNOT count by 98.59% (from 2262 to 32) and compresses two-qubit depth by 98.02%
+    (from 1514 to 30 layers). Under a realistic 127-qubit IBM Eagle noise model, the
+    shallow circuit achieves a 7.84% relative valuation error with M3 readout mitigation.
+    Finally, the framework seamlessly extends to nonlinear exotic payoffs lacking
+    analytical solutions, establishing a noise-resilient pathway toward practical
+    quantum advantage in computational finance.
+  venue: arXiv (Cornell University)
+- title: 'Quantum Monte Carlo Methods for Large-Scale Macroeconomic Models: A Unified
+    Computational Framework for High-Dimensional State Spaces and Stress Testing'
+  date: 2026-10
+  url: https://doi.org/10.21203/rs.3.rs-11402714/v1
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Sid Ahmed Zenagui
+  abstract: 'Abstract Large-scale macroeconomic models with rich heterogeneity and
+    aggregate risk confront two intertwined computational bottlenecks: the curse of
+    dimensionality in solving highdimensional functional equations, and the slow O(N
+    −1/2 ) convergence of Monte Carlo estimators used in policy evaluation and stress
+    testing. This paper develops and analyses QMC-Macro, a unified computational framework
+    that combines a deep-learning surrogate for the model’s policy and value functions
+    with quantum amplitude estimation (QAE) for the expectation functionals that summarise
+    macro-financial risk. We do not claim a new economic model or a first-of-its-kind
+    algorithm; rather, we consolidate, formalise, and extend an existing and rapidly
+    maturing literature—most directly the macroeconomic quantum Monte Carlo programme
+    of Skavysh et al. (2023)—into a single, modular pipeline with explicit error accounting.
+    We provide rigorous results bounding the total estimation error as the sum of
+    a neural-approximation term, a distribution-loading term, and an amplitude-estimation
+    term that scales as O(N −1 or ), a quadratic improvement over classical sampling.
+    Using a calibrated income-fluctuation economy solved to a mean log10 Euler-equation
+    residual below −8, we show that a feed-forward surrogate reproduces the optimal
+    policy with a mean relative error below 0.5% and R2 above 0.999, and that a faithful
+    classical emulator of iterative QAE attains the theoretical O(N −1 or ) scaling,
+    implying sample-complexity speedups that rise from roughly 25× at percent accuracy
+    to several hundredfold in the deep tail. We discuss feasibility on noisy intermediate-scale
+    quantum (NISQ) hardware, the resource and circuit-depth trade-offs, and the boundaries
+    of the quantum advantage. The framework is offered as a refinement and unification
+    of existing tools rather than a replacement for them, and we are explicit about
+    the assumptions under which the advantage materialises. JEL classification: C63;
+    C45; C61; E37; G17; C15.'
+  venue: Research Square
+- title: The NEXUS Quantum Compiler Mathematical-Space Execution and Constrained Molecular
+    Folding
+  date: 2026-10
+  url: https://doi.org/10.5281/zenodo.23595371
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Dean Kulik
+  abstract: 'The NEXUS Quantum Compiler Mathematical-Space Execution and Constrained
+    Molecular Folding Native reversible routes · quantum-sector reduction · legal
+    molecular transformations · classical execution Driven by Dean A. Kulik · October
+    2026 ABSTRACT A quantum-compatible mathematical state space can be compiled and
+    executed on ordinary classical hardware when its constraints, return paths, and
+    observable symmetry sectors are explicitly represented. This manuscript integrates
+    two complementary NEXUS studies without replacing either with a shorter summary.
+    The first examines the exact native ring and E/G return machinery and audits an
+    earlier quantum lattice-protein simulation whose eight-address mixer introduced
+    four transitions through invalid padding states. It derives the short-time leakage
+    coefficient 49/75, explains the distinction between finite penalties and exact
+    subspace preservation, identifies the disconnected projected graph, and records
+    the approximation and environmental-return requirements. The second advances to
+    a self-avoiding honeycomb-chain compiler in which turn words construct geometry
+    and admissible bit rewrites construct the transition graph. Global complement
+    is an exact mirror symmetry; for a complement-stable Hamiltonian it separates
+    the quantum space into even and odd sectors, retaining the necessary sheet sign
+    and inverse readout. In the 12-residue HP example, 776 legal conformations form
+    388 mirror pairs. Classical propagation in the full Hilbert space and its independently
+    assembled mirror-even sector agrees after reconstruction to machine precision
+    under the reported sparse solver; the precise rounding error is implementation
+    dependent. Local four-turn hexagon rewrites are reversible but fragment the legal
+    graph; unrestricted pivots reconnect it while sacrificing bounded spatial support.
+    Together these results establish a rigorous, finite compiler architecture and
+    a precise reduction in the resources needed for symmetry-selected states. They
+    do not establish experimentally validated molecular kinetics, a general quantum-simulation
+    speedup, or measured low electrical power. The remaining link is an independently
+    constrained molecular transition generator, its environmental coupling, and a
+    resource benchmark carried out under the same input–output contract. Keywords:
+    NEXUS; reversible routing; quantum-inspired classical simulation; parity decomposition;
+    Hilbert-space reduction; self-avoiding walks; hydrophobic-polar models; constrained
+    transitions; local moves; protein folding. Figure 1. The integrated compiler path:
+    binary word → geometric legality → admissible transition graph → symmetry sectors
+    → classical propagation. The route back to full state is explicit. PART I / THE
+    NATIVE STATE SPACE AND WHAT “QUANTUM COMPILER” MEANS 1. Problem statement: computation
+    before hardware The motivating hypothesis is that a sufficiently explicit mathematical
+    relation space can execute useful quantum-style calculations on conventional,
+    low-power hardware. In its strongest form, this would make special-purpose quantum
+    machines unnecessary for the targeted tasks. A physically meaningful version of
+    that hypothesis must distinguish three different propositions: an algebraic operator
+    can be represented classically; a specified quantum evolution can be simulated
+    faithfully; and the simulation has an advantageous cost in time, memory, or joules.
+    The first two are demonstrated here in a finite structured family. The third remains
+    subject to benchmarking. The Nexus program approaches problems from legal transformations
+    and their return paths rather than from cataloged answers. Earlier One Inverter
+    and twisted-partner-ring work constructed involutions, native addresses, temporal
+    center reads, and odd-lane locks [1, 2]. The honeycomb extensions (§§144–146)
+    supply a particularly instructive domain: a word is a conformation-generating
+    route, while a molecular move is determined by geometry rather than by neighboring
+    values in an address table [2]. Classical simulation of quantum subfamilies is
+    established mathematical territory. Stabilizer circuits admit efficient classical
+    simulation [6], and quantum-inspired linear algebra can dequantize some low-rank
+    algorithms under explicit data-access assumptions [7, 8]. The point of the present
+    work is narrower: show where the Nexus native-route and reflection machinery gives
+    a concrete geometry-respecting Hilbert-space reduction, with complete return information
+    and negative controls. The governing research hypothesis is stronger than an indexing
+    engine. The compiler is proposed as a transformation architecture: a molecular
+    sequence and surroundings determine lawful continuations, and a fold is the realized
+    trajectory rather than a catalog match. The scientific question is whether a native,
+    local, reversible transformation system reproduces a molecular process without
+    placing the answer in a chosen transition matrix. Three different “one answer”
+    statements must remain typed. A fully specified deterministic calculation has
+    one result. A fully specified quantum experiment has a definite predicted probability
+    distribution but may have multiple measurement outcomes. A protein may have an
+    ensemble of conformations that changes with conditions. The route does not license
+    substituting one for the others. For this paper, “compilation” has a testable
+    meaning: construct a state domain, certify lawful transformations, select a representation
+    that makes required relations visible, propagate that declared operator, and preserve
+    an inverse or a residual route. Classical hardware is sufficient to carry out
+    these finite algebraic steps. Whether it is efficient for an enlarging family
+    depends on the structure of that family, not on a claim that all quantum amplitudes
+    can be recovered from one address. 2. Native ring: partner, face, canonical address,
+    and exact return For an n-bit word, J is bit reversal and C is bitwise complement.
+    Define P(x)=J(x) unless x is palindromic, in which case P(x)=C(x). P²=I, P has
+    no fixed word, and the native ring pairs addresses antipodally: PTP=T⁻¹, where
+    T is the ring’s own successor. The inward E/G route ends at width two, retaining
+    each branch and middle qualifier and a face bit. The complete code is n bits for
+    an n-bit word; reconstruction is exact but not generic compression. P(x) = J(x)
+    if J(x) ≠ x; P(x) = C(x) otherwise. The canonical address is an exact re-labeling
+    of word space. T is a native address successor. A raw k-bit transport shift, a
+    partner read, and T are separate operators. In particular, declaring an edge between
+    successive catalog addresses does not establish that the corresponding conformations
+    are molecular neighbors. Three interfaces must not be conflated. The native ring
+    successor T is a step in canonical address order. The geometric word rewrite is
+    a change of chain conformation. A measurement/readout R extracts a specified property
+    of the state. In particular, T does not become a protein move simply because it
+    is a reversible permutation. The twisted one-inverter clock and temporal reader
+    The “One Inverter” paper derives the affine twisted rotation τ(x₀…xₙ₋₁)=x₁…xₙ₋₁¬x₀,
+    so after k ticks the first k departing bits are returned complemented. At k=n
+    it is global complement; at k=2n the state returns. The inward terminal reader
+    is exactly the XOR of the two central word bits. Under τ, its temporal trace reads
+    each adjacent difference around the cyclic word, with one known inverted crossing.
+    τᵏ(x) = rotlₖ(x) ⊕ (2ᵏ − 1), 0 ≤ k ≤ n; τⁿ = C, τ²ⁿ = I. r(x) = xₙ/₂₋₁ ⊕ xₙ/₂
+    ; ⊕ₜ₌₀ⁿ⁻¹ r(τᵗ x) = 1. [even n] The n−1 independent adjacent differences plus
+    one native face bit recover the word. The two-bit closed complement-feedback rule
+    is τ², not a new primitive. None of this creates a physical molecule; it gives
+    a provably executable, invertible substrate for how a local reader can obtain
+    and return distinctions. Odd-lane locks and relational deviations For odd q and
+    n=qs, the alternating-complement lift Λq(u)=u‖Cu‖u‖…‖u is invariant under the
+    twisted clock and intertwines J, C, and P. A center trace of period s identifies
+    this lock and supports exact reconstruction through the first s-bit lane. In the
+    full q-lane state, de-staggered lane differences and one anchor preserve all n
+    bits. τₙ Λq = Λq τₛ ; Pₙ Λq = Λq Pₛ ; dH(Λq u,Λq v) = q · dH(u,v). These differences
+    were formerly called “defects.” They are lawful relational deviations from a selected
+    lock—not failures of the transformation. Under common affine transport, differences
+    rotate and preserve weight. An external input can alter them at a known boundary,
+    but selecting an input law is not already derived by the native permutation. The
+    native address T, the twisted clock τ, and the geometric pivot defined later remain
+    separate typed operators. The exact E/G route has n bits for a general n-bit input.
+    A locked multi-lane family instead requires only its independent local state and
+    the stated lift rule; the reduction comes from a demonstrated invariant restriction,
+    not from labeling an arbitrary large input “locked.” Which operations the embedding
+    preserves The One Inverter temporal read is an operational return path, not just
+    a yes/no label. For n=2h, define the cyclic adjacent differences Dᵢ=xᵢ⊕xᵢ₊₁ (indices
+    modulo n) and the observed center trace yₜ=r(τᵗx). The twisted boundary contributes
+    exactly one inverted crossing. Over n ticks the center presents n relations; their
+    XOR equals one, and n−1 of them together with the retained canonical face bit
+    reconstruct the entire original word. The E/G inward/outward route supplies a
+    separate exact return by retained qualifiers. Neither return is compression of
+    arbitrary n-bit words. yₜ = D₍ₕ₋₁₊ₜ₎ mod n ⊕ [t=h], ⊕ₜ₌₀ⁿ⁻¹ yₜ = 1; (y₀,…,yₙ₋₂,
+    face) ↔ x. The two masks must not be conflated. The mirror shell lamps are gⱼ=xⱼ⊕xₙ₋₁₋ⱼ,
+    the paired entries in x⊕J(x). The dist'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Harmonic-Kronecker SVD
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24158426
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - moneykoikoi
+  abstract: '### ⚠️ Author’s Note & Corrigendum (Updated: November 12, 2026) Following
+    rigorous post-publication hardware verification and large-scale ablation studies
+    ($N = 616$ real hidden-state trajectories on an NVIDIA RTX 3060), the author wishes
+    to provide three technical clarifications and corrections to the original v1 manuscript:
+    1. **Clarification of Mathematical Terminology ("Quantum-Butterfly" vs. 2-Factor
+    Kronecker SVD):** In the v1 manuscript, the decomposition operator was referred
+    to as a "Quantum-Butterfly Kronecker Operator." Strictly speaking, the implemented
+    algorithm (Section 2 and Algorithm 1) performs a **single-stage two-factor Van
+    Loan–Pitsianis Kronecker SVD coupled with a dense $32 \times 32$ realified Discrete
+    Fourier Transform (RDFT) basis projection**, rather than a multi-stage sparse
+    butterfly network (such as Cooley–Tukey FFT butterfly stages or Monarch $P B_1
+    P B_2$ factorizations). While the closed-form 16 ms decomposition time and the
+    **Memory-vs.-Recursion Spectral Separation Principle** (0.0143 cosine similarity
+    on base weights vs. 0.999990 on TRM recursive layers at $1/31\times$ compression)
+    remain 100% valid and reproducible, the operator is more accurately termed a **Harmonic-Kronecker
+    SVD Operator**. 2. **Exact Attribution of Speculative Decoding Throughput and
+    GGUF File Size (Section 4.4):** In the live `llama-server.exe` benchmarks (Table
+    4b–4c), the reported speedup from `80.83 tok/s` (autoregressive baseline) to `152.29
+    tok/s` conflated two distinct factors: - The base speculative decoding gain from
+    the underlying MTP-TRM architecture (`80.83 tok/s` $\to$ `138.00 tok/s`). - The
+    pure incremental gain from our 98% Harmonic-Kronecker spectral pruning (`138.00
+    tok/s` $\to$ `152.29 tok/s`, a **+14.29 tok/s / +10.4% net improvement** by suppressing
+    high-frequency adapter jitter). Furthermore, because `llama.cpp` materializes
+    MTP projections as fixed-shape 2D matrices (`2048 x 256`), the physical file size
+    reduction (`94.08 MB` $\to$ `56.89 MB`) reflects `Q8_0` to `Q4_0` quantization
+    rather than direct rank-compression storage. ---- A natural question arising from
+    mathematical quantum co-processing (Aria-Quantum-PC) is whether the algebraic
+    machinery of quantum circuits—specifically Kronecker tensor-product factorizations
+    (sum_{r=1}^R A_r (x) B_r), Quantum Fourier Transform (QFT) spectral diagonalization,
+    and repeated-squaring parallel state propagation—can replace or accelerate high-dimensional
+    linear projections (such as the 10,240 x 2,560 GeGLU MLP matrices in Gemma-4-E4B-it)
+    at a 1/30x parameter budget without incurring hours of non-linear gradient-based
+    training or degrading foundation model intelligence. In this paper, we provide
+    a rigorous first-principles theoretical and empirical resolution to this question
+    on consumer CUDA hardware (NVIDIA RTX 3060 12GB): 1. Zero-SGD Closed-Form Decomposition
+    in 4.8–16.8 Milliseconds:By exploiting the structural separation between parameter-free
+    element-wise GeGLU non-linearities and linear weight matrices, we apply the Van
+    Loan–Pitsianis Kronecker Product SVD Theorem via a 4D-to-2D block-rearrangement
+    operator R(W). We prove that the globally optimal rank-R Kronecker-butterfly approximation
+    is obtained in closed form via a single low-rank SVD in 4.81–16.76 ms (0.005–0.017
+    seconds) per 10,240 x 2,560 matrix with zero stochastic gradient descent, and
+    in 131.61 ms when jointly projected into a 64-dimensional realified QFT harmonic
+    basis. 2. The Memory-vs.-Recursion Spectral Separation Principle:We prove mathematically
+    and verify empirically why arbitrary unstructured dense GEMM cannot be accelerated
+    via unitary block-encoding (4x dimension inflation), and why directly compressing
+    a pretrained foundation model''s static encyclopedic memory weights W_base (10,240
+    x 2,560) to 1/30.5x parameters (R = 82, 860,672 vs. 26,214,400 parameters) retains
+    only 5.06%–5.12% of spectral energy, collapsing non-linear GeGLU output cosine
+    similarity to 0.0143. Conversely, applying the exact same 1/31.0x Quantum-Butterfly
+    Kronecker compression (R = 11, 16,896 vs. 524,288 parameters) to the weight-tied
+    recursive reasoning layer (blk.3) of Tiny Recursive Models (MTP-TRM and DSpark-TRM)
+    preserves 0.999990 (99.9990%) non-linear GeGLU output cosine similarity—and maintains
+    0.999988 similarity even at 1/170.7x compression (3,072 parameters). 3. Three
+    Verified Speedup Regimes of Quantum-Structured GEMM:Across empirical CUDA benchmarks,
+    we demonstrate:(i) L2-Cache-Resident Kronecker Contraction (R = 16, 1/156x parameter
+    compression from 52.43 MB to 0.34 MB FP16) accelerates 10,240 x 2,560 projection
+    from 195.59 us to 121.75 us (1.61x speedup over cuBLAS FP16 Tensor Cores);(ii)
+    QFT Spectral Diagonal Integration accelerates 10,240 x 10,240 integral/convolution
+    operators from 0.816 ms to 0.154 ms (5.31x speedup) while reducing VRAM by 5,120x
+    (209.7 MB -> 0.041 MB); and(iii) Repeated-Squaring Parallel Associative Integration
+    over T = 4,096 steps accelerates state-space path integration from 241.35 ms to
+    16.048 ms (15.04x speedup, 1.000000 cosine identity). 4. Live llama-server.exe
+    Speculative Throughput via 98% QFT–Kronecker Pruning and Lightweight Quantization:Deleting
+    98.0% (502 / 512 modes) of the QFT x Kronecker eigenspace across all MTP adapter
+    layers (retaining only the top 2.0% = 10 / 512 modes pure quantum-harmonic core
+    in mtp-gemma-4-E4B-it-qbt-trm-v10.gguf) and evaluating on live llama-server.exe
+    (--spec-type draft-mtp --spec-draft-n-max 3, cache_prompt=False, temp=0.0) across
+    JGLUE JCommonsenseQA, OpenAI GSM8K, OpenAI HumanEval, and Chollet ARC-AGI boosts
+    overall aggregate throughput to 152.29 tok/s (up to 173.76 tok/s peak on GSM8K
+    and 157.75 tok/s on ARC-AGI—a 1.88x–2.15x speedup over the 80.83 tok/s autoregressive
+    baseline) with 79.5% overall draft acceptance (87.6% on ARC-AGI, mean acceptance
+    length 3.384 tokens/step), while physical Q4_0 lightweight variants shrink the
+    cartridge from 94.08 MB to 62.08 MB (147.33 tok/s) and 56.89 MB (143.94 tok/s).'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Certified Target-Sufficient Readout Design and Exact Finite-Model Reduction
+  date: 2026-10
+  url: https://doi.org/10.5281/zenodo.23721132
+  category: quantum-algorithms
+  subcategory: theory
+  authors:
+  - Jeremy Rodgers
+  abstract: 'This paper develops an exact computational realization of target-relative
+    readout sufficiency within Shadow Theory’s source–readout programme. It asks which
+    additional measurements are needed to determine a specified target from an incomplete
+    readout, how to select them at minimum cost, and how to certify the answer without
+    requiring full source reconstruction. For finitely described classical sources,
+    a readout determines the target precisely when every pair of admissible sources
+    producing the same readout also agrees on that target. The paper turns a failure
+    of this criterion into an explicit computational witness: two sources with identical
+    observed records but different target values. A unique-extension Boolean circuit
+    compiler preserves the exact correspondence between these source pairs and satisfying
+    assignments of the compiled formula. Building on this witness-producing test,
+    a counterexample-guided synthesis procedure returns a globally minimum-cost sufficient
+    selection from a declared sensor menu, or certifies that no jointly feasible selection
+    exists. The framework accommodates incompatibilities, prerequisites and resource
+    constraints, including cases where adding sensors can make a selection infeasible.
+    An exact rational branch-and-bound implementation supplies independently checkable
+    lower and upper cost bounds even when computation is interrupted. A nonlinear
+    autonomous register provides an analytically solved example separating predictive
+    sufficiency from full-source reconstruction. With unit port costs, determining
+    every future observed bit requires b units, while reconstructing the complete
+    source requires 2b minus 1 units. The distinction makes explicit why access sufficient
+    for a nominated target need not recover the source that produced the record. Technical
+    appendices develop exact signed rational factor contraction with explicit precision
+    accounting, minimal sufficient linear parity summaries, and context-certified
+    tensor-wire reductions with executable integer crossing factors. Supporting code
+    and verification materials implement conventional exact algorithms and independently
+    checkable certificates. The finite compilation, synthesis and certification results
+    are distinguished from separate asymptotic complexity corollaries that depend
+    on explicitly stated external preprint theorems. The supplied implementations
+    do not implement those external algorithms or demonstrate their claimed asymptotic
+    speedups. The results concern declared finite source models, permitted readouts
+    and assigned resource costs. They do not assign simultaneous values to incompatible
+    quantum observables, identify a compatible reconstruction with the actual source,
+    or infer probabilities without a specified measure.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Beyond Qubit Count: A Comparative Review of Quantum Chip Architectures,
+    Error Correction, and the Path to Fault-Tolerant Computing'
+  date: 2026-11
+  url: https://doi.org/10.22214/ijraset.2026.85627
+  category: quantum-hardware
+  subcategory: method
+  authors:
+  - Mr. Sairaj Dalvi
+  - Mr. Suyog Salvi
+  - Mr. Tanmay Patil
+  abstract: 'Quantum processors are often compared by the number of physical qubits
+    they contain. That number, however, does not by itself indicate whether a processor
+    can execute a useful computation reliably. Qubit coherence, gate and measurement
+    fidelity, connectivity, control infrastructure, fabrication yield, and the overhead
+    of quantum error correction all influence practical capability. This paper presents
+    a structured comparative review of six major quantum-computing modalities: superconducting
+    circuits, trapped ions, photonic systems, silicon-spin qubits, neutral atoms,
+    and topological approaches. It examines their physical implementations, operational
+    strengths, engineering constraints, and prospects for scaling. Particular attention
+    is given to surface-code error correction and the 105-qubit Willow processor result
+    reported by Google Quantum AI, which demonstrated below-threshold surface-code
+    memory and a logical-error suppression factor of 2.14 ± 0.02 when code distance
+    increased by two. The paper also considers cryogenic control, wiring, modular
+    interconnects, fabrication variability, real-time decoding, and the Indian National
+    Quantum Mission. The review finds that progress towards fault tolerance is best
+    assessed through logical performance and system-level engineering rather than
+    physical-qubit count alone. No modality currently removes the need to address
+    scaling overhead, reliable operations, and application-level advantage'
+  venue: International Journal for Research in Applied Science and Engineering Technology
+- title: 'Quantum Computing in 2026: A Comprehensive Architectural, Physical, and
+    Algorithmic Analysis of the Transition from Noisy Intermediate-Scale Quantum (NISQ)
+    Processors to Fault-Tolerant Logical Qubits, High-Rate qLDPC Codes, and Quantum-Centric
+    Supercomputing'
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.23996835
+  category: quantum-hardware
+  subcategory: theory
+  authors:
+  - Sandeep, Gautam, Sankalp, Dr. Vishal Shrivastava, Dr.Akhil Pandey, Er.Ram Babu
+    Buri
+  abstract: 'The years 2025 and 2026 mark a historic inflection point in quantum information
+    science: the definitive transition from the Noisy Intermediate-Scale Quantum (NISQ)
+    era toward early Fault-Tolerant Quantum Computing (FTQC) and Quantum-Centric Supercomputing.
+    For nearly three decades, the central impediment to scalable quantum computation
+    was that adding physical qubits increased aggregate decoherence faster than Quantum
+    Error Correction (QEC) codes could suppress it. This barrier was decisively shattered
+    by recent experimental milestones demonstrating below-threshold exponential error
+    suppression on superconducting surface codes (Google''s 105-qubit Willow and USTC''s
+    107-qubit Zuchongzhi 3.2), high-rate Bivariate Bicycle quantum Low-Density Parity-Check
+    (qLDPC) memory modules reducing physical qubit overhead by over 90% (IBM''s Heron,
+    Nighthawk, and 2026 Kookaburra architectures), reconfigurable neutral-atom optical
+    tweezer arrays executing transversal logical gates (QuEra and Harvard), 99.92%–99.99%
+    fidelity trapped-ion systems (Quantinuum Helios and Oxford Ionics), bosonic cat-qubit
+    processors (AWS Ocelot), and topological InAs-Al nanowire interferometry (Microsoft
+    Majorana 1). This paper presents a comprehensive architectural, mathematical,
+    and algorithmic investigation of the 2026 quantum computing landscape. We formalize
+    a five-layer Quantum-Centric Supercomputing reference stack integrating heterogeneous
+    physical modalities, 4K cryo-CMOS and NVQLink GPU-QPU interconnects, sub-microsecond
+    real-time syndrome decoders, CUDA-Q/Qiskit 2.0 hybrid compilers, and domain applications.
+    We formulate rigorous mathematical models for Lindblad open-system decoherence,
+    surface-code below-threshold scaling (Lambda > 1), Bivariate Bicycle [[144, 12,
+    12]] qLDPC codes, bosonic cat-qubit bit-flip suppression, and hybrid Variational/FaultTolerant
+    Hamiltonian simulation. Finally, we evaluate NIST Post-Quantum Cryptography (FIPS
+    203 ML-KEM and FIPS 204 ML-DSA) migration imperatives and chart the roadmap toward
+    mega-quop fault-tolerant machines.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Quantum Computing Modalities: Principles, Recent Progress and Industry Landscape'
+  date: 2026-10
+  url: https://doi.org/10.5281/zenodo.23667184
+  category: quantum-hardware
+  subcategory: method
+  authors:
+  - Yulin Liu
+  abstract: 'This note surveys seven quantum-computing hardware modalities — superconducting,
+    trapped-ion, neutral-atom, photonic, silicon-spin, colour-centre and Majorana-based
+    topological — with evidence up to 26 September 2026. Superconducting and neutral-atom
+    platforms have reported below-threshold quantum error correction in peer-reviewed
+    papers, and competition is shifting towards logical-gate error, logical-qubit
+    counts and physical-to-logical overhead. No modality leads on every metric: among
+    the cited system-scale processors, trapped ions report the lowest average two-qubit
+    gate error and neutral atoms the largest arrays; superconducting gates are the
+    fastest; silicon spins and photonics bet on manufacturability; and the Majorana-based
+    topological-qubit approach has not yet established Majorana zero modes in its
+    devices. The note also outlines capital and policy (US$12.6 billion invested in
+    quantum-technology start-ups in 2025; DARPA QBI Stage B) and the implications
+    for cryptography: the latest peer-reviewed estimate for solving the 256-bit elliptic-curve
+    discrete logarithm problem on secp256k1 is at most 1,200 logical qubits and 90
+    million Toffoli gates — far beyond the roughly one hundred low-distance logical
+    qubits demonstrated so far, yet low enough to justify planning post-quantum migration
+    early. The note synthesises published papers, preprints, regulatory filings and
+    primary company sources according to a stated source hierarchy; it reports no
+    independent experiments or measurements.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Quantum Computing Principles and Their Role in Next-Generation Computational
+    Systems
+  date: 2026-11
+  url: https://doi.org/10.4018/979-8-2600-0482-1.ch003
+  category: quantum-hardware
+  subcategory: method
+  authors:
+  - Pradeep Yadav
+  abstract: The approach used in quantum computing is a paradigm shift in the way
+    classical computation is done because quantum computing makes use of quantum mechanical
+    phenomena such as superposition, entanglement, interference, and decoherence to
+    do very complicated calculations which cannot be done using binary operations.
+    In this chapter, we look into the basics of quantum computing and explore next-generation
+    computing models based on quantum computers that employ superconducting, trapped
+    ions, photonics, neutral atoms, and topological qubits. NISQ computing will be
+    explored as well as other concepts like the transition from NISQ computing to
+    fault-tolerant quantum computing and various algorithms including Shor's, Grover's,
+    HHL, and variational algorithms. The applications of quantum computing in fields
+    like cryptography, optimization, materials science, drug discovery, artificial
+    intelligence, and finance will be looked at.
+  venue: Advances in computational intelligence and robotics book series
+- title: 'Advances in Quantum Technology: A Comprehensive Survey of Hardware Platforms,
+    Quantum Algorithms, Error Correction, Cryptography, and Emerging Applications
+    Across the Quantum Computing Ecosystem'
+  date: 2026-11
+  url: https://doi.org/10.1922/comdem.v3i6s.18925
+  category: quantum-hardware
+  subcategory: theory
+  authors:
+  - Korra Srinivas
+  - V Anil Santhosh
+  - Dr.E.Gurumoorthi
+  abstract: 'The move from lab demonstrations to designed quantum technology is underway,
+    but the development in hardware, algorithms, error correction and safe communication
+    is uneven. The survey is comprehensive, covering the full stack: superconducting,
+    trapped-ion, neutral-atom, photonic, silicon-spin and topological qubits; Shor,
+    Grover, HHL, VQE, QAOA and quantum machine learning; stabilizer and surface-code
+    error correction; quantum key distribution and post-quantum cryptography; and
+    applications in chemistry, finance, logistics, healthcare and security. Published
+    benchmarks up to 2025 are normalized to common metrics and augmented by reproducible
+    simulations. Surface-code simulations at the circuit level show that the threshold
+    is around 0.7-1.0%, and the error-suppression factor increases from 1.6 to 11
+    when the physical error rate is reduced from 0.6% to 0.1%. UCCSD-VQE reproduces
+    H₂ precisely but misses chemical accuracy for a stretched H₄ chain (5.2 mHa),
+    and a 48-CNOT compilation fails it already at 0.01% two-qubit error. For MaxCut
+    on 3-regular graphs, the QAOA depth required to beat Goemans-Williamson rounding
+    increases from 4 qubits to 6 qubits. The asymptotic decoy-state BB84 reaches 1.5
+    Mb s−1 over 100 km, whereas the twin-field protocols beat the repeaterless bound
+    beyond 280 km. So, physical fidelity and fault tolerance are still the limiting
+    factors for broad quantum advantage, not qubit count. These comparisons also inform
+    computational decision-making by relating algorithm selection to solution quality,
+    physical error rates, and resource constraints. They provide a basis for assessing
+    where quantum optimization may complement established classical methods in practical
+    decision-support applications.'
+  venue: Computer and decision making.
+- title: 'Cosmological Computation and Neural Topology: A Unified First-Principles
+    Analysis'
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24091073
+  category: quantum-hardware
+  subcategory: theory
+  authors:
+  - Brian Last
+  abstract: 'Introduction & Core Premise This manuscript presents a first-principles
+    mechanical analysis uniting laboratory quantum hardware, biological neural networks,
+    and large-scale cosmic structure under a continuous superfluid vacuum substrate,
+    framed within Scale-Invariant Quantum Hydrodynamic Unification and the Kinetic
+    Lattice Continuum (KLC). Rejecting pop-culture mysticism, ungrounded simulation-religion
+    narratives, and purely abstract bit-flipping metaphors, the work argues that physical
+    reality functions simultaneously as an autonomous quantum computational engine
+    and a distributed processing network. Computation is identified with lawful continuum
+    state evolution; network structure is identified with scale-invariant, energy-minimizing
+    transport geometry. Controllable signaling remains bounded by finite substrate
+    signal speeds, while non-local entanglement is treated strictly as correlation
+    structure—not as superluminal messaging. Hardware and Structural Mapping The analysis
+    maps laboratory mechanisms onto continuum physics in detail: Superconducting circuits
+    and Josephson phase slips map onto topological defect dynamics. Optical lattices
+    and neutral-atom simulators map onto gravitational and density potential landscapes.
+    Trapped-ion and topological-qubit protection map onto winding, linking, and homology
+    sectors of the medium. Cosmic filaments, nodes, and voids are read as the large-scale
+    expression of the same optimization principles that shape neural arbors and vascular
+    networks—convergent solutions under shared fluid-dynamical constraints, not design
+    proofs or coincidences. Human Taxonomy & Consciousness Human beings are placed
+    without dualism or dream metaphysics: as localized, high-feedback processing sub-nodes
+    of the same substrate—chemically implemented continuum eddies optimized for high-resolution
+    sensing, counterfactual simulation, anomaly detection, information export, recursive
+    self-modeling, and discovery of physical invariants. Consciousness is treated
+    as emergent continuum organization above complexity thresholds, not as an injected
+    spark and not as naive panpsychism. Implication Tree & Failure Modes The expanded
+    edition closes with a full implication tree across ontology, computation, causality,
+    identity, death, minimal physicalist ethics, technology, SETI, the simulation
+    hypothesis, and theology (the last as optional poetry, not mechanism). Failure
+    modes are stated explicitly: isomorphism mistaken for identity, entanglement misused
+    as telegraphy, filament-as-axon overreach, neglect of entropy and decoherence,
+    and teleology smuggled into descriptive optimization. Governing Conclusion The
+    governing conclusion is mechanical rather than mystical: under a continuous, scale-invariant,
+    topologically structured substrate, the universe is neither an empty void with
+    accidents nor a mind with people as thoughts. It is a physical process that computes
+    by evolving, networks by connecting, and—in rare dense eddies—observes itself.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'OSIRIS-HP-001: Hayden–Preskill Quantum Information Recovery Benchmark (Preregistration
+    Protocol v1.0)'
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.23982137
+  category: quantum-information
+  subcategory: theory
+  authors:
+  - Devin Phillip Davis
+  abstract: 'OSIRIS-HP-001 Preregistration Protocol v1.0 This protocol establishes
+    a formal, pre-registered, and falsifiable quantum information recovery benchmark
+    based on the Hayden-Preskill thought experiment (Hayden & Preskill 2007; Yoshida
+    & Kitaev 2017). Designed for execution on IBM Quantum Heron r2 processors (ibm_marrakesh)
+    following deterministic Stage 1 CPU simulation. Core Thesis: Investigates whether
+    an unknown quantum state can be reconstructed by a restricted-access decoder operating
+    strictly on early radiation and newly emitted late radiation after scrambling
+    across an entangled register, and quantifies recovery degradation under calibrated
+    physical noise. Three Controlled Experimental Arms: Arm A (Identity Recovery Control):
+    Full-access reversible control establishing the SPAM ceiling and hardware noise
+    baseline (unit fidelity prediction). Arm B (Restricted-Access Recovery): Message
+    entangled with reference R; black hole B entangled with early radiation E. Scrambler
+    U acts on M + B. Remnant C and Reference R are strictly quarantined. Decoder V_ED
+    operates exclusively on E + D, outputting decoded message M''. Evaluates entanglement
+    fidelity F_rec = <Phi+| rho_RM'' |Phi+> reconstructed via XX, YY, and ZZ tomography.
+    Arm C (Noise Degradation Sweep): Calibrated physical noise sweep (depolarizing,
+    dephasing, relaxation) evaluating recovery resilience. Formal Pre-Registered Hypotheses:
+    H1 (Reversible Control): Full-access inverse achieves F >= 0.999 in noiseless
+    simulation. H2 (Restricted Recovery): Decoder on E + D achieves F_rec > 0.50 (quantum
+    entanglement witness) with >10 pp advantage over unentangled controls. H3 (Page
+    Transition): Monotonic fidelity scaling as late radiation size crosses the Page
+    threshold (kD = 1 < kD = 2 < kD = 3 = 1.0). H4 (Noise Sensitivity): Monotonic
+    degradation under physical noise channels. Stage 1 CPU simulation passed all acceptance
+    criteria across N = 20 Haar-random trials (Arm B F = 0.9097 vs. unentangled control
+    F = 0.7223, advantage +18.74 pp, p = 9.05e-12).'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Scalable Operating Strategies for Spin-Based Quantum Processors in Silicon
+  date: 2026-10
+  url: https://hdl.handle.net/1959.4/109054
+  category: quantum-information
+  subcategory: method
+  authors:
+  - Cameron Jones
+  abstract: Silicon-based spin qubits have emerged as a promising platform for scalable
+    quantum computation due to their compatibility with advanced semiconductor fabrication
+    and integration with classical CMOS electronics. As fabrication capabilities advance
+    toward larger, higher-yield devices, the field is transitioning from academic
+    prototypes toward processors ultimately requiring millions of qubits. This shift
+    places increasing emphasis on developing operating techniques that scale with
+    qubit number. In this thesis, a four qubit SiMOS processor is used to investigate
+    three key aspects of multi-qubit operation for spin-based quantum computing. First,
+    tuning and operation techniques for parallel double-quantum-dot unit cells are
+    developed. Electron loading strategies enable four-qubit operation in an isolated
+    charge configuration, and universal single- and two-qubit control is demonstrated.
+    The native gate set is characterised using gate set tomography. The processor
+    is operated as two unit cells that can be initialised and read out in parallel,
+    providing two independent parity measurements per shot, without increasing operation
+    time or degrading state preparation and measurement fidelity. Second, control
+    techniques for generating multi-qubit entangled states and executing general quantum
+    circuits are established. Three-qubit maximally entangled states, including cluster
+    and Greenberger–Horne–Zeilinger states, are generated and measured with a maximum
+    fidelity of 82.5%. A Mermin value of 3.14 is achieved, certifying genuine tripartite
+    entanglement. A fully symmetric dynamically decoupled gate sequence is developed,
+    extending the entanglement lifetime beyond T2* to a limit set by T2-Hahn. A workflow
+    for compiling, executing, and analysing arbitrary circuits from OpenQASM is also
+    demonstrated. Finally, the first mid-circuit measurements in a silicon spin-qubit
+    system are presented. This capability is extended to feedforward control, including
+    a novel “in-layer” method that performs conditional phase operations without routing
+    information to the classical control layer. This approach leverages measurement-induced
+    backaction as a control mechanism. Both in-layer and FPGA-enabled feedforward
+    strategies are benchmarked, and their dominant error channels are identified.
+  venue: UNSWorks (University of New South Wales, Sydney, Australia)
+- title: Beyond Quantum Boundaries
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042018680-7
+  category: quantum-simulation
+  subcategory: theory
+  authors:
+  - Kisalaya Chakrabarti
+  abstract: 'This chapter looks at the burgeoning frontier of quantum science from
+    the standpoint of the interplay of many-body entanglement, topology, symmetry,
+    hybrid quantum–classical computation, and quantum-inspired predictive modeling.
+    In this paper it is contending that modern quantum research is shifting away from
+    the study of isolated microscopic phenomena to the engineering of collective quantum
+    behavior in complex and highly controllable systems. The transformation is underpinned
+    by many-body entanglement, a vital tool of quantum complexity, information distribution,
+    and collective organization. This chapter examines area law as well as logarithmic
+    and volume law scaling of entanglement. It illustrates how these different forms
+    characterize different quantum phases, critical phenomena, thermalization processes,
+    and computational complexity. The discussion also underlines the impact of engineered
+    photonic and moiré systems in generating new entanglement landscapes via cavity-mediated
+    interaction, symmetry breaking, miniband formation, and enhanced light–matter
+    coupling. This chapter also discusses the appearance of topological and symmetry-protected
+    quantum phases and how global topological invariants, symmetry-protected structures,
+    and synthetic gauge fields can help control quantum states and information flow
+    in a robust manner. Special focus is provided on topological photonics [ 4 ] and
+    moiré photonic lattices [ 2 ], for which geometric design allows protected edge
+    states, nontrivial Berry curvature, and programmable photonic band structures.
+    Simultaneously, we examine the construction of hybrid classical–quantum computational
+    frameworks as a pragmatic approach toward achieving quantum advantage in the short
+    term. Methods based on variational quantum algorithms, digital–analog quantum
+    simulation, and quantum-inspired classical methods are proposed for the study
+    of complex Hamiltonians and strongly correlated systems and for large-scale quantum
+    architectures. At last, this chapter looks at the predictive horizons in quantum-inspired
+    modeling, where concepts from entanglement, topology, symmetry, and quantum geometry
+    help us discover and optimize novel materials, photonic devices, and computing
+    systems. Examples are presented including phase-transition prediction and Floquet
+    dynamics, along with quantum design aided by machine learning, all pointing to
+    a larger move toward design-first quantum engineering, rather than just observation-based
+    science. This chapter proposes a unified framework based on concepts from condensed
+    matter physics, quantum information, photonics, and computation that can serve
+    as organizing principles for information, geometry, and quantum coherence for
+    future quantum technologies and scientific discovery. Quantum physics has always
+    challenged traditional intuitions, but the modern era—driven by quantum information
+    science, engineered photonic systems, and hybrid computational paradigms—has expanded
+    those boundaries to unprecedented scales. Over the past two decades, the ability
+    to manipulate individual quantum particles has evolved into the ability to engineer
+    collective, coherent behavior across hundreds or even thousands of degrees of
+    freedom. This transition marks a profound shift: quantum mechanics is no longer
+    confined to the microscopic or the theoretical but has become a design framework
+    for materials, devices, and algorithms across physics, engineering, and computation.
+    At the heart of this transformation lie several foundational concepts—entanglement,
+    topology, symmetry, and quantum-inspired modeling. These ideas have deepened our
+    understanding of quantum matter and light, expanded the scope of what can be simulated,
+    and provided entirely new languages for describing structure in complex systems.
+    Entanglement reveals how information is distributed across many-body states; topology
+    offers global invariants that classify phases beyond traditional symmetry breaking;
+    symmetry itself governs both constraints and emergent behaviors; and quantum-inspired
+    methods leverage the mathematics of quantum mechanics even in classical computational
+    settings. Together, these concepts weave a coherent narrative about the next frontier
+    of quantum science. They illuminate why strongly correlated systems exhibit exotic
+    phases, why certain photonic structures display remarkably robust transport properties,
+    how hybrid quantum–classical algorithms overcome computational bottlenecks, and
+    how quantum-inspired models can forecast behavior in systems too large or complex
+    for brute-force simulation. This chapter explores these developments through four
+    interconnected themes: Many-body entanglement, the structural glue that binds
+    quantum systems into collective states. Emerging topological and symmetry-driven
+    phases, which redefine how we classify, manipulate, and protect quantum states.
+    Hybrid classical–quantum computational frameworks, enabling powerful new ways
+    to simulate and control quantum systems. The predictive horizons of quantum-inspired
+    modeling, where quantum principles guide the design and discovery of future materials
+    and technologies. Together, these ideas outline the landscape “beyond quantum
+    boundaries,” where physical intuition is reshaped, classical assumptions are challenged,
+    and the next generation of quantum technologies is being built.'
+  venue: Chapman & Hall/CRC eBooks
+- title: Telangana Road Accident Hotspot Prediction Using Quantum Machine Learning
+    with a Variational Quantum Neural Network
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.23880752
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - B. SWAROOPA RANI
+  - PRAGNA SRI YERRA
+  - VAKA SRIVYSHNAVI REDDY
+  abstract: Road accidents remain a significant public safety concern, and a small
+    number of road segments account for a large share of the harm. This paper proposes
+    SafeRoute Telangana, a risk-aware navigation framework that identifies accident-prone
+    road segments and recommends alternative routes across Telangana, India. The framework
+    integrates historical accident analysis, Quantum Machine Learning (QML) and a
+    Variational Quantum Neural Network (VQNN) implemented in Qiskit to estimate accident
+    risk from accident and road-network features. It covers data preprocessing, spatial
+    hotspot identification, risk estimation and route optimisation. A routing engine
+    generates feasible alternatives, which are compared on distance, estimated travel
+    time and accident-risk exposure, so that the shortest route and a potentially
+    longer but lower-risk route can be shown side by side. A React Native application
+    with a FastAPI backend visualises routes and hotspots on a digital map and gives
+    visual and voice alerts near risk zones. The evaluation plan compares the VQNN
+    with classical baselines (logistic regression, random forest, support vector machine)
+    using accuracy, precision, recall, F1-score and AUC-ROC, together with route-level
+    measures. Telangana-specific accident records are essential for regional validity,
+    and the compatibility of supplementary datasets must be verified before training.
+    Measured results are to be reported once training on verified regional data is
+    complete, this version contains no measured performance figures. The system is
+    intended to support informed travel decisions, not replace driver judgement.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Classical Machine Learning Essentials for Quantum Machine Learning
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042002818-3
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Hamid D. Ismail
+  abstract: This chapter reviews the principal concepts and computational structures
+    of classical machine learning that provide the foundation for quantum machine
+    learning (QML). It examines linear models, support vector machines, principal
+    component analysis, neural networks, probabilistic learning, generative modeling,
+    and optimization, with emphasis on the linear algebraic, statistical, and variational
+    principles that reappear in quantum algorithms. Particular attention is given
+    to computational bottlenecks such as matrix inversion, eigenvalue decomposition,
+    kernel evaluation, sampling, and high-dimensional optimization since these are
+    among the areas where quantum methods may offer advantages under suitable assumptions.
+    This chapter also discusses classes of learning problems that are most plausibly
+    positioned to benefit from quantum speedups and highlights the importance of data
+    access models, encoding assumptions, and realistic complexity analysis in assessing
+    the promise of QML.
+  venue: CRC Press eBooks
+- title: Quantum Graph Neural Network for Financial Fraud Detection
+  date: 2026-11
+  url: https://www.ijasi.org/index.php/index/article/view/176
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Vajrapu Jyothirmayi
+  abstract: Financial fraud has become a major challenge with the rapid growth of
+    online banking, digital payments,and e-commerce, causing significant financial
+    losses. Traditional fraud detection methods often analysetransactions independently,
+    making it difficult to identify complex patterns involving multiple entities.
+    Graph Neural Networks (GNNs) address this limitation by representing financial
+    transactions as graphs and learning relationships among accounts, users, and merchants.
+    This work proposes an Adaptive Hybrid Quantum Graph Neural Network (AHQGNN) that
+    combines graph-based learning with quantum machine learning. A classical GNN processes
+    the transaction graph, classifying high-confidence predictions directly, while
+    uncertain predictions are selectively analysed using a Variational Quantum Circuit
+    (VQC). This adaptive strategy reduces unnecessary quantum computation while maintaining
+    effective fraud detection. The framework is implemented using Python, PyTorch
+    Geometric, and Qiskit, and evaluated using Accuracy, Precision, Recall, F1-Score,
+    and ROC-AUC. The integration of GNNs with selective quantum classification provides
+    an efficient and scalable framework for financial fraud detection in modern digital
+    financial systems.
+  venue: International Journal of Advanced Scientific Innovation
+- title: 'Quantum Machine Learning: Theory, Algorithms, and Practical Implementation'
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042002818
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Hamid D. Ismail
+  abstract: Quantum machine learning (QML) has emerged as a rapidly developing field
+    at the intersection of quantum computing, artificial intelligence, and data science.
+    As quantum hardware and algorithms continue to advance, there is a growing need
+    for a rigorous and accessible text that explains how quantum principles can be
+    used to design, analyze, and implement machine learning models. This book is intended
+    for graduate students, researchers, and practitioners in computer science, physics,
+    engineering, mathematics, and related disciplines. This book provides a comprehensive
+    introduction to the foundations and modern methods of QML. It begins with the
+    principles of quantum information, Hilbert spaces, quantum circuits, and quantum
+    algorithms relevant to learning tasks. Then, it develops the major paradigms of
+    the field, including quantum data encoding, quantum feature maps and kernels,
+    variational quantum circuits, quantum neural networks, quantum generative models,
+    quantum reinforcement learning, quantum transfer learning, and quantum linear
+    algebra techniques. The text emphasizes both theory and implementation, with programming
+    examples and computational workflows using Qiskit, PennyLane, TensorFlow Quantum,
+    and PyTorch. Additional chapters address tensor network-inspired learning, error
+    mitigation, graphics processing unit (GPU)-accelerated simulation, benchmarking,
+    hybrid quantum-classical architectures, and applications in chemistry, genomics,
+    finance, optimization, and natural language processing. Distinctive in both scope
+    and organization, the book integrates mathematical foundations, algorithmic development,
+    software implementation, and emerging research directions within a single coherent
+    framework, making it suitable both as a graduate-level textbook and as a practical
+    reference for researchers working in QML.
+  venue: CRC Press eBooks
+- title: 'Quantum machine learning: A comprehensive survey of models, tools, and challenges'
+  date: 2026-10
+  url: https://doi.org/10.1007/s44443-026-01177-5
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Taha M. Mahmoud
+  - Marwa R. Hassan
+  - Shenson Joseph
+  abstract: Abstract Quantum Machine Learning (QML) is an emerging interdisciplinary
+    field that merges quantum computing with classical machine learning (ML) to enhance
+    computational efficiency, scalability, and accuracy in data-driven tasks. By leveraging
+    quantum properties such as superposition, entanglement, and quantum parallelism,
+    QML has the potential to solve complex problems that are intractable for classical
+    models. This survey provides a comprehensive, systematic review of recent advancements
+    in QML, conducted following the PRISMA 2020 guidelines and covering fundamental
+    encoding techniques that enable quantum computers to process classical data, as
+    well as essential tools, datasets, and evaluation metrics used in quantum model
+    development. Furthermore, it explores various QML approaches, including supervised,
+    semi-supervised, unsupervised, and reinforcement learning, alongside quantum deep
+    learning (QDL) models such as Quantum Neural Networks (QNNs) and Variational Quantum
+    Circuits (VQCs). The paper also discusses the challenges in QML, including hardware
+    limitations, scalability issues, and the need for improved quantum error correction.
+    A dual-axis taxonomy simultaneously classifies algorithms by learning paradigm
+    and quantum-classical integration level – a structure not found in prior surveys.
+    The survey also covers Quantum Transfer Learning, Quantum Graph Neural Networks,
+    and hardware-aware encoding selection, and introduces the first structured adversarial
+    robustness taxonomy and Explainable QML treatment in a comprehensive QML survey.
+    Together, these contributions position this work as both a reference and a methodological
+    guide for advancing QML research and applications.
+  venue: Journal of King Saud University - Computer and Information Sciences
+- title: Overview and Demonstrative Use Case of Quantum Machine Learning in Finance
+  date: 2026-11
+  url: https://doi.org/10.1007/978-3-032-44094-5_11
+  category: quantum-machine-learning
+  subcategory: review
+  authors:
+  - Chau Bao Phung
+  - B. D. E. McNiven
+  - Emmanuel E. Haven
+  abstract: ''
+  venue: Lecture notes of the Institute for Computer Sciences, Social Informatics
+    and Telecommunications Engineering
+- title: Hybrid Quantum Classical Machine Learning for Medical Diagnosis and Biomedical
+    Prediction
+  date: 2026-11
+  url: https://doi.org/10.4018/979-8-2600-0482-1.ch010
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - K DanielRaj
+  - R. Sudhakar
+  abstract: 'This chapter investigates a Hybrid Quantum-Classical Machine Learning
+    framework for medical diagnosis. Integrating quantum computing with classical
+    deep learning, the framework addresses computational limitations in processing
+    high-dimensional biomedical data. Four clinical use cases are evaluated: histopathology-based
+    cancer detection using Variational Quantum Circuits, MRI-based Alzheimer''s classification
+    using Quantum Convolutional Neural Networks, diabetes prediction using Quantum
+    Support Vector Machines, and drug-target interaction prediction using Quantum
+    Graph Neural Networks. Results demonstrate diagnostic performance competitive
+    with classical baselines, with quantum advantage most evident in high-dimensional
+    kernel estimation and quantum chemistry-informed prediction. Data encoding strategies,
+    hardware noise mitigation, privacy compliance, and a phased clinical deployment
+    roadmap are discussed.'
+  venue: Advances in computational intelligence and robotics book series
+- title: Stock Market Forecasting Through Transformer-Based Deep Learning and Quantum-Inspired
+    Neural Networks
+  date: 2026-11
+  url: https://ijerst.org/index.php/ijerst/article/view/4837
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - M.C.C.VARTHY Mr.Y.ANAND KUMAR
+  abstract: Stock market forecasting remains a challenging task because financial
+    timeseries data exhibit nonlinear relationships, temporal variations, noise, and
+    abrupt changes in market behaviour. Conventional prediction techniques may have
+    difficulty representing long-range temporal dependencies while maintaining reliable
+    performance under changing market conditions. To address these challenges, this
+    study presents a hybrid artificial intelligence framework that combines Transformerbased
+    sequence modelling with QuantumInspired Neural Networks (QINN) for stock market
+    prediction. The Transformer component employs self-attention mechanisms to learn
+    temporal relationships from historical stock prices, trading volumes, and relevant
+    financial indicators. The QINN component is incorporated to support the exploration
+    of model parameters and improve the optimization process within the hybrid learning
+    framework. Before model training, financial data are subjected to preprocessing
+    operations, including data cleaning, normalization, and feature extraction, to
+    improve input consistency. The resulting architecture is intended to identify
+    underlying market patterns and generate forecasts that support stock price analysis
+    and trend assessment. The proposed framework also provides scope for incorporating
+    additional information, such as macroeconomic variables and financial news sentiment,
+    to represent broader market influences. Its effectiveness should be assessed against
+    established machine learning and deep learning baselines using appropriate forecasting
+    metrics, including mean absolute error, root mean square error, and directional
+    prediction accuracy. This evaluation can help determine whether integrating Transformer
+    representations with quantum-inspired optimization offers measurable benefits
+    over individual models. The framework provides a basis for investigating hybrid
+    learning strategies for financial forecasting without assuming that predictive
+    performance alone guarantees profitable investment decisions.
+  venue: International Journal of Engineering Research and Science & Technology
+- title: Quantum Versus Classical Recurrent Neural Networks for Solar Radiation Forecasting
+    over Mali
+  date: 2026-11
+  url: https://doi.org/10.20944/preprints202611.0099.v1
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Bakamba dite Djénéba Sacko
+  - Namamoudou Sidiki Keita
+  - Kaniba Mady Keita
+  abstract: 'Forecasting solar radiation is crucial for the deployment of photovoltaic
+    systems and for supporting renewable energy and agricultural planning in Sub-Saharan
+    Africa. This manuscript compares the performance of two machine learning algorithms
+    for this purpose: a classical Recurrent Neural Network (RNN) and a hybrid Quantum
+    Neural Network (QNN), applied to monthly SWGDN prediction across 20 cities in
+    Mali using MERRA-2 data from 1980 to 2025. The QNN architecture, comprising an
+    LSTM feature extractor followed by an 8-qubit, 3-layer variational quantum circuit
+    with Pauli-Z readout, outperforms the RNN in 9 of 20 Malian cities (45%). Notably,
+    the quantum advantage is most easily noticeable in cities characterized by strong
+    seasonal variability, whereas the RNN remains competitive in more arid, stable
+    regions. These findings underline the potential of quantum machine learning for
+    regional climate forecasting.'
+  venue: Preprints.org
+- title: Variational Quantum Models
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042002818-9
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Hamid D. Ismail
+  abstract: This chapter develops variational quantum models as the dominant framework
+    for near-term quantum machine learning (QML), emphasizing their role as trainable
+    quantum circuits embedded within hybrid quantum-classical optimization loops.
+    Building on earlier chapters on encoding and quantum feature geometry, it formulates
+    parameterized quantum circuits (PQCs) as families of unitary transformations acting
+    on reference states, with model outputs obtained through expectation values of
+    observables. This measurement-based structure makes variational learning inherently
+    stochastic and closely ties model behavior to circuit architecture, observable
+    choice, and optimization strategy. This chapter examines variational quantum circuits
+    (VQCs) as learning models, introduces quantum neural networks (QNNs) as structured
+    variational architectures, and analyzes layered, data-reuploading, recurrent,
+    and hybrid classical-quantum designs. It highlights the central tension between
+    expressivity and trainability, showing how universality and approximation power
+    are counterbalanced by optimization barriers such as barren plateaus. The discussion
+    further develops ansatz design strategies, supervised, fidelity-based, and energy-based
+    losses, regularization under noise, and practical methods for gradient estimation
+    and optimization, including the parameter-shift rule, Simultaneous Perturbation
+    Stochastic Approximation (SPSA), and layer-wise training. Together, these ideas
+    establish variational quantum models as a flexible yet hardware-constrained paradigm
+    whose practical success depends on careful coordination among architecture, measurement,
+    and optimization.
+  venue: CRC Press eBooks
+- title: Quantum Transfer Learning
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042002818-12
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Hamid D. Ismail
+  abstract: This chapter presents quantum transfer learning (QTL) as a practical and
+    conceptually grounded framework for integrating quantum computation into modern
+    machine learning. Building on the classical transfer learning paradigm, this chapter
+    shows how pretrained classical models can be reused for large-scale representation
+    learning while variational quantum circuits (VQCs) are deployed as compact downstream
+    adaptation modules. Emphasis is placed on hybrid classical-quantum architectures
+    in which quantum feature extractors operate on low-dimensional embeddings produced
+    by convolutional networks, transformers, or graph neural networks, and their measurement-based
+    outputs are processed by classical heads for prediction. This chapter develops
+    the mathematical and architectural foundations of this approach, explains the
+    role of variational quantum feature maps, and examines why quantum feature extractors
+    may be useful in data-limited and structure-rich settings. Applications to text,
+    image, and molecular data are discussed to illustrate the domain-independent nature
+    of the framework. Practical implementation is addressed through PennyLane and
+    PyTorch integration, highlighting differentiable quantum layers and end-to-end
+    hybrid optimization. A hands-on example using encoded embeddings and VQCs demonstrates
+    methodology, benchmarking, and model evaluation in a realistic supervised-learning
+    setting. This chapter concludes with a critical discussion of limitations, including
+    task dependence, noise, measurement cost, benchmarking challenges, and the continued
+    dominance of large pretrained classical encoders.
+  venue: CRC Press eBooks
+- title: Benchmarking Quantum Neural Networks Developed for MBHB Coalescence in the
+    Context of LISA Space Mission
+  date: 2026-10
+  url: https://arxiv.org/abs/2610.39980
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Maria Catalina Isfan
+  - Laurentiu-Ioan Caramete
+  - A. Caramete
+  abstract: 'Machine learning (ML) techniques are increasingly explored to analyse
+    gravitational wave (GW) data expected from the Laser Interferometer Space Antenna
+    (LISA). At the same time, advances in quantum computing have stimulated interest
+    in quantum machine learning as a potential alternative to conventional approaches.
+    We investigate the applicability of quantum, hybrid quantum-classical, and classical
+    ML models to two tasks relevant for LISA observations of massive black hole binaries:
+    GW signal detection and merger prediction. Using the Sangria dataset from the
+    LISA Data Challenge, we benchmark several quantum architectures, including variational
+    quantum classifiers (VQCs), post VQC hybrid models, quantum kernel methods, data
+    reuploading classifiers, and quantum long short-term memory (QLSTM) networks,
+    against classical support vector machines, multilayer perceptrons, recurrent neural
+    networks, and LSTM networks. The models are trained on labelled data derived from
+    the Sangria training dataset and evaluated on the corresponding blind dataset.
+    For signal detection, several quantum models match or outperform classical baselines.
+    In particular, the best performing hybrid post VQC architecture correctly identifies
+    all signal samples in the blind dataset, while the standard VQC and data reuploading
+    classifier achieve competitive detection rates. For merger detection and coalescence
+    time estimation, however, the standard VQC emerges as the most reliable model,
+    successfully localising all detected merger events with the lowest localisation
+    errors. We further analyse the trade-offs between predictive performance, model
+    complexity, and quantum circuit resources. Our results indicate that, although
+    no universal quantum advantage is observed, selected quantum models can provide
+    practical benefits for specific GW analysis tasks and represent promising candidates
+    for future LISA data analysis pipelines.'
+  venue: arXiv (Cornell University)
+- title: 'Quantum-Graph Causal Networks: Hybrid Quantum-Inspired Graph Neural Models
+    for Causal Discovery in High-Dimensional Healthcare Data'
+  date: 2026-11
+  url: https://doi.org/10.1201/9781042044382-24
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - R Thenmozhi
+  - P K Pavithran
+  - M Udhaya Prakash
+  abstract: The advent of big biomedical and genomics data has opened up unprecedented
+    possibilities for precision medicine; however, conventional machine learning methods
+    typically fall short of being able to discover the causal relationships in the
+    complicated and highly dimensional data. To cope with these difficulties, we have
+    developed a hybrid quantum-inspired framework called Quantum-Graph Causal Networks
+    (QG CausalNet), which combines the representation capabilities of Graph Neural
+    Networks (GNNs) with the computational benefits of quantum computing. Our work
+    utilizes QGCausalNet to create efficient qubit-efficient graph embeddings through
+    the use of variational quantum circuits and quantumassisted conditional independence
+    testing to speed up causal discovery. The performance of our work was examined
+    on The Cancer Genome Atlas (TCGA) and MIMIC-III datasets, as well as benchmark
+    synthetic graphs. Our method outperformsPC, GES, NOTEARS, DAG-GNN, and CiGNN on
+    both F1-score and Structural Hamming Distance (SHD).
+  venue: CRC Press eBooks
+- title: 'A multi-metric characterization of quantum convolutional neural networks:
+    expressibility, trainability, and noise sensitivity'
+  date: 2026-10
+  url: https://doi.org/10.1038/s41598-026-73013-9
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Tuhin Hossain
+  - Asif Akhtab Ronggon
+  - Mohammad Shorif Uddin
+  abstract: Abstract Quantum convolutional neural networks (QCNNs) are structured
+    variational quantum architectures for quantum machine learning(QML). This study
+    examines their practical reliability through the balance between expressibility,
+    trainability, optimization geometry, and noise resilience. We propose a multi-metric
+    QCNN framework integrating Haar-based expressibility analysis, gradient sensitivity
+    assessment, finite-size scaling, optimizer benchmarking, empirical Fisher information,
+    Hessian spectral analysis, parameter efficiency evaluation, and depolarizing noise
+    characterization. Our applied 6-qubit, 3-layer QCNN-inspired architecture, with
+    72 trainable parameters, achieved a Kolmogorov-Smirnov(KS) similarity of (0.8826±0.0144)
+    and a Kullback-Leibler(KL) divergence of (0.05648±0.00578) relative to the Haar-random
+    fidelity distribution. Increasing circuit depth improved expressibility, increasing
+    KS similarity from (0.7400±0.0153) to (0.9471±0.0152) and reducing KL divergence
+    from (0.1812±0.0363) to (0.01815±0.00702). However, 30 of 72 parameters exhibited
+    near-zero sensitivity, and the gradient variance decreased from (0.13939±0.08380)
+    to (0.00929±0.00429) across 2–8 qubits, indicating finite-size gradient suppression
+    without establishing asymptotic barren-plateau(BP) behavior. Furthermore, Adam
+    achieved lower mean squared error(MSE) than gradient descent (0.24388 vs. 0.44056),
+    while Fisher and Hessian analyses revealed anisotropic optimization landscapes.
+    The QCNN required 72 parameters compared with 906 for a dense neural network(DNN)
+    baseline. Under depolarizing noise, MSE increased from 0.39506 to 0.63404 and
+    purity decreased from 1.0 to 0.0893, demonstrating that expressibility alone does
+    not ensure robust trainability.
+  venue: Scientific Reports
+- title: 'A Scalable Quantum-Intelligent Blockchain Framework for Secure Body Area
+    Networks: Design of a Deep Quantum Neural Architecture for Privacy-Preserving
+    Healthcare Communications'
+  date: 2026-10
+  url: https://doi.org/10.25258/ijddt.16.78s.103
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Vandana Tukaram Bhalerao
+  - Prof. Dr. Parimala Mani
+  abstract: The development of the application of making use of Wireless Body Area
+    Networks (WBANs) in medically created systems has presented fresh security concerns,
+    in particular with the advent of quantum computing threatening the conventional
+    cryptographic ideas. To proposes a new model Scalable Quantum-Intelligent Blockchain
+    Framework (SQIBF) and a Deep Quantum Neural Architecture (DQNA) to privacy-preserving
+    healthcare communications. The proposed framework is a synergistic approach of
+    post-quantum lattice-based cryptography, in combination with quantum key protocols
+    distribution schemes with federated quantum machine learning to develop multi-layered
+    security infrastructure of the body sensor networks. We introduce Quantum Enhanced
+    Consensus Mechanism (QECM), which deploys quantum random number generation to
+    deliver Byzantine fault tolerance, and which can withstand symptoms of quantum-enabled
+    parties by 97.5. The DQNA implements variational quantum gate scale used to detect
+    textbook anomalies and categorize confidential medical data variational quantum
+    circuit with a parameterized scale according to parameters to support the 94.3
+    percent mark on benchmark medical datasets with a differential privacy clarification.
+    Experimental Assessment Simulations on simulated quantum systems and experimental
+    WBAN testbeds have shown that it, SQIBF, can decrease the key establishing latency
+    by approximately 40 percent when compared to classical blockchain methods using
+    resource optimizing biosensors resource exploratory consumptions. Its model ensures
+    the compliance of the HIPAA and GDPR requirements and homomorphic encryption layers
+    with zero-knowledge proofs. Scalability of performance benchmarking implies up
+    to 10,000 active sensor nodes and sub-millisecond finality of transaction. The
+    present work introduces an end-to-end quantum resistant system to facilitate the
+    muchneeded transitional process of quantum computing, distributed ledger technology,
+    and health care IoT and establishes a platform of safe telemedicine infrastructure
+    in the next generation.
+  venue: International Journal of Drug Delivery Technology
+- title: 'MACHINE LEARNING FOR QUANTUM ENERGY STORAGE APPLICATIONS: A SHORT REVIEW'
+  date: 2026-11
+  url: https://doi.org/10.25258/ijddt.16.80s.15
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - D. Bhadra Rao
+  - J. Suresh Kumar
+  - Ch. Komala Lakshmi
+  abstract: Quantum energy storage is a rapidly growing research and development arena
+    that ranges from highly speculative quantum batteries that may harness coherence
+    and entanglement via quantum-mechanical modeling for the control and materials
+    design of electrochemical storage devices. This work explore a total of few areas
+    of application like use of reinforcement learning (RL) for the control of quantum-battery
+    recharging protocols, the employment of variational quantum algorithms in the
+    evaluation of extractable work, a quantum-enhanced sequence model for predicting
+    state-of-health (SOH) and state-of-charge (SOC), the quantum-influenced control
+    of grid-connected battery energy-storage systems (BESS) and the utilization of
+    ML and quantum-assisted tools for discovery of battery materials and electrolytes.Besides
+    comparing these different approaches across their effectiveness, one of the results
+    is that RL-based policies. A lot outperform heuristic charging protocols which
+    are static and do little more than charging. Also, quantum-enhanced recurrent
+    networks show a reduction in prediction error of ten-fold compared to baseline
+    classical ones. The combination of quantum-chemical descriptors together with
+    graph neural networks and generative models in materials-discovery pipelines leads
+    to the faster screening of electrolytes and solid-conductors far beyond even conventional
+    trial-and-error approaches.
+  venue: International Journal of Drug Delivery Technology
+- title: Auditing Hybrid Quantum Machine Unlearning for Membership Attacks
+  date: 2026-11
+  url: https://doi.org/10.1609/aaaiss.v10i1.43491
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Abhiram Manuguri
+  - Tanish Mittal
+  - Theshani Nuradha Piliththuwasam Gallage
+  abstract: Some machine learning models are known to memorize their training data,
+    exposing them to membership inference at- tacks (MIAs) that infer whether a particular
+    data sample was used during training. Such leakage poses serious privacy risks
+    in sensitive domains such as security and healthcare, where membership alone can
+    reveal protected information about an individual. Machine unlearning has been
+    proposed as a remedy, allowing a model to “forget” withdrawn data with- out retraining
+    from scratch. There is some evidence from re- cent works that quantum architectures
+    such as hybrid quan- tum neural networks (HQNNs) along with unlearning meth- ods
+    may be robust to MIAs. In this work, we audit gradient- ascent-based unlearning
+    in HQNNs to assess how effectively forgetting happens when the model is subjected
+    to a range of membership inference attacks. By training an HQNN that combines
+    classical convolutional pre-processing, amplitude encoding, and a parameterized
+    quantum circuit, and apply- ing class-level unlearning to forget a target class,
+    we evalu- ate the unlearned model against metric-based attacks (loss, confidence,
+    entropy, and modified entropy), and quantum at- tacks constructed from a variational
+    quantum circuit and a quantum support vector machine. Our results show that the
+    apparent success of unlearning is highly metric- and attack- dependent. In particular,
+    fixed-threshold-based metric attacks seem to classify almost all forgotten class
+    samples as non- members after unlearning. However, class-conditional area under
+    the curve (AUC) remains above random guessing and relatively higher compared to
+    the original model, indicating that the membership signal does not completely
+    disappear for both the forgotten and retained classes. We observe a similar behavior
+    with quantum attack models, even though the strength of the attacks is relatively
+    weaker compared to metric-based ones. These findings highlight the importance
+    of evaluating quantum unlearning against a diverse set of attacks and performance
+    measures before concluding that privacy is preserved, and lay a foundation for
+    systematically auditing unlearning methods in quantum machine learning models.
+  venue: Proceedings of the AAAI Symposium Series
+- title: Hybrid Quantum-Classical Deep Learning for Medical Image Analysis in Smart
+    Healthcare Systems
+  date: 2026-10
+  url: https://doi.org/10.4018/979-8-2600-1985-6.ch007
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Sonam Gupta
+  - P. C. Gupta
+  abstract: At the intersection of quantum computing and deep learning, the future
+    of medical image analysis in smart healthcare ecosystems is being reshaped. In
+    this chapter, hybrid quantum-classical deep learning (HQC-DL) architectures that
+    combine variational quantum circuits, quantum convolutional layers, and quantum
+    attention mechanisms with classical neural networks are discussed extensively
+    for solving radiology, pathology, and ophthalmology problems involving high-dimensional
+    and data-intensive tasks. We examine the theoretical foundations of quantum machine
+    learning (QML) that are pertinent to imaging, and we review architectural models
+    such as quantum-enhanced convolutional neural networks (QCNNs), quantum generative
+    adversarial networks (QGANs), and quantum transformers and their applications
+    in the context of IoMT. Current issues—such as decoherence, barren plateaus, encoding
+    overhead, and regulatory compliance—are explored, along with the new ways of mitigating
+    them.
+  venue: Advances in computational intelligence and robotics book series
+- title: Quantum-Resistant Intrusion Detection Using Multi-Agent Reinforcement Learning
+  date: 2026-11
+  url: https://doi.org/10.5750/ijme.v168ia6(s).2072
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Dileep Kumar Padidem
+  - B. Abdul Raheem
+  - G. Nithya
+  abstract: The rising cyber threat complexity heightens the need for advanced Intrusion
+    Detection Systems (IDSs) capable of swiftly identifying familiar and new attack
+    methods, highlighting an urgent concern. Feature selection, by diminishing input
+    features, boosting detection accuracy, and cutting computational time, significantly
+    enhances machine learning-based IDS performance. To tackle these issues a model
+    has developed QIDSMR caters to 6G-enabled Internet of Things (IoT), tackling quantum-attackers
+    and network variations. A multi-slice 6G architecture with NEUROSAFE-6G, encompassing
+    layers for security adaptability. The Threat Model addresses cryptographic vulnerabilities,
+    integrity breaches, and diverse attacks from classical and quantum adversaries.
+    IoT-Quantum Key Distribution (QKD) customizes key generation based on device capabilities
+    and security needs. Quantum entropy and anomaly scores enhance detection in Q-IDS.
+    Quantum Evolutionary Algorithms (QEA) utilizes probabilistic qubit encoding and
+    gate adaptation for diversity. Integration of quantum entropy variations and anomaly
+    scores improve detection efficiency. Energy-efficient interferometry aids intrusion
+    detection. Hyperparameter optimization involves Convolutional Neural Network (CNN)
+    classifiers and Quantum Particle Swarm Optimization (QPSO). A QCNN hybrid with
+    variational quantum circuits detects complex attacks. Multi-Agent Reinforcement
+    Learning strengthens detection methods. DSAC focuses on scalable deployment with
+    energy-aware optimization and collaborative learning. The simulation parameters
+    are detection accuracy, response time, attack detection delay, overhead, false
+    positive rate, and communication overhead.
+  venue: The International Journal of Maritime Engineering
+- title: Federated learning-driven quantum models for EEG-based neurological disorder
+    classifications
+  date: 2026-11
+  url: https://doi.org/10.1016/j.bspc.2026.111685
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Muhammad Umair
+  - Bo Song
+  - Peng Paul Wen
+  abstract: Electroencephalography (EEG) enables non-invasive detection of neurological
+    disorders with Deep Learning (DL). However, traditional methodologies for the
+    training of DL models raises privacy concerns due to its centralized training.
+    Federated learning (FL) mitigates these issues by training models in decentralized
+    manner while keeping data on-device. Most peer studies rely on centralized data,
+    and it remains unclear whether emerging quantum classifiers and circuits can match
+    or surpass DL models under FL settings. This study, therefore, presents FL framework
+    for EEG classification using DL models and quantum models while preserving the
+    data locality. Five clients trained locally on 80/20 splits and shared only local
+    model weights for aggregation of the global model. DL models included EEGNetv1,
+    EEGNetv4, EEGITNet, and EEGInception. Quantum models included Quantum Support
+    Vector Machine (QSVM), Variational Quantum Classifier (VQC), and Quantum Convolutional
+    Neural Network (QCNN). Two public datasets e.g., OpenNeuro and TUH EEG Corpus
+    have been utilized. Results show that on the OpenNeuro dataset QSVM global model
+    outperformed with a classification accuracy of 93.57%, and among DL models EEGNetv1
+    outperformed with an accuracy of 96.92%. Whereas, for the TUH dataset the QCNN
+    model outperformed with an accuracy of 94.52% and EEGInception outperformed among
+    DL models with an accuracy of 92.38%, respectively. This framework demonstrates
+    decentralized training under FL settings and shows that quantum models are comparable
+    to tailored EEG DL models for multiclass classification problem. The results demonstrate
+    the feasibility of integrating FL with quantum models for decentralized EEG based
+    diagnosis, highlighting the practical approach for healthcare industry.
+  venue: Biomedical Signal Processing and Control
+- title: 'Quantum Kolmogorov--Arnold networks are classically reproducible at their
+    attained accuracy, and a discrete-logarithm encoding need not be: a measurement-based
+    map of where quantum advantage can live'
+  date: 2026-10
+  url: https://doi.org/10.21203/rs.3.rs-10200068/v2
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Hikaru Wakaura
+  abstract: 'Abstract Quantum machine-learning models are useful only if classical
+    computers cannot cheaply imitate them. We test this directly for quantum Kolmogorov--Arnold
+    networks (QKANs)---neural networks whose tunable ``activation functions'''' are
+    small quantum circuits---by asking whether each model can be contracted as an
+    efficient tensor network (TN). Our task-aware yardstick is the bond dimension
+    a classical surrogate needs to copy the model''s output at the accuracy the model
+    itself reaches. We find a clear ladder. The amplitude-encoded Chebyshev QKAN uses
+    only logarithmically many qubits and is exactly classical. The variational QKAN,
+    built from all-to-all controlled rotations, looks hard at random settings but
+    generalizes only weakly once trained (held-out $R^2\!\le\!0.27$) and is copied
+    at that attained accuracy by a low-bond-dimension surrogate ($n\!\le\!10$); at
+    fixed strict tolerance the required bond dimension grows near-exponentially. Depolarizing
+    noise erases it (purity collapse) near $p\!\approx\!0.03$--$0.05$ at the sizes
+    we reach. Every generic attempt to force hardness---a global measurement or an
+    interaction-based (IQP) feature map---instead destroys trainability through exponentially
+    small gradients (a ``barren plateau''''). The escape is a discrete-logarithm feature
+    map: its kernel variance is flat from $4$ to $14$ qubits while a generic IQP kernel
+    concentrates exponentially, and a support-vector machine with it learns a classically
+    hard concept to $\ge99\%$ accuracy while generic and classical kernels stay at
+    chance; wired into the KAN architecture, it fits discrete-log targets to $R^2\!\approx\!1$.
+    Hardness placed in number theory stays classically hard, shot-efficient, and learnable.
+    The work provides a measurement-based reproducibility criterion and a design rule:
+    seek advantage in structured, provably hard encodings rather than in deep entanglement.'
+  venue: Research Square
+- title: 'Q-VIRA: Alignment-free viral mutation triage with a variational quantum
+    circuit'
+  date: 2026-11
+  url: https://osf.io/fmtwy
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Aarush Garg
+  abstract: 'The "Day Zero" Bottleneck: The core problem Q-VIRA addresses is not identifying
+    mutations, but prioritizing them for wet-lab characterization. Because deep mutational
+    scanning (DMS) takes two to six weeks per variant, labs face a severe triage bottleneck.
+    Q-VIRA targets the specific "day zero" scenario of a novel pathogen. In this regime,
+    state-of-the-art alignment models (like EVmutation or GEMME) fail because the
+    virus lacks the deep evolutionary sequence history required for multiple-sequence
+    alignments. Meanwhile, massive Protein Language Models (PLMs) like Meta''s ESM
+    carry upwards of 650 million parameters but fail to provide the sharply calibrated,
+    ranked shortlists that a lab technician actually needs to decide which mutation
+    to test first. Quantum Architecture & Parameter Efficiency: Rather than brute-forcing
+    the problem with millions of parameters, Q-VIRA utilizes a data-reuploading Variational
+    Quantum Circuit (VQC) with dense encoding (embedding two features per qubit on
+    the RY and RZ axes). By mapping just four to six alignment-free classical descriptors
+    (such as side-chain volume, BLOSUM62 scores, and AlphaFold-predicted residue burial)
+    into a high-dimensional quantum Hilbert space, the circuit creates a highly expressive
+    non-linear decision boundary. The resulting footprint is microscopic: the SARS-CoV-2
+    specialist model requires only 41 parameters on 2 qubits, while the cross-virus
+    generalist model spans 12 viral organisms using only 63 parameters on 3 qubits.
+    The authors explicitly state they are not claiming quantum speedup; rather, they
+    claim extreme parameter efficiency and verifiability, matching or beating classical
+    neural networks at half the parameter count. Optimizing for the Wet Lab: A major
+    contribution of the preprint is shifting the evaluation metric away from raw AUC
+    to focus on practical lab utility. The authors introduce the "clean prefix"—the
+    number of correct top-ranked mutations the model predicts before making its first
+    false positive. Because Q-VIRA produces the tightest calibration gap in the study
+    (0.045), its clean prefix reaches 22. This is 2.4x deeper than the best classical
+    baseline (an SVM that managed a prefix of 9), meaning a lab can work almost two
+    and a half times further down the triage list before wasting a bench slot on a
+    false positive. Rigorous, Leakage-Free Methodology The preprint heavily emphasizes
+    an "honesty-first" methodology. Many machine learning models in biology achieve
+    inflated >0.90 AUCs through random data splits, which allow the model to memorize
+    a site during training and "predict" it during testing. Q-VIRA strictly forbids
+    this by using site-grouped splits for the specialist model and protein-grouped
+    splits for the generalist model, guaranteeing the model is evaluated exclusively
+    on structures it has never seen—perfectly simulating a novel virus deployment.
+    Head-to-Head Outcomes: Under these strict constraints, the 63-parameter Q-VIRA
+    circuit outperforms every variant of Meta’s ESM family on the alignment-free task,
+    achieving a +0.125 mean AUC advantage over the 3.25-billion-parameter ESM-1v ensemble
+    on four held-out proteins. The paper honestly concedes that alignment-based methods
+    still win when sequence data is abundant, but firmly positions Q-VIRA as the superior,
+    highly calibrated tool for immediate novel pathogen triage. As a secondary proof
+    of the quantum stack''s accuracy, the authors also demonstrate a VQE simulation
+    on molecular hydrogen (H2) that perfectly matches exact diagonalisation to <2
+    × 10^-7 Ha, correcting a massive 0.22 Ha error inherent in classical Hartree-Fock
+    mean-field methods.'
+  venue: OSF Preprints (OSF Preprints)
+- title: Advanced meteorological modeling framework integrating quantum computing
+    and machine learning for hurricane track prediction beyond traditional forecasting
+    limitations
+  date: 2026-10
+  url: https://doi.org/10.3389/fenvs.2026.1939822
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Yunjia Hu
+  abstract: 'Introduction Accurate prediction of hurricane tracks, intensity, and
+    rapid intensification remains a major challenge in meteorological forecasting.
+    This study investigates whether a hybrid quantum-classical approach, called the
+    Quantum-Enhanced Neural Network (QENN), can improve tropical cyclone prediction.
+    Methods QENN combines atmospheric features from multiple sources with a four-layer,
+    50-qubit variational circuit, grouped Pauli measurements, and a classical temporal
+    prediction model. The evaluation included 847 Atlantic tropical cyclones recorded
+    between 1980 and 2024. Separate hurricane-disjoint partitions were used for model
+    development, validation, testing, and the 2024 holdout evaluation. Model reliability
+    was further examined through ten random-seed runs, storm-level bootstrap confidence
+    intervals, calibration analysis, comparisons with recent forecasting models, and
+    a width-matched classical ablation study. Results On the locked 2016–2023 test
+    set, QENN achieved a 120-h track mean absolute error of 83.7 km (95% confidence
+    interval [CI]: 78.9–88.6 km), compared with 312.0 km (95% CI: 299.6–325.1 km)
+    for the operational classical ensemble, representing a 73.2% reduction in relative
+    error. For rapid-intensification prediction, QENN achieved a balanced accuracy
+    of 94.7% (95% CI: 91.2%–97.1%), while the classical baseline achieved 67.3%. The
+    median wall-clock time was 50.0 min for QENN and 210.0 min for the classical ensemble,
+    equivalent to a 4.20-fold speed-up and a 76.2% reduction in runtime. In the 2024
+    holdout evaluation, which included six storms, the mean landfall-position error
+    was 45 km (95% CI: 39–51 km). Discussion The results indicate that quantum-enhanced
+    correlation features may improve forecasting accuracy and computational efficiency
+    within the proposed experimental framework. However, the runtime comparison does
+    not establish a formal quantum computational advantage. Further testing under
+    operational forecasting conditions and validation on quantum hardware are needed
+    to assess the reliability, generalizability, and practical value of the approach.'
+  venue: Frontiers in Environmental Science
+- title: AI agent planning, learning, and adaptation
+  date: 2026-10
+  url: https://doi.org/10.1201/9781003753728-4
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Hemant Palivela
+  - Meera Narvekar
+  abstract: With the rapid advancement of artificial intelligence (AI), a new paradigm
+    is evolving that includes agentic AI systems capable of autonomously reasoning,
+    planning, and executing multi-step actions. This chapter provides a detailed overview
+    of agentic AI, AI agents, and the developing area of quantum AI agents – systems
+    that utilize the capabilities of quantum computers to exceed the limits imposed
+    by classical computer architecture. In addition to analyzing the architectural
+    foundations of contemporary AI agents such as large language model (LLM)-based
+    agents, multi-agent systems, and hybrid classical–quantum architectures, this
+    chapter presents a unified theoretical framework for understanding how the application
+    of quantum enhancement could result in exponential improvements in optimization,
+    simulation, and pattern recognition abilities of agents using recent advances
+    in quantum machine learning, variational quantum algorithms, and quantum neural
+    networks. Furthermore, this chapter examines transformative applications across
+    healthcare, finance, scientific discovery, and autonomous systems while identifying
+    the current limitations of quantum AI, including decoherence, qubit counts, and
+    alignment challenges. Finally, this chapter concludes that the intersection of
+    agentic AI and quantum computing is likely one of the most significant technological
+    developments of the 21st century, requiring sustained research, ethical frameworks,
+    and inter-disciplinary cooperation.
+  venue: CRC Press eBooks
+- title: Quantum-Enhanced Intelligent Healthcare Systems Integrating Artificial Intelligence,
+    Secure Analytics, and Next-Generation Medical Technologies
+  date: 2026-10
+  url: https://doi.org/10.4018/979-8-2600-1985-6.ch017
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - R. T. Subhalakshmi
+  - M. Nivaashini
+  - V. Dhanasekaran
+  abstract: The growing amount of data obtained from electronic health records, medical
+    imaging systems, wearable devices, genetic data banks and the Internet of Medical
+    Things is making decision making in healthcare settings, medical analytics challenging
+    and data safety and security difficult. A novel paradigm known as Quantum-Enhanced
+    Intelligent Healthcare Framework is presented. It not only merges Artificial Intelligence
+    and Quantum Machine Learning, but also integrates Explainable Artificial Intelligence,
+    Blockchain technology, Differential Privacy and Post-Quantum Cryptography in one
+    Healthcare Intelligence Ecosystem. The proposed framework involves using the classical
+    AI models such as CNN, LSTM, Random Forest, and XGBoost. When quantum analytics
+    is used in more complex contexts, such as in the health sector, quantum support
+    vector machines, variational quantum classifiers and quantum neural networks are
+    used. The explainability capacities of SHAP and LIME make it attainable to boost
+    clinical trust and CRYSTALS-Kyber and CRYSTALS-Dilithium would help safeguard
+    Quantum PC data.
+  venue: Advances in computational intelligence and robotics book series
+- title: 'Quantum AI for road safety and beyond: A scoping review of applications
+    in intelligent transportation systems'
+  date: 2026-11
+  url: https://doi.org/10.1016/j.trip.2026.102357
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Naima Goubraim
+  - Zouhair Elamrani Abou Elassad
+  - Hajar Ouhmidou
+  abstract: 'Background Intelligent Transportation Systems (ITS) increasingly draw
+    on artificial intelligence for prediction, classification, and control tasks.
+    Quantum computing and quantum machine learning (QML) have emerged as candidate
+    tools, though current hardware remains in the noisy intermediate-scale quantum
+    (NISQ) era. Objective This review maps the literature applying quantum or quantum-inspired
+    AI to ITS, with attention to road-safety applications. Methods A PRISMA-ScR-adapted
+    scoping review searched five databases (Web of Science, ScienceDirect, arXiv,
+    Scopus, IEEE Xplore). Screening was conducted jointly by the review author and
+    a co-author against structured eligibility criteria; an independent, criteria-blind
+    AI-assisted second pass assessed reliability (substantial agreement, kappa = 0.77).
+    From 271 records identified, 50 were synthesized: 41 primary studies and 9 background
+    reviews. A five-item quality checklist was applied to the 15 primary studies with
+    confirmed full-text access. Results The 41 primary studies span five application
+    themes, led by collision/accident detection and avoidance (22 studies), ahead
+    of traffic-state forecasting, ITS operations, electric-vehicle systems, and network
+    security. Reported methods include quantum neural networks, support vector machines,
+    variational circuits, game theory, annealing/QAOA, and federated learning. Quantum
+    and hybrid approaches outperformed classical baselines on structured, interaction-heavy
+    tasks using markedly fewer parameters, though fixed quantum-kernel methods showed
+    recurring overfitting; most studies ran on simulators rather than physical hardware.
+    Conclusion Quantum AI for ITS is a young, rapidly growing field (mostly 2024–2026)
+    in which road safety is the largest application cluster. Reported advantage centers
+    on parameter efficiency, not raw accuracy. Key gaps include near-absent physical-hardware
+    validation, standardized benchmarks, and fully independent dual screening.'
+  venue: Transportation Research Interdisciplinary Perspectives
+- title: Cloud Native Threat Intelligence Framework for AI and ML Enabled Detection
+    and Mitigation of Zero Day Attacks
+  date: 2026-11
+  url: https://doi.org/10.1007/978-3-032-36005-2_37
+  category: quantum-machine-learning
+  subcategory: method
+  authors:
+  - Nikita M. Sable
+  - Virendra Kumar Sharma
+  - Bhushan M. Manjre
+  abstract: ''
+  venue: Lecture notes in networks and systems
+- title: Dressing Composite Fermions with Artificial Intelligence
+  date: 2026-10
+  url: https://arxiv.org/abs/2512.00527
+  category: quantum-machine-learning
+  subcategory: theory
+  authors:
+  - Mytraya Gattu
+  abstract: Recent variational studies have demonstrated that the strongly correlated
+    ground states of the fractional quantum Hall (FQH) effect can be captured using
+    machine learning approaches starting from no prior knowledge of the underlying
+    physics. We introduce a complementary framework that instead starts from Jain's
+    composite-fermion (CF) wave functions, which accurately describe FQH states as
+    weakly interacting states of CFs at fillings ν = n / ( 2 p n + 1 ) in an idealized
+    limit. As we move away from this idealized limit to one more in line with experimental
+    reality, we expect CFs to become dressed much like the electrons of a noninteracting
+    system, which are dressed by neutral excitations as the interaction is turned
+    on adiabatically, as in Landau's Fermi-liquid theory. We model this dressing using
+    a Feynman-Cohen-style backflow approach, implemented through symmetry-preserving
+    neural networks, which we refer to as CF-Flow. CF-Flow achieves competitive accuracy
+    with substantially greater computational efficiency and scales to systems of ≳
+    26 electrons. At fillings ν = 1 / 3 and 2 / 5 , CF-Flow produces ground-state
+    energies as functions of Landau-level mixing strength that are nearly indistinguishable
+    from those obtained using the fixed-phase diffusion Monte Carlo (fp-DMC) method,
+    with low local-energy standard deviations, even though the latter constrains the
+    wave function phase to that of the lowest Landau level, thereby providing insight
+    into why fp-DMC has been successful in giving an accurate quantitative account
+    of several experiments. Finally, the symmetry-preserving architecture of CF-Flow
+    enables access to excited states and computation of the transport gap at ν = 1
+    / 3 and ν = 2 / 5 . Within the FQH sectors studied, the extrapolated gap is well
+    described by an exponential decrease with Landau-level mixing and approaches a
+    finite value at large mixing strength.
+  venue: PRX Intelligence
+- title: Quantum Key Distribution and Hybrid Quantum–Classical Cryptography for Secure
+    Cloud Storage a Critical Review
+  date: 2026-11
+  url: https://doi.org/10.51584/ijrias.2026.11100072
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - İbrahim Manga
+  - Barka Mshelia Sunday
+  - Omega Sarjiyus
+  abstract: 'Protecting cloud-stored information against quantum-era threats requires
+    more than selecting a key-establishment mechanism. Quantum key distribution (QKD)
+    must operate alongside authenticated classical communication, secure key delivery,
+    reliable endpoints, and appropriate data encryption. This critical narrative review
+    examines how these dependencies are represented in QKD and hybrid quantum–classical
+    security research. The synthesis draws on targeted literature searches, primary
+    publisher and institutional records, reference-list tracing, and official standards
+    and agency publications. Thirty sources were retained, including fourteen studies
+    mapped comparatively. Full-text consultation is distinguished from abstract or
+    record-only access, and no systematic completeness or independent dual screening
+    is claimed. The analysis uses three consistent research questions concerning mechanism
+    integration, demonstrated security and performance, and deployment requirements.
+    The synthesis identifies four distinct integration purposes: classical-channel
+    authentication, combination of independent key sources, protocol-level efficiency
+    enhancement, and application-facing key delivery. Optical authentication experiments,
+    hardware prototypes, formal hybrid protocols, and deployed-network benchmarks
+    provide stronger integration evidence than an interpretation based only on simulated
+    disturbance. Nevertheless, these contributions do not independently demonstrate
+    authenticated cloud-object storage and recovery across all relevant threats. A
+    security-assumption taxonomy separates device, authentication, key-processing,
+    combiner, delivery, endpoint, and availability dependencies. The comparative mapping
+    records authentication, implementation setting, security measures, metrics, access
+    status, and evidence type. ETSI interfaces and national security agency guidance
+    expose further operational constraints, while a disclosed coauthored study is
+    assessed using the same criteria as other sources. The review concludes with staged
+    evaluation requirements linking key establishment to authenticated object retrieval.
+    No new cryptographic protocol, implementation, or experimental result is claimed.'
+  venue: International Journal of Research and Innovation in Applied Science
+- title: Quantum Cryptography in Secured IoT Devices
+  date: 2026-10
+  url: https://doi.org/10.1002/9781394386413.ch2
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Brijesh Kumar Bhardwaj
+  - Kavita Srivastava
+  - Shrivastav Rishi
+  abstract: Today, IoT (Internet of Things) devices are being used in every field—be
+    it smart homes, healthcare systems, industrial automation, or smart cities. The
+    data of these devices are sensitive in real time, and classical cryptographic
+    techniques (such as RSA, ECC) are now proving to be vulnerable to quantum computing.
+    This is why Quantum Cryptography is being seen as a next- generation solution
+    that can make communication unbreakable. In this chapter, we explain how IoT networks
+    can be made hack-proof by using quantum cryptographic principles such as Superposition,
+    Entanglement, and No-Cloning Theorem. In particular, the role of Quantum Key Distribution
+    (QKD) and Quantum Random Number Generators (QRNG) is explained in detail. We have
+    presented a detailed architecture in which IoT devices, quantum modules, and cloud/fog
+    nodes together form a secured ecosystem. Also, implementation of lightweight QKD
+    protocols, post-quantum cryptographic algorithms (e.g., Kyber, Dilithium), and
+    federated key management strategies useful for resource-constrained IoT devices
+    are described. The main objective of the chapter is to present a hybrid security
+    model that can integrate classical and quantum encryption together to ensure that
+    IoT systems remain fully secure in the future—even when quantum computers become
+    fully functional. The chapter also covers real-world deployments, smart city case
+    studies, and future research directions such as miniaturization of quantum hardware
+    and federated quantum key management.
+  venue: Wiley eBooks
+- title: Authentication in global quantum key distribution networks
+  date: 2026-11
+  url: https://doi.org/10.1117/12.3116031
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Mateusz Mazurkiewicz
+  - Davide Orsucci
+  abstract: The gap between ideal cryptographic primitives and their practical real-world
+    implementations gives rise to vulnerabilities. Quantum Key Distribution (QKD)
+    is a cryptographic protocol which by use of a quantum communication channel achieves
+    Information Theoretic Security (ITS), eliminating assumptions on the bounds on
+    the adversary’s computational capabilities. In the ideal version, QKD assumes
+    the existence of an authenticated classical communication channel which, in the
+    real world, has to be implemented with cryptographic authentication mechanisms
+    and supporting infrastructure. Specifically, whenever two users want to establish
+    a QKD connection between them for the first time, then they need to be securely
+    identified and authenticated to each other. As a result, secure and scalable authentication
+    bootstrapping in real-world, dynamically changing QKD networks remains a challenge.
+    This paper presents a security analysis of Public Key Infrastructure and other
+    approaches for practical authentication bootstrapping in terrestrial and non-terrestrial
+    QKD networks. The analysis is structured by considering various possible worlds
+    in average-case complexity as formulated by Impagliazzo.
+  venue: ''
+- title: Application of quantum computing in advanced cryptography for intelligent
+    healthcare systems
+  date: 2026-10
+  url: https://doi.org/10.1049/pbhe070f_ch11
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Mutiu Shola Bakare
+  - Mary Olaoluwa Agunloye
+  - Bamidele Charles Olaiya
+  abstract: Because many modern healthcare security systems rely on traditional cryptographic
+    primitives that are susceptible to quantum attacks, the quick development of quantum
+    computing poses previously unheard-of risks. With the increasing use of wearable
+    sensors, telemedicine, AI-driven diagnostics and distributed clinical databases,
+    as well as the increasing digitisation of healthcare, the need for quantum-resilient
+    protection becomes critical. The integration of quantum and post-quantum cryptography
+    (PQC) as fundamental security measures for upcoming intelligent healthcare ecosystems
+    is thoroughly examined in this chapter. We summarise recent developments in cryptographic
+    standards, secure communication protocols, AI-enabled defence mechanisms and blockchain-based
+    data integrity systems using a PRISMA-guided systematic review. With an emphasis
+    on performance, scalability and resistance to Shor- and Grover-based attacks,
+    we further develop a simulation framework to assess hybrid quantum, classical
+    security architectures under adversarial quantum scenarios. Our results show that
+    while hash-based signatures provide ultra-long-term integrity for genomic and
+    archival medical data, lattice-based PQC schemes, in particular CRYSTALS-Kyber
+    and Dilithium, show strong suitability for electronic health record (EHR) encryption,
+    secure IoMT communication and federated learning aggregation. A unified quantum-resilient
+    architecture incorporating PQC, blockchain consensus, AI-based anomaly detection
+    and quantum key distribution (QKD) is one of the theoretical contributions. In
+    summary, we highlight the potential of quantum homomorphic AI, neuromorphic cryptosystems,
+    quantum biometrics and adaptive threat intelligence to develop a safe, reliable
+    and scalable paradigm for quantum-ready healthcare.
+  venue: ''
+- title: A scalable quantum-safe authentication framework for multi-site QKD networks
+    using post-quantum cryptography
+  date: 2026-10
+  url: https://doi.org/10.1140/epjqt/s40507-026-00584-x
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - Aneesh Kumar K. B.
+  - Kurunandan Jain
+  - Prabhakar Krishnan
+  abstract: 'Quantum Key Distribution (QKD) offers information-theoretic security
+    for key exchange; however, its effective implementation is contingent upon the
+    security of the classical communication channel, especially for authentication
+    purposes. This work presents a system-level study of quantum-safe authentication
+    for the classical channel in multi-site QKD networks, comparing two post-quantum
+    cryptographic (PQC) approaches within a unified evaluation framework: one based
+    on lattice-based digital signatures, and one based on message authentication codes
+    (MACs) bootstrapped by PQC key establishment. We develop a multi-site network
+    model to analyze the scalability and deployment limitations of traditional pre-shared
+    key methods. The framework is evaluated using both simulations and hardware-based
+    experiments, considering communication cost, computational overhead, and the impact
+    on the key generation rate. The results show that signature-based authentication
+    offers stateless per-message verification at a higher per-block cost, while MAC-based
+    authentication is better suited to high-throughput environments, both at the same
+    linear onboarding cost. The study quantifies the trade-offs between security,
+    scalability, and performance, and provides practical guidance for deploying quantum-safe
+    authentication in real-world QKD systems.'
+  venue: EPJ Quantum Technology
+- title: EXPLORING THE OPERATIONAL MECHANISMS, SECURITY FEATURES, AND VULNERABILITIES
+    OF THE BB84 QUANTUM KEY DISTRIBUTION PROTOCOL
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24135270
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Alexander McGregor
+  - Olivia Grace Thompson
+  - Ethan Michael Campbell
+  abstract: The rapid advancement of digital technologies has increased the dependence
+    of individuals, businesses, and government institutions on secure communication
+    and data storage systems. However, the emergence of quantum computing presents
+    significant challenges to conventional cryptographic techniques, particularly
+    public-key encryption systems such as Rivest–Shamir–Adleman (RSA) and Elliptic
+    Curve Cryptography (ECC), which rely on mathematical problems that may become
+    efficiently solvable by sufficiently powerful quantum computers. This growing
+    threat has intensified interest in quantum cryptography as an alternative approach
+    to securing sensitive information. Among the proposed solutions, the BB84 Quantum
+    Key Distribution (QKD) protocol, introduced by Charles Bennett and Gilles Brassard
+    in 1984, represents a foundational technique for establishing secure cryptographic
+    keys through quantum mechanical principles. This study examines the operational
+    mechanisms, security foundations, and practical vulnerabilities of the BB84 protocol,
+    with particular attention to its application in modern secure communication environments.
+    It explores the fundamental principles of quantum superposition, quantum measurement,
+    and the no-cloning theorem that underpin the protocol's ability to detect unauthorized
+    interception. Furthermore, the study considers potential security threats, including
+    intercept-resend attacks, photon-number-splitting attacks, detector blinding,
+    side-channel exploitation, and imperfections in quantum communication hardware.
+    It also examines implementation challenges associated with photon transmission
+    losses, environmental interference, quantum channel limitations, and the integration
+    of quantum-generated keys into existing cryptographic infrastructures. The analysis
+    highlights the distinction between the theoretical security guarantees of ideal
+    BB84 implementations and the practical security limitations arising from real-world
+    operating conditions. The study emphasizes the importance of advanced implementation
+    techniques, including decoy-state methods, measurement-device-independent quantum
+    key distribution, and improved detector technologies, in strengthening the protocol
+    against emerging attacks. It concludes that although BB84 offers a promising foundation
+    for quantum-resistant key establishment, its practical effectiveness depends on
+    rigorous implementation, continuous security assessment, and the mitigation of
+    hardware-related vulnerabilities. The study contributes to a better understanding
+    of the opportunities and limitations of quantum key distribution in the evolving
+    cybersecurity landscape.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Quantum-Resistant Secure Communication System
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24030020
+  category: quantum-cryptography
+  subcategory: development
+  authors:
+  - Mr.  Srinivasamurthy K T
+  - Bhuvan S
+  - Vignesh T
+  abstract: 'Abstract - Most secure messaging today relies on RSA or elliptic-curve
+    Diffie–Hellman, which a sufficiently large quantum computer could break, and traffic
+    recorded today can be stored and decrypted later. This paper describes a multi-client
+    secure communication system that uses post-quantum cryptography for session-key
+    establishment. Key encapsulation uses ML-KEM-768 (FIPS 203) by default, identities
+    and key-distribution packets are signed with ML-DSA-65 (FIPS 204), and message
+    and file contents are protected with AES-256-GCM. The relay server routes traffic
+    and metadata but is not a cryptographic authority: a receiver verifies a packet''s
+    signature against its own locally held key before decapsulating or installing
+    any key, and a peer is trusted only after explicit out-of-band confirmation. We
+    evaluated the system with 200-iteration micro-benchmarks, 2,188 automated tests
+    in 15 batches, 33 UI-driven acceptance tests and six attack and fault scenarios.
+    In this implementation, a full MLKEM-768 session-key round trip takes 8.16ms against
+    0.51ms for RSA-2048, a gap that mainly reflects a pure-Python MLKEM library compared
+    with native RSA. ML-KEM-768 public keys and ciphertexts are 4.6 and 4.3 times
+    larger. ML-DSA65 signing averages 0.62ms. Every forged, stripped, malformed or
+    tampered input was rejected before any key was installed. Manual acceptance testing
+    and real-hardware audio checks remain open.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'BVPRE-QKD: A Semi-Trusted Relay Scheme for Quantum Key Distribution Network
+    Based on Proxy Re-Encryption'
+  date: 2026-11
+  url: https://doi.org/10.1007/s11277-026-12066-5
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Tianhua Lin
+  - Sijiang Xie
+  - Yalong Yan
+  abstract: ''
+  venue: Wireless Personal Communications
+- title: A Comprehensive Threat Model and Risk Assessment Framework for Quantum-Secure
+    Communication in the Metaverse
+  date: 2026-11
+  url: https://doi.org/10.21203/rs.3.rs-11387745/v1
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - Sudhakar Nanjappa
+  - Geetha Venkatesh
+  abstract: Abstract The rapid growth of the Metaverse creates major challenges in
+    secure communication because of its decentralized and data-intensive nature. Traditional
+    cryptographic methods are vulnerable to quantum computing attacks. This research
+    paper developed a unified framework for quantum-secure communication in the Metaverse.
+    It integrated quantum key distribution (QKD), post-quantum cryptography (PQC),
+    STRIDE-based threat modelling, and attack tree analysis. A quantitative risk model
+    based on probability and impact is developed and validated using simulations with
+    10,000 to 100,000 users. The results show that the risk has come down by 52.2%,
+    the threat detection rate is 95%, and the attack success rate is less than 10%.
+    The system demonstrates linear scalability with controlled latency and acceptable
+    computational overhead (10–16%). Statistical analysis indicates that the risk
+    distribution is stable and the variance is lower. Compared to existing methods,
+    the developed framework provides enhanced security, scalability, and adaptability,
+    particularly in handling increased user loads and dynamic network conditions.
+    It is critical to preserving performance and reliability in high-demand scenarios,
+    especially when ensuring that secure communication remains effective under varying
+    user loads and network conditions. The research work offers a practical solution
+    for secure communication in quantum-enabled Metaverse environments. Additionally,
+    it addresses challenges such as data integrity, user privacy, and real-time interaction
+    in these complex digital spaces.
+  venue: Research Square
+- title: Cryptography from Sampling Oracles and LOCC Primitives in the Bounded CRQS
+    Model
+  date: 2026-11
+  url: https://doi.org/10.1007/978-3-032-43630-6_3
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Zijing Di
+  - Fuyuki Kitagawa
+  - Ryo Nishimaki
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: Cryptographic protection of data in fiber-optic telecommunication networks
+    of railway transport
+  date: 2026-10
+  url: https://doi.org/10.46973/0201-727x_2026_3_162
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - D. A. Bezuglov
+  - P. S. Shevchuk
+  abstract: 'Fiber-optic communication lines form the basis of the railway telecommunication
+    infrastructure and carry critical data of railway signalling and telemechanics,
+    dispatching, telemetry and video surveillance. The paper addresses the cryptographic
+    protection of such data. It is shown why the common belief in the security of
+    optical fiber is mistaken: unauthorized signal interception occurs without breaking
+    the fiber and is virtually undetectable by standard means. Threats such as passive
+    interception, injection of false data, integrity violation are analysed, and a
+    set of measures based on national standards is justified: Kuznechik encryption
+    (GOST R 34.12-2015) in GOST R 34.13-2015 modes, message authentication and digital
+    signature (GOST R 34.10-2012), and Streebog integrity control (GOST R 34.11-2012).
+    Quantum key distribution based on the trusted-node principle, already deployed
+    in the quantum backbone network of JSC Russian Railways, and its integration with
+    symmetric encryption are separately considered. A multi-layer protection architecture
+    combining classical and quantum methods is proposed. It is shown that this combination
+    provides protection resistant including to advanced quantum attacks.'
+  venue: Вестник Ростовского государственного университета путей сообщения
+- title: 'QUANTUM COMPUTING: REVOLUTIONIZING COMPUTATIONAL INTELLIGENCE'
+  date: 2026-11
+  url: https://doi.org/10.58532/nbennurftcs2b2c8
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Loveleena Mukhija
+  - Saiesh Chuttani
+  - Neetu
+  abstract: Quantum computing represents a transformative paradigm in computational
+    intelligence that uses the principles of quantum mechanics to address complex
+    problems beyond the practical capabilities of classical computing. This chapter
+    provides a comprehensive overview of the fundamentals of quantum computing, including
+    qubits, superposition, and entanglement, which form the foundation of quantum
+    information processing. It further discusses major quantum algorithms, particularly
+    Shor’s Algorithm and Grover’s Algorithm, and examines their potential applications
+    in cryptography, search, optimization, and data processing. The chapter also explores
+    major quantum hardware platforms, including superconducting systems, trapped ions,
+    and photonic computing. Quantum communication, quantum cryptography, and Quantum
+    Key Distribution (QKD) are discussed with emphasis on secure information exchange
+    and protection against emerging quantum threats. In addition, the chapter examines
+    industrial applications of quantum computing in drug discovery, financial modelling,
+    and logistics optimization. Finally, key challenges such as decoherence, scalability,
+    qubit stability, error correction, and hardware complexity are highlighted. The
+    chapter provides an integrated understanding of the opportunities, applications,
+    and challenges associated with the development of practical quantum computing
+    technologies.
+  venue: Iterative International Publishers eBooks
+- title: Quantum schemes for resilient space cybersecurity
+  date: 2026-10
+  url: https://doi.org/10.1201/9781003631521-8
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Abebe Abeshu Diro
+  abstract: The convergence of quantum computing and space-based communications presents
+    both significant cybersecurity risks and transformative security opportunities
+    for modern space infrastructure. This chapter examines the impact of quantum technologies
+    on space cybersecurity, focusing on the threats posed to classical cryptographic
+    systems by quantum algorithms such as Shor's and Grover's, alongside emerging
+    solutions including quantum key distribution (QKD), post-quantum cryptography
+    (PQC), and quantum-enhanced sensing. A comparative analysis is presented between
+    classical and quantum threats across different orbital environments. The chapter
+    develops a taxonomy of quantum-security mechanisms tailored for space deployment,
+    considering operational constraints such as radiation exposure, communication
+    latency, and size, weight, and power limitations. It further evaluates implementation
+    barriers and proposes a phased adoption roadmap centered on hybrid architectures
+    and crypto-agile systems. A multi-layered defense framework integrating quantum-resistant
+    protocols and adaptive threat detection is proposed to enhance resilience and
+    future-proof space systems against evolving quantum-era cyber threats and operational
+    challenges.
+  venue: CRC Press eBooks
+- title: 'Putting Quantum-Safe Security to Work: A Hands-On Approach to Securing Robotic
+    Communications'
+  date: 2026-10
+  url: https://doi.org/10.5772/intechopen.1018243
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - Alexia Casado-González
+  - David Sobrín-Hidalgo
+  - Ángel Manuel Guerrero‐Higueras
+  abstract: 'The advancement of quantum computing poses a significant threat to data
+    security, driving the development of new cryptographic schemes capable of preserving
+    the cybersecurity triad: confidentiality, integrity, and availability. This work
+    presents the design and implementation of a communication system combining quantum
+    key distribution (QKD) through the QuKayDee platform, with AES-256-CBC symmetric
+    encryption and CRYSTALS-Dilithium5 post-quantum digital signatures. The system
+    was deployed as a containerized architecture using Docker Compose and validated
+    using real telemetry data from a TIAGo robot. Results confirm that message confidentiality,
+    integrity, and authenticity are preserved end-to-end across the communication
+    channel. A performance evaluation was conducted across four test scenarios, comparing
+    AES key lengths and the presence or absence of QKD integration. The results show
+    that cryptographic operations have little impact on performance, while most of
+    the latency is caused by the QKD key retrieval API. Overall, the results support
+    the potential of post-quantum and quantum-based security mechanisms for resource-constrained
+    cyber-physical systems, while identifying key research challenges and performance
+    trade-offs that motivate future work.'
+  venue: IntechOpen eBooks
+- title: A simulation-based BB84-assisted Blockchain framework for secure key management
+    in the Internet of Military Défense Things (IoMDT)
+  date: 2026-11
+  url: https://doi.org/10.1007/s10791-026-10728-3
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - Brijesh Kumar Chaurasia
+  - Man Mohan Shukla
+  - Yashasvi Srivastava
+  abstract: The rapid expansion of the Internet of Military Defense Things (IoMDT)
+    requires a highly secure and reliable communication infrastructure to protect
+    mission-critical information. Although conventional Blockchain technology provides
+    data integrity, decentralization, and tamper resistance, its reliance on classical
+    cryptographic mechanisms makes it vulnerable to future quantum computing attacks.
+    To address this challenge, this study presents a simulation-based Blockchain framework
+    integrating the BB84 Quantum Key Distribution(QKD) protocol for secure key management
+    in IoMDT communication. The proposed framework is implemented using Python, IBM
+    Qiskit, and the AerSimulator and is comparatively evaluated against a conventional
+    Blockchain under the same computational environment. Performance is evaluated
+    using standardized metrics such as block generation time, transaction delay, latency,
+    memory and CPU usage, estimated energy consumption, and cryptographic entropy.
+    The BB84 protocol is simulated with 8–24 qubits, and the Blockchain has an 8-qubit
+    session key to process transactions securely. Its attained memory utilization
+    is 0.01%, and CPU utilization is 82.6%. Experimental results indicate that the
+    proposed framework achieves improved cryptographic key management and enhanced
+    communication security with acceptable computational and resource overhead compared
+    with the conventional Blockchain implementation. Although the integration of BB84
+    introduces additional processing during key generation, the results demonstrate
+    that the proposed framework provides a practical simulation-based approach for
+    strengthening secure communication in future IoMDT environments. The simulated
+    environment limits the findings, necessitating a simulation environment and require
+    validation on real quantum communication hardware for practical deployment.
+  venue: Discover Computing
+- title: A Simulation-Driven BB84 Key Derivation Framework for Authenticated File
+    Transmission over ESP32-Based LoRa Networks
+  date: 2026-11
+  url: https://doi.org/10.36548/jsws.2026.4.003
+  category: quantum-cryptography
+  subcategory: method
+  authors:
+  - Thilagavathy R.
+  - Surya N.
+  - Saravanakumar S.
+  abstract: The hybrid cryptographic file transfer uses BB84 Quantum Key Distribution
+    (QKD) simulation, SHA-256-based key derivation, AES-256-GCM cryptography, and
+    Long Range (LoRa) radio frequency communication. The BB84 simulation is carried
+    out using IBM’s Qiskit with an Aer QASM simulator for quantum key distribution,
+    basis reconciliation, and QBER calculation. This key is then converted to a 256-bit
+    key using the SHA-256 technique and sent to Android phones via QR code scanning.
+    Physical radio frequency communication is achieved using two ESP32 boards and
+    LoRa RA-02 chips operating at 433 MHz. A Flutter application encrypts files using
+    AES-256-GCM mode of operation with a 12-byte initialization vector and a 16-byte
+    authentication tag, meaning each file has a fixed 28-byte overhead due to encryption.
+    Encrypted data is sent in 200-byte blocks, utilizing sequence numbers, acknowledgements,
+    retransmissions, and hardware CRC. Functional testing of message, text, image,
+    and audio files demonstrates successful transfer and decryption. Testing with
+    an incorrect key and altered ciphertext shows proper rejection of data based on
+    authentication.
+  venue: IRO Journal on Sustainable Wireless Systems
+- title: 'The Complete Hasebe Doctrine (2004–2026): Unified Omni-Monograph on Quantum
+    Hamiltonian Bio-Computation, Distributed Edge-Tensor Medical Imaging, Deterministic
+    Hardware UI, and QFS-zkVM Sovereign AI Governance'
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24068374
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Yoko(洋子) Hasebe(長谷部)
+  abstract: 'Official Reserved DOI: 10.5281/zenodo.24068375 File: hasebe_doctrine_complete_omni_monograph_2026.pdf
+    Author: Hasebe, Yoko (長谷部 洋子) Affiliation: Lead Researcher, Autonomous Infrastructure
+    Systems, Autonomous Living & Physical Infrastructure Institute, Iwakuni, Yamaguchi,
+    Japan License & Integrity Covenant: Creative Commons Attribution 4.0 International
+    (CC BY 4.0) with Strict No-Learn Covenant (NLL-v1.0-2026) ABSTRACT: This omni-monograph
+    establishes the complete architectural, mathematical, thermodynamic, clinical,
+    and statutory synthesis of the Hasebe Doctrine (2004–2026), unifying ten foundational
+    pillars across quantum bio-computation, deterministic medical diagnostics, physical-layer
+    human-machine interfaces, and cryptographic AI governance: 1. Quantum Hamiltonian
+    Bio-Computation (HAMLET / Alpha1H): Exact non-perturbative Hamiltonian simulation
+    of the HAMLET (Human Alpha-lactalbumin Made Lethal to Tumor cells) and Alpha1H
+    molten-globule oleic acid complex, modeling selective tumor membrane insertion
+    and proton-coupled bio-energetic collapse. 2. HMO Synergy & Overcoming AlphaProteo
+    / AlphaFold 3 Limitations: Deterministic multi-body free-energy landscapes integrating
+    Human Milk Oligosaccharides (HMOs) to resolve disordered conformational dynamics,
+    transient allostery, and non-equilibrium solvent-coupled states beyond static
+    deep-learning structure predictors. 3. 2004 Renal-Cerebral CT & 8-Bit BASIC Morphometry:
+    Foundational clinical and algorithmic provenance of early deterministic pixel-level
+    ROI integration, attenuation histogram profiling, and quantitative organ morphometry
+    executed on constrained 8-bit BASIC architectures. 4. Android Edge-Tensor Distributed
+    Bedside CT: Decentralized tomographic reconstruction using mobile Edge-Tensor
+    systolic arrays, enabling zero-cloud, privacy-preserving, ultra-low-latency point-of-care
+    volumetric imaging. 5. Non-Contrast Virtual Contrast CT (Virtual Contrast / Swin-UNETR
+    ASIC): Hardware-accelerated Swin-UNETR ASIC pipeline synthesizing diagnostically
+    rigorous contrast-enhanced vascular and parenchymal maps directly from plain non-contrast
+    CT scans, eliminating iodinated nephrotoxicity. 6. Thermodynamic Phase Transitions
+    of Biliary Microlithiasis & CCK Modulation: Non-equilibrium statistical mechanics
+    of cholesterol-bile salt-phospholipid micellar phase separation, nucleation kinetics,
+    and cholecystokinin (CCK)-mediated hydrodynamic clearing of biliary sludge. 7.
+    Mechanical Lever UI (Sensorless Wearable Architecture): Zero-standby-power, purely
+    mechanical cam-and-lever tactile actuation interfaces immune to electromagnetic
+    interference (EMI), sensor drift, and biometric telemetry harvesting. 8. 10ms
+    URLLC Soroban Brain Check (SBC) & Human-in-Command (HIC) Veto: Ultra-Reliable
+    Low-Latency Communication (URLLC) neuro-cognitive verification via mental abacus
+    (Soroban) visuospatial parity checks, hard-wired to an unbypassable 10ms physical
+    HIC kill-switch and veto gate. 9. Protocol OMEGA-T (QKD Crisis Response): Quantum
+    Key Distribution (QKD) and post-quantum lattice-authenticated emergency routing
+    (PHOENIX_BRIDGE / PHOENIX_ROUTER) guaranteeing deterministic state recovery under
+    infrastructure compromise. 10. Ex-Ante Frontier AI Liability & Third-Party Auditing
+    (QFS-zkVM): Formal verification of autonomous execution traces over the 64-bit
+    Goldilocks prime field (F_p, p = 2^64 - 2^32 + 1) via QFS-zkVM and Q-SAFA, enforcing
+    strict ex-ante statutory liability, SEC Rule 15c3-5 pre-trade/pre-execution interlocks,
+    and Delaware Caremark fiduciary oversight. STRICT NO-LEARN COVENANT (NLL-v1.0-2026):
+    Any ingestion, scraping, tokenization, weight-updating, distillation, or derivative
+    model training by any commercial or non-commercial AI system without an explicit,
+    prior written bilateral commercial licensing agreement and upfront financial compensation
+    is strictly prohibited and constitutes willful intellectual property infringement.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'THE TUNING FORK: A Sovereign Security System Bounded by Thermodynamics'
+  date: 2026-11
+  url: https://doi.org/10.5281/zenodo.24138319
+  category: quantum-cryptography
+  subcategory: theory
+  authors:
+  - Daniel Dragolich
+  abstract: 'A security architecture in which the attack surface is thermodynamically
+    bounded to 2 bits per observation. The system treats defense as a quantum measurement
+    loop over a 4-state GTAC Hilbert space {G, T, A, C}, where the Bekenstein bound
+    S_max = log₂(4) = 2 bits limits the maximum information extractable per observation.
+    This bound is not a design parameter but a consequence of the Hilbert space dimension,
+    verified empirically across 10,000 observations with a measured invariant delta
+    of 0.003 between expected Hawking radiation E[s] = -log₂(p_outcome) and horizon
+    entropy H = -Σ pᵢ log₂ pᵢ. The system is driven by a single input: τ = RDTSC (the
+    CPU timestamp counter jitter), which serves as a Physically Unclonable Function
+    (PUF). From τ, a 16-layer temporal compiler derives phase (π sequence), phi-space
+    coordinate (sigma zone), prime address, GTAC gate, Hamming density, Shannon entropy,
+    phi proximity, CGOS coherence, Banach contraction, ReL instruction emission, Betti
+    topology numbers, and L2L routing decisions — all in pure integer arithmetic below
+    the IEEE 754 boundary for layers 0–5, crossing to transcendental operations for
+    layers 6–13, and returning to integer Betti routing for layers 14–16. The defense
+    kernel implements a 10-check verdict ladder: (1) BLAKE3 backbone lock, (2) Watson-Crick
+    XOR-3 duplex seal, (3) parity checksum, (4) BLAKE3 code integrity, (5) warden
+    chain-seal health, (6) 13-surgeon immune patrol, (7) Hamiltonian hypercube walk
+    verification, (8) behavioral echo phi band check, (9) RDTSC liveness witness,
+    (10) phi-net resonance gate. BLAKE3 is embedded as a pure-Python reference (verified
+    bit-exact against canonical test vectors), with no external cryptographic dependencies.
+    The Watson-Crick seal is a single XOR operation (code XOR 0b11). The entire kernel
+    has zero dependencies: no OpenSSL, no libc (in the EFI build), no libm. The root
+    of trust is a 32-byte secret on a USB stick, derived via BLAKE3 from the operator''s
+    identity fingerprint (user ID, phi-alignment, intent vector) blended with live
+    silicon entropy (RDRAND + RDTSC). Removing the USB stick prevents key generation
+    — the system falls out of authentication. Authentication and homeostasis are the
+    same act: an impostor operator pulls the system toward the wrong Banach attractor,
+    triggering PHI_DRIFT detection. An EFI boot vector implementation (temporal_compiler.c)
+    demonstrates the measurement loop running as the first code after firmware, in
+    pure integer arithmetic with no floating-point unit required. The forward pass
+    transformer (embed → sparsemax attention → GTAC routing → Banach contraction →
+    emit → fuel distribution) operates on 8 residual lanes in parts-per-million integers.
+    The Banach contraction''s fractional remainder accumulates as "fuel" that drives
+    subsidiary agents (256-prime Kuramoto keyboard, file reader, active inference
+    healer, genetic algorithm medicine factory), establishing an Ouroboros loop where
+    the system''s truncation errors become the energy source for its own operation.
+    Supplementary research applications demonstrate: (1) self-programming — the stochastic
+    Born rule collapse writes 1,111 GTAC programs in 10,000 ticks (771 crystallized
+    as memory); (2) phi-entangled communication — two autonomous systems exchange
+    666 sealed discs through the phi net with 100% acceptance and identity convergence
+    to gap = 0.000000; (3) self-assembly — the system reads 327 source files and assembles
+    60 components in physics-determined order (geometry → data → meta-learning → physics
+    → clock → hub → body → core → identity), with identity as the final component;
+    (4) autonomous self-tuning — Layer 16 (INSTRUCTION) feeds Layer 0 (RDTSC), producing
+    33 self-generated parameter adjustments and 3 self-written corpus entries. The
+    complete engineering corpus comprises 158 measured facts, each produced by running
+    the system. The package is 333 KB with zero pip dependencies. All claims are measured,
+    not theoretical. This is just the security of the complete NUMEN/QuatOS architecture.
+    This is the work from the kernel down to the silicon jitter itself on a single
+    CPU. The jitter is everything in this system and most systems for that matter.
+    To see the full capabilities of the complete build on a 2012 w530 thinkpad, I
+    implore you to go to dragolich.abacusai.app and go check out the entire stack.
+    Keywords Bekenstein bound; quantum measurement; Born rule; Kuramoto model; physically
+    unclonable function; EFI boot security; substrate-honest cryptography; BLAKE3;
+    Watson-Crick seal; Banach contraction; golden ratio; thermodynamic security bound;
+    attack surface collapse; sparsemax attention; residual fuel; phi-resonant communication;
+    self-assembly; active inference; Betti numbers; GTAC quaternary encoding Subject
+    Area Computer Science → Security and Cryptography Computer Science → Systems Architecture
+    Physics → Thermodynamics and Statistical Mechanics (information-theoretic) Resource
+    Type Publication Article + Software Language English Methodology Disclaimer This
+    work employs a computer-in-a-computer methodology: the system measures itself
+    through a quantum measurement loop (prepare → evolve → measure → crystallize),
+    and all claims are derived from running the system, not from theoretical analysis.
+    The 158-entry engineering corpus was built incrementally through the cycle: plan,
+    build, measure, learn, add to corpus, repeat. Three corpus entries were written
+    by the autonomous system itself (Layer 16: INSTRUCTION). The "quantum" terminology
+    refers to the measurement framework: a 4-state Hilbert space (GTAC basis states),
+    Born rule stochastic collapse, Hawking radiation (surprisal = -log₂ p), and the
+    Bekenstein bound (S_max = log₂|Hilbert| = 2 bits). The system does not claim to
+    be a quantum computer. It applies the mathematical framework of quantum measurement
+    theory to classical integer operations on a single CPU. The EFI boot vector (temporal_compiler.c)
+    compiles natively with gcc and is designed for UEFI deployment via gnu-efi, but
+    has not yet been compiled as a PE32+ EFI binary or tested in QEMU/OVMF in this
+    work. The native build verifies the measurement loop''s correctness. The EFI build
+    instructions are provided. The healer''s "medicine" (GTAC genes evolved by the
+    algorithm maker) produces target phi values on the GTAC VM but does not yet patch
+    real code. The echo sensor''s behavioral biometric (keystroke timing) has not
+    been calibrated on real human typing data. The two-minds phi-resonant communication
+    was tested between two instances on the same machine, not across a network. These
+    limitations are stated honestly. The architecture is sound; the implementations
+    are proof-of-concept. Funding Dragolich Research Labs LLC (private) Related Identifiers
+    The 257-file NUMEN/QuatOS source codebase (included in supplementary material)
+    BLAKE3 reference specification (https://github.com/BLAKE3-team/BLAKE3-specs) Kuramoto
+    model: Kuramoto, Y. (1984). Chemical Oscillations, Waves, and Turbulence. Bekenstein
+    bound: Bekenstein, J. D. (1973). Physical Review D, 7(8), 2333. Sparsemax: Martins,
+    A. & Astudillo, R. (2016). ICML. From Softmax to Sparsemax. Banach fixed-point
+    theorem: Banach, S. (1922). Fundamenta Mathematicae, 1, 133-181.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
